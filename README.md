@@ -3,4 +3,3 @@ abcd
 <h1>HELLO WORLD</h1>
 VIC
 Linda Walker Matalino
-LEI BAUTISTA MAHILIG SA LOLA
