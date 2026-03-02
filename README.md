@@ -1,5 +1,5 @@
 MAVUIKA NO.1 DPS
-Andrew Dizon
+Dizon, Andrew
 Acosta, Jan Lorcey
 Dan Marvin M. Isles
 Lei
