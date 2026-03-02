@@ -5,6 +5,7 @@ Lei Bautista
 Jherrymei Arandela
 Bien Manuel P. Badosa
 Lynette Galindon
+Bien Manuel Badosa
 Kayle Alonde
 Axel Drake Bagay
 Clisha Rae V. Batangan
