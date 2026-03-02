@@ -2,7 +2,7 @@ MAVUIKA NO.1 DPS
 Andrew Dizon
 Acosta, Jan Lorcey
 Dan Marvin M. Isles
-Lei Bautista
+Bautista, Lei
 Jherrymei Arandela
 Bien Manuel P. Badosa
 Lynette Galindon
