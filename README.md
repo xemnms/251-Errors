@@ -8,6 +8,6 @@ Acosta, Jan Lorcey
 Dan Marvin M. Isles
 Lei Bautista
 Jherrymei Arandela
-Bien Manuel Badosa
+Bien Manuel P. Badosa
 Lynette Galindon
 Kayle Alonde
