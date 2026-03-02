@@ -11,3 +11,4 @@ Axel Drake Bagay
 Clisha Rae V. Batangan
 Kyla Cassandra R. Rodenas
 Angelo Hayden Alvarez
+Sean Maverick F. Costiniano
