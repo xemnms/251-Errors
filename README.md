@@ -7,22 +7,21 @@
 
 ## Team Roster
 
-1. Acosta, Jan Lorcey  
-2. Alonde, Kayle  
+1. Acosta, Jan Lorcey L.  
+2. Alonde, Kayle Crivan K.  
 3. Alvarez, Angelo Hayden  
-4. Arandela, Jherrymei  
-5. Badosa, Bien Manuel  
-6. Badosa, Bien Manuel P.  
-7. Bagay, Axel Drake  
-8. Batangan, Clisha Rae V.  
-9. Bautista, Lei  
-10. Costiniano, Sean Maverick F.  
-11. Dizon, Andrew  
-12. Galindon, Lynette  
-13. Isles, Dan Marvin M.  
-14. Nepomuceno, Julliana  
-15. Rodenas, Kyla Cassandra R.  
+4. Arandela, Jherrymei D.  
+5. Badosa, Bien Manuel P.  
+6. Bagay, Axel Drake M.  
+7. Batangan, Clisha Rae V.  
+8. Bautista, Lei Aljeur F.  
+9. Costiniano, Sean Maverick F.  
+10. Dizon, Vic Andrew A.  
+11. Galindon, Lynette L.  
+12. Isles, Dan Marvin M.  
+13. Nepomuceno, Julliana P.  
+14. Rodenas, Kyla Cassandra R.  
 
 ---
 
-**Total Members:** 15
+**Total Members:** 14
