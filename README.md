@@ -11,3 +11,4 @@ Jherrymei Arandela
 Bien Manuel P. Badosa
 Lynette Galindon
 Kayle Alonde
+Axel Drake Bagay
