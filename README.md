@@ -10,3 +10,4 @@ Lei Bautista
 Jherrymei Arandela
 Bien Manuel Badosa
 Lynette Galindon
+Kayle Alonde
