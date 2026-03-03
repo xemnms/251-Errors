@@ -26,6 +26,12 @@ public class Student {
         return gpa;
     }
 
+    public void raiseHand(int x) {
+        for(int i=0; i<x; i++) {
+            System.out.println(this.name + " raised a hand.");
+        }
+    }
+
     @Override
     public String toString() {
         return "Student{name='" + name + "', age=" + age + ", gpa=" + gpa + "}";
