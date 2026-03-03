@@ -1,6 +1,6 @@
 public class ObjectDetailsPrinter {
     public static void main(String[] args) {
-        // Ramon's Object
+        // Ramon's Object created and triggered by Ramon
         // This is the object instance created from the Student class
         Student s = new Student("Alice", 20, 3.85);
         System.out.println("Student details:");
@@ -13,8 +13,10 @@ public class ObjectDetailsPrinter {
     }
 }
 
-// javac classes-and-objects-lab/Student.java classes-and-objects-lab/ObjectDetailsPrinter.java
-// java -cp classes-and-objects-lab ObjectDetailsPrinter
+// How to run this code:
+// cd classes-and-objects-lab
+// javac *.java
+// java ObjectDetailsPrinter
 
 /*
 * Tasks:
