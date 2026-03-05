@@ -1,5 +1,6 @@
 # Team Changelog
 \<Acosta, Jan Lorcey L.\> \<2025-1028844\> \<03/05/2026\> \<TermProjectPlanning\> Completed!  
+\<Alvarez, Angelo Hayden\> \<2025-1026476\> \<03/05/2026\> \<TermProjectPlanning\> Completed!  
 \<Badosa, Bien Manuel P.\> \<2025-1021747\> \<03/05/2026\> \<TermProjectPlanning\> Completed!   
 \<Bagay, Axel Drake M.\> \<2025-1020735\> \<03/05/2026\> \<TermProjectPlanning\> Completed!  
 \<Batangan, Clisha Rae V.\> \<2025-1027945\> \<03/05/2026\> \<TermProjectPlanning\> Completed!
