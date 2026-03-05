@@ -6,4 +6,4 @@
 ___  
 
 # Journal
-<03/05/2026> :  I learned how to  and plan a project in our lab and to improve, next time I will ___
+<03/05/2026> :  I learned how to plan a programming project in our lab. Next time, I will improve by first identifying the core features and developing a simple minimum viable product before expanding the program.  
