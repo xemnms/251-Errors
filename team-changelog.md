@@ -1,6 +1,7 @@
 # Team Changelog
 ---
 \<Acosta, Jan Lorcey L.\> \<2025-1028844\> \<03/05/2026\> \<TermProjectPlanning\> Completed!  
+\<Alonde, Kayle Crivan K.\> \<2025-1024360\> \<03/05/2026\> \<TermProjectPlanning\> Completed! 
 \<Alvarez, Angelo Hayden\> \<2025-1026476\> \<03/05/2026\> \<TermProjectPlanning\> Completed!  
 \<Badosa, Bien Manuel P.\> \<2025-1021747\> \<03/05/2026\> \<TermProjectPlanning\> Completed!   
 \<Bagay, Axel Drake M.\> \<2025-1020735\> \<03/05/2026\> \<TermProjectPlanning\> Completed!  
@@ -11,3 +12,4 @@
 \<Isles, Dan Marvin M.\> \<2025-1025621\> \<03/05/2026\> \<TermProjectPlanning\> Completed!  
 \<Nepomuceno, Julliana P.\> \<2024-2020430\> \<03/05/2026\> \<TermProjectPlanning\> Completed!  
 \<Rodenas, Kyla Cassandra R.\> \<2025-1025868\> \<03/05/2026\> \<TermProjectPlanning\> Completed!  
+
