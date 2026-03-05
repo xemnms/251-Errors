@@ -1,3 +1,4 @@
 ## Julliana P. Nepomuceno
 **Quiz Scores**
-03/05/2026 | Quiz 1 | 5/5
+
+- 03/05/2026 | Quiz 1 | 5/5
