@@ -6,7 +6,7 @@
 | Date       | Activity Type | Title       | Score | Total Points |
 |------------|----------------|-------------|--------|--------------|
 | 03/05/2026 | Quiz           | Quiz 1      | 5      | 5            |
-| 03/05/2026 | Extra Points   | Post        | 5     | 10           |
+| 03/05/2026 | Extra Points   | Post        | 5     | 5           |
 | —          | —              | —           | —      | —            |
 
 ---
