@@ -1,1 +1,0 @@
-Kyla Cassandra R. Rodenas

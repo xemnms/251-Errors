@@ -1,1 +1,0 @@
-Jan Lorcey Acosta | Contributions
