@@ -4,30 +4,54 @@
 */
 
 public class Student {
-    private String name;
-    private int age;
-    private double gpa;
 
-    public Student(String name, int age, double gpa) {
+    // Attributes
+    String name;
+    int age;
+    String course;
+
+    // Static attribute
+    static int totalStudents = 0;
+
+    // Default constructor
+    Student() {
+        name = "Unknown";
+        age = 0;
+        course = "Undeclared";
+        totalStudents++;
+    }
+
+    // Parameterized constructor
+    Student(String name, int age, String course) {
         this.name = name;
         this.age = age;
-        this.gpa = gpa;
+        this.course = course;
+        totalStudents++;
     }
 
-    public String getName() {
-        return name;
+    // Overloaded constructor
+    Student(String name, String course) {
+        this.name = name;
+        this.course = course;
+        this.age = 18; // default age
+        totalStudents++;
     }
 
-    public int getAge() {
-        return age;
+    // Behavior without parameters
+    void introduce() {
+        System.out.println("Hi, I am " + name + ".");
+        System.out.println("I am " + age + " years old.");
+        System.out.println("My course is " + course + ".");
     }
 
-    public double getGpa() {
-        return gpa;
+    // Behavior with parameters
+    void updateCourse(String newCourse) {
+        course = newCourse;
+        System.out.println(name + " has updated their course to " + course + ".");
     }
 
-    @Override
-    public String toString() {
-        return "Student{name='" + name + "', age=" + age + ", gpa=" + gpa + "}";
+    // Static method
+    static void displayTotalStudents() {
+        System.out.println("Total Students Created: " + totalStudents);
     }
 }

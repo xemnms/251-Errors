@@ -1,14 +1,25 @@
 public class ObjectDetailsPrinter {
     public static void main(String[] args) {
         // This is the object instance created from the Student class
-        Student s = new Student("Alice", 20, 3.85);
-        System.out.println("Student details:");
-        System.out.println("Name: " + s.getName());
-        System.out.println("Age: " + s.getAge());
-        System.out.println("GPA: " + s.getGpa());
+        // Object using default constructor
+        Student s1 = new Student();
 
-        // using toString
-        System.out.println("\nUsing toString(): " + s);
+        // Object using parameterized constructor
+        Student s2 = new Student("Maria", 20, "BSCS");
+
+        // Object using overloaded constructor
+        Student s3 = new Student("Carlos", "BSIT");
+
+        // Print attributes and trigger behaviors
+        s1.introduce();
+        s2.introduce();
+
+        // Method with parameter
+        s2.updateCourse("BS Data Science");
+
+        // Static method
+        Student.displayTotalStudents();
+        
     }
 }
 
