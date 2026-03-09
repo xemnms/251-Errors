@@ -90,7 +90,40 @@ public class ObjectDetailsPrinter {
         System.out.println();
 
         BuyerDizon.displayTotalBuyers();
+
+        // Object created by Alvarez, Classes by Bagay
+
+// Object using default constructor
+        SellerBagay sll1 = new SellerBagay();
+
+        // Object using parameterized constructor
+        SellerBagay sll2 = new SellerBagay("Angelo", 28, "Hayden's Mart");
+
+        // Object using overloaded constructor (name + store only)
+        SellerBagay sll3 = new SellerBagay("Alvarez", "Tech Corner");
+
+        // Print attributes and trigger behaviors
+        System.out.println("--- sll1 (default) ---");
+        sll1.displaySellerInfo();
+
+        System.out.println("\n--- sll2 (parameterized) ---");
+        sll2.displaySellerInfo();
+
+        System.out.println("\n--- sll3 (overloaded) ---");
+        sll3.displaySellerInfo();
+
+        // Method with parameter: update store name
+        System.out.println("\nUpdating sll2's store name...");
+        sll2.updateStoreName("Maria's Supermart");
+
+        // Show updated info
+        System.out.println("\n--- sr2 (after update) ---");
+        sll2.displaySellerInfo();
+
+        // Static method: total sellers created
+        System.out.println("\nTotal sellers created: " + SellerBagay.getTotalSellers());
     }
+
 }
 // javac classes-and-objects-lab/Student.java classes-and-objects-lab/ObjectDetailsPrinter.java
 // java -cp classes-and-objects-lab ObjectDetailsPrinter
