@@ -1,4 +1,5 @@
-public class Buyer {
+
+public class BuyerDizon {
     // Attributes (Instance variables)
     String name;
     int age;
@@ -8,7 +9,7 @@ public class Buyer {
     static int totalBuyers = 0;
 
     // Default constructor
-    Buyer() {
+    BuyerDizon() {
         this.name = "Guest";
         this.age = 0;
         this.budget = 0.0;
@@ -16,7 +17,7 @@ public class Buyer {
     }
 
     // Parameterized constructor
-    Buyer(String name, int age, double budget) {
+    BuyerDizon(String name, int age, double budget) {
         this.name = name;
         this.age = age;
         this.budget = budget;
@@ -24,7 +25,7 @@ public class Buyer {
     }
 
     // Overloaded constructor (Assumes a default budget for new shoppers)
-    Buyer(String name, int age) {
+    BuyerDizon(String name, int age) {
         this.name = name;
         this.age = age;
         this.budget = 100.0; // Default starting budget
