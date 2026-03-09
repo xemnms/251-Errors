@@ -1,0 +1,51 @@
+public class mainClass {
+
+    // Attributes
+    String status;
+    String role;
+
+    // Static attribute
+    static int count = 0;
+
+    // Default constructor
+    void Student() {
+    	status = "Pending";
+        count = 0;
+        role = "Moderator";
+        count++;
+    }
+
+    // Parameterized constructor
+    void Student(String status, int count, String role) {
+        this.status = status;
+        this.count = count; 
+        this.role = role;
+        count++;
+    }
+
+    // Overloaded constructor
+    void Student(String status, String role) {
+        this.status = status; 
+        this.role = role;
+        this.count = 4; // default count of mods
+        count++;
+    }
+
+    // Behavior without parameters
+    void showStats() {
+        System.out.println("Hi, there are "+count+" amount of current moderators.");
+        System.out.println("I am " +status+ "ed with.");
+        System.out.println("My role is " +role + ".");
+    }
+
+    // Behavior with parameters
+    void updateRole(String newRole) {
+    	role = newRole;
+        System.out.println(status + " applicant has been moved to " + role + ".");
+    }
+
+    // Static method
+    static void displayTotalStudents() {
+        System.out.println("Total Students Created: " + count); //shows total mods counted
+    }
+}
