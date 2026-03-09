@@ -1,61 +1,62 @@
 /**
- * This class represents a Buyer with name, product, quantity, price
+ * This class represents a Buyer with name, product, quantity, and price
  * This class was made by Clisha Batangan
  */
 
 public class Buyer_Batangan {
-    public static void main(String[] args) {
 
-//Attributes
+    // Attributes
     String buyerName;
     String userProduct;
     int prodQuantity;
     double prodPrice;
 
-//Static Attribute
-    Static int totalQuantity = 0;
+    // Static attribute
+    static int totalBuyers = 0;
 
-//Default Constructor
-    Buyer(){
+    // Default constructor
+    public Buyer_Batangan() {
         buyerName = "Clisha Batangan";
         userProduct = "Phone Case";
-        prodQuantity = "14";
-        prodPrice = "$67";
-        totalQuantity++;
+        prodQuantity = 1;
+        prodPrice = 67;
+        totalBuyers++;
+    }
 
-//Parameterized Constructor
-    Buyer(String buyerName, String userProduct, int prodQuantity, double prodPrice) {
-        this.buyerName = name;
+    // Parameterized constructor
+    public Buyer_Batangan(String buyerName, String userProduct, int prodQuantity, double prodPrice) {
+        this.buyerName = buyerName;
         this.userProduct = userProduct;
         this.prodQuantity = prodQuantity;
         this.prodPrice = prodPrice;
-        totalQuantity++;
+        totalBuyers++;
     }
 
-//Overloaded constructor
-    Buyer(String buyerName, String userProduct, int prodQuantity, double prodPrice) {
-        this.buyerName = name;
+    // Overloaded constructor (bonus)
+    public Buyer_Batangan(String buyerName, String userProduct, double prodPrice) {
+        this.buyerName = buyerName;
         this.userProduct = userProduct;
         this.prodQuantity = 1;
         this.prodPrice = prodPrice;
-        totalQuantity++;   
+        totalBuyers++;
     }
-//Behavior without parameters
+
+    // Behavior without parameters
     void introduceBuyer() {
-        System.out.println("Hi, I am " + name + ".");
-        System.out.println("I bought " + userProduct + ".");
-        System.out.println("The quantity is " + prodQuantity + ".");
-        System.out.println("The Price is " + prodPrice + ".");
+        System.out.println("Hi, I am " + buyerName);
+        System.out.println("I bought " + userProduct);
+        System.out.println("Quantity: " + prodQuantity);
+        System.out.println("Price: " + prodPrice);
     }
 
-//Behavior with parameters
-    void updateQuantity(String newQuantity) {
-        Quantity = newQuantity;
-        System.out.println(name + " has updated their quantity to " + Quantity + ".");
+    // Behavior with parameters
+    void updateQuantity(int newQuantity) {
+        prodQuantity = newQuantity;
+        System.out.println(buyerName + " updated quantity to " + prodQuantity);
     }
 
-//Static method
-    static void displayTotalQuantity() {
-        System.out.println("Total Quantity Created: " + totalQuantity);
+    // Static method
+    static void displayTotalBuyers() {
+        System.out.println("Total Buyers Created: " + totalBuyers);
     }
-    }
+}
