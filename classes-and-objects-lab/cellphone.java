@@ -1,5 +1,5 @@
 /*
-* This class represents a student with a name, age, and GPA.
+* This class represents a cellphone with a brand, price, and storage.
 * Created by Julliana Nepomuceno
 */
 public class cellphone {
