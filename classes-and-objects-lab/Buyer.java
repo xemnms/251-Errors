@@ -49,7 +49,7 @@ public class Buyer {
                 orderStatus = updateStatus;
         System.out.println("Order status updated to: " + orderStatus);
     }
-
+    
     // Static method
     public static void displayQuantityCount() {
         System.out.println("Total products ordered: " + quantityCount);
