@@ -1,4 +1,4 @@
-public class Laptop {
+public class LaptopIsles {
 	//Dan Marvin Isles
   //this class represents laptops with its usual displayed specs
 	
