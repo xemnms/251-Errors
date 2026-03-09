@@ -58,4 +58,4 @@ public class Buyer_Batangan {
     static void displayTotalQuantity() {
         System.out.println("Total Quantity Created: " + totalQuantity);
     }
- }
+    }
