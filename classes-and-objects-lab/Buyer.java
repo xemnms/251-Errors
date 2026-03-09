@@ -38,7 +38,7 @@ public class Buyer {
     }
 
     // Method without parameters
-    public void showOptions() {
+    public void showProfile() {
                 System.out.println("Account Name: " + buyerName);
         System.out.println("Product Name: " + productName);
         System.out.println("Order Status: " + orderStatus);
