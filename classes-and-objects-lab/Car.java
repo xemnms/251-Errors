@@ -11,13 +11,13 @@ public class Car {
     boolean engineRunning = false;
 
     //Static Attribute
-    static int numberOfWheels = 4
+    static int numberOfWheels = 4;
 
     //Default Constructor
     Car(){
         brandName = "N/A";
         brandModel = "N/A";
-        boolean = false;
+        engineRunning = false;
         numberOfWheels = 4;
     }
 
@@ -29,7 +29,7 @@ public class Car {
 
     //Behaviour without Parameters
     void startCar(){
-        engineRunningRunning = true;
+        engineRunning = true;
         System.out.println(brandName + " " + brandModel + " has started.")
     }
     void stopCar(){
