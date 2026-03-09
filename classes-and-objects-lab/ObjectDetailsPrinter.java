@@ -42,7 +42,8 @@ public class ObjectDetailsPrinter {
 
         User.displayTotalUsers(); 
         
-        // Object created by Nepomuceno, Cellphone class created by 
+
+        // Object created by Nepomuceno, SellerBagay class created by Bagay
         // Object created for Seller class
         SellerBagay account1 = new SellerBagay();
         account1.displaySellerInfo();
@@ -65,8 +66,31 @@ public class ObjectDetailsPrinter {
 
         System.out.println("Total Sellers: " + SellerBagay.getTotalSellers());
 
+
+        // Object created by Bautista, BuyerDizon class created by Dizon
+        BuyerDizon buyer1 = new BuyerDizon();
+        buyer1.displayProfile();
+
+        System.out.println();
+
+        BuyerDizon buyer2 = new BuyerDizon("Acbde", 20, 500.0);
+        buyer2.displayProfile();
+
+        System.out.println();
+
+        BuyerDizon buyer3 = new BuyerDizon("Eyefgi", 30);
+        buyer3.displayProfile();
+
+        System.out.println();
+
+        buyer3.makePurchase(150.0);
+        buyer2.makePurchase(200.0);
+        buyer1.makePurchase(50.0);
+
+        System.out.println();
+
+        BuyerDizon.displayTotalBuyers();
     }
 }
-
 // javac classes-and-objects-lab/Student.java classes-and-objects-lab/ObjectDetailsPrinter.java
 // java -cp classes-and-objects-lab ObjectDetailsPrinter
