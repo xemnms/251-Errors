@@ -2,7 +2,7 @@
 * This class represents a cellphone with a brand, price, and storage.
 * Created by Julliana Nepomuceno
 */
-public class Cellphone {
+public class Cellphone_Nepomuceno {
     // Attributes
     String brand;
     double price;
@@ -12,7 +12,7 @@ public class Cellphone {
     static int totalPhonesSold = 0;
 
     // Deafault constructor
-    Cellphone() {
+    Cellphone_Nepomuceno() {
         brand = "Unknown";
         price = 0;
         storage = 0;
@@ -20,7 +20,7 @@ public class Cellphone {
     }
 
     // Parameterized constructor
-    Cellphone(String brand, double price, int storage) {
+    Cellphone_Nepomuceno(String brand, double price, int storage) {
         this.brand = brand;
         this.price = price;
         this.storage = storage;
@@ -28,7 +28,7 @@ public class Cellphone {
     }
 
     // Overloaded constructor
-    Cellphone(String brand, double price){
+    Cellphone_Nepomuceno(String brand, double price){
         this.brand = brand;
         this.price = price;
         this.storage = 128; // phone base model storage
