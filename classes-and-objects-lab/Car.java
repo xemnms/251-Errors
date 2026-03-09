@@ -1,5 +1,5 @@
 /*
-* This class represents a student with a name, age, and GPA.
+* This class represents a car with its brand name and model along with its engine status.
 * Created by Bien Manuel Badosa
 */
 
