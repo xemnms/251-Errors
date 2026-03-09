@@ -1,15 +1,14 @@
-# 📘 Object-Oriented Programming
-
-Name: **Bautista, Lei Aljeur F.**   
-Section: **BSCS251B**
+# Bautista, Lei Aljeur F.
 
 ---
 
-## 📊 Quiz Record
+## 📊 Scores
 
-| No. | Topic | Date | Quiz | Score |
-|-----|------|------|------|------|
-| 01 | Introduction to OOP | 03/05/26 | Quiz 1 | 5 |
+| Date       | Activity Type  | Title        | Score  | Total Points |
+|------------|----------------|--------------|--------|--------------|
+| 03/05/2026 | Quiz 1         | Intro to OOP | 5      | 5            |
+| —          | —              | —            | —      | —            |
+
 
 ---
 
