@@ -1,12 +1,12 @@
 public class Seller {
-
     String name;
     String product;
     double price;
     double totalSales;
 
+ 
     static int totalSellers = 0;
-
+ 
     // Default Constructor
     Seller() {
         this.name = "Unknown";
@@ -48,23 +48,6 @@ public class Seller {
     static void showTotal() {
         System.out.println("Total Sellers Created: " + totalSellers);
     }
-
-    // Main method
-    public static void main(String[] args) {
-
-        // Using default constructor
-        Seller s0 = new Seller();
-        s0.showSeller();
-
-        // Using parameterized constructor
-        Seller s1 = new Seller("Winter",  "Ilocos Empanada", 40);
-        Seller s2 = new Seller("Yujin",  "Vigan Empanada", 45);
-
-        s1.showSeller();
-        s2.showSeller();
-
-        s1.sell(10);
-        s2.sell(5);
 
         Seller.showTotal();
     }

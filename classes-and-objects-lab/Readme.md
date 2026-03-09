@@ -21,7 +21,7 @@
     - brand
     - status
     
-    At least one attribute should be declared as a static attribute.
+    At least one attribute should be declared as a  attribute.
     
     Example:
     static int totalObjects;
