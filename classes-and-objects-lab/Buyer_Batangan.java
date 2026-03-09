@@ -59,4 +59,4 @@ public class Buyer_Batangan {
     static void displayTotalBuyers() {
         System.out.println("Total Buyers Created: " + totalBuyers);
     }
-}
+ }
