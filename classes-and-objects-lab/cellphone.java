@@ -1,5 +1,8 @@
+/*
+* This class represents a student with a name, age, and GPA.
+* Created by Julliana Nepomuceno
+*/
 public class cellphone {
-
     // Attributes
     String brand;
     double price;
