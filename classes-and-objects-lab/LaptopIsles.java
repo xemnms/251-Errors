@@ -1,6 +1,6 @@
 public class LaptopIsles {
 	//Dan Marvin Isles
-  //this class represents laptops with its usual displayed specs
+	//this class represents laptops with its usual displayed specs
 	
 	//attributes of laptop
 	String brand;
@@ -9,14 +9,14 @@ public class LaptopIsles {
 	static int defaultRam = 8; //static value
 	
 	//default constructor + sets the laptop's specs
-	public Laptop() {
+	public LaptopIsles() {
 		brand = "MSI";
 		maxStorage = 1000;
 		refurbished = true;
 	}
 	
 	//parameterized constructor + allows user to set the laptop's specs
-	public Laptop(String brand, int maxStorage, boolean refurbished) {
+	public LaptopIsles(String brand, int maxStorage, boolean refurbished) {
 		this.brand = brand;
 		this.maxStorage = maxStorage;
 		this.refurbished = refurbished;
