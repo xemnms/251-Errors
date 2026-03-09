@@ -1,9 +1,9 @@
 public class Seller {
- 
     String name;
     String product;
     double price;
     double totalSales;
+
  
     static int totalSellers = 0;
  
@@ -15,7 +15,7 @@ public class Seller {
         this.totalSales = 0;
         totalSellers++;
     }
- 
+
     // Parameterized Constructor
     Seller(String name, String product, double price) {
         this.name = name;
@@ -24,7 +24,7 @@ public class Seller {
         this.totalSales = 0;
         totalSellers++;
     }
- 
+
     // Show seller info
     void showSeller() {
         System.out.println("Seller: " + name);
@@ -32,40 +32,23 @@ public class Seller {
         System.out.println("Price: ₱" + price);
         System.out.println();
     }
- 
+
     // Sell product
     void sell(int quantity) {
         double sale = quantity * price;
         totalSales += sale;
- 
+
         System.out.println(name + " sold " + quantity + " " + product);
         System.out.println("Sale: ₱" + sale);
         System.out.println("Total Sales: ₱" + totalSales);
         System.out.println();
     }
- 
+
     // Static method
     static void showTotal() {
         System.out.println("Total Sellers Created: " + totalSellers);
     }
- 
-    // Main method
-    public static void main(String[] args) {
- 
-        // Using default constructor
-        Seller s0 = new Seller();
-        s0.showSeller();
- 
-        // Using parameterized constructor
-        Seller s1 = new Seller("Max",  "Dubai Chewy Cookie", 135);
-        Seller s2 = new Seller("Ralph",  "Chocolate Xiao Long Bao", 129);
- 
-        s1.showSeller();
-        s2.showSeller();
- 
-        s1.sell(12);
-        s2.sell(24);
- 
+
         Seller.showTotal();
     }
 }
