@@ -42,6 +42,29 @@ public class ObjectDetailsPrinter {
 
         User.displayTotalUsers(); 
         
+        // Object created by Nepomuceno, Cellphone class created by 
+        // Object created for Seller class
+        SellerBagay account1 = new SellerBagay();
+        account1.displaySellerInfo();
+
+        System.out.println();
+
+        SellerBagay account2 = new SellerBagay("Juan Dela Cruz", 35, "JDC Electronics");
+        account2.displaySellerInfo();
+
+        System.out.println();
+
+        SellerBagay account3 = new SellerBagay("Maria Santos", "Santos Store");
+        account3.displaySellerInfo();
+
+        System.out.println();
+
+        account2.updateStoreName("JDC Tech Hub");
+
+        System.out.println();
+
+        System.out.println("Total Sellers: " + SellerBagay.getTotalSellers());
+
     }
 }
 
