@@ -1,15 +1,15 @@
-
+/**
+ * This class represents a Buyer with name, product, quantity, price
+ * This class was made by Clisha Batangan
+ */
 
 public class Buyer_Batangan {
     public static void main(String[] args) {
-    Scanner in = new Scanner(System.in);
+
 //Attributes
     String buyerName;
-
     String userProduct;
-
     int prodQuantity;
-
     double prodPrice;
 
 //Static Attribute
@@ -23,23 +23,39 @@ public class Buyer_Batangan {
         prodPrice = "$67";
         totalQuantity++;
 
-// Parameterized Constructor
+//Parameterized Constructor
     Buyer(String buyerName, String userProduct, int prodQuantity, double prodPrice) {
         this.buyerName = name;
         this.userProduct = userProduct;
         this.prodQuantity = prodQuantity;
         this.prodPrice = prodPrice;
-        totalStudents++;
+        totalQuantity++;
     }
 
-    // Overloaded constructor
+//Overloaded constructor
     Buyer(String buyerName, String userProduct, int prodQuantity, double prodPrice) {
         this.buyerName = name;
         this.userProduct = userProduct;
         this.prodQuantity = 1;
         this.prodPrice = prodPrice;
-        totalStudents++;   
-
+        totalQuantity++;   
+    }
+//Behavior without parameters
+    void introduceBuyer() {
+        System.out.println("Hi, I am " + name + ".");
+        System.out.println("I bought " + userProduct + ".");
+        System.out.println("The quantity is " + prodQuantity + ".");
+        System.out.println("The Price is " + prodPrice + ".");
     }
 
+//Behavior with parameters
+    void updateQuantity(String newQuantity) {
+        Quantity = newQuantity;
+        System.out.println(name + " has updated their quantity to " + Quantity + ".");
     }
+
+//Static method
+    static void displayTotalQuantity() {
+        System.out.println("Total Quantity Created: " + totalQuantity);
+    }
+ }
