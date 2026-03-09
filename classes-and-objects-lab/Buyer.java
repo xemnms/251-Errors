@@ -5,7 +5,7 @@
 
 public class Buyer {
 
-    // Static field
+    // Static attribute
     static int quantityCount = 1;
 
     // Attributes
@@ -30,24 +30,23 @@ public class Buyer {
     }
 
     // Overloaded constructor
-    public Buyer(String sellerName, String productName) {
-        this.buyerName = sellerName;
+    public Buyer(String buyerName, String productName) {
+        this.buyerName = buyerName;
         this.productName = productName;
-        this.orderStatus = "Pending";
+        this.orderStatus = "Pending"; //default status
         quantityCount++;
     }
 
     // Method without parameters
     public void showOptions() {
-        System.out.println("Buyer Options:");
-        System.out.println("\n[1] Buy Product");
-        System.out.println("[2] Cancel Order");
-        System.out.println("[3] View Order Status");
+                System.out.println("Account Name: " + buyerName);
+        System.out.println("Product Name: " + productName);
+        System.out.println("Order Status: " + orderStatus);
     }
 
     // Method with parameter
-    public void updateOrderStatus(String status) {
-        orderStatus = status;
+    public void updateOrderStatus(String updateStatus) {
+                orderStatus = updateStatus;
         System.out.println("Order status updated to: " + orderStatus);
     }
 
