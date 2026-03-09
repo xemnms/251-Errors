@@ -1,5 +1,8 @@
+/*
+* This class represents a cellphone with a brand, price, and storage.
+* Created by Julliana Nepomuceno
+*/
 public class cellphone {
-
     // Attributes
     String brand;
     double price;
