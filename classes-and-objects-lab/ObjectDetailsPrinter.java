@@ -121,7 +121,20 @@ public class ObjectDetailsPrinter {
         sll2.displaySellerInfo();
 
         // Static method: total sellers created
-        System.out.println("\nTotal sellers created: " + SellerBagay.getTotalSellers());
+        System.out.println("\nTotal sellers created: " + SellerBagay.getTotalSellers() + "\n");
+
+        //Object created by Galindon, Cellphone class created by Nepomuceno
+        Cellphone_Nepomuceno phone1 = new Cellphone_Nepomuceno();
+        phone1.display();
+        
+        Cellphone_Nepomuceno phone2 = new Cellphone_Nepomuceno("iPhone", 18000, 256);
+        phone2.display();
+
+        Cellphone_Nepomuceno phone3 = new Cellphone_Nepomuceno("Samsung", 7000);
+        phone3.display();
+
+        Cellphone_Nepomuceno.displayTotalPhonesSold();
+
     }
 
 }
