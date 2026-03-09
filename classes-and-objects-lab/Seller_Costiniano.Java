@@ -1,3 +1,8 @@
+/**
+* This class represents a Seller with a name, age, course
+* This class is made by Sean Costiniano
+*/ 
+
 public class Seller {
 
     //Attributes
@@ -50,3 +55,4 @@ public class Seller {
         System.out.println("Total Sellers Created: " + totalSellers);
     }
 }
+
