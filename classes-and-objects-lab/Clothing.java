@@ -1,4 +1,4 @@
-public class clothing {
+public class Clothing {
 
     // attributes
     String type;
@@ -9,13 +9,13 @@ public class clothing {
     static String[] availableSizes = {"S", "M", "L", "XL"};
 
     // default constructor
-    clothing() {
+    Clothing() {
         type = "Shirt";
         price = 299.99;
         inStock = true;
-        availableSizes = "L";
+        availableSizes = new String[]{"L"};
     }
-
+    
     // parameterized constructor
     
 
