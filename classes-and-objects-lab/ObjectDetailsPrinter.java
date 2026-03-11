@@ -182,6 +182,39 @@ public class ObjectDetailsPrinter {
 
         // Demonstrate static usage
         Buyer_Batangan.displayTotalBuyers();
+
+        //Object created by Rodenas, LaptopIsles class created by Isles
+    // Object created for LaptopIsles
+    System.out.println("===== LAPTOP OBJECTS =====\n");
+
+    //Object 1 using default constructor
+    LaptopIsles laptop1 = new LaptopIsles();
+    //Object 2 using parameterized constructor
+    LaptopIsles laptop2 = new LaptopIsles("Dell", 512, false);
+
+   //Display attributes
+    System.out.println("Laptop 1 Brand: " + laptop1.brand);
+    System.out.println("Laptop 1 Max Storage: " + laptop1.maxStorage + " GB");
+    System.out.println("Laptop 1 Refurbished: " + laptop1.refurbished);
+
+    System.out.println("\nLaptop 2 Brand: " + laptop2.brand);
+    System.out.println("Laptop 2 Max Storage: " + laptop2.maxStorage + " GB");
+    System.out.println("Laptop 2 Refurbished: " + laptop2.refurbished);
+
+    //Trigger behaviors
+    System.out.println("\n--- Laptop1 displaySpecs() ---");
+    laptop1.displaySpecs();
+
+    System.out.println("\n--- Laptop2 displaySpecs() ---");
+    laptop2.displaySpecs();
+
+    //Trigger behavior with parameter: updating specs
+    System.out.println("\n--- Updating Laptop2 specs ---");
+    laptop2.newLaptop("Lenovo", 1024, true);
+    laptop2.displaySpecs();
+
+    //Static
+    System.out.println("\nDefault RAM for all laptops: " + LaptopIsles.defaultRam + " GB");
     }
 
 }
