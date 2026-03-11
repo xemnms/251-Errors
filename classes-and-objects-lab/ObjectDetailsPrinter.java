@@ -122,6 +122,27 @@ public class ObjectDetailsPrinter {
 
         // Static method: total sellers created
         System.out.println("\nTotal sellers created: " + SellerBagay.getTotalSellers());
+
+        // Object created by Batangan, Class by Costiniano
+        // Object using default constructor
+    	Seller_Costiniano s1 = new Seller_Costiniano();
+
+        // Object using parameterized constructor
+    	Seller_Costiniano s2 = new Seller_Costiniano("Clisha", 18, "BSCS");
+
+        // Object using overloaded constructor
+    	Seller_Costiniano s3 = new Seller_Costiniano("Maverick", "BSIT");
+
+        // Print attributes and trigger behaviors
+    	s1.introduce();
+    	s2.introduce();
+        s3.introduce():
+
+        // Method with parameter
+    	s2.updateCourse("BS Data Science");
+
+         // Static method
+    	Seller_Costiniano.displayTotalSellers();
     }
 
 }
