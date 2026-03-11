@@ -135,6 +135,28 @@ public class ObjectDetailsPrinter {
 
         Cellphone_Nepomuceno.displayTotalPhonesSold();
 
+
+        // Object created by Batangan, Class by Costiniano
+    	// Object using default constructor
+    	Seller_Costiniano sellerOne = new Seller_Costiniano();
+    	    	        
+    	// Object using parameterized constructor
+    	Seller_Costiniano sellerTwo = new Seller_Costiniano("Clisha", 20, "BSCS");
+    	    	        
+    	// Object using overloaded constructor
+    	Seller_Costiniano sellerThree = new Seller_Costiniano("Maverick", "BSIT");
+
+    	// Print attributes and trigger behaviors
+    	sellerOne.introduce();
+    	sellerTwo.introduce();
+    	sellerThree.introduce();
+
+    	// Method with parameter
+    	sellerTwo.updateCourse("BS Data Science");
+
+    	// Static method
+    	Seller_Costiniano.displayTotalSellers();
+
     }
 
 }
