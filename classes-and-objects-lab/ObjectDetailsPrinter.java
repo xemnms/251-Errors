@@ -307,17 +307,17 @@ public class ObjectDetailsPrinter {
     // Object Created by Arandela, class created by alonde
     // Default
     Clothing_Alonde c1 = new Clothing_Alonde();
-    c1.displayClothing();
+    c1.display();
     System.out.println();
 
     // Parameter
     Clothing_Alonde c2 = new Clothing_Alonde("T-shirt", 250.0, true);
-    c2.displayClothing();
+    c2.display();
     System.out.println();
 
     //Overloaded
     Clothing_Alonde c3 = new Clothing_Alonde("Jacket", 1999.9);
-    c3.displayClothing();
+    c3.display();
     System.out.println();
 
     c3.updateType("Hoodie");
