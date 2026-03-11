@@ -302,7 +302,7 @@ public class ObjectDetailsPrinter {
 
 
     //static method
-    Product_Bautista.displayTotalProcucts();
+    Product_Bautista.displayTotalProducts();
 
     System.out.println();
 
