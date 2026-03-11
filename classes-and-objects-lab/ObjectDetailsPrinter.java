@@ -42,28 +42,24 @@ public class ObjectDetailsPrinter {
 
         User.displayTotalUsers();
 
-        // Object created by Nepomuceno, SellerBagay class created by Bagay
-        // Object created for Seller class
-        SellerBagay account1 = new SellerBagay();
-        account1.displaySellerInfo();
+        // Object created by Nepomuceno, Galindon_Seller class created by Galindon
+        
+        //Seller object using default constructor 
+        Galindon_Seller account1 = new Galindon_Seller();
+        account1.showSeller();
+        account1.sell(0);
 
-        System.out.println();
+        //Seller object using parameterized constructor
+        Galindon_Seller account2 = new Galindon_Seller("Liam", "Tech Store", 67.69);
+        account2.showSeller();
+        account2.sell(5);
 
-        SellerBagay account2 = new SellerBagay("Juan Dela Cruz", 35, "JDC Electronics");
-        account2.displaySellerInfo();
+        //Seller object using overloaded constructor (name + store only)
+        Galindon_Seller account3 = new Galindon_Seller("Emma", "Book Haven");
+        account3.showSeller();
+        account3.sell(3);
 
-        System.out.println();
-
-        SellerBagay account3 = new SellerBagay("Maria Santos", "Santos Store");
-        account3.displaySellerInfo();
-
-        System.out.println();
-
-        account2.updateStoreName("JDC Tech Hub");
-
-        System.out.println();
-
-        System.out.println("Total Sellers: " + SellerBagay.getTotalSellers());
+        Galindon_Seller.showTotal();
 
         // Object created by Bautista, BuyerDizon class created by Dizon
         BuyerDizon buyer1 = new BuyerDizon();
