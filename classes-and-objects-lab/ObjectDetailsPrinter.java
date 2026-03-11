@@ -152,7 +152,7 @@ public class ObjectDetailsPrinter {
     	sellerThree.introduce();
 
     	// Method with parameter
-    	sTwo.updateCourse("BS Data Science");
+    	sellerTwo.updateCourse("BS Data Science");
 
     	// Static method
     	Seller_Costiniano.displayTotalSellers();
