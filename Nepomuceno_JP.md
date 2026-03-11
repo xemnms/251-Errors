@@ -14,3 +14,4 @@
 ## 📘 Journals
 
 **\<03/05/2026\>** : I learned how to plan a programming project in our lab. Next time, I will improve by first identifying the core features and developing a simple minimum viable product before expanding the program.  
+**\<03/09/2026\>** : I learned about Git basics and how to navigate team repositories in our lab. Next time, I will improve by applying what I have learned when working on workspaces.  
