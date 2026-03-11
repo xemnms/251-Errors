@@ -135,6 +135,40 @@ public class ObjectDetailsPrinter {
 
         Cellphone_Nepomuceno.displayTotalPhonesSold();
 
+        
+        //Object created by Batangan, Class by Costiniano
+        // Object 1 using default constructor
+        Seller seller1 = new Seller();
+
+        // Object 2 using parameterized constructor
+        Seller seller2 = new Seller("Clisha", 18, "Computer Science");
+
+       // Display attributes
+       System.out.println("Seller 1 Name: " + seller1.name);
+       System.out.println("Seller 1 Age: " + seller1.age);
+       System.out.println("Seller 1 Course: " + seller1.course);
+
+       System.out.println();
+
+       System.out.println("Seller 2 Name: " + seller2.name);
+       System.out.println("Seller 2 Age: " + seller2.age);
+       System.out.println("Seller 2 Course: " + seller2.course);
+
+       System.out.println();
+
+       // Trigger behavior without parameter
+       seller1.introduce();
+
+       System.out.println();
+
+       // Trigger behavior with parameter
+      seller2.updateCourse("Information Technology");
+
+      System.out.println();
+
+      // Demonstrate static usage
+     Seller.displayTotalSellers();
+
     }
 
 }
