@@ -157,6 +157,31 @@ public class ObjectDetailsPrinter {
     	// Static method
     	Seller_Costiniano.displayTotalSellers();
 
+        // Object created by Costiniano, Class by Batangan
+        Buyer_Batangan buyerOne = new Buyer_Batangan();
+        Buyer_Batangan buyerTwo = new Buyer_Batangan("Maverick", "Laptop", 2, 1200.50);
+
+        // Display attributes
+        System.out.println("Buyer One Name: " + buyerOne.buyerName);
+        System.out.println("Buyer One Product: " + buyerOne.userProduct);
+        System.out.println("Buyer One Quantity: " + buyerOne.prodQuantity);
+        System.out.println("Buyer One Price: " + buyerOne.prodPrice);
+
+        System.out.println();
+
+        System.out.println("Buyer Two Name: " + buyerTwo.buyerName);
+        System.out.println("Buyer Two Product: " + buyerTwo.userProduct);
+        System.out.println("Buyer Two Quantity: " + buyerTwo.prodQuantity);
+        System.out.println("Buyer Two Price: " + buyerTwo.prodPrice);
+
+        // Trigger behavior without parameter
+        buyerOne.introduceBuyer();
+
+        // Trigger behavior with parameter
+        buyerTwo.updateQuantity(5);
+
+        // Demonstrate static usage
+        Buyer_Batangan.displayTotalBuyers();
     }
 
 }
