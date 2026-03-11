@@ -3,7 +3,7 @@
 * Created by Jan Lorcey Acosta
 */
 
-public class Cat {
+public class Cat_Acosta {
     // Attributes
     String name;
     int age;
@@ -15,7 +15,7 @@ public class Cat {
     static int totalCats = 0;
 
     // Default constructor
-    Cat(){
+    Cat_Acosta(){
         name = "Unknown";
         age = 0;
         furPattern = "Undeclared";
@@ -23,7 +23,7 @@ public class Cat {
     }
 
     //Parameterized Constructor
-    Cat(String name, int age, String furPattern, String eyeColor){
+    Cat_Acosta(String name, int age, String furPattern, String eyeColor){
         this.name = name;
         this.age = age;
         this.furPattern = furPattern;
@@ -32,7 +32,7 @@ public class Cat {
     }
 
     //Overloaded Constructor
-    Cat (String name, int age) {
+    Cat_Acosta(String name, int age) {
         this.name = name;
         this.age = age;
         this.furPattern = "Tabby";
