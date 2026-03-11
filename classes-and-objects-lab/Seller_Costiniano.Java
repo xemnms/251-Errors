@@ -1,9 +1,9 @@
 /**
-* This class represents a Seller with a name, age, course
-* This class is made by Sean Costiniano
-*/
+ * This class represents a Seller with a name, age, course
+ * This class is made by Sean Costiniano
+ */
 
-public class Seller {
+public class Seller_Costiniano {
 
     // Attributes
     String name;
@@ -14,7 +14,7 @@ public class Seller {
     static int totalSellers = 0;
 
     // Default Constructor
-    Seller() {
+    Seller_Costiniano() {
         name = "unknown";
         age = 0;
         course = "undeclared";
@@ -22,7 +22,7 @@ public class Seller {
     }
 
     // Parameterized Constructor
-    Seller(String name, int age, String course) {
+    Seller_Costiniano(String name, int age, String course) {
         this.name = name;
         this.age = age;
         this.course = course;
@@ -30,7 +30,7 @@ public class Seller {
     }
 
     // Overloaded Constructor
-    Seller(String name, String course) {
+    Seller_Costiniano(String name, String course) {
         this.name = name;
         this.course = course;
         this.age = 18; // default average age
@@ -55,4 +55,5 @@ public class Seller {
         System.out.println("Total Sellers Created: " + totalSellers);
     }
 }
+
 
