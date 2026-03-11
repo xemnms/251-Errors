@@ -20,11 +20,11 @@ public class ObjectDetailsPrinter {
         // Static method
         Student.displayTotalStudents();
 
-        // Object created by Bagay, User class created by Alvarez 
+        // Object created by Bagay, User class created by Alvarez
         User user1 = new User();
-        user1.introduce(); 
+        user1.introduce();
 
-        System.out.println(); 
+        System.out.println();
 
         User user2 = new User("Axel Drake", 19, "Student");
         user2.introduce();
@@ -40,8 +40,7 @@ public class ObjectDetailsPrinter {
 
         System.out.println();
 
-        User.displayTotalUsers(); 
-        
+        User.displayTotalUsers();
 
         // Object created by Nepomuceno, SellerBagay class created by Bagay
         // Object created for Seller class
@@ -65,7 +64,6 @@ public class ObjectDetailsPrinter {
         System.out.println();
 
         System.out.println("Total Sellers: " + SellerBagay.getTotalSellers());
-
 
         // Object created by Bautista, BuyerDizon class created by Dizon
         BuyerDizon buyer1 = new BuyerDizon();
@@ -93,7 +91,7 @@ public class ObjectDetailsPrinter {
 
         // Object created by Alvarez, Classes by Bagay
 
-// Object using default constructor
+        // Object using default constructor
         SellerBagay sll1 = new SellerBagay();
 
         // Object using parameterized constructor
@@ -123,10 +121,10 @@ public class ObjectDetailsPrinter {
         // Static method: total sellers created
         System.out.println("\nTotal sellers created: " + SellerBagay.getTotalSellers() + "\n");
 
-        //Object created by Galindon, Cellphone class created by Nepomuceno
+        // Object created by Galindon, Cellphone class created by Nepomuceno
         Cellphone_Nepomuceno phone1 = new Cellphone_Nepomuceno();
         phone1.display();
-        
+
         Cellphone_Nepomuceno phone2 = new Cellphone_Nepomuceno("iPhone", 18000, 256);
         phone2.display();
 
@@ -135,27 +133,26 @@ public class ObjectDetailsPrinter {
 
         Cellphone_Nepomuceno.displayTotalPhonesSold();
 
-
         // Object created by Batangan, Class by Costiniano
-    	// Object using default constructor
-    	Seller_Costiniano sellerOne = new Seller_Costiniano();
-    	    	        
-    	// Object using parameterized constructor
-    	Seller_Costiniano sellerTwo = new Seller_Costiniano("Clisha", 20, "BSCS");
-    	    	        
-    	// Object using overloaded constructor
-    	Seller_Costiniano sellerThree = new Seller_Costiniano("Maverick", "BSIT");
+        // Object using default constructor
+        Seller_Costiniano sellerOne = new Seller_Costiniano();
 
-    	// Print attributes and trigger behaviors
-    	sellerOne.introduce();
-    	sellerTwo.introduce();
-    	sellerThree.introduce();
+        // Object using parameterized constructor
+        Seller_Costiniano sellerTwo = new Seller_Costiniano("Clisha", 20, "BSCS");
 
-    	// Method with parameter
-    	sellerTwo.updateCourse("BS Data Science");
+        // Object using overloaded constructor
+        Seller_Costiniano sellerThree = new Seller_Costiniano("Maverick", "BSIT");
 
-    	// Static method
-    	Seller_Costiniano.displayTotalSellers();
+        // Print attributes and trigger behaviors
+        sellerOne.introduce();
+        sellerTwo.introduce();
+        sellerThree.introduce();
+
+        // Method with parameter
+        sellerTwo.updateCourse("BS Data Science");
+
+        // Static method
+        Seller_Costiniano.displayTotalSellers();
 
         // Object created by Costiniano, Class by Batangan
         Buyer_Batangan buyerOne = new Buyer_Batangan();
@@ -183,85 +180,111 @@ public class ObjectDetailsPrinter {
         // Demonstrate static usage
         Buyer_Batangan.displayTotalBuyers();
 
-        //Object created by Rodenas, LaptopIsles class created by Isles
-    // Object created for LaptopIsles
-    System.out.println("===== LAPTOP OBJECTS =====\n");
+        // Object created by Rodenas, LaptopIsles class created by Isles
+        // Object created for LaptopIsles
+        System.out.println("===== LAPTOP OBJECTS =====\n");
 
-    //Object 1 using default constructor
-    LaptopIsles laptop1 = new LaptopIsles();
-    //Object 2 using parameterized constructor
-    LaptopIsles laptop2 = new LaptopIsles("Dell", 512, false);
+        // Object 1 using default constructor
+        LaptopIsles laptop1 = new LaptopIsles();
+        // Object 2 using parameterized constructor
+        LaptopIsles laptop2 = new LaptopIsles("Dell", 512, false);
 
-   //Display attributes
-    System.out.println("Laptop 1 Brand: " + laptop1.brand);
-    System.out.println("Laptop 1 Max Storage: " + laptop1.maxStorage + " GB");
-    System.out.println("Laptop 1 Refurbished: " + laptop1.refurbished);
+        // Display attributes
+        System.out.println("Laptop 1 Brand: " + laptop1.brand);
+        System.out.println("Laptop 1 Max Storage: " + laptop1.maxStorage + " GB");
+        System.out.println("Laptop 1 Refurbished: " + laptop1.refurbished);
 
-    System.out.println("\nLaptop 2 Brand: " + laptop2.brand);
-    System.out.println("Laptop 2 Max Storage: " + laptop2.maxStorage + " GB");
-    System.out.println("Laptop 2 Refurbished: " + laptop2.refurbished);
+        System.out.println("\nLaptop 2 Brand: " + laptop2.brand);
+        System.out.println("Laptop 2 Max Storage: " + laptop2.maxStorage + " GB");
+        System.out.println("Laptop 2 Refurbished: " + laptop2.refurbished);
 
-    //Trigger behaviors
-    System.out.println("\n--- Laptop1 displaySpecs() ---");
-    laptop1.displaySpecs();
+        // Trigger behaviors
+        System.out.println("\n--- Laptop1 displaySpecs() ---");
+        laptop1.displaySpecs();
 
-    System.out.println("\n--- Laptop2 displaySpecs() ---");
-    laptop2.displaySpecs();
+        System.out.println("\n--- Laptop2 displaySpecs() ---");
+        laptop2.displaySpecs();
 
-    //Trigger behavior with parameter: updating specs
-    System.out.println("\n--- Updating Laptop2 specs ---");
-    laptop2.newLaptop("Lenovo", 1024, true);
-    laptop2.displaySpecs();
+        // Trigger behavior with parameter: updating specs
+        System.out.println("\n--- Updating Laptop2 specs ---");
+        laptop2.newLaptop("Lenovo", 1024, true);
+        laptop2.displaySpecs();
 
-    //Static
-    System.out.println("\nDefault RAM for all laptops: " + LaptopIsles.defaultRam + " GB");
+        // Static
+        System.out.println("\nDefault RAM for all laptops: " + LaptopIsles.defaultRam + " GB");
 
-     //objects created by Dan Isles, sf class created by Kyla Rodenas
+        // objects created by Dan Isles, sf class created by Kyla Rodenas
 
-	   SellerInfoRodenas sf = new SellerInfoRodenas();
-	   
-	   sf.introduceSeller();
-	   System.out.println();
-	   
-	   SellerInfoRodenas sf2 = new SellerInfoRodenas("Dan Isles", "BSIT", 1);
-	   
-	   sf2.introduceSeller();
-	   System.out.println();
-	   
-	   SellerInfoRodenas sf3 = new SellerInfoRodenas("Miguel Anthon", "BSIS");
-	   
-	   sf3.introduceSeller();
-	   System.out.println();
-	   
-	   sf3.updateYearLevel(2);
-	   sf3.introduceSeller();
-	   System.out.println();
-	   
-	   sf3.displayTotalSellers();
-       System.out.println();
+        SellerInfoRodenas sf = new SellerInfoRodenas();
 
-       // Object created by Acosta, Class created by Badosa
+        sf.introduceSeller();
+        System.out.println();
 
-       //Default constructor
+        SellerInfoRodenas sf2 = new SellerInfoRodenas("Dan Isles", "BSIT", 1);
+
+        sf2.introduceSeller();
+        System.out.println();
+
+        SellerInfoRodenas sf3 = new SellerInfoRodenas("Miguel Anthon", "BSIS");
+
+        sf3.introduceSeller();
+        System.out.println();
+
+        sf3.updateYearLevel(2);
+        sf3.introduceSeller();
+        System.out.println();
+
+        sf3.displayTotalSellers();
+        System.out.println();
+
+        // Object created by Acosta, Class created by Badosa
+
+        // Default constructor
         Car_Badosa car1 = new Car_Badosa();
 
-        //Parameterized constructor
+        // Parameterized constructor
         Car_Badosa car2 = new Car_Badosa("BMW", "M3 GTR", "White");
-        
-        //Behaviour without parameters
+
+        // Behaviour without parameters
         car1.checkEngine();
 
-        //Behaviour with parameters
+        // Behaviour with parameters
         car2.runEngine();
         car2.checkEngine();
         car2.stopEngine();
         car2.checkEngine();
 
-        //Static method
+        // Static method
         Car_Badosa.displayTotalCars();
-        
+        System.out.println();
+
+        // Object created by Badosa, Class created by Acosta
+        // Object using default constructor
+        Cat_Acosta cat1 = new Cat_Acosta();
+
+        // Object using parameterized constructor
+        Cat_Acosta cat2 = new Cat_Acosta("Floof", 12, "Spotted", "Blue");
+
+        // Object using overloaded constructor
+        Cat_Acosta cat3 = new Cat_Acosta("Cloud", 3);
+
+        // Print attributes and trigger behaviours
+        cat1.introduce();
+        cat2.introduce();
+        cat3.introduce();
+
+        // Method with parameter
+        cat1.feedCat(false);
+        cat2.feedCat(true);
+        cat3.feedCat(true);
+
+        // Static method
+        Cat_Acosta.displayTotalCats();
+        System.out.println();
+
     }
 
 }
-// javac classes-and-objects-lab/Student.java classes-and-objects-lab/ObjectDetailsPrinter.java
+// javac classes-and-objects-lab/Student.java
+// classes-and-objects-lab/ObjectDetailsPrinter.java
 // java -cp classes-and-objects-lab ObjectDetailsPrinter
