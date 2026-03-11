@@ -157,6 +157,7 @@ public class ObjectDetailsPrinter {
     	// Static method
     	Seller_Costiniano.displayTotalSellers();
 
+        
     }
 
 }
