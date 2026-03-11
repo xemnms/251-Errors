@@ -215,6 +215,29 @@ public class ObjectDetailsPrinter {
 
     //Static
     System.out.println("\nDefault RAM for all laptops: " + LaptopIsles.defaultRam + " GB");
+
+     //objects created by Dan Isles, sf class created by Kyla Rodenas
+
+	   SellerInfoRodenas sf = new SellerInfoRodenas();
+	   
+	   sf.introduceSeller();
+	   System.out.println();
+	   
+	   SellerInfoRodenas sf2 = new SellerInfoRodenas("Dan Isles", "BSIT", 1);
+	   
+	   sf2.introduceSeller();
+	   System.out.println();
+	   
+	   SellerInfoRodenas sf3 = new SellerInfoRodenas("Miguel Anthon", "BSIS");
+	   
+	   sf3.introduceSeller();
+	   System.out.println();
+	   
+	   sf3.updateYearLevel(2);
+	   sf3.introduceSeller();
+	   System.out.println();
+	   
+	   sf3.displayTotalSellers();
     }
 
 }
