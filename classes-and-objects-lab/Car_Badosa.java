@@ -34,7 +34,7 @@ public class Car_Badosa {
         this.brandName = brandName;
         this.carModel = carModel;
         carColor = "Colorless";
-        totalCars++;e
+        totalCars++;
     }
 
     // Behavior without parameters
@@ -51,5 +51,10 @@ public class Car_Badosa {
 
     void stopEngine() {
         engineIsRunning = false;
+    }
+
+    // Static Method
+    static void displayTotalCars() {
+        System.out.println("Total cars created: " + totalCars);
     }
 }
