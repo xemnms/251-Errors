@@ -282,6 +282,33 @@ public class ObjectDetailsPrinter {
         Cat_Acosta.displayTotalCats();
         System.out.println();
 
+        //object created by Dizon, class created by Bautista
+        //Product object using default constructor
+    Product_Bautista pb1 = new Product_Bautista();
+        
+        //Product using parameterized Object constructor
+    Product_Bautista pb2 = new Product_Bautista("Predator", 70000, "Gaming Laptop");
+
+        //Product object using overloaded constructor
+    Product_Bautista pb3 = new Product_Bautista("Bag", "School Supply");
+
+    //behavior without parameters
+    pb1.introduce();
+    pb2.introduce();
+    pb3.introduce();
+
+    //behavior with parameter
+    pb2.updateCategory("Main Stream");
+
+
+    //static method
+    Product_Bautista.displayTotalProducts();
+
+    System.out.println();
+
+    
+
+
     }
 
 }
