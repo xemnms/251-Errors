@@ -1,0 +1,59 @@
+/**
+ * This class represents a Seller with a name, age, course
+ * This class is made by Sean Costiniano
+ */
+
+public class Seller_Costiniano {
+
+    // Attributes
+    String name;
+    int age;
+    String course;
+
+    // Static Attribute
+    static int totalSellers = 0;
+
+    // Default Constructor
+    Seller_Costiniano() {
+        name = "unknown";
+        age = 0;
+        course = "undeclared";
+        totalSellers++;
+    }
+
+    // Parameterized Constructor
+    Seller_Costiniano(String name, int age, String course) {
+        this.name = name;
+        this.age = age;
+        this.course = course;
+        totalSellers++;
+    }
+
+    // Overloaded Constructor
+    Seller_Costiniano(String name, String course) {
+        this.name = name;
+        this.course = course;
+        this.age = 18; // default average age
+        totalSellers++;
+    }
+
+    // Behavior without parameters
+    void introduce() {
+        System.out.println("Hi, I am " + name + ".");
+        System.out.println("I am " + age + " years old.");
+        System.out.println("My course is " + course + ".");
+    }
+
+    // Behavior with parameters
+    void updateCourse(String newCourse) {
+        course = newCourse;
+        System.out.println(name + " has updated their course to " + course + ".");
+    }
+
+    // Static method
+    static void displayTotalSellers() {
+        System.out.println("Total Sellers Created: " + totalSellers);
+    }
+}
+
+
