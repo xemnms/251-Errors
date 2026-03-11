@@ -51,13 +51,13 @@ public class ObjectDetailsPrinter {
         System.out.println("______________________\n");
 
         //Seller object using parameterized constructor
-        Galindon_Seller account2 = new Galindon_Seller("Liam", "Tech Store", 67.69);
+        Galindon_Seller account2 = new Galindon_Seller("Liam", "Tech Accessories", 67.69);
         account2.showSeller();
         account2.sell(5);
         System.out.println("______________________\n");
 
         //Seller object using overloaded constructor (name + store only)
-        Galindon_Seller account3 = new Galindon_Seller("Emma", "Book Haven");
+        Galindon_Seller account3 = new Galindon_Seller("Emma", "Books");
         account3.showSeller();
         account3.sell(3);
         System.out.println("______________________\n");
