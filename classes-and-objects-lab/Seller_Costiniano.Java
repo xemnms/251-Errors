@@ -1,56 +1,56 @@
 /**
 * This class represents a Seller with a name, age, course
 * This class is made by Sean Costiniano
-*/ 
+*/
 
 public class Seller {
 
-    //Attributes
+    // Attributes
     String name;
     int age;
     String course;
 
-    //Static Attribute
+    // Static Attribute
     static int totalSellers = 0;
 
-    //Default Constructors
-    Student() {
+    // Default Constructor
+    Seller() {
         name = "unknown";
-        age = "0";
-        course = "undeclared"
+        age = 0;
+        course = "undeclared";
         totalSellers++;
     }
 
-    //Parametized Constructor
-    Student(String name, int age, String course) {
+    // Parameterized Constructor
+    Seller(String name, int age, String course) {
         this.name = name;
         this.age = age;
         this.course = course;
         totalSellers++;
     }
 
-    //Overloadeed Constructor
-    Student(String name, String course) {
+    // Overloaded Constructor
+    Seller(String name, String course) {
         this.name = name;
         this.course = course;
-        this.age = 18; //default average age
+        this.age = 18; // default average age
         totalSellers++;
     }
 
-    //Behavior without parameters
+    // Behavior without parameters
     void introduce() {
-        System.out.println("Hi, I am " + name + ".")
-        System.out.println("I am " + age + "years old.")
-        System.out.println("My course is " + course + ".")
+        System.out.println("Hi, I am " + name + ".");
+        System.out.println("I am " + age + " years old.");
+        System.out.println("My course is " + course + ".");
     }
 
-    //Behavior with parameters
+    // Behavior with parameters
     void updateCourse(String newCourse) {
         course = newCourse;
         System.out.println(name + " has updated their course to " + course + ".");
     }
 
-    //Static method
+    // Static method
     static void displayTotalSellers() {
         System.out.println("Total Sellers Created: " + totalSellers);
     }
