@@ -238,6 +238,28 @@ public class ObjectDetailsPrinter {
 	   System.out.println();
 	   
 	   sf3.displayTotalSellers();
+       System.out.println();
+
+       // Object created by Acosta, Class created by Badosa
+
+       //Default constructor
+        Car_Badosa car1 = new Car_Badosa();
+
+        //Parameterized constructor
+        Car_Badosa car2 = new Car_Badosa("BMW", "M3 GTR", "White");
+        
+        //Behaviour without parameters
+        car1.checkEngine();
+
+        //Behaviour with parameters
+        car2.runEngine();
+        car2.checkEngine();
+        car2.stopEngine();
+        car2.checkEngine();
+
+        //Static method
+        Car_Badosa.displayTotalCars();
+        
     }
 
 }
