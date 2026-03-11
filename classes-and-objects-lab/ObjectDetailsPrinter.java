@@ -144,7 +144,6 @@ public class ObjectDetailsPrinter {
          // Static method
     	Seller_Costiniano.displayTotalSellers();
     }
-
 }
 // javac classes-and-objects-lab/Student.java classes-and-objects-lab/ObjectDetailsPrinter.java
 // java -cp classes-and-objects-lab ObjectDetailsPrinter
