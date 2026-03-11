@@ -216,7 +216,7 @@ public class ObjectDetailsPrinter {
     //Static
     System.out.println("\nDefault RAM for all laptops: " + LaptopIsles.defaultRam + " GB");
 
-     //objects created by Kyla Rodenas, sf class created by Dan Isles
+     //objects created by Dan Isles, sf class created by Kyla Rodenas
 
 	   SellerInfoRodenas sf = new SellerInfoRodenas();
 	   
