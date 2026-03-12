@@ -11,3 +11,4 @@
 ---
 
 ## 📘 Journals
+<03/11/2026> : 03/12/2026 : I learned how to create classes, constructors, and static variables in Java and next time I will organize my code earlier to avoid mistakes.
