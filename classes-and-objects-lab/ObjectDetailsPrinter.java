@@ -331,12 +331,12 @@ public class ObjectDetailsPrinter {
     order1.addOrder(0);
 
     // Object with parameter
-    Arandela_Order order2 = new Arandela_Order();
-    order2.showOrder("001", "Empanada", 5, 24.5);
+    Arandela_Order order2 = new Arandela_Order("OD001", "Pizza", 2, 10.5);
+    order2.showOrder();
     order2.addOrder(3);
 
     // Object overloaded constructor
-    Arandela_Order order3 = new Arandela_Order("002", "Dubai Chewy Cookie");
+    Arandela_Order order3 = new Arandela_Order("OD002", "Dubai Chewy Cookie");
     order3.showOrder();
     order3.addOrder(5);
 
