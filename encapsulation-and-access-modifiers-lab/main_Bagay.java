@@ -1,5 +1,6 @@
 public class main_Bagay {
     public static void main(Str[] args) {
-        System.out.println("Oh no!! Tumakas ang prisoners");
+        prisoner_Bagay prisoner1 = new prisoner_Bagay("Clisha", 0067, 804);
+        
     }
 }
