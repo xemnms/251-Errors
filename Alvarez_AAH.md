@@ -7,7 +7,7 @@
 |------------|----------------|-------------|--------|--------------|
 | 03/05/2026 | Quiz           | Quiz 1      | 5      | 5            |
 | 03/09/2026 | Ice Breaker    | The Boat is Sinking  | 10      | 10 |
-
+| 03/12/2026 | Ice Breaker    | Answer the code snippet | 10 | 10   |
 ---
 
 ## 📘 Journals
