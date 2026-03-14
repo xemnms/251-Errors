@@ -107,8 +107,8 @@ public class ProductBautista {
     }
 
     /**
-     * Sells a quantity of the product.
-     * Validation prevents selling more than available stock.
+     * Sells a quantity of the product
+     * Validation prevents selling more than available stock
      */
     
     public void sell(int quantity) {
@@ -125,9 +125,9 @@ public class ProductBautista {
     }
 
     public void displayProductInfo(){
-        System.out.println("Product ID: " + id);
-        System.out.println("Name: " + name);
-        System.out.println("Price: " + price);
-        System.out.println("Stock: " + stock);
+        System.out.println("Product ID : " + id);
+        System.out.println("Name       : " + name);
+        System.out.println("Price      : " + price);
+        System.out.println("Stock      : " + stock);
     }
 }
