@@ -41,4 +41,21 @@ Reviewer: Rodenas | Reviewee: Isles (Isles_Reservations.java)
 - The confirmBooking method works as intended and updates the static totalBookers attribute.
 - It handles invalid inputs gracefully, though adding a message confirming a successful booking could improve user feedback.
 ---
+Reviewer: JullianaNepomucenoFile | Reviewee: Bagay (Prisoner_Bagay.java)    
+- The class demonstrates excellent encapsulation with proper validation for all attributes. 
+- The parole eligibility logic is well-implemented and updates correctly when sentence or behavior changes. 
+- Static tracking of total prisoners and ID generation works as intended.   
+- All behaviors (serveMonths, addBehaviorPoints, extendSentence) properly validate inputs and return boolean feedback.  
+- One minor improvement: adding success/failure messages in the behavior methods would enhance user feedback clarity.   
+- Overall, the code aligns perfectly with the instructions. 
+---
+Reviewer: JullianaNepomucenoFile | Reviewee: Rodenas (LRCBook_Rodenas.java) 
+- The class correctly implements validation for book attributes (ID, title, pages). 
+- Borrow and return functionality works as intended without crashing on invalid inputs. 
+- Proper handling of null and empty string inputs in the title setter.  
+- Static tracking of totalBooks and totalBorrowedBooks is accurate and updates correctly.   
+- One issue found: incomplete book entries (with 0 values) still register in the system and can be borrowed, which may not reflect real-world requirements. 
+- The welcome message provides good user context.   
+- Overall, the code meets the requirements but could benefit from stricter validation for incomplete books. 
+---
 Reviewer: <Surname> | Reviewee: <Surname>(Class name)
