@@ -30,7 +30,7 @@ Reviewer: Isles | Reviewee: Rodenas (LRCBookRodenas.java)
 - The code works as intended without crashing when encountering invalid inputs.
 - Only issue is that books still register as books even if the entries aren’t complete with valid details.
 - Overall, the code aligns with the instructions.
-
+---
 Reviewer: Rodenas | Reviewee: Batangan (Playlist_Batangan.java)
 - The class is well-encapsulated with proper validation for playlist name, genre, number of songs, and duration.
 - The addSong and removeSong behaviors work correctly, and the static totalPlaylists attribute accurately tracks created playlists.
@@ -40,5 +40,5 @@ Reviewer: Rodenas | Reviewee: Isles (Isles_Reservations.java)
 - The class correctly enforces validation rules for booker name, booked time, and payment amount.
 - The confirmBooking method works as intended and updates the static totalBookers attribute.
 - It handles invalid inputs gracefully, though adding a message confirming a successful booking could improve user feedback.
-
+---
 Reviewer: <Surname> | Reviewee: <Surname>(Class name)
