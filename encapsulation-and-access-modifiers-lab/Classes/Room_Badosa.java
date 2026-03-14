@@ -3,33 +3,33 @@
  *Room class with validation to its attributes (room number, price, type) and actions with setters and getter
  */
 
-public class Room {
-    //Attributes
+public class Room_Badosa {
+    // Attributes
     private int roomNumber = 0;
     private int roomPrice = 0;
     private String roomType = "Unknown";
     private boolean isOccupied = false;
 
-    //Static Attribute
+    // Static Attribute
     private static int totalRooms = 0;
 
-    //Default parameter
-    public Room() {
+    // Default parameter
+    public Room_Badosa() {
         totalRooms++;
     }
 
-    //Check in and check out methods
+    // Check in and check out methods
     public void checkIn() {
         isOccupied = true;
         System.out.println("This room is now Occupied");
     }
- 
+
     public void checkOut() {
         isOccupied = false;
         System.out.println("This room is now Unoccupied");
     }
 
-    //Setters
+    // Setters
     public void setRoomNumber(int roomNumber) {
         if (roomNumber > 0) {
             this.roomNumber = roomNumber;
@@ -38,7 +38,7 @@ public class Room {
             System.out.println("Your room number must be greater than 0");
         }
     }
- 
+
     public void setRoomPrice(int roomPrice) {
         if (roomPrice > 0) {
             this.roomPrice = roomPrice;
@@ -47,7 +47,7 @@ public class Room {
             System.out.println("Your room price must be greater than 0");
         }
     }
- 
+
     public void setRoomType(String roomType) {
         if (roomType.equalsIgnoreCase("Single") ||
                 roomType.equalsIgnoreCase("Double") ||
@@ -59,12 +59,12 @@ public class Room {
         }
     }
 
-    //Getters
+    // Getters
     public void getRoomDetails() {
         System.out.println("Your room is a " + roomType + " type numbered as " + roomNumber + " priced at $" + roomPrice
                 + " and is " + (isOccupied ? "Occupied" : "Unoccupied"));
     }
- 
+
     public void getTotalRoom() {
         System.out.println(totalRooms);
     }
