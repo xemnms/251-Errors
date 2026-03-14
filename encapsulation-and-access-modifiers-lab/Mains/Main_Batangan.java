@@ -63,19 +63,19 @@ public class Main_Batangan {
         r1.setBookerName("");        // invalid
         r1.setBookerName("Marco");   // valid
 
-        r1.setTimeBooked(-2);        // invalid
-        r1.setTimeBooked(4);         // valid
+        r1.setBookerTime(-2);        // invalid
+        r1.setBookerTime(4);         // valid
 
-        r1.setAmountBooked(-500);    // invalid
-        r1.setAmountBooked(2000);    // valid
+        r1.setBookerAmount(-500);    // invalid
+        r1.setBookerAmount(2000);    // valid
 
 
         System.out.println("\n---- Reservation Information ----");
 
         // Using getters
         System.out.println("Booker Name: " + r1.getBookerName());
-        System.out.println("Time Booked: " + r1.getTimeBooked() + " hours");
-        System.out.println("Amount Paid: " + r1.getAmountBooked() + " pesos");
+        System.out.println("Time Booked: " + r1.getBookTime() + " hours");
+        System.out.println("Amount Paid: " + r1.getAmountBook() + " pesos");
 
         System.out.println("\n---- Confirming Reservations ----");
 
@@ -85,8 +85,8 @@ public class Main_Batangan {
 
         System.out.println("\n---- Reservation Status ----");
 
-        System.out.println("Reservation 1 confirmed: " + r1.isConfirmedBook());
-        System.out.println("Reservation 2 confirmed: " + r2.isConfirmedBook());
+        System.out.println("Reservation 1 confirmed: " + r1.getConfirmedBook());
+        System.out.println("Reservation 2 confirmed: " + r2.getConfirmedBook());
 
         System.out.println("\n---- Total Confirmed Reservations ----");
 
