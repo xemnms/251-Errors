@@ -4,7 +4,7 @@
  *and returning books from the LRC.
 */
 
-public class LRCBookRodenas {
+public class LRCBook_Rodenas {
     //Attributes
     private int bookId = 0;
     private String title = "Unknown";
@@ -14,11 +14,11 @@ public class LRCBookRodenas {
     private static int totalBooks = 0;
     private static int totalBorrowedBooks = 0;
     //Default Constructor
-    public LRCBookRodenas() {
+    public LRCBook_Rodenas() {
         totalBooks++;
     }
     //Second Constructor
-    public LRCBookRodenas(int bookId, String title, int pages) {
+    public LRCBook_Rodenas(int bookId, String title, int pages) {
 
         if (bookId > 0) {
             this.bookId = bookId;
