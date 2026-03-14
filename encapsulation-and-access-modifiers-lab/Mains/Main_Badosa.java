@@ -1,11 +1,11 @@
 public class Main_Badosa {
     public static void main(String[] args) {
-        // Class Created by Constiniano
+        // Class Created by Costiniano
         System.out.println("RESERVATION TESTING");
         // Object Creation
-        ReservationConstiniano reservation1 = new ReservationConstiniano();
-        ReservationConstiniano reservation2 = new ReservationConstiniano();
-        ReservationConstiniano reservation3 = new ReservationConstiniano();
+        ReservationCostiniano reservation1 = new ReservationCostiniano();
+        ReservationCostiniano reservation2 = new ReservationCostiniano();
+        ReservationCostiniano reservation3 = new ReservationCostiniano();
 
         // Validation Testing
         reservation1.setGuestName(" ");
@@ -53,6 +53,7 @@ public class Main_Badosa {
         // Validation testing
         cat1.setName("");
         cat2.setName("Poofy");
+        /* cat2.setName(null) causes error */
 
         cat1.setAge(0);
         cat2.setAge(2);
