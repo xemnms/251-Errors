@@ -1,3 +1,5 @@
+
+
 # Lab Exercise: Encapsulation and Object Collaboration
 
 ## Objective
