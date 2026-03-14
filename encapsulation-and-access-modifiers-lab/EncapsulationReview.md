@@ -40,8 +40,8 @@ Reviewer: Rodenas | Reviewee: Isles (Isles_Reservations.java)
 - The class correctly enforces validation rules for booker name, booked time, and payment amount.
 - The confirmBooking method works as intended and updates the static totalBookers attribute.
 - It handles invalid inputs gracefully, though adding a message confirming a successful booking could improve user feedback.
----
-Reviewer: JullianaNepomucenoFile | Reviewee: Bagay (Prisoner_Bagay.java)    
+
+Reviewer: Nepomuceno | Reviewee: Bagay (Prisoner_Bagay.java)    
 - The class demonstrates excellent encapsulation with proper validation for all attributes. 
 - The parole eligibility logic is well-implemented and updates correctly when sentence or behavior changes. 
 - Static tracking of total prisoners and ID generation works as intended.   
@@ -49,7 +49,7 @@ Reviewer: JullianaNepomucenoFile | Reviewee: Bagay (Prisoner_Bagay.java)
 - One minor improvement: adding success/failure messages in the behavior methods would enhance user feedback clarity.   
 - Overall, the code aligns perfectly with the instructions. 
 ---
-Reviewer: JullianaNepomucenoFile | Reviewee: Rodenas (LRCBook_Rodenas.java) 
+Reviewer: Nepomuceno | Reviewee: Rodenas (LRCBook_Rodenas.java) 
 - The class correctly implements validation for book attributes (ID, title, pages). 
 - Borrow and return functionality works as intended without crashing on invalid inputs. 
 - Proper handling of null and empty string inputs in the title setter.  
@@ -57,5 +57,23 @@ Reviewer: JullianaNepomucenoFile | Reviewee: Rodenas (LRCBook_Rodenas.java)
 - One issue found: incomplete book entries (with 0 values) still register in the system and can be borrowed, which may not reflect real-world requirements. 
 - The welcome message provides good user context.   
 - Overall, the code meets the requirements but could benefit from stricter validation for incomplete books. 
+---     
+Reviewer: Bagay | Reviewee: Nepomuceno (GachaCharacterMaker_Nepomuceno.java)    
+- The class demonstrates strong encapsulation with private attributes and controlled access through getters and setters.    
+- Validation is implemented effectively for attributes such as name, level, health, stamina, and rarity.    
+- The helper method updateAliveStatus properly maintains the relationship between health and the character’s alive status.  
+- The behavior methods (attack, takeDamage, levelUp, and displayStatus) simulate game mechanics clearly and logically.  
+- The static variable totalCharacters correctly tracks the number of characters created.    
+- One improvement would be initializing the isAlive attribute in the constructors to ensure the character’s status is correct from the start.   
+- Overall, the class demonstrates a clear understanding of object-oriented design and good use of validation and behavior methods.  
+
+Reviewer: Bagay | Reviewee: Acosta (Cat1_Acosta.java)   
+- The class demonstrates good encapsulation by keeping attributes private and providing getters and setters.    
+- The implementation of the static variable totalCats successfully tracks the total number of created cat objects.  
+- Both the default and parameterized constructors allow flexible object creation.   
+- Basic validation is implemented in the setters to prevent empty names, breeds, and unrealistic ages.  
+- The behavior methods (introduceCat and meow) clearly represent actions associated with the object.    
+- One improvement would be adding the same validation used in setters to the parameterized constructor to prevent invalid values during object creation.    
+- Overall, the class shows a solid understanding of object-oriented principles and basic validation.    
 ---
 Reviewer: <Surname> | Reviewee: <Surname>(Class name)
