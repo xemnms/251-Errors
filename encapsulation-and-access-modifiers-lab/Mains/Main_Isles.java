@@ -1,4 +1,4 @@
-public class printer {
+public class Main_Isles {
     public static void main(String[] args) {
     	//objects created by dan isles, class made by kyla rodenas
         System.out.println("=======LRCBook Demo=======\n");
