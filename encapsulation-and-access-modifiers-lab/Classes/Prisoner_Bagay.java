@@ -1,4 +1,4 @@
-public class prisoner_Bagay {
+public class Prisoner_Bagay {
     // Core attributes
     private String inmateName;
     private final int inmateId;
@@ -11,12 +11,12 @@ public class prisoner_Bagay {
     private static int nextInmateId = 1001;
 
     // Default constructor
-    public prisoner_Bagay() {
+    public Prisoner_Bagay() {
         this("Unknown", 12, 50);
     }
 
     // Custom constructor
-    public prisoner_Bagay(String inmateName, int sentenceMonths, int behaviorScore) {
+    public Prisoner_Bagay(String inmateName, int sentenceMonths, int behaviorScore) {
         this.inmateId = nextInmateId++;
         setInmateName(inmateName);
         setSentenceMonths(sentenceMonths);
