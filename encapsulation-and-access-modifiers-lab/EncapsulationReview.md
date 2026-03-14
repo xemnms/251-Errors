@@ -12,7 +12,7 @@ Reviewer: Acosta | Reviewee: Badosa (Room_Badosa.java)
 
 Reviewer: Acosta | Reviewee: Costiniano(ReservationCostiniano.java)
 - All instructions were fulfilled.
-- 
+---
 Reviewer: Batangan | Reviewee: Isles (Isles_Reservations.java)
 - The class demonstrates proper validation for reservation details such as the booker’s name, time booked, and payment amount.
 - During testing, no major issues were found and the confirmation logic works as expected.
@@ -20,7 +20,7 @@ Reviewer: Batangan | Reviewee: Isles (Isles_Reservations.java)
 Reviewer: Batangan | Reviewee: Rodenas (LRCBookRodenas.java)
 - The class correctly implements validation for its attributes and behaviors, including borrowing and returning books.
 - The title setter safely handles empty or null inputs, so no major issues were found during testing.
-
+---
 Reviewer: Isles | Reviewee: Batangan (Playlist_Batangan.java)
 - The code works as intended without crashing when encountering invalid inputs.
 - Only issue is that the songs still count as songs despite the value being set to 0, and minutes may exist in a playlist while displaying 0 songs.
