@@ -1,6 +1,6 @@
 public class Main_Nepomuceno {
     public static void main(String[] args){
-         System.out.println("========== PRISONER MANAGEMENT SYSTEM DEMO ==========\n");
+       System.out.println("========== PRISONER MANAGEMENT SYSTEM DEMO ==========\n");
 
         // Create prisoners
         Prisoner_Bagay prisoner1 = new Prisoner_Bagay();
@@ -23,7 +23,7 @@ public class Main_Nepomuceno {
         prisoner2.serveMonths(20);
         displayPrisonerInfo(prisoner2);
 
-        System.out.println("Prisoner 3 trying to serve 150 months...");
+        System.out.println("Prisoner 3 trying to serve 150 months (exceeds limit)...");
         prisoner3.serveMonths(150);
         displayPrisonerInfo(prisoner3);
 
@@ -64,7 +64,7 @@ public class Main_Nepomuceno {
         displayPrisonerInfo(prisoner3);
 
         System.out.println("Total Prisoners Created: " + Prisoner_Bagay.getTotalPrisonersCreated());
-        System.out.println("\n========== END OF DEMO ==========\n");
+        System.out.println("\n========== END OF DEMO ==========");
     }
 
     // Helper method to display prisoner information so that it is not hardcoded in the main method
