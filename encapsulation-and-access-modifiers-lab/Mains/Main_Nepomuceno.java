@@ -1,5 +1,6 @@
 public class Main_Nepomuceno {
     public static void main(String[] args){
+        // Class created by Bagay
        System.out.println("========== PRISONER MANAGEMENT SYSTEM DEMO ==========\n");
 
         // Create prisoners
@@ -8,27 +9,27 @@ public class Main_Nepomuceno {
         Prisoner_Bagay prisoner3 = new Prisoner_Bagay("Mike Johnson", 120, 85);
 
         // Display all prisoners
-        System.out.println("--- Initial Prisoner Status ---\n");
+        System.out.println("=== Initial Prisoner Status ===\n");
         displayPrisonerInfo(prisoner1);
         displayPrisonerInfo(prisoner2);
         displayPrisonerInfo(prisoner3);
 
         // Test serveMonths
-        System.out.println("\n--- Testing serveMonths() ---\n");
-        System.out.println("Prisoner 1 serving 5 months...");
+        System.out.println("\n=== Testing serveMonths() ===\n");
+        System.out.println("Prisoner 1 serving 5 months.");
         prisoner1.serveMonths(5);
         displayPrisonerInfo(prisoner1);
 
-        System.out.println("Prisoner 2 serving 20 months...");
+        System.out.println("Prisoner 2 serving 20 months.");
         prisoner2.serveMonths(20);
         displayPrisonerInfo(prisoner2);
 
-        System.out.println("Prisoner 3 trying to serve 150 months (exceeds limit)...");
+        System.out.println("Prisoner 3 trying to serve 150 months.");
         prisoner3.serveMonths(150);
         displayPrisonerInfo(prisoner3);
 
         // Test addBehaviorPoints
-        System.out.println("\n--- Testing addBehaviorPoints() ---\n");
+        System.out.println("\n=== Testing addBehaviorPoints() ===\n");
         System.out.println("Prisoner 2 adding 25 behavior points...");
         prisoner2.addBehaviorPoints(25);
         displayPrisonerInfo(prisoner2);
@@ -38,7 +39,7 @@ public class Main_Nepomuceno {
         displayPrisonerInfo(prisoner3);
 
         // Test extendSentence
-        System.out.println("\n--- Testing extendSentence() ---\n");
+        System.out.println("\n=== Testing extendSentence() ===\n");
         System.out.println("Prisoner 1 extending sentence by 50 months...");
         prisoner1.extendSentence(50);
         displayPrisonerInfo(prisoner1);
@@ -48,7 +49,7 @@ public class Main_Nepomuceno {
         displayPrisonerInfo(prisoner2);
 
         // Test setInmateName
-        System.out.println("\n--- Testing setInmateName() ---\n");
+        System.out.println("\n=== Testing setInmateName() ===\n");
         System.out.println("Changing Prisoner 1 name to 'Robert Williams'...");
         prisoner1.setInmateName("Robert Williams");
         displayPrisonerInfo(prisoner1);
@@ -58,22 +59,110 @@ public class Main_Nepomuceno {
         System.out.println("Name remains: " + prisoner2.getInmateName() + "\n");
 
         // Final summary
-        System.out.println("\n--- Final Summary ---\n");
+        System.out.println("\n=== Final Summary ===\n");
         displayPrisonerInfo(prisoner1);
         displayPrisonerInfo(prisoner2);
         displayPrisonerInfo(prisoner3);
 
         System.out.println("Total Prisoners Created: " + Prisoner_Bagay.getTotalPrisonersCreated());
-        System.out.println("\n========== END OF DEMO ==========");
+        System.out.println("\n========== END OF DEMO ==========\n");
+
+
+
+        // Class created by Rodenas 
+         LRCBook_Rodenas.welcomeMessage();
+
+        // Create books using default constructor
+        System.out.println("\n=== Creating Books with Default Constructor ===\n");
+        LRCBook_Rodenas book1 = new LRCBook_Rodenas();
+        LRCBook_Rodenas book2 = new LRCBook_Rodenas();
+
+        displayBookDetails(book1, "Book 1");
+        displayBookDetails(book2, "Book 2");
+
+        // Create books using parameterized constructor
+        System.out.println("\n=== Creating Books with Parameters ===\n");
+        LRCBook_Rodenas book3 = new LRCBook_Rodenas(101, "The Great Gatsby", 180);
+        LRCBook_Rodenas book4 = new LRCBook_Rodenas(102, "To Kill a Mockingbird", 281);
+        LRCBook_Rodenas book5 = new LRCBook_Rodenas(103, "1984", 328);
+
+        displayBookDetails(book3, "Book 3");
+        displayBookDetails(book4, "Book 4");
+        displayBookDetails(book5, "Book 5");
+
+        // Display total books
+        LRCBook_Rodenas.getTotalBooks();
+        LRCBook_Rodenas.getTotalBorrowedBooks();
+
+        // Test setters with valid values
+        System.out.println("\n=== Testing Setters with Valid Values ===\n");
+        book1.setBookId(201);
+        book1.setTitle("Harry Potter");
+        book1.setPages(309);
+        displayBookDetails(book1, "Book 1 (After Setting Values)");
+
+        // Test setters with invalid values
+        System.out.println("\n=== Testing Setters with Invalid Values ===\n");
+        book2.setBookId(-5);
+        book2.setTitle("");
+        book2.setPages(-50);
+
+        // Test borrowing books
+        System.out.println("\n=== Testing Borrow Functionality ===\n");
+        book3.borrowBook();
+        displayBookDetails(book3, "Book 3 (After Borrowing)");
+
+        book4.borrowBook();
+        displayBookDetails(book4, "Book 4 (After Borrowing)");
+
+        book5.borrowBook();
+        displayBookDetails(book5, "Book 5 (After Borrowing)");
+
+        // Display total borrowed books
+        LRCBook_Rodenas.getTotalBorrowedBooks();
+
+        // Try borrowing already borrowed book
+        System.out.println("\n=== Attempting to Borrow Already Borrowed Book ===\n");
+        book3.borrowBook();
+
+        // Try borrowing incomplete book
+        System.out.println("\n=== Attempting to Borrow Incomplete Book ===\n");
+        book2.borrowBook();
+
+        // Test returning books
+        System.out.println("\n=== Testing Return Functionality ===\n");
+        book3.returnBook();
+        displayBookDetails(book3, "Book 3 (After Returning)");
+
+        book4.returnBook();
+        displayBookDetails(book4, "Book 4 (After Returning)");
+
+        // Try returning already available book
+        System.out.println("\n=== Attempting to Return Already Available Book ===\n");
+        book3.returnBook();
+
+        // Display final statistics
+        System.out.println("\n=== Final Statistics ===");
+        LRCBook_Rodenas.getTotalBooks();
+        LRCBook_Rodenas.getTotalBorrowedBooks();
+
+        System.out.println("\n========== END OF DEMO ==========\n");
     }
 
-    // Helper method to display prisoner information so that it is not hardcoded in the main method
+    // Prisoner_Bagay class: Helper method to display prisoner information
     private static void displayPrisonerInfo(Prisoner_Bagay prisoner) {
         System.out.println("Name: " + prisoner.getInmateName());
         System.out.println("ID: " + prisoner.getInmateId());
         System.out.println("Sentence: " + prisoner.getSentenceMonths() + " months");
         System.out.println("Behavior Score: " + prisoner.getBehaviorScore() + "/100");
         System.out.println("Parole Eligible: " + prisoner.isParoleEligible());
+        System.out.println();
+    }
+
+    // LRCBook_Rodenas: Helper method to display book details
+    private static void displayBookDetails(LRCBook_Rodenas book, String label) {
+        System.out.println(label + ":");
+        book.getBookDetails();
         System.out.println();
     }
 }
