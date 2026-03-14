@@ -1,7 +1,7 @@
 /*
  * Objects created by Kyla Cassandra Rodenas using Batangan and Isles Class
  */
-public class Main_BatanganIsles {
+public class Main_Rodenas {
     public static void main(String[] args) {
         //Create objects from Playlist_Batangan class
         Playlist_Batangan playlist1 = new Playlist_Batangan();
