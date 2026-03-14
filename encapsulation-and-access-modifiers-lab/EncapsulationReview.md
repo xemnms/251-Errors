@@ -12,23 +12,23 @@ Reviewer: Acosta | Reviewee: Badosa (Room_Badosa.java)
 
 Reviewer: Acosta | Reviewee: Costiniano(ReservationCostiniano.java)
 - All instructions were fulfilled.
----
+- 
 Reviewer: Batangan | Reviewee: Isles (Isles_Reservations.java)
 The class demonstrates proper validation for reservation details such as the booker’s name, time booked, and payment amount. During testing, no major issues were found and the confirmation logic works as expected.
----
+
 Reviewer: Batangan | Reviewee: Rodenas (LRCBook.java)
 -The class correctly implements validation for its attributes and behaviors, including borrowing and returning books, and the program demonstrates this clearly with both invalid and valid inputs. The title setter safely handles empty or null inputs, so no major issues were found during testing.
----
-Reviewer: Isles | Reviewee: Batangan
+
+Reviewer: Isles | Reviewee: Batangan (Playlist_Batangan.java)
 -The code works as intended without crashing when encountering invalid inputs
 -Only issue is that the songs still count as songs despite the value being set to 0, having minutes in a playlist despite displaying 0 songs
 -overall, the code aligns with the instructions
 
-Reviewer: Isles | Reviewee: Rodenas
+Reviewer: Isles | Reviewee: Rodenas (LRCBook.java)
 -The code works as intended without crashing when encountering invalid inputs
 -Only issue is that the books still register as books even if the entries aren't complete with valid details.
 -overall, the code aligns with the instructions
----
+
 Reviewer: Rodenas | Reviewee: Batangan (Playlist_Batangan.java)
 -The class is well-encapsulated with proper validation for playlist name, genre, number of songs, and duration. The addSong and removeSong behaviors work correctly, and the static totalPlaylists attribute accurately tracks created playlists. One minor improvement could be adding feedback when an invalid value is entered for clarity.
 
