@@ -3,7 +3,7 @@ public class Main_Isles {
     	//objects created by dan isles, class made by kyla rodenas
         System.out.println("=======LRCBook Demo=======\n");
         //creates first book using default constructor
-        LRCBookRodenas book1 = new LRCBookRodenas();
+        LRCBook_Rodenas book1 = new LRCBook_Rodenas();
         book1.setBookId(-15);
         book1.setTitle("");
         book1.setPages(250);
@@ -17,7 +17,7 @@ public class Main_Isles {
         System.out.println();
 
         //creates second book using parameterized constructor
-        LRCBookRodenas book2 = new LRCBookRodenas(102, "", 320);
+        LRCBook_Rodenas book2 = new LRCBook_Rodenas(102, "", 320);
 
         book2.getBookDetails();
         book2.borrowBook();
@@ -27,8 +27,8 @@ public class Main_Isles {
         System.out.println();
 
         //shows total books borrowed and created
-        LRCBookRodenas.getTotalBooks();
-        LRCBookRodenas.getTotalBorrowedBooks();
+        LRCBook_Rodenas.getTotalBooks();
+        LRCBook_Rodenas.getTotalBorrowedBooks();
         
     	//objects created by dan isles, class made by clisha batangan
         System.out.println("\n=======Playlist_Batangan Demo=======\n");
