@@ -1,43 +1,51 @@
 /*
  * Class created by Julliana Nepomuceno
- * Class represents a player character in a game, with attributes such as name, level, health, mana and checks if player is alive. 
+ * Class represents a gacha character creator in a gacha game, with attributes such as name, rarity, level, health, stamina and checks if player is alive. 
  * It includes constructors for creating characters with default or specified values, getters and setters with validation
- * Has behaviors to display status, take damage, cast spells, and level up.
- * Additionally, it keeps track of the total number of player characters created using a static attribute.
+ * Has behaviors to display status, take damage, attack, level up and rarity.
+ * Additionally, it keeps track of the total number of characters created using a static attribute.
 */
-public class PlayerCharacter_Nepomuceno {
+public class GachaCharacterMaker_Nepomuceno {
     // Private attributes
     private String name;
     private int level;
     private int health;
-    private int mana;
+    private int stamina;
     private boolean isAlive;
+    private int rarity;
+    
 
     // Static attribute
-    private static int totalPlayers = 0;
+    private static int totalCharacters = 0;
 
     // Constructors
     // Default constructor with name only, other attributes set to default values
-    public PlayerCharacter_Nepomuceno(String name) {
+    public GachaCharacterMaker_Nepomuceno(String name) {
         setName(name); // w/ validation
+        this.rarity = 4; // Default rarity
         this.level = 1;
         this.health = 100;
-        this.mana = 50;
-        totalPlayers++;
+        this.stamina = 50;
+        totalCharacters++;
     }
 
     // Parameterized constructor to set all attributes
-    public PlayerCharacter_Nepomuceno(String name, int level, int health, int mana) {
+    public GachaCharacterMaker_Nepomuceno(String name, int rarity, int level, int health, int stamina) {
         setName(name);
+        setRarity(rarity);
         setLevel(level);
         setHealth(health);
-        setMana(mana);
-        totalPlayers++;
+        setStamina(stamina);
+        totalCharacters++;
     }
 
     // Getters
     public String getName() {
         return name;
+    }
+
+    public int getStamina() {
+        return stamina;
     }
 
     public boolean isAlive() {
@@ -51,9 +59,9 @@ public class PlayerCharacter_Nepomuceno {
     public int getHealth() {
         return health;
     }
-
-    public int getMana() {
-        return mana;
+    
+    public int getRarity() {
+        return rarity;
     }
 
     // Setters with validation
@@ -74,9 +82,17 @@ public class PlayerCharacter_Nepomuceno {
         updateAliveStatus();
     }
 
-    public void setMana(int mana) {
-        if(mana >= 0) {
-            this.mana = mana;
+    public void setStamina(int stamina) {
+        if(stamina >= 0) {
+            this.stamina = stamina;
+        }
+    }
+
+    public void setRarity(int rarity) {
+        if(rarity >= 4 && rarity <= 5) {
+            this.rarity = rarity;
+        } else {
+            this.rarity = 4; // Default to 4 if invalid rarity is provided
         }
     }
 
@@ -89,9 +105,10 @@ public class PlayerCharacter_Nepomuceno {
     public void displayStatus() {
         System.out.println("--- " + name + "'s Status ---");
         System.out.println("Name: " + name);
+        System.out.println("Rarity: " + rarity);
         System.out.println("Level: " + level);
         System.out.println("Health: " + health);
-        System.out.println("Mana: " + mana);
+        System.out.println("Stamina: " + stamina);
         System.out.println("Alive: " + isAlive + "\n");
     }
 
@@ -109,12 +126,12 @@ public class PlayerCharacter_Nepomuceno {
         updateAliveStatus();
     }
 
-    public void castSpell(int manaCost) {
-        if(manaCost > 0 && manaCost <= mana && isAlive) {
-            mana -= manaCost;
-            System.out.println(name + " casts a spell, costing " + manaCost + " mana.\n");
+    public void attack(int staminaCost) {
+        if(staminaCost > 0 && staminaCost <= stamina && isAlive) {
+            stamina -= staminaCost;
+            System.out.println(name + " attacks, costing " + staminaCost + " stamina.\n");
         } else {
-            System.out.println(name + " cannot cast the spell. They are not alive or don't have enough mana.\n");
+            System.out.println(name + " cannot attack. They are not alive or don't have enough stamina.\n");
         }
     }
 
@@ -122,7 +139,7 @@ public class PlayerCharacter_Nepomuceno {
         if(isAlive) {
             level++;
             health += 20; // increase health on level up
-            mana += 10;   // increase mana on level up
+            stamina += 10;   // increase stamina on level up
             System.out.println(name + " levels up to level " + level + ".\n");
         } else {
             System.out.println(name + " cannot level up because they are not alive.\n");
@@ -130,7 +147,7 @@ public class PlayerCharacter_Nepomuceno {
     }
 
     // Static behavior
-    public static int getTotalPlayers() {
-        return totalPlayers;
+    public static int getTotalCharacters() {
+        return totalCharacters;
     }
 }
