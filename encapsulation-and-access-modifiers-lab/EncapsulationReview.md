@@ -11,6 +11,6 @@ Reviewer: Acosta | Reviewee: Badosa (Room_Badosa.java)
 - All instructions were fulfilled.  
 
 Reviewer: Acosta | Reviewee: Costiniano(ReservationCostiniano.java)
--All instructions were fulfilled.
+- All instructions were fulfilled.
 ---
 Reviewer: <Surname> | Reviewee: <Surname>(Class name)
