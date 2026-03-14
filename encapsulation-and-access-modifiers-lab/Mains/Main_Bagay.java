@@ -1,3 +1,8 @@
+// Main class created by Bagay
+// Classes used: GachaCharacterMaker_Nepomuceno, Cat1_Acosta
+// Class GachaCharacterMaker_Nepomuceno: 2 constructors, 5 attributes, 5 getters, 5 setters, 3 behavior methods, created by Nepomuceno
+// Class Cat1_Acosta: 2 constructors, 4 attributes, 4 getters, 4 setters, 3 behavior methods, created by Acosta
+
 import java.util.Random;
 
 public class Main_Bagay {
