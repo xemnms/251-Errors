@@ -7,11 +7,11 @@ public class Main_Batangan {
 
         // Create objects from the Rodenas class
         // Display welcome message
-        LRCBookRodenas.welcomeMessage();
+        LRCBook_Rodenas.welcomeMessage();
 
         // Create two book objects
-        LRCBookRodenas book1 = new LRCBookRodenas(); // default constructor
-        LRCBookRodenas book2 = new LRCBookRodenas(101, "Java Programming", 350); // parameterized
+        LRCBook_Rodenas book1 = new LRCBook_Rodenas(); // default constructor
+        LRCBook_Rodenas book2 = new LRCBook_Rodenas(101, "Java Programming", 350); // parameterized
 
         System.out.println("---- Setting Book Information ----");
 
@@ -49,8 +49,8 @@ public class Main_Batangan {
 
         System.out.println("\n---- Library Statistics ----");
         // Static methods
-        LRCBookRodenas.getTotalBooks();
-        LRCBookRodenas.getTotalBorrowedBooks();
+        LRCBook_Rodenas.getTotalBooks();
+        LRCBook_Rodenas.getTotalBorrowedBooks();
         
 //--------------------------------------------------------------------------
 //Create objects from Isles class
