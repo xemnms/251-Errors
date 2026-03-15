@@ -15,3 +15,5 @@
 **\<03/05/2026\>** : I learned how to use pull request(pr) extensively. And to brainstorm alongside with my team members in creating our 14 week project from now, in our lab. And to improve. next time I will cooperate more extensively. and also, to tinker and expand my knowledge on github and its features.
 
 **\<03/09/2026\>** : I learned how to program in vscode and then input it on github in which i learned the gist of it and next time I will master the ways and features of vscode and github together and how to use them efficiently while expanding my knowledge onto code programs.
+
+**\<03/15/2026\>** : I learned how to use encapsulation code properly and how to implement them out using real-world entity, alongside using github effectively as a team.

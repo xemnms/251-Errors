@@ -104,7 +104,17 @@ Reviewer: Arandela | Reviewee: Rodenas(LRCBook)
 - The class correctly implements validation for book attributes (ID, title, pages). 
 - Static tracking of totalBooks and totalBorrowedBooks is accurate and updates correctly.
 - Return and Borrow function correctly.
+---
+Reviewer Alvarez | Reviewee: Bautista (Product)
+- Good use of private attributes to enforce encapsulation.
+- Includes validation in setters, preventing invalid product names, negative prices, or negative stock values.
+- Includes a static counter totalProducts to track the number of products created, demonstrating understanding of class-level attributes.
+- Provides both a default constructor and a parameterized constructor for flexible object creation.
 
-
+Reviewer Alvarez | Reviewee: Badosa (Room)
+- The Room_Badosa class represents a hotel room in a simple room management system.
+- It stores and manages room information such as room number, price, type, and occupancy status.
+- All attributes are declared as private to protect the data.
+- Access and modification of the attributes are done through public setter and getter methods.
 ---
 Reviewer: <Surname> | Reviewee: <Surname>(Class name)
