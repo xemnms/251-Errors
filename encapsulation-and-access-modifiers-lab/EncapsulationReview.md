@@ -85,5 +85,10 @@ Reviewer: Costiniano | Reviewee: Acosta (Cat)
 - The class uses good encapsulation with private attributes and validation for name, breed, and age.
 - The introduceCat() and meow() methods provide clear behavior for the object.
 - One improvement would be checking for null values in setName() and setBreed().    
+
+Reviewer: Galindon | Reviewee: Arandela(Movie Reservation)
+- The class shows good validation for each attribute.
+- It followed the instructions and access modifiers correctly.
+- it can be improved by adding display methods.
 ---
 Reviewer: <Surname> | Reviewee: <Surname>(Class name)
