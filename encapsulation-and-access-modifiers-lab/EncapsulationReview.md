@@ -40,7 +40,7 @@ Reviewer: Rodenas | Reviewee: Isles (Isles_Reservations.java)
 - The class correctly enforces validation rules for booker name, booked time, and payment amount.
 - The confirmBooking method works as intended and updates the static totalBookers attribute.
 - It handles invalid inputs gracefully, though adding a message confirming a successful booking could improve user feedback.
-
+---
 Reviewer: Nepomuceno | Reviewee: Bagay (Prisoner_Bagay.java)    
 - The class demonstrates excellent encapsulation with proper validation for all attributes. 
 - The parole eligibility logic is well-implemented and updates correctly when sentence or behavior changes. 
@@ -48,7 +48,7 @@ Reviewer: Nepomuceno | Reviewee: Bagay (Prisoner_Bagay.java)
 - All behaviors (serveMonths, addBehaviorPoints, extendSentence) properly validate inputs and return boolean feedback.  
 - One minor improvement: adding success/failure messages in the behavior methods would enhance user feedback clarity.   
 - Overall, the code aligns perfectly with the instructions. 
----
+
 Reviewer: Nepomuceno | Reviewee: Rodenas (LRCBook_Rodenas.java) 
 - The class correctly implements validation for book attributes (ID, title, pages). 
 - Borrow and return functionality works as intended without crashing on invalid inputs. 
@@ -75,5 +75,15 @@ Reviewer: Bagay | Reviewee: Acosta (Cat1_Acosta.java)
 - The behavior methods (introduceCat and meow) clearly represent actions associated with the object.    
 - One improvement would be adding the same validation used in setters to the parameterized constructor to prevent invalid values during object creation.    
 - Overall, the class shows a solid understanding of object-oriented principles and basic validation.    
+---
+Reviewer: Costiniano | Reviewee: Badosa (Room)  
+- The class has proper encapsulation with private attributes and validation for room number, price, and type.
+- The checkIn() and checkOut() methods work correctly to change the room status.    
+- One small improvement would be adding a null check in setRoomType().  
+
+Reviewer: Costiniano | Reviewee: Acosta (Cat)   
+- The class uses good encapsulation with private attributes and validation for name, breed, and age.
+- The introduceCat() and meow() methods provide clear behavior for the object.
+- One improvement would be checking for null values in setName() and setBreed().    
 ---
 Reviewer: <Surname> | Reviewee: <Surname>(Class name)

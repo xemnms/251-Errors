@@ -1,4 +1,4 @@
-public class ReservationCostiniano {
+public class Reservation_Costiniano {
 
     private String guestName;
     private int reservationId;
@@ -8,7 +8,7 @@ public class ReservationCostiniano {
     private static int totalReservations = 0;
 
     // default constructor
-    public ReservationCostiniano() {
+    public Reservation_Costiniano() {
         guestName = "Unknown";
         reservationId = 0;
         numberOfGuests = 1;
@@ -17,7 +17,7 @@ public class ReservationCostiniano {
     }
 
     // parameterized constructor
-    public ReservationCostiniano(String guestName, int reservationId, int numberOfGuests, int nights) {
+    public Reservation_Costiniano(String guestName, int reservationId, int numberOfGuests, int nights) {
         setGuestName(guestName);
         setReservationId(reservationId);
         setNumberOfGuests(numberOfGuests);
