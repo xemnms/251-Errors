@@ -104,7 +104,29 @@ Reviewer: Arandela | Reviewee: Rodenas(LRCBook)
 - The class correctly implements validation for book attributes (ID, title, pages). 
 - Static tracking of totalBooks and totalBorrowedBooks is accurate and updates correctly.
 - Return and Borrow function correctly.
-
-
 ---
+Reviewer Alvarez | Reviewee: Bautista (Product)
+- Good use of private attributes to enforce encapsulation.
+- Includes validation in setters, preventing invalid product names, negative prices, or negative stock values.
+- Includes a static counter totalProducts to track the number of products created, demonstrating understanding of class-level attributes.
+- Provides both a default constructor and a parameterized constructor for flexible object creation.
+
+Reviewer Alvarez | Reviewee: Badosa (Room)
+- The Room_Badosa class represents a hotel room in a simple room management system.
+- It stores and manages room information such as room number, price, type, and occupancy status.
+- All attributes are declared as private to protect the data.
+- Access and modification of the attributes are done through public setter and getter methods.
+---
+Reviewer: <Bautista> | Reviewee: <Badosa> (Room_Badosa.java)
+- Demonstrates good use of encapsulation by keeping the attributes private and controlling access through setter methods with validation.
+- Simulate real actions of rooms in a hotel system through behaviors such as checkIn and CheckOut.
+- Validation helps ensure that the object maintains valid data.
+- One minor improvement: Making the output messages more consistent and clearer.
+
+Reviewer: <Bautista> | Reviewee: <Alvarez> (BankAccount_Alvarez.java)
+- Demonstrates good use of encapsulation by keeping the attributes private and controlling access through setter methods with validation.
+- Simulate real actions of rooms in a hotel system through behaviors such as checkIn and CheckOut.
+- Validation helps ensure that the object maintains valid data.
+- One minor improvement: Adding cleared feedback when invalid values are given so users knows why that change cannot be applied.
+
 Reviewer: <Surname> | Reviewee: <Surname>(Class name)
