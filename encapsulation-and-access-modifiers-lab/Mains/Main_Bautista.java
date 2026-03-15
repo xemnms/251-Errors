@@ -8,7 +8,7 @@ public class Main_Bautista {
 
         // ---------- System Header ----------
         System.out.println("===========================================");
-        System.out.println("       Hotel and Bank Management System     ");
+        System.out.println("       Hotel and Bank Management System    ");
         System.out.println("===========================================\n");
 
         // ---------- Create bank accounts ----------
@@ -37,22 +37,26 @@ public class Main_Bautista {
 
         // ---------- Customer booking simulation ----------
         System.out.println("\n→ ROOM BOOKING SIMULATION");
-        attemptBooking(customer1, room101);
-        attemptBooking(customer2, room202);
-	System.out.println("\n-------------------------------");
+        attemptBooking(customer1, room101, 5000);
+        attemptBooking(customer2, room202, 8000);
+        System.out.println("\n-------------------------------");
 
         // ---------- Test invalid inputs ----------
         System.out.println("→ TESTING INVALID INPUTS");
-        System.out.println("Your account holder must not be empty"); 
-	customer1.setAccountHolder(""); 	 // Invalid
-        System.out.println("Account type must be either Savings or Checking"); 
-	customer2.setAccountType("Investment");  // Invalid
-        room101.setRoomNumber(-10);              // Invalid
-        room202.setRoomType("Triple");           // Invalid
+
+        System.out.println("Your account holder must not be empty");
+        customer1.setAccountHolder(""); // Invalid
+
+        System.out.println("Account type must be either Savings or Checking");
+        customer2.setAccountType("Investment"); // Invalid
+
+        room101.setRoomNumber(-10); // Invalid
+        room202.setRoomType("Triple"); // Invalid
+
         System.out.println("Invalid changes prevented.\n");
 
         // ---------- Display final info ----------
-        System.out.println("→ TESTING INVALID INPUTS FINAL BANK ACCOUNTS");
+        System.out.println("→ FINAL BANK ACCOUNTS");
         displayAccountInfo(customer1);
         displayAccountInfo(customer2);
 
@@ -63,7 +67,8 @@ public class Main_Bautista {
         // ---------- Static info ----------
         System.out.println("\n===========================================");
         System.out.println("Total bank accounts created: " + BankAccount_Alvarez.getTotalAccounts());
-        System.out.print("Total rooms created        : "); room101.getTotalRoom();
+        System.out.print("Total rooms created        : ");
+        room101.getTotalRoom();
         System.out.println("\n===========================================\n");
     }
 
@@ -79,16 +84,17 @@ public class Main_Bautista {
 
     // ---------- Helper method: display room info ----------
     public static void displayRoomInfo(Room_Badosa room) {
-        // Simply calls the class's method
         room.getRoomDetails();
     }
 
     // ---------- Helper method: attempt booking ----------
-    public static void attemptBooking(BankAccount_Alvarez customer, Room_Badosa room) {
-        System.out.println(customer.getAccountHolder() + " attempts to book Room " 
-                + room.getRoomNumber() + " ($" + room.getRoomPrice() + ")");
-        if (customer.getBalance() >= room.getRoomPrice()) {
-            customer.withdraw(room.getRoomPrice());
+    public static void attemptBooking(BankAccount_Alvarez customer, Room_Badosa room, double price) {
+
+        System.out.println(customer.getAccountHolder() + " attempts to book a room.");
+        room.getRoomDetails();
+
+        if (customer.getBalance() >= price) {
+            customer.withdraw(price);
             room.checkIn();
             System.out.println("Booking successful.\n");
         } else {
