@@ -91,6 +91,10 @@ Reviewer: Galindon | Reviewee: Arandela(Movie Reservation)
 - It followed the instructions and access modifiers correctly.
 - it can be improved by adding display methods.
 
+Reviewer: Galindon | Reviewee: Batangan(Playlist)
+- The class is clear and organized with proper validation.
+-It is well-written and easy to follow.
+
 Reviewer: Arandela | Reviewee: Galindon(Students)
 - The class shows good private attributes, and good validation.
 - Clearly followed the instructions.
@@ -102,8 +106,5 @@ Reviewer: Arandela | Reviewee: Rodenas(LRCBook)
 - Return and Borrow function correctly.
 
 
-Reviewer: Galindon | Reviewee: Batangan(Playlist)
-- The class is clear and organized with proper validation.
--It is well-written and easy to follow.
 ---
 Reviewer: <Surname> | Reviewee: <Surname>(Class name)
