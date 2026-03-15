@@ -19,10 +19,12 @@ public class Main_Acosta {
         System.out.println("\n-----------------------------\n");
         // Reservation Class Created by Costiniano
         System.out.println("First Reservation Object:");
-        ReservationCostiniano reservationOne = new ReservationCostiniano("Mako", 01, -1, 999); // Creating an object
-                                                                                               // with invalid values to
-                                                                                               // test the validation in
-                                                                                               // the setters
+        Reservation_Costiniano reservationOne = new Reservation_Costiniano("Mako", 01, -1, 999); // Creating an object
+                                                                                                 // with invalid values
+                                                                                                 // to
+                                                                                                 // test the validation
+                                                                                                 // in
+                                                                                                 // the setters
         System.out.println("\nReservation Details:");
         System.out.println("Guest Name: " + reservationOne.getGuestName()); // Using getters to display the details of
                                                                             // the reservation
@@ -34,11 +36,11 @@ public class Main_Acosta {
         System.out.println("Updated Nights: " + reservationOne.getNights()); // Using getter to display the updated
                                                                              // number of nights
 
-        System.out.println("Total Reservations: " + ReservationCostiniano.getTotalReservations()); // Using the static
-                                                                                                   // method to display
-                                                                                                   // the total number
-                                                                                                   // of reservations
-                                                                                                   // created
+        System.out.println("Total Reservations: " + Reservation_Costiniano.getTotalReservations()); // Using the static
+                                                                                                    // method to display
+                                                                                                    // the total number
+                                                                                                    // of reservations
+                                                                                                    // created
 
     }
 

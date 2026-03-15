@@ -3,9 +3,9 @@ public class Main_Badosa {
         // Class Created by Costiniano
         System.out.println("RESERVATION TESTING");
         // Object Creation
-        ReservationCostiniano reservation1 = new ReservationCostiniano();
-        ReservationCostiniano reservation2 = new ReservationCostiniano();
-        ReservationCostiniano reservation3 = new ReservationCostiniano();
+        Reservation_Costiniano reservation1 = new Reservation_Costiniano();
+        Reservation_Costiniano reservation2 = new Reservation_Costiniano();
+        Reservation_Costiniano reservation3 = new Reservation_Costiniano();
 
         // Validation Testing
         reservation1.setGuestName(" ");
