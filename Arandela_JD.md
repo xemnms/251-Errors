@@ -11,3 +11,5 @@
 
 ## 📘 Journals
 03/11/2026 : I learned how to do classes and objects work in java. Next time, I will write cleaner codes and improve my understanding.
+
+**<03/15/2026>**: Comment by : Galindon; You did well in writing your code and you can improve by adding display methods.     
