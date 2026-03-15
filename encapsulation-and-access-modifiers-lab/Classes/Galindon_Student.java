@@ -2,7 +2,7 @@ public class Galindon_Student {
 
     // Private attributes
     private String name;
-    private int studentId;
+    private String studentId;
     private int age;
     private double gwa;
     private String program;
@@ -21,7 +21,7 @@ public class Galindon_Student {
     }
 
     // Constructor (parameterized)
-    public Galindon_Student(String name, int studentId, int age, double gwa, String program) {
+    public Galindon_Student(String name, String studentId, int age, double gwa, String program) {
         setName(name);
         setStudentId(studentId);
         setAge(age);
@@ -35,7 +35,7 @@ public class Galindon_Student {
         return name;
     }
 
-    public int getStudentId() {
+    public String getStudentId() {
         return studentId;
     }
 
@@ -44,7 +44,7 @@ public class Galindon_Student {
     }
 
     public double getGwa() {
-        return gpa;
+        return gwa;
     }
 
     public String getProgram() {
@@ -67,7 +67,7 @@ public class Galindon_Student {
     }
 
     // Validation 2: Student ID must be exactly 11 digits
-    public void setStudentId(int studentId) {
+    public void setStudentId(String studentId) {
         if (studentId != null && studentId.matches("\\d{11}")) {
             this.studentId = studentId;
         } else {
@@ -93,7 +93,7 @@ public class Galindon_Student {
         }
     }
 
-    public void setProgram(String course) {
+    public void setProgram(String program) {
         if (program != null && !program.trim().isEmpty()) {
             this.program = program;
         }
@@ -102,11 +102,11 @@ public class Galindon_Student {
     // Behavior 1: Improve GWA
     public void improveGwa(double points) {
         if (points > 0) {
-            gpa += points;
+            gwa += points;
 
             // Object invariant: GWA cannot exceed 4.0
-            if (gpa > 4.0) {
-                gpa = 4.0;
+            if (gwa > 4.0) {
+                gwa = 4.0;
             }
         }
     }

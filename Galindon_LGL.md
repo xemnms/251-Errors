@@ -15,7 +15,11 @@
 ## 📘 Journals
 
 **\<03/05/2026\>** : I learned project planning in our lab and to improve, next time I will be more confident in speaking up and participating in team discussions.  
+
 **\<03/09/2026\>** : I learned creating classes and objects in our lab, and to improve, next time I will be more attentive in class, and study ahead of time.
+
 **\<03/12/2026\>** : I learned encapsulation in our lab, and to improve, next time I will practice more to be better at creating.
+
+**<03/15/2026>**: Comment by : Arandela; You did well in writing your class and your error handling could be improved instead of using System.out.println.
 
   

@@ -91,6 +91,17 @@ Reviewer: Galindon | Reviewee: Arandela(Movie Reservation)
 - It followed the instructions and access modifiers correctly.
 - it can be improved by adding display methods.
 
+Reviewer: Arandela | Reviewee: Galindon(Students)
+- The class shows good private attributes, and good validation.
+- Clearly followed the instructions.
+- Shows good overall performance regarding the class.
+
+Reviewer: Arandela | Reviewee: Rodenas(LRCBook)
+- The class correctly implements validation for book attributes (ID, title, pages). 
+- Static tracking of totalBooks and totalBorrowedBooks is accurate and updates correctly.
+- Return and Borrow function correctly.
+
+
 Reviewer: Galindon | Reviewee: Batangan(Playlist)
 - The class is clear and organized with proper validation.
 -It is well-written and easy to follow.

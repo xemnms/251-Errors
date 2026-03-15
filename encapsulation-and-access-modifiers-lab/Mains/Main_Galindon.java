@@ -23,7 +23,7 @@ public class Main_Galindon{
         //demonstrate setters
         m1.setMovieTitle("Wicked");
         m1.setCustomerName("Ralph");
-        m1.setNumberofTickets(3);
+        m1.setNumberOfTickets(3);
         m1.setReservationDate("March 22, 2026");
 
         System.out.println("== New Reservation Using Setters ==");
