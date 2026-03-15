@@ -90,5 +90,9 @@ Reviewer: Galindon | Reviewee: Arandela(Movie Reservation)
 - The class shows good validation for each attribute.
 - It followed the instructions and access modifiers correctly.
 - it can be improved by adding display methods.
+
+Reviewer: Galindon | Reviewee: Batangan(Playlist)
+- The class is clear and organized with proper validation.
+-It is well-written and easy to follow.
 ---
 Reviewer: <Surname> | Reviewee: <Surname>(Class name)

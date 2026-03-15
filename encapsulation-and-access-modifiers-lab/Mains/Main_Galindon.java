@@ -1,6 +1,7 @@
 public class Main_Galindon{
     public static void main(String[] args){
-        // class created by Arandela, object created by galindon
+        // class created by Arandela, object created by Galindon
+
         //constructor without parameter
         MovieReservation_Arandela m1 = new MovieReservation_Arandela();
         System.out.println("== Default Reservation ==");
@@ -36,6 +37,33 @@ public class Main_Galindon{
         System.out.println("Total Reservations Made: " + MovieReservation_Arandela.getTotalReservations());
 
 
+
+        //Class Created by Batangan, object created by Galindon
+
+        // Object 1 using default constructor
+        Playlist_Batangan playlist1 = new Playlist_Batangan();
+
+        // Object 2 using parameterized constructor
+        Playlist_Batangan playlist2 = new Playlist_Batangan("Yearning", "Blues", 10, 35);
+
+        // Object 3 using parameterized constructor
+        Playlist_Batangan playlist3 = new Playlist_Batangan("Productivity Mix", "Pop", 15, 60);
+
+        // Using behaviors
+        playlist1.addSong(4);
+        playlist1.addSong(3);
+
+        playlist2.addSong(5);
+        playlist3.removeSong(10);
+
+        // Display playlist information
+        playlist1.displayPlaylist();
+        playlist2.displayPlaylist();
+        playlist3.displayPlaylist();
+
+        // Display total playlists created
+        System.out.println("Total Playlists Created: " + Playlist_Batangan.getTotalPlaylists());
     }
 
 }
+
