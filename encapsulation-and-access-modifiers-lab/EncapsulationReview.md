@@ -85,5 +85,26 @@ Reviewer: Costiniano | Reviewee: Acosta (Cat)
 - The class uses good encapsulation with private attributes and validation for name, breed, and age.
 - The introduceCat() and meow() methods provide clear behavior for the object.
 - One improvement would be checking for null values in setName() and setBreed().    
+
+Reviewer: Galindon | Reviewee: Arandela(Movie Reservation)
+- The class shows good validation for each attribute.
+- It followed the instructions and access modifiers correctly.
+- it can be improved by adding display methods.
+
+Reviewer: Galindon | Reviewee: Batangan(Playlist)
+- The class is clear and organized with proper validation.
+-It is well-written and easy to follow.
+
+Reviewer: Arandela | Reviewee: Galindon(Students)
+- The class shows good private attributes, and good validation.
+- Clearly followed the instructions.
+- Shows good overall performance regarding the class.
+
+Reviewer: Arandela | Reviewee: Rodenas(LRCBook)
+- The class correctly implements validation for book attributes (ID, title, pages). 
+- Static tracking of totalBooks and totalBorrowedBooks is accurate and updates correctly.
+- Return and Borrow function correctly.
+
+
 ---
 Reviewer: <Surname> | Reviewee: <Surname>(Class name)
