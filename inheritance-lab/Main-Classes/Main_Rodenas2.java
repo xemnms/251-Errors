@@ -10,24 +10,18 @@ public static void main(String[] args) {
     System.out.println("        🐱 ADOPTABLE KITTEN 🐱        ");
     System.out.println("             Meet Mingming!           ");
     System.out.println("======================================\n");
-
-    //Dynamic binding: reference type Animal_Batangan, object type Kitten_Rodenas
+        
+    //Dynamic binding
     Animal_Batangan pet = new Kitten_Rodenas();
-
-    // Animal Information
     pet.name = "Mingming";
     pet.color = "Calico 🟤⚪";
     pet.age = 1;
-    pet.weight = 2.5;
-    pet.breed = "Persian 🐾";
 
     System.out.println("💌 Mingming's Adoption Profile");
     System.out.println("---------------------------");
-    System.out.println("Name   : " + pet.name);
-    System.out.println("Color  : " + pet.color);
-    System.out.println("Age    : " + pet.age + " year old");
-    System.out.println("Weight : " + pet.weight + " kg");
-    System.out.println("Breed  : " + pet.breed);
+    System.out.println("Name  : " + pet.name);
+    System.out.println("Color : " + pet.color);
+    System.out.println("Age   : " + pet.age + " year old");
     System.out.println();
 
     //Overridden method
@@ -35,25 +29,20 @@ public static void main(String[] args) {
     pet.makeSound();
     System.out.println();
 
-    //Inherited behaviors from parent
-    System.out.println("🐾 Mingming's Daily Routine:");
+    //Calling methods from parent class
     pet.petEat();
-    pet.petJump();
-    pet.sleep();
-    pet.play();
     System.out.println();
 
-    //Child Class Behaviors
+    //Calling methods from child class
     Kitten_Rodenas playfulKitten = (Kitten_Rodenas) pet;
-        System.out.println("🎀 Mingming's Special Talents:");
-        playfulKitten.chaseTail();
-        playfulKitten.napAnywhere();
-        playfulKitten.knockOverObjects();
-        System.out.println();
-
-        System.out.println("--------------------------------------");
-        System.out.println("💖 Mingming is looking for a loving home!");
-        System.out.println("🏠 Will you adopt this chaotic little angel?");
-        System.out.println("--------------------------------------");
+    System.out.println("🎀 Mingming's Special Talents:");
+    playfulKitten.chaseTail();
+    playfulKitten.napAnywhere();
+    playfulKitten.knockOverObjects();
+    System.out.println();
+    System.out.println("--------------------------------------");
+    System.out.println("💖 Mingming is looking for a loving home!");
+    System.out.println("🏠 Will you adopt this chaotic little angel?");
+    System.out.println("--------------------------------------");
     }
 }
