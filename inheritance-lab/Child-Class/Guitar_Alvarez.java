@@ -1,15 +1,18 @@
 /*
-* Child Class created by Angelo Hayden Alvarez
+* Child Class Part 1 created by Angelo Hayden Alvarez
 * This class extends Instrument_Bautsita.
 */
 
 public class Guitar_Alvarez extends Instrument_Bautista {
 
-    private in numberOfStrings;
+    private int numberOfStrings; // new attribute specific to guitar
+    private String instrumentName;
+    private String material;
+    private String instrumentType;
 
     // Constructor
-    public Guuitar_Alvarez(String name, String material, String type, int numberOfStrings) {
-        this.instrumentName = instrumentName;
+    public Guitar_Alvarez(String name, String material, String instrumentType, int numberOfStrings) {
+        this.instrumentName = name;
         this.material = material;
         this.instrumentType = instrumentType;
         this.numberOfStrings = numberOfStrings;
@@ -24,7 +27,5 @@ public class Guitar_Alvarez extends Instrument_Bautista {
     @Override
     public void sound() {
         System.out.println("Guitar sound: Strum lang ng Strum");
-    }
-
-    
+    }    
 }
