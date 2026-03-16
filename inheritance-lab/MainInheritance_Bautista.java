@@ -1,3 +1,5 @@
+// Main class created by Bautista
+
 public class MainInheritance_Bautista {
     public static void main(String[] args) {
 
@@ -5,7 +7,7 @@ public class MainInheritance_Bautista {
         System.out.println("       ⚡ MAGICAL SORCERER GUIDE ⚡      ");
         System.out.println("==========================================\n");
 
-        // Create the first MagicalSorcerer
+        // Create first sorcerer
         MagicalSorcerer sorcerer1 = new MagicalSorcerer("Grade 1", "Shadow Slash", 50.0, "Meteor Strike");
 
         System.out.println("------------ SORCERER 1 ------------");
@@ -19,7 +21,7 @@ public class MainInheritance_Bautista {
         sorcerer1.ultimateMove();
         System.out.println("------------------------------------\n");
 
-        // Create the second MagicalSorcerer
+        // Create second sorcerer
         MagicalSorcerer sorcerer2 = new MagicalSorcerer("Grade 2", "Cursed Fireball", 75.0, "Dragon Burst");
 
         System.out.println("------------ SORCERER 2 ------------");
@@ -33,7 +35,7 @@ public class MainInheritance_Bautista {
         sorcerer2.ultimateMove();
         System.out.println("------------------------------------\n");
 
-        // Create the UselessSorcerer
+        // Create the 2nd subclass sorcerer
         UselessSorcerer useless = new UselessSorcerer("Grade 0", "Confetti Throw", 0.0, "Epic Fail");
 
         System.out.println("---------- USELESS SORCERER ----------");

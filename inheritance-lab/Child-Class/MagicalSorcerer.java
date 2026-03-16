@@ -30,8 +30,7 @@ public class MagicalSorcerer extends Sorcerer_Alvarez {
     }
 }
 
-// UselessSorcerer Subclass 
-
+// UselessSorcerer Subclass ( 2nd Subclass )
 class UselessSorcerer extends Sorcerer_Alvarez {
 
     private String uselessMove;
