@@ -34,7 +34,7 @@ public class Sorcerer_Alvarez {
     }
 
     // Getters
-    public String getJujustuGrade() {
+    public String getJujutsuGrade() {
         return jujutsuGrade;
     }
 
