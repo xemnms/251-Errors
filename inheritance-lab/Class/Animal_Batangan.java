@@ -16,8 +16,10 @@ public class Animal_Batangan {
             System.out.println("The pet makes a cute sound.");
         }
     
-    public void eat() {
+    public void petEat() {
             System.out.println(name + " is eating.");
-        }
-    
+       }
+    public void petJump() {
+        System.out.println("Pet is jumping, stop.");
     }
+ }
