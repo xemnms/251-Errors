@@ -16,4 +16,12 @@
 
 **\<03/11/2026\>** : I learned how to open and merge files from GitHub to VS Code and vice versa during our lab as this helped me understand how to manage and update code between the two platforms more efficiently and next time I will aim to complete my tasks faster by practicing these steps and improving my workflow.
 
-**<03/15/2026>**: Comment by : Galindon; You did well in writing your code, Your class is well-written and easy to follow.
+**<03/15/2026>** : Comment by : Galindon; You did well in writing your code, Your class is well-written and easy to follow.
+
+**<03/16/2026>** : I learned how encapsulation works in Java by using private attributes with getters and setters to control access to an object’s data, and next time I will practice validating values and handling null inputs to make my code safer and more reliable.
+
+**<03/16/2026>** : Comment by: Isles; You did well in restricting data access using encapsulation, and you can improve by improving logic to avoid awkward testing results when limit-testing your program with invalid inputs.
+
+**<03/16/2026>** : Comment by: Rodenas; You did well in implementing the class structure and contributing to the discussion, and you can improve by adding more comments to explain the code logic.
+
+
