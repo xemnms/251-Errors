@@ -16,7 +16,7 @@ public class Guitar_Alvarez extends Instrument_Bautista {
         this.instrumentName = name; 
         this.material = material; 
         this.instrumentType = instrumentType; 
-        this.numberOfStrings = numberOfStrings; }
+        this.numberOfStrings = numberOfStrings; 
     }
 
     // New Behavior

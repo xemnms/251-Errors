@@ -16,7 +16,7 @@ public class Piano_Alvarez extends Instrument_Bautista {
     this.instrumentName = instrumentName; 
     this.material = material; 
     this.instrumentType = instrumentType; 
-    this.numberOfKeys = numberOfKeys; }
+    this.numberOfKeys = numberOfKeys; 
     }
 
     // new behaior
