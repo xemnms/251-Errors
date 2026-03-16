@@ -11,11 +11,12 @@ public class Piano_Alvarez extends Instrument_Bautista {
     private String instrumentType;
 
     // Constructor
-    public Piano_Alvarez(String instrumentName, String material, String instrumentType, int numberOfKeys) {
-        this.instrumentName = instrumentName;
-        this.material = material;
-        this.instrumentType = instrumentType;
-        this.numberOfKeys = numberOfKeys;
+   public Piano_Alvarez(String instrumentName, String material, String instrumentType, int numberOfKeys) { 
+    super(instrumentName, material, instrumentType); 
+    this.instrumentName = instrumentName; 
+    this.material = material; 
+    this.instrumentType = instrumentType; 
+    this.numberOfKeys = numberOfKeys; }
     }
 
     // new behaior
