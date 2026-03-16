@@ -1,7 +1,7 @@
 // IS-A relationship: MagicalSorcerer_Bautista and UselessSorcerer are types of Sorcerer_Alvarez.
 // Overridden method: attack() is overridden in both subclasses.
 // Dynamic binding: The specific attack() method from either MagicalSorcerer_Bautista or UselessSorcerer is called 
-// based on the actual object type (not the reference type) at runtime.
+//                  based on the actual object type (not the reference type) at runtime.
 // Inherited methods: getJujutsuGrade(), getCursedTechnique(), getCursedEnergyConsumption(), attack().
 // New behavior: MagicalSorcerer_Bautista adds ultimateMove() and signatureMove; UselessSorcerer adds doNothing() and uselessMove.
 
@@ -15,7 +15,7 @@ public class MainInheritance_Bautista {
         System.out.println("==========================================\n");
 
         // Create first sorcerer
-        So sorcerer1 = new MagicalSorcerer("Grade 1", "Shadow Slash", 50.0, "Meteor Strike");
+        Sorcerer_Alvarez sorcerer1 = new MagicalSorcerer_Bautista("Grade 1", "Shadow Slash", 50.0, "Meteor Strike");
 
         System.out.println("------------ SORCERER 1 ------------");
         System.out.println("Grade           : " + sorcerer1.getJujutsuGrade());
@@ -29,7 +29,7 @@ public class MainInheritance_Bautista {
         System.out.println("------------------------------------\n");
 
         // Create second sorcerer
-        MagicalSorcerer sorcerer2 = new MagicalSorcerer("Grade 2", "Cursed Fireball", 75.0, "Dragon Burst");
+        MagicalSorcerer sorcerer2 = new MagicalSorcerer_Bautista("Grade 2", "Cursed Fireball", 75.0, "Dragon Burst");
 
         System.out.println("------------ SORCERER 2 ------------");
         System.out.println("Grade           : " + sorcerer2.getJujutsuGrade());
@@ -42,7 +42,7 @@ public class MainInheritance_Bautista {
         sorcerer2.ultimateMove();
         System.out.println("------------------------------------\n");
 
-        // Create the 2nd subclass sorcerer
+        // Create 2nd subclass sorcerer
         UselessSorcerer useless = new UselessSorcerer("Grade 0", "Confetti Throw", 0.0, "Epic Fail");
 
         System.out.println("---------- USELESS SORCERER ----------");
