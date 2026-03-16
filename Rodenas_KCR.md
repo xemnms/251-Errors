@@ -24,4 +24,4 @@
 
 **<03/16/2026>** : Comment by: Batangan; You did well in applying encapsulation in the LRCBook_Rodenas class by using private attributes and creating getters and setters to manage the book data, and you can improve by adding more validation and handling possible null or invalid values to make the program more reliable.
 
-**<03/16/2026>** : Comment by: Batangan; You did well in restricting access from your data using encapsulation, and you can improve by improving the system logic a bit more so that it wouldn't look awkward when testing invalid options.
+**<03/16/2026>** : Comment by: Isles; You did well in restricting access from your data using encapsulation, and you can improve by improving the system logic a bit more so that it wouldn't look awkward when testing invalid options.
