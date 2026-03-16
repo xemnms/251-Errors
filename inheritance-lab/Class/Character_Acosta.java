@@ -1,6 +1,7 @@
 /*
 * Character Class created by Acosta
-* 
+* This class represents a character in a game with attributes like name, character class, and level
+* It has behaviors like attack and level up, and includes getters and setters for its attributes
 */
 
 public class Character_Acosta {
