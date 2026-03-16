@@ -1,5 +1,5 @@
 //main class!! where the outputs are done
-public class Main_Isles {
+public class Main_Isles2 {
     public static void main(String[] args) {
         //creating laptop object
         Laptop_Isles laptop = new Laptop_Isles("MSI", "2000s Series"); //brand and model set here
