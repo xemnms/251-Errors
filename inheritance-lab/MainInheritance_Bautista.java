@@ -1,4 +1,4 @@
-public class Main_Bautista {
+public class MainInheritance_Bautista {
     public static void main(String[] args) {
 
         System.out.println("==========================================");
