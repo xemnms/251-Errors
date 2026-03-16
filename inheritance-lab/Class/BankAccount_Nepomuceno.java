@@ -43,6 +43,7 @@ public class BankAccount_Nepomuceno {
         this.isActive = false;
     }
 
+    // Behaviors
     public void activateAccount() {
         if (!isActive) {
             isActive = true;
@@ -85,5 +86,10 @@ public class BankAccount_Nepomuceno {
         } else {
             System.out.println("Account is inactive. Cannot display balance.");
         }
+    }
+
+    // Method intended to be overridden by subclasses
+    public void accountType() {
+        System.out.println("This is a general bank account.");
     }
 }
