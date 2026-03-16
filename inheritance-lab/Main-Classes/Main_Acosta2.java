@@ -5,7 +5,7 @@
 *  The subclass chocolate vitamilk adds new behavior with the refillDrink() method, which allows the user to refill the drink. The broken bottle subclass adds new behavior with the checkDrink() method, which allows the user to check the status of the broken bottle.
 */
 
-public class Main_Acosta {
+public class Main_Acosta2 {
     public static void main(String[] args) {
 
         //Create chocolate vitamilk object
