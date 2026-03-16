@@ -1,6 +1,6 @@
 // Main class created by Bautista
 
-public class MainInheritance_Bautista {
+public class Main_Bautista {
     public static void main(String[] args) {
 
         System.out.println("==========================================");
