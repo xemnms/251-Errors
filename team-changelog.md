@@ -1,8 +1,9 @@
 # Team Changelog
 --- 
+<Batangan, Clisha Rae V.> <2025-1027945> <03/16/2026> <Inheritance> Completed!   
 <Bautista, Lei Aljeur F.> <2025-1028356> <03/16/2026> <Inheritance> Completed!  
 
-<Batangan, Clisha Rae V.> <2025-1027945> <03/14/2026> <Encapsulation> Completed!
+<Batangan, Clisha Rae V.> <2025-1027945> <03/14/2026> <Encapsulation> Completed!   
 <Bautista, Lei Aljeur F.> <2025-1028356> <03/15/2026> <Encapsulation> Completed!  
 <Dizon, Vic Andrew A.> <2025-1024539> <03/16/2026> <Encapsulation> Completed!
 
