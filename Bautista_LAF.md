@@ -28,4 +28,4 @@
 ### | Inheritance
 **<03/16/2026>** : Today, I learned how to be more systematic when doing the activity especially in creating inheritance and how to properly organize subclasses and method overriding. I also enjoyed working on the project and do it more efficiently. Next time, I want to plan the console output better to avoid duplicate information and make it more organized to demonstrate the program properly.
 
-**<03/16/2026>** : Commented by Alvarez:
+**<03/16/2026>** : Commented by Alvarez: Your work is well done. I enjoyed collaborating and also understood what should be done. you could improve by making your code more efficiently but thats alright because we are still beginners 99999/10. 
