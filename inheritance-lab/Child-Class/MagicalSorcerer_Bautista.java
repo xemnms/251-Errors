@@ -2,13 +2,13 @@
  // This class represents a Magical Sorcerer and Useless Sorcerer.
  // Inherits from Sorcerer_Alvarez and adds new abilities.
 
-public class MagicalSorcerer extends Sorcerer_Alvarez {
+public class MagicalSorcerer_Bautista extends Sorcerer_Alvarez {
 
     // Additional attribute
     private String signatureMove;
 
     // Constructor
-    public MagicalSorcerer(String jujutsuGrade, String cursedTechnique, double cursedEnergyConsumption, String signatureMove) {
+    public MagicalSorcerer_Bautista(String jujutsuGrade, String cursedTechnique, double cursedEnergyConsumption, String signatureMove) {
         super(jujutsuGrade, cursedTechnique, cursedEnergyConsumption);
         this.signatureMove = signatureMove;
     }
