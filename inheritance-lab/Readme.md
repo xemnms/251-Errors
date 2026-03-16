@@ -1,65 +1,68 @@
 
-Peer Lab Exercise: Practicing Inheritance in Java
+# Peer Lab Exercise: Practicing Inheritance in Java
 
-Objective
+## Objective
 
-The goal of this lab is to practice Inheritance in Java through collaboration with your teammates.
-You will design a parent class, extend a teammateâ€™s class, implement method overriding, and observe dynamic binding behavior.
+The goal of this lab is to practice **Inheritance in Java** through collaboration with your teammates.
+You will design a **parent class**, extend a **teammate’s class**, implement **method overriding**, and observe **dynamic binding behavior**.
 
-You will also practice a professional Git workflow using your team repository.
+You will also practice a **professional Git workflow** using your team repository.
 
---------------------------------------------------
+---
 
-Challenge Goal
+# Challenge Goal
 
 By completing this exercise you should demonstrate:
 
-â€¢ Correct use of IS-A relationships
-â€¢ Implementation of parent and child classes
-â€¢ Proper method overriding
-â€¢ Understanding of dynamic binding behavior
-â€¢ Ability to extend a teammateâ€™s class
-â€¢ Collaborative GitHub workflow
+• Correct use of **IS-A relationships**  
+• Implementation of **parent and child classes**  
+• Proper **method overriding**  
+• Understanding of **dynamic binding behavior**  
+• Ability to extend a **teammate’s class**  
+• Collaborative **GitHub workflow**  
 
---------------------------------------------------
+---
 
-Tasks
+# Tasks
 
-1. Create a New Branch
+## 1. Create a New Branch
 
-Create a new branch from main.
+Create a new branch from `main`.
 
 Example:
 
+```
 inheritance-<your-name>
+```
 
-Make sure your branch is updated with the latest main branch.
+Make sure your branch is **updated with the latest main branch**.
 
---------------------------------------------------
+---
 
-2. Create Your Parent Class
+## 2. Create Your Parent Class
 
-Create a base class representing a general concept.
+Create a **base class** representing a general concept.
 
 Examples:
 
-Animal
-Vehicle
-Employee
-Device
-Character
-Product
+- Animal  
+- Vehicle  
+- Employee  
+- Device  
+- Character  
+- Product  
 
-Requirements:
+### Requirements
 
 Your parent class must contain:
 
-- At least 3 attributes
-- At least 2 behaviors (methods)
-- At least 1 method that can later be overridden
+- At least **3 attributes**
+- At least **2 behaviors (methods)**
+- At least **1 method that can later be overridden**
 
 Example structure:
 
+```java
 class Animal {
 
     String name;
@@ -73,115 +76,132 @@ class Animal {
     }
 
 }
+```
 
---------------------------------------------------
+---
 
-3. Commit and Push Your Parent Class
+## 3. Commit and Push Your Parent Class
 
 Add your class to the repository.
 
 Commit example:
 
+```
 Added Animal parent class
+```
 
 Push your branch.
 
-Your classmates will extend your class later.
+Your classmates will **extend your class later**.
 
---------------------------------------------------
+---
 
-4. Find a Teammateâ€™s Parent Class
+## 4. Find a Teammate’s Parent Class
 
-Browse the repository and find a parent class created by a teammate.
+Browse the repository and find a **parent class created by a teammate**.
 
 Rules:
 
-- You cannot use your own class
-- A class should only be extended once if possible
+- You **cannot use your own class**
+- A class should **only be extended once if possible**
 
---------------------------------------------------
+---
 
-5. Create a Child Class
+## 5. Create a Child Class
 
-Create a subclass that extends your teammateâ€™s class.
+Create a subclass that extends your teammate’s class.
 
 Example:
 
+```java
 class Dog extends Animal {
 
 }
+```
 
-This establishes the IS-A relationship.
+This establishes the **IS-A relationship**.
 
 Example meaning:
 
+```
 Dog IS-A Animal
+```
 
---------------------------------------------------
+---
 
-6. Add New Behavior in the Child Class
+## 6. Add New Behavior in the Child Class
 
-Your subclass must add at least one new method.
+Your subclass must add **at least one new method**.
 
 Example:
 
+```java
 void bark() {
     System.out.println("Dog barks");
 }
+```
 
---------------------------------------------------
+---
 
-7. Override a Parent Method
+## 7. Override a Parent Method
 
-Override at least one method from the parent class.
+Override at least **one method from the parent class**.
 
 Example:
 
+```java
 @Override
 void speak() {
     System.out.println("Dog barks");
 }
+```
 
-This demonstrates method overriding.
+This demonstrates **method overriding**.
 
---------------------------------------------------
+---
 
-8. Demonstrate Dynamic Binding
+## 8. Demonstrate Dynamic Binding
 
-Create a test program that demonstrates runtime polymorphism.
+Create a test program that demonstrates **runtime polymorphism**.
 
 Example:
 
+```java
 Animal a = new Dog();
 a.speak();
+```
 
 Explain what happens:
 
-- The variable type is Animal
-- The actual object is Dog
-- The Dog version of speak() executes
+- The variable type is **Animal**
+- The actual object is **Dog**
+- The **Dog version of speak() executes**
 
---------------------------------------------------
+---
 
-9. Demonstrate Multiple Subclasses (Optional Bonus)
+## 9. Demonstrate Multiple Subclasses (Optional Bonus)
 
-If possible, create another subclass extending the same parent class.
+If possible, create **another subclass** extending the same parent class.
 
 Example:
 
+```
 Animal
- â”œ Dog
- â”” Cat
+ ├ Dog
+ └ Cat
+```
 
-This demonstrates hierarchical inheritance.
+This demonstrates **hierarchical inheritance**.
 
---------------------------------------------------
+---
 
-10. Create an Inheritance Demo Program
+## 10. Create an Inheritance Demo Program
 
 Create a file:
 
+```
 InheritanceDemo.java
+```
 
 The program must:
 
@@ -192,28 +212,32 @@ The program must:
 
 Example output:
 
+```
 Dog barks
 Animal moves
+```
 
---------------------------------------------------
+---
 
-11. Analyze the Inheritance Behavior
+## 11. Analyze the Inheritance Behavior
 
 Create a file:
 
+```
 InheritanceReview.md
+```
 
 Answer the following questions:
 
-- What is the IS-A relationship in your program?
-- Which method was overridden?
-- What happens during dynamic binding?
-- What methods were inherited from the parent class?
+- What is the **IS-A relationship** in your program?
+- Which method was **overridden**?
+- What happens during **dynamic binding**?
+- What methods were **inherited from the parent class**?
 - What new behavior did the subclass introduce?
 
---------------------------------------------------
+---
 
-12. Commit and Push All Files
+## 12. Commit and Push All Files
 
 Your branch should contain:
 
@@ -224,50 +248,60 @@ Your branch should contain:
 
 Push your branch to GitHub.
 
---------------------------------------------------
+---
 
-13. Review and Retrospect
+## 13. Review and Retrospect
 
-Think of at least 2 things you each could have done better during the activity.
+Think of **at least 2 things you each could have done better** during the activity.
 
---------------------------------------------------
+---
 
-14. Update your changelog files
+## 14. Update your changelog files
 
-a. Create an entry in your Team changelog with format:
+### a. Create an entry in your Team changelog with format:
 
+```
 <Name> <StudentNo/ID> <MM/DD/YYYY> <LabTopic> Completed!
+```
 
 Example:
 
+```
 Juan Dela Cruz 2025-1023456 03/20/2026 Inheritance Lab Completed!
+```
 
---------------------------------------------------
+---
 
-b. Update your personal .md file
+### b. Update your personal `.md` file
 
-Create a short journal on how you completed today's tasks and the 2 things you raised during retrospection.
+Create a short journal on how you completed today's tasks and the **2 things you raised during retrospection**.
 
 Format:
 
+```
 <MM/DD/YYYY> : I learned _____ and next time I will _____
+```
 
---------------------------------------------------
+---
 
-c. Add a feedback entry in your teammates' personal .md file
+### c. Add a feedback entry in your teammates' `personal.md` file
 
-Answer the questions in one sentence.
+Answer the questions in **one sentence**.
 
 Format:
 
+```
 <MM/DD/YYYY> : Comment by: <COMMENTER's name>; You did well in _____ and you can improve by _____
+```
 
---------------------------------------------------
+---
 
-d. Create a Pull Request
+### d. Create a Pull Request
 
-Create a PR and ask 2 teammates to approve.
+Create a **PR** and ask **2 teammates to approve**.
 
 Each teammate must add the comment:
 
-"I confirm that <Your Name> completed this lab."
+```
+I confirm that <Your Name> completed this lab.
+```
