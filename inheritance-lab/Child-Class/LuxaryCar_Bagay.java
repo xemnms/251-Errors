@@ -6,7 +6,7 @@ public class LuxaryCar_Bagay extends Vehicle_Badosa {
     private String model;
 
     public LuxaryCar_Bagay(int wheels, int seats, String vehicleType, String brand, String model) {
-        super(wheels, seats, vehicleType); // Call the constructor of the parent class
+        super(wheels, seats, vehicleType); 
         this.brand = brand;
         this.model = model;
     }
