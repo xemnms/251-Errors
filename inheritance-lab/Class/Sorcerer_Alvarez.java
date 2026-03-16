@@ -9,7 +9,7 @@ public class Sorcerer_Alvarez {
     private double cursedEnergyConsumption;
 
     // Constructor
-    public Sorcerer(String jujutsuGrade, String cursedTechnique, double cursedEnergyConsumption) {
+    public Sorcerer_Sorcerer_Alvarez(String jujutsuGrade, String cursedTechnique, double cursedEnergyConsumption) {
         this.jujutsuGrade = jujutsuGrade;
         this.cursedTechnique = cursedTechnique;
         this.cursedEnergyConsumption = cursedEnergyConsumption;
