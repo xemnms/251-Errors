@@ -117,15 +117,15 @@ Reviewer Alvarez | Reviewee: Badosa (Room)
 - All attributes are declared as private to protect the data.
 - Access and modification of the attributes are done through public setter and getter methods.
 ---
-Reviewer: <Bautista> | Reviewee: <Badosa> (Room_Badosa.java)
+Reviewer: Bautista | Reviewee: Badosa (Room_Badosa.java)
 - Demonstrates good use of encapsulation by keeping the attributes private and controlling access through setter methods with validation.
 - Simulate real actions of rooms in a hotel system through behaviors such as checkIn and CheckOut.
 - Validation helps ensure that the object maintains valid data.
 - One minor improvement: Making the output messages more consistent and clearer.
 
-Reviewer: <Bautista> | Reviewee: <Alvarez> (BankAccount_Alvarez.java)
+Reviewer: Bautista | Reviewee: Alvarez (BankAccount_Alvarez.java)
 - Demonstrates good use of encapsulation by keeping the attributes private and controlling access through setter methods with validation.
-- Simulate real actions of rooms in a hotel system through behaviors such as checkIn and CheckOut.
+- Simulate real actions of bank accounts through behaviors such as deposit and withdraw.
 - Validation helps ensure that the object maintains valid data.
 - One minor improvement: Adding cleared feedback when invalid values are given so users knows why that change cannot be applied.
 
