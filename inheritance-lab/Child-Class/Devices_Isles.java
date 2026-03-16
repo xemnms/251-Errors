@@ -1,4 +1,4 @@
-package ad;
+//parent class by rodenas, child class by isles
 
 //first child class!! represents a laptop
 class Laptop_Isles extends Device_Rodenas {
