@@ -324,6 +324,23 @@ public class ObjectDetailsPrinter {
 
     System.out.println();
 
+    // Object created by Alonde, Class created by Arandela
+    // Object without parameter
+    Arandela_Order order1 = new Arandela_Order();
+    order1.showOrder();
+    order1.addOrder(0);
+
+    // Object with parameter
+    Arandela_Order order2 = new Arandela_Order("OD001", "Pizza", 2, 10.5);
+    order2.showOrder();
+    order2.addOrder(3);
+
+    // Object overloaded constructor
+    Arandela_Order order3 = new Arandela_Order("OD002", "Dubai Chewy Cookie");
+    order3.showOrder();
+    order3.addOrder(5);
+
+    Arandela_Order.showTotalOrders();
     }
 
 }
