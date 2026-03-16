@@ -15,7 +15,7 @@ public class GameCharacter_Nepomuceno {
     }
 
     // Constructor with parameters
-    public GameCharacter(String name, int health, int level) {
+    public GameCharacter_Nepomuceno(String name, int health, int level) {
         this.name = name;
         this.health = health;
         this.level = level;
