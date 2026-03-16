@@ -10,7 +10,7 @@ public class Character_Acosta {
     private int level = 0;
 
     
-    void Attack() {
+    void attack() {
         System.out.println(name+ " the " + characterClass + " attacks with a basic strike!"); //Overridable method, changes based on character class
     } 
 
