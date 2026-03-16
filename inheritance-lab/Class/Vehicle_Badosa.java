@@ -18,7 +18,7 @@ public class Vehicle_Badosa{
     public int getSeats(){
         return seats;
     }
-    public int getVehicleType(){
+    public String getVehicleType(){
         return vehicleType;
     }
 
@@ -30,6 +30,6 @@ public class Vehicle_Badosa{
         System.out.println("You have stopped your engine");
     }
     public void displayMaxSpeed(){
-        System.out.println("");
+        System.out.println("Unknown");
     }
 }
