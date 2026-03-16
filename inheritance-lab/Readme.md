@@ -162,7 +162,8 @@ This demonstrates **method overriding**.
 
 ## 8. Demonstrate Dynamic Binding
 
-Create a test program that demonstrates **runtime polymorphism**.
+Create a test program (Main_<Lastname>.java) that demonstrates **runtime polymorphism**.
+
 
 Example:
 
@@ -179,7 +180,7 @@ Explain what happens:
 
 ---
 
-## 9. Demonstrate Multiple Subclasses (Optional Bonus)
+## 9. Demonstrate Multiple Subclasses (Optional Bonus) x2 multiplier
 
 If possible, create **another subclass** extending the same parent class.
 
@@ -197,11 +198,7 @@ This demonstrates **hierarchical inheritance**.
 
 ## 10. Create an Inheritance Demo Program
 
-Create a file:
-
-```
-InheritanceDemo.java
-```
+Update Main_<Lastname>.java file:
 
 The program must:
 
@@ -221,13 +218,9 @@ Animal moves
 
 ## 11. Analyze the Inheritance Behavior
 
-Create a file:
+Update Main_<Lastname>.java file:
 
-```
-InheritanceReview.md
-```
-
-Answer the following questions:
+Answer the following questions, just add them as comments on top of the actual implementation:
 
 - What is the **IS-A relationship** in your program?
 - Which method was **overridden**?
@@ -243,8 +236,7 @@ Your branch should contain:
 
 - Your parent class
 - Your subclass
-- InheritanceDemo.java
-- InheritanceReview.md
+- Main_<Lastname>.java
 
 Push your branch to GitHub.
 
@@ -258,7 +250,7 @@ Think of **at least 2 things you each could have done better** during the activi
 
 ## 14. Update your changelog files
 
-### a. Create an entry in your Team changelog with format:
+### a. Create an entry in your existing Team changelog (team-changelog.md) with format:
 
 ```
 <Name> <StudentNo/ID> <MM/DD/YYYY> <LabTopic> Completed!
