@@ -19,6 +19,11 @@ public class LuxaryCar_Bagay extends Vehicle_Badosa {
         return model;
     }
 
+    // Luxary car specific behavior
+    public void openSunroof() {
+        System.out.println("You have opened the sunroof of your " + brand + " " + model);
+    }
+
     // Override the displayMaxSpeed method to provide specific behavior for cars
     @Override
     public void displayMaxSpeed() {

@@ -1,5 +1,11 @@
 # Team Changelog
 --- 
+<Batangan, Clisha Rae V.> <2025-1027945> <03/16/2026> <Inheritance> Completed!   
+<Bautista, Lei Aljeur F.> <2025-1028356> <03/16/2026> <Inheritance> Completed!  
+
+<Batangan, Clisha Rae V.> <2025-1027945> <03/14/2026> <Encapsulation> Completed!   
+<Bautista, Lei Aljeur F.> <2025-1028356> <03/15/2026> <Encapsulation> Completed!  
+
 <Acosta, Jan Lorcey L.> <2025-1028844> <03/11/2026> <Classes-and-Objects> Completed!  
 <Arandela, Jherrymei D.> <2025-1029981> <03/11/2026> <Classes-and-Objects> Completed!  
 <Badosa, Bien Manuel P.> <2025-1021747> <03/11/2026> <Classes-and-Objects> Completed!  
