@@ -15,7 +15,7 @@ public class MainInheritance_Bautista {
         System.out.println("==========================================\n");
 
         // Create first sorcerer
-        MagicalSorcerer sorcerer1 = new MagicalSorcerer("Grade 1", "Shadow Slash", 50.0, "Meteor Strike");
+        So sorcerer1 = new MagicalSorcerer("Grade 1", "Shadow Slash", 50.0, "Meteor Strike");
 
         System.out.println("------------ SORCERER 1 ------------");
         System.out.println("Grade           : " + sorcerer1.getJujutsuGrade());
