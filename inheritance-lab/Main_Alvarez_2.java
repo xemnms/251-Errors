@@ -1,6 +1,6 @@
 // Main Class Created by Alvarez
 
-public class Main_Alvarez {
+public class Main_Alvarez2 {
     public static void main(String[] args) {
 
         System.out.println("==========================");
