@@ -3,12 +3,12 @@
 // Inherits from Sorcerer_Alvarez and adds new abilities.
 
 // UselessSorcerer Subclass ( 2nd Subclass )
-class UselessSorcerer extends Sorcerer_Alvarez {
+class UselessSorcerer_Bautista extends Sorcerer_Alvarez {
 
     private String uselessMove;
 
     // Constructor
-    public UselessSorcerer(String jujutsuGrade, String cursedTechnique, double cursedEnergyConsumption, String uselessMove) {
+    public UselessSorcerer_Bautista(String jujutsuGrade, String cursedTechnique, double cursedEnergyConsumption, String uselessMove) {
         super(jujutsuGrade, cursedTechnique, cursedEnergyConsumption);
         this.uselessMove = uselessMove;
     }

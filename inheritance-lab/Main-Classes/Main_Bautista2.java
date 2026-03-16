@@ -43,7 +43,7 @@ public class Main_Bautista2 {
         System.out.println("------------------------------------\n");
 
         // Create the 2nd subclass sorcerer
-        MagicalSorcerer_Bautista useless = new MagicalSorcerer_Bautista("Grade 0", "Confetti Throw", 0.0, "Epic Fail");
+        UselessSorcerer_Bautista useless = new UselessSorcerer_Bautista("Grade 0", "Confetti Throw", 0.0, "Epic Fail");
 
         System.out.println("---------- USELESS SORCERER ----------");
         System.out.println("Grade           : " + useless.getJujutsuGrade());
