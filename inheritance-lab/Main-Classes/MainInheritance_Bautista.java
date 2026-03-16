@@ -1,3 +1,10 @@
+// IS-A relationship: MagicalSorcerer_Bautista and UselessSorcerer are types of Sorcerer_Alvarez.
+// Overridden method: attack() is overridden in both subclasses.
+// Dynamic binding: The specific attack() method from either MagicalSorcerer_Bautista or UselessSorcerer is called 
+// based on the actual object type (not the reference type) at runtime.
+// Inherited methods: getJujutsuGrade(), getCursedTechnique(), getCursedEnergyConsumption(), attack().
+// New behavior: MagicalSorcerer_Bautista adds ultimateMove() and signatureMove; UselessSorcerer adds doNothing() and uselessMove.
+
 // Main class created by Bautista
 
 public class MainInheritance_Bautista {
