@@ -8,7 +8,7 @@
 // Inherited methods from parent class: startEngine(), stopEngine(), getWheels(), getSeats(), getVehicleType().
 // New subclass behavior: openSunroof(), plus additional child attributes brand and model.
 
-public class Main_Bagay {
+public class MainBagay {
     public static void main(String[] args) {
         // Create a subclass object.
         LuxaryCar_Bagay myCar = new LuxaryCar_Bagay(4, 5, "Car", "Mercedes-Benz", "S-Class");
