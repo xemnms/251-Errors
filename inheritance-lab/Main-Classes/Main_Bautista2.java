@@ -1,6 +1,13 @@
+// IS-A relationship: MagicalSorcerer_Bautista and UselessSorcerer are types of Sorcerer_Alvarez.
+// Overridden method: attack() is overridden in both subclasses.
+// Dynamic binding: The specific attack() method from either MagicalSorcerer_Bautista or UselessSorcerer is called 
+//                  based on the actual object type (not the reference type) at runtime.
+// Inherited methods: getJujutsuGrade(), getCursedTechnique(), getCursedEnergyConsumption(), attack().
+// New behavior: MagicalSorcerer_Bautista adds ultimateMove() and signatureMove; UselessSorcerer adds doNothing() and uselessMove.
+
 // Main class created by Bautista
 
-public class MainInheritance_Bautista {
+public class Main_Bautista2 {
     public static void main(String[] args) {
 
         System.out.println("==========================================");
@@ -8,7 +15,7 @@ public class MainInheritance_Bautista {
         System.out.println("==========================================\n");
 
         // Create first sorcerer
-        MagicalSorcerer sorcerer1 = new MagicalSorcerer("Grade 1", "Shadow Slash", 50.0, "Meteor Strike");
+        MagicalSorcerer_Bautista sorcerer1 = new MagicalSorcerer_Bautista("Grade 1", "Shadow Slash", 50.0, "Meteor Strike");
 
         System.out.println("------------ SORCERER 1 ------------");
         System.out.println("Grade           : " + sorcerer1.getJujutsuGrade());
@@ -22,7 +29,7 @@ public class MainInheritance_Bautista {
         System.out.println("------------------------------------\n");
 
         // Create second sorcerer
-        MagicalSorcerer sorcerer2 = new MagicalSorcerer("Grade 2", "Cursed Fireball", 75.0, "Dragon Burst");
+        MagicalSorcerer_Bautista sorcerer2 = new MagicalSorcerer_Bautista("Grade 2", "Cursed Fireball", 75.0, "Dragon Burst");
 
         System.out.println("------------ SORCERER 2 ------------");
         System.out.println("Grade           : " + sorcerer2.getJujutsuGrade());
@@ -36,7 +43,7 @@ public class MainInheritance_Bautista {
         System.out.println("------------------------------------\n");
 
         // Create the 2nd subclass sorcerer
-        UselessSorcerer useless = new UselessSorcerer("Grade 0", "Confetti Throw", 0.0, "Epic Fail");
+        UselessSorcerer_Bautista useless = new UselessSorcerer_Bautista("Grade 0", "Confetti Throw", 0.0, "Epic Fail");
 
         System.out.println("---------- USELESS SORCERER ----------");
         System.out.println("Grade           : " + useless.getJujutsuGrade());
