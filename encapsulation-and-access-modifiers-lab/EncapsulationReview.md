@@ -128,5 +128,14 @@ Reviewer: Bautista | Reviewee: Alvarez (BankAccount_Alvarez.java)
 - Simulate real actions of bank accounts through behaviors such as deposit and withdraw.
 - Validation helps ensure that the object maintains valid data.
 - One minor improvement: Adding cleared feedback when invalid values are given so users knows why that change cannot be applied.
+---
+Reviewer: Dizon | Reviewee: Arandela (MovieReservation_Arandela)
+- the class followed all structural requirements
+- The use of a static variable to track total reservations across all instances is implemented accurately
+
+Reviewer: Dizon | Reviewee: Batangan (MovieReservation_Arandela)
+- the code is very easy to follow and aligns perfectly with the behavioral instructions.
+- The class demonstrates clear and organized logic, especially in the addSong and removeSong
+
 
 Reviewer: <Surname> | Reviewee: <Surname>(Class name)

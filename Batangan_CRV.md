@@ -17,3 +17,5 @@
 **\<03/11/2026\>** : I learned how to open and merge files from GitHub to VS Code and vice versa during our lab as this helped me understand how to manage and update code between the two platforms more efficiently and next time I will aim to complete my tasks faster by practicing these steps and improving my workflow.
 
 **<03/15/2026>**: Comment by : Galindon; You did well in writing your code, Your class is well-written and easy to follow.
+
+**<03/16/2026>**: Comment by: Andrew Dizon; You did well in creating a clean song management system and handling empty string validation for the genre field.

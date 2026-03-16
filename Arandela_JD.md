@@ -14,4 +14,6 @@
 
 03/15/2026: I learned how to encapsulate. Next time, I will improve my ways of writing classes.
 
-**<03/15/2026>**: Comment by : Galindon; You did well in writing your code and you can improve by adding display methods.     
+**<03/15/2026>**: Comment by : Galindon; You did well in writing your code and you can improve by adding display methods.   
+
+**<03/16/2026>**: Comment by: Andrew Dizon; You did well in implementing a robust 50-ticket validation limit and ensuring static counters track every reservation.
