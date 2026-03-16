@@ -5,6 +5,7 @@
 */
 
 public class Character_Acosta {
+
     //Attributes
     private String name = "John Doe";
     private String characterClass = "Unchosen";
@@ -46,7 +47,7 @@ public class Character_Acosta {
         } else {
             this.characterClass = characterClass;
         }
-        }
+    }
     
     public void setLevel(int level) {
         if (level < 0) {
