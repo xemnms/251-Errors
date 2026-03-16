@@ -1,7 +1,7 @@
 /*
 * Child Class created by Kyla Cassandra Rodenas
 * This class extends Animal_Batangan.
-* A playful, mischievous kitten with personality!
+* A playful, mischievous kitten with personality.
 */
 
 public class Kitten_Rodenas extends Animal_Batangan {
