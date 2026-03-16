@@ -18,9 +18,9 @@
 
 **\<03/11/2026\>** : Comment by: Kyla Cassandra Rodenas; You did really well in GitHub workflow and creating clear Java classes and objects. Our communication was smooth and organized, which made working together easy and efficient. You can improve by adding more detailed comments in your code to make it even easier for teammates to understand your logic.
 
-**\<03/11/2026\>** : I learned how to apply encapsulation to restrict my data's access to avoid ease of data-changing, and to improve, next time I will learn how to code with encapsulation effeciently to make my future projects more flexible.
+**\<03/16/2026\>** : I learned how to apply encapsulation to restrict my data's access to avoid ease of data-changing, and to improve, next time I will learn how to code with encapsulation effeciently to make my future projects more flexible.
 
-**<03/14/2026>** : Comment by: Clisha Batangan; You did well in checking the errors in the code and organizing the class while applying encapsulation by keeping the attributes private and using methods to access and modify them, and you can improve in none
+**<03/16/2026>** : Comment by: Clisha Batangan; You did well in checking the errors in the code and organizing the class while applying encapsulation by keeping the attributes private and using methods to access and modify them, and you can improve in none
 
-**\<03/11/2026\>** : Comment by: Kyla Cassandra Rodenas; You did well in communicating clearly and keeping our workflow organized, and you can improve by adding more validation checks in your class methods.
+**\<03/16/2026\>** : Comment by: Kyla Cassandra Rodenas; You did well in communicating clearly and keeping our workflow organized, and you can improve by adding more validation checks in your class methods.
 
