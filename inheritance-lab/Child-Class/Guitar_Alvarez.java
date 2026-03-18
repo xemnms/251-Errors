@@ -11,12 +11,12 @@ public class Guitar_Alvarez extends Instrument_Bautista {
     private String instrumentType;
 
     // Constructor
-    public Guitar_Alvarez(String name, String material, String instrumentType, int numberOfStrings) { 
-        super(name, material, instrumentType); 
-        this.instrumentName = name; 
-        this.material = material; 
-        this.instrumentType = instrumentType; 
-        this.numberOfStrings = numberOfStrings; 
+    public Guitar_Alvarez(String name, String material, String instrumentType, int numberOfStrings) {
+        super(name, material, instrumentType);
+        this.instrumentName = name;
+        this.material = material;
+        this.instrumentType = instrumentType;
+        this.numberOfStrings = numberOfStrings;
     }
 
     // New Behavior
@@ -28,5 +28,5 @@ public class Guitar_Alvarez extends Instrument_Bautista {
     @Override
     public void sound() {
         System.out.println("Guitar sound: Strum lang ng Strum");
-    }    
+    }
 }

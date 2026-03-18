@@ -3,42 +3,42 @@
 
 public class Instrument_Bautista {
 
-    //Attributes
+    // Attributes
     private String instrumentName;
     private String material;
     private String instrumentType;
 
-    //Constructor
-    public Instrument_Bautista(String instrumentName, String material, String instrumentType){
+    // Constructor
+    public Instrument_Bautista(String instrumentName, String material, String instrumentType) {
         this.instrumentName = instrumentName;
         this.material = material;
         this.instrumentType = instrumentType;
     }
 
-    //Getters
-    public String getInstrumentName(){
+    // Getters
+    public String getInstrumentName() {
         return instrumentName;
     }
 
-    public String getMaterial(){
+    public String getMaterial() {
         return material;
     }
 
-    public String getInstrumentType(){
+    public String getInstrumentType() {
         return instrumentType;
     }
 
-    //Behaviors
-    public void play(){
+    // Behaviors
+    public void play() {
         System.out.println("Playing " + instrumentName + "...");
     }
 
-    public void tune(){
+    public void tune() {
         System.out.println("Tuning... hindi na sintunado—hopefully.");
     }
 
-    //Method that can be overridden
-    public void sound(){
+    // Method that can be overridden
+    public void sound() {
         System.out.println("Random music noises.");
     }
 }
