@@ -1,4 +1,5 @@
-/* Parent class: Vehicle_Badosa
+/* 
+Parent class: Vehicle_Badosa
 Child classes: LuxaryCar_Bagay and Yatch_Bagay
 1) IS-A relationship:
     LuxaryCar_Bagay IS-A Vehicle_Badosa.
@@ -17,9 +18,10 @@ Child classes: LuxaryCar_Bagay and Yatch_Bagay
 
 5) New behavior introduced by subclasses:
     LuxaryCar_Bagay adds openSunroof().
-    Yatch_Bagay adds deployAnchor(). */
+    Yatch_Bagay adds deployAnchor(). 
+*/
 
-public class Main_Bagay {
+public class InheritanceMain_Bagay {
     public static void main(String[] args) {
         LuxaryCar_Bagay myLuxuryCar = new LuxaryCar_Bagay(4, 5, "Luxury Car", "Mercedes", "S-Class");
         Yatch_Bagay myYatch = new Yatch_Bagay(0, 12, "Yatch", "Azimut", "Grande 32M");
