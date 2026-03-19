@@ -1,4 +1,4 @@
-public class F1PitCF1PitCrew_Dizon extends Formula1 {
+public class F1PitCF1PitCrew_Dizon extends Formula1_Arandela {
     private int pitStopDuration; // in milliseconds
 
     public F1PitCrew_Dizon(String team, int speed, String driver, int pitStopDuration) {

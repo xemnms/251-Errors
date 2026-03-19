@@ -1,4 +1,4 @@
-public class F1Prodigy_Dizon extends Formula1 {
+public class F1Prodigy_Dizon extends Formula1_Arandela {
     private boolean drsEnabled;
 
     public F1Prodigy_Dizon(String team, int speed, String driver, boolean drsEnabled) {
