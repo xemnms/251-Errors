@@ -3,8 +3,8 @@
 
 class PopEra_Galindon extends MusicEra_Alonde {
 
-  // Constructor
-    public PopEra(String name, int year, int tracks) {
+    // Constructor
+    public PopEra_Galindon(String name, int year, int tracks) {
         super(name, year, tracks);
     }
 
