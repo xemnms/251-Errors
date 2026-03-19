@@ -49,11 +49,9 @@ public class Mage_Isles {
     public String getElementName() {
         return elementName; //returns element name
     }
-
     public int getPowerLevel() {
         return powerLevel; //returns strength ng element
     }
-
     public String getType() {
         return type; //returns mage role
     }
