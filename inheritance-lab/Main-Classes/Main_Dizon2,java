@@ -21,7 +21,7 @@
  ==============================================================================
  */
 
-public class Main_Dizon {
+public class Main_Dizon2 {
     public static void main(String[] args) {
         
         System.out.println("=================================================");
