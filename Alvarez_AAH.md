@@ -23,3 +23,5 @@
 **<03/16/2026>** : I learned how to inherit classes to sub-classes and make a main object printer out of it. and next time i will work more effieciently and learned github's feature much more eagerly. 
 
 **<03/16/2026>** : Commented by Bautista; Your work is well done. I enjoyed collaborating and also understood what should be done. One minor improvement would be the private static final String Class_ID part, it appears everytime when displayInfo and useTechnique are called–making it redundant and sometimes irrelevant. Aside from that, good job! 9.99988/10
+
+**<03/19/2026>** : I learned how to use composition with the class i created and how to use it to other classes and create a demo out of it and during that enhances my github skills and knowledge and next time I will be better on what i do, intake more knowledge and be more creative with my mind and coding skills. 
