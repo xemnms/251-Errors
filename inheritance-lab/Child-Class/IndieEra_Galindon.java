@@ -1,6 +1,6 @@
 //second child class by galindon, parent class by alonde
 
-class IndieEra extends MusicEra {
+class IndieEra extends MusicEra_Alonde {
 
     public IndieEra(String name, int year, int tracks) {
         super(name, year, tracks);
