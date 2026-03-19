@@ -1,35 +1,32 @@
-public class Aliens_Galindon {
-    // Attributes
+//Parent class created by Galindon
+//This class represents an alien that has a name, age, and planet of origin
+//Other classes can extend this to inherit its attributes and behaviors
+
+class Aliens_Galindon {
+    // Attributes 
     String name;
-    String homePlanet;
-    String species;
-    int numberOfAntennae;
+    int age;
+    String planetOrigin;
 
     // Constructor
-    public Aliens_Galindon(String name, String homePlanet, String species, int numberOfAntennae) {
+    Aliens_Galindon(String name, int age, String planetOrigin) {
         this.name = name;
-        this.homePlanet = homePlanet;
-        this.species = species;
-        this.numberOfAntennae = numberOfAntennae;
+        this.age = age;
+        this.planetOrigin = planetOrigin;
     }
 
     // Behavior 1
-    public void communicate() {
-        System.out.println(name + " emits a series of alien clicks and lights.");
+    void exist() {
+        System.out.println(name + " exists somewhere in the universe.");
     }
 
     // Behavior 2
-    public void travel() {
-        System.out.println(name + " is traveling through hyperspace from " + homePlanet + ".");
+    void communicate() {
+        System.out.println(name + " is sending signals from " + planetOrigin + ".");
     }
 
-    // Behavior 3 (can be overridden)
-    public void scanEnvironment() {
-        System.out.println(name + " scans the environment and reports: all systems normal.");
-    }
-
-    // Additional method
-    public void displayInfo() {
-        System.out.println("Alien Info: " + name + " (" + species + ") from " + homePlanet + " with " + numberOfAntennae + " antennae.");
+    // Method that can be overridden
+    void powers() {
+        System.out.println(name + " has a mysterious unknown ability.");
     }
 }
