@@ -1,4 +1,4 @@
-/* *  Inheritance Behavior Analysis ---
+/* Inheritance Behavior Analysis 
  1. What is the IS-A relationship in your program?
  F1Prodigy_Dizon IS-A Formula1.
  - F1SafetyCar_Dizon IS-A Formula1 (Hierarchical Subclass).
@@ -41,7 +41,7 @@ public class Main_Dizon {
         polyCar.race(); // The Child's race() executes due to dynamic binding
 
 
-        // --- 3. Hierarchical Inheritance (Bonus x2) ---
+        // Inheritance 
         System.out.println("\n" + separator);
         System.out.println("   HIERARCHICAL INHERITANCE: SECOND SUBCLASS");
         System.out.println(separator);
