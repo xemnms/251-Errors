@@ -17,5 +17,19 @@ public class CompositionDemo_Alvarez {
         mySystem.increaseVolume();
         mySystem.showStatus();
         mySystem.turnOffSystem();
+
+        /* Compostion Demo created by Alvarez
+        * for composition TimeMachine_Bautista created by Bautista
+        * and composite TimeController_Alvarez created by Alvarez
+        */
+
+       // Create object
+        TimeMachine_Bautista machine = new TimeMachine_Bautista("TM-01", 2025, 3, "Japan");
+
+        // Inject into composed class
+        TimeController_Alvarez controller = new TimeController_Alvarez(machine);
+
+        // Run the program
+        controller.startJourney();
     }
 }
