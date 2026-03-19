@@ -14,26 +14,26 @@ import ComponentClasses.SchedulePlanner_Rodenas;
 
 public class CompositionDemoBadosa {
     public static void main(String[] args) {
-        //Creating Components (Sabay sila duo sa Tore Next week)
+        // Creating Components (Sabay sila duo sa Tore Next week)
         Mage_Isles mage = new Mage_Isles();
         Mage_Isles mage2 = new Mage_Isles();
         SchedulePlanner_Rodenas schedule = new SchedulePlanner_Rodenas("Monday", "10:00 AM", "Attack Turret");
 
-        //Creating Attack Plan
+        // Creating Attack Plan
         MageAttackPlanning_Badosa attackPlan = new MageAttackPlanning_Badosa(mage, schedule);
         MageAttackPlanning_Badosa attackPlan2 = new MageAttackPlanning_Badosa(mage2, schedule);
 
-        //Setting mage1 attributes
+        // Setting mage1 attributes
         mage.setElementName("Earth");
         mage.setPowerLevel(90);
         mage.setType("Damage");
 
-        //Setting mage2 attributes
+        // Setting mage2 attributes
         mage2.setElementName("Water");
         mage2.setPowerLevel(80);
         mage2.setType("Support");
 
-        //Display the plans
+        // Display the plans
         attackPlan.displayPlan();
         attackPlan2.displayPlan();
     }

@@ -5,7 +5,7 @@ import ComponentClasses.SchedulePlanner_Rodenas;;
 
 public class MageAttackPlanning_Badosa {
     private Mage_Isles mage;
-    private SchedulePlanner_Rodenas schedule; 
+    private SchedulePlanner_Rodenas schedule;
 
     // Constructor using components
     public MageAttackPlanning_Badosa(Mage_Isles mage, SchedulePlanner_Rodenas schedule) {
@@ -25,7 +25,7 @@ public class MageAttackPlanning_Badosa {
     public void setMage(Mage_Isles mage) {
         if (mage != null && !mage.getElementName().isEmpty()) {
             this.mage = mage;
-        }else {
+        } else {
             System.out.println("Invalid mage. Mage cannot be null or empty.");
         }
     }
@@ -33,7 +33,7 @@ public class MageAttackPlanning_Badosa {
     public void setSchedule(SchedulePlanner_Rodenas schedule) {
         if (schedule != null && !schedule.getDay().isEmpty()) {
             this.schedule = schedule;
-        }else {
+        } else {
             System.out.println("Invalid schedule. Schedule cannot be null or empty.");
         }
     }
