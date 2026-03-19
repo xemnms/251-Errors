@@ -20,6 +20,9 @@
 
 **<03/16/2026>** : I learned how encapsulation works in Java by using private attributes with getters and setters to control access to an object’s data, and next time I will practice validating values and handling null inputs to make my code safer and more reliable.
 
+
+---
+## ✉️ Peer Feedbacks
 **<03/16/2026>** : Comment by: Isles; You did well in restricting data access using encapsulation, and you can improve by improving logic to avoid awkward testing results when limit-testing your program with invalid inputs.
 
 **<03/16/2026>** : Comment by: Rodenas; You did well in implementing the class structure and contributing to the discussion, and you can improve by adding more comments to explain the code logic.
@@ -28,3 +31,5 @@
 **<03/15/2026>**: Comment by : Galindon; You did well in writing your code, Your class is well-written and easy to follow.
 
 **<03/16/2026>**: Comment by: Andrew Dizon; You did well in creating a clean song management system and handling empty string validation for the genre field.
+
+**<03/20/2026>**: Comment by: Bautista; You did well in structuring the accessory class of yours. It's clean, simple and easy to follow. Looking forward to see you build your code even more robust and efficient. Niceu
