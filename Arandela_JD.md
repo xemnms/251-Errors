@@ -19,3 +19,5 @@
 **<03/16/2026>**: Comment by: Andrew Dizon; You did well in implementing a robust 50-ticket validation limit and ensuring static counters track every reservation.
 
 **<03/19/2026>**: I learned how inheritance works by creating a parent and subclass, and how methods can be overridden. Next time, I will improve my class design.
+
+**<03/19/2026>**: Comment by: Vic Andrew Dizon; You did well in implementing the method overriding for the race behavior and you can improve by including more varied test cases in your main demo.
