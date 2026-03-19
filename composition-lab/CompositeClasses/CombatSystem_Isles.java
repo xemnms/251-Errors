@@ -1,5 +1,7 @@
 //composed class created by Dan Isles
 //this class represents a combat system (HAS-A fighter and pistol)
+package CompositeClasses;
+
 import ComponentClasses.Pistol_Badosa;
 import ComponentClasses.Fighter_Costiniano;
 
