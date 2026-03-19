@@ -5,7 +5,6 @@ public class Aeroplane_Bagay {
     private int speed;
     private String color;
 
-
     public Aeroplane_Bagay(String model, int speed, String color) {
         this.model = model;
         this.speed = speed;
@@ -36,5 +35,5 @@ public class Aeroplane_Bagay {
     // This method is intended to be overridden by subclasses.
     public void displayType() {
         System.out.println("This is a standard aeroplane.");
-    } 
+    }
 }

@@ -1,0 +1,75 @@
+name: Auto Sync Main to Team Branches
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        branch: [develop-team1, develop-team2, develop-team3]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch all branches
+        run: git fetch --all
+
+      - name: Create sync branch
+        run: |
+          git checkout -b sync/${{ matrix.branch }} origin/${{ matrix.branch }}
+          git merge origin/main --no-edit || true
+
+      - name: Push sync branch
+        run: git push origin sync/${{ matrix.branch }} --force-with-lease
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: sync/${{ matrix.branch }}
+          base: ${{ matrix.branch }}
+          title: "Sync main → ${{ matrix.branch }}"
+          body: |
+            Automated sync PR from **main** to **${{ matrix.branch }}**.
+            Requires 2 approvals before auto-merge.
+          delete-branch: true
+
+      - name: Auto-merge when ready
+        if: steps.cpr.outputs.pull-request-number != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = ${{ steps.cpr.outputs.pull-request-number }};
+            const pr = await github.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber
+            });
+
+            if (pr.data.mergeable && pr.data.mergeable_state === "clean") {
+              await github.pulls.merge({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: prNumber,
+                merge_method: "squash"
+              });
+            } else {
+              core.info("PR not ready for merge yet.");
+            }
