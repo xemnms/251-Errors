@@ -7,10 +7,6 @@
 //4 cohesion is maintained by making sure each class has one clear responsibility. Each class only does what it is supposed to do, making the code easier to understand and manage.
 //5 inheritance is not appropriate because the classes do not have an “IS-A” relationship. They are not types of each other, but rather parts of a whole, so composition (HAS-A) is the better choice.
 
-
-
-
-
 package DemoFolder;
 
 import CompositeClasses.CombatSystem_Isles;
