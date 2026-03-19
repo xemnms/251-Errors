@@ -2,6 +2,7 @@
 //this file demonstrates object collaboration, low coupling, and design analysis
 package DemoFolder;
 
+import CompositeClasses.CombatSystem_Isles;
 import ComponentClasses.Pistol_Badosa;
 import ComponentClasses.Fighter_Costiniano;
 
