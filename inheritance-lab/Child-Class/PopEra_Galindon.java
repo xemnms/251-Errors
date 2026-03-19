@@ -1,7 +1,7 @@
 //parent class by alonde, child class by galindon
 //first class, popopoppop era by nayeon eme
 
-class PopEra extends MusicEra_Alonde {
+class PopEra_Galindon extends MusicEra_Alonde {
 
   // Constructor
     public PopEra(String name, int year, int tracks) {
