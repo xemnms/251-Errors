@@ -34,14 +34,21 @@ By completing this exercise you should demonstrate:
 
 ### 1. Create a New Branch (Required)
 
-Create a new branch from `main`.
+Create a new develop branch from `main`. (develop-1) (can be done by subteam lead)
+
+**Example:**
+```
+develop-**your-subteam-name**
+```
+
+Create a new branch from your subteam's develop branch.
 
 **Example:**
 ```
 composition-**your-name**
 ```
 
-Make sure your branch is **updated with the latest `main`** before starting.
+Make sure your branch is **updated with the latest `main` and `develop-*`** before starting.
 
 ---
 
@@ -67,14 +74,14 @@ Each student must create **ONE reusable component class**.
 
 ---
 
-### 3. Commit and Push Your Component
+### 3. Commit and Push Your Component to your develop branch
 
 **Commit message example:**
 ```
 Added Engine component class with encapsulation
 ```
 
-PR your branch to main so that your teammates can use your class.
+PR your branch to develop so that your teammates can use your class.
 
 ---
 
@@ -117,6 +124,7 @@ CompositionDemo**Surname**.java
 
 Your program must:
 
+- Contains main method
 - Instantiate teammate classes  
 - Pass them into your composed class  
 - Call methods across objects  
@@ -125,7 +133,9 @@ Your program must:
 
 ### 7. Demonstrate Low Coupling
 
-Replace a component with another compatible object (if possible).
+Replace a component with another compatible object (if possible). 
+  - Option 1: Bonus points, use inheritance by subclassing other teammates classes. (x2 multiplier)
+  - Option 2: Update your teammates' classes, change the behavior (x2 multiplier)
 
 Explain:
 
@@ -153,14 +163,18 @@ Answer the following:
 
 ### 9. Commit and Push All Work
 
-Your team's main branch must include:
+Your subteam's develop branch must include the following:
 
 - Your component class  
 - Your composed class  
-- `CompositionDemo**Surname**.java`  
-- Add instructor as reviewer  
+- `CompositionDemo**Surname**.java`
+- Your Low Cohesion multiplier efforts (Additional classes, teammate class changes)  
 - Get approval from at least **2 teammates**  
 
+#### 9.5 PR your subteam's develop branch to main branch
+  - Add instructor as reviewer
+  - Add subteam leads as review
+  - All subteam leads must approve
 ---
 
 ### 10. Review and Retrospect
