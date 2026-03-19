@@ -24,6 +24,6 @@ public class Main_Alonde2 {
         myAccount.accountType(); 
         
         myAccount.activateAccount();
-        myAccount.withdraw(1000.0);
+        myAccount.withdraw(100.0);
     }
 }

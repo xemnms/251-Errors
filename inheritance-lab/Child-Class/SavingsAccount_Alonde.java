@@ -1,37 +1,54 @@
 public class SavingsAccount_Alonde extends BankAccount_Nepomuceno {
     private double interestRate;
-    private boolean vaultLocked;
 
-    public SavingsAccount_Alonde(String accountNumber, String accountHolder, double balance, double interestRate) {
-        super(accountNumber, accountHolder, balance);
+    // Constructor
+    public SavingsAccount_Alonde(String accountNumber, String accountHolder, double initialBalance, double interestRate) {
+        super(accountNumber, accountHolder, initialBalance);
         this.interestRate = interestRate;
-        this.vaultLocked = true;
     }
 
-    public void unlockVault() {
-        this.vaultLocked = false;
-        System.out.println("Vault unlocked. You can now move your savings.");
+    // Getter
+    public double getInterestRate() {
+        return interestRate;
     }
 
-    public void applyInterest() {
-        if (isActive()) {
-            double interest = getBalance() * (interestRate / 100);
-            deposit(interest); 
-            System.out.println("Interest applied at " + interestRate + "%. New balance: $" + getBalance());
-        }
+    // Setter
+    public void setInterestRate(double interestRate) {
+        this.interestRate = interestRate;
     }
 
-    @Override
-    public void withdraw(double amount) {
-        if (vaultLocked) {
-            System.out.println("Withdrawal blocked! Your Savings Vault is currently locked.");
-        } else {
-            super.withdraw(amount);
-        }
-    }
-
+    // Overridden method
     @Override
     public void accountType() {
-        System.out.println("This is a High-Yield Savings Account.");
+        System.out.println("This is a Savings Account with " + (interestRate * 100) + "% interest rate.");
+    }
+
+    // Overridden withdraw method with withdrawal limit
+    @Override
+    public void withdraw(double amount) {
+        if (isActive()) {
+            if (getBalance() >= amount) {
+                if (amount <= 500) { // Savings account withdrawal limit
+                    System.out.println("Withdrawing: $" + amount);
+                    // Direct balance manipulation (you may need a protected method in parent)
+                } else {
+                    System.out.println("Withdrawal limit exceeded. Maximum withdrawal: $500");
+                }
+            } else {
+                System.out.println("Insufficient funds. Cannot withdraw $" + amount);
+            }
+        } else {
+            System.out.println("Account is inactive. Cannot withdraw.");
+        }
+    }
+
+    // New behavior unique to SavingsAccount
+    public void addInterest() {
+        if (isActive()) {
+            double interest = getBalance() * interestRate;
+            System.out.println("Adding interest: $" + interest);
+        } else {
+            System.out.println("Account is inactive. Cannot add interest.");
+        }
     }
 }
