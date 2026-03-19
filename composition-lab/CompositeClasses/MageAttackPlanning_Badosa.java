@@ -5,7 +5,7 @@ import ComponentClasses.SchedulePlanner_Rodenas;;
 
 public class MageAttackPlanning_Badosa {
     private Mage_Isles mage;
-    private SchedulePlanner_Rodenas schedule;
+    private SchedulePlanner_Rodenas schedule; 
 
     // Constructor using components
     public MageAttackPlanning_Badosa(Mage_Isles mage, SchedulePlanner_Rodenas schedule) {
