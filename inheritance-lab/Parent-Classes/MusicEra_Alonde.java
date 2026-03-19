@@ -1,4 +1,4 @@
-public class MusicEra {
+public class MusicEra_Alonde {
     //static attribute
     private static int totalErasCount = 0;
 
@@ -9,7 +9,7 @@ public class MusicEra {
     private boolean isOwnedByArtist;
 
     //constructors
-    public MusicEra(String name, int year, int tracks) {
+    public MusicEra_Alonde(String name, int year, int tracks) {
         setEraName(name);       //validation rule 1
         setReleaseYear(year);   //validation rule 2
         setTrackCount(tracks);  //validation rule 3
@@ -18,7 +18,7 @@ public class MusicEra {
         totalErasCount++; //static behavior
     }
 
-    public MusicEra() {
+    public MusicEra_Alonde() {
         this("Reputation", 2017, 15);
     }
 
@@ -49,6 +49,14 @@ public class MusicEra {
         if (count > 0) {
             this.trackCount = count;
         }
+    }
+
+    public boolean isOwnedByArtist() {
+        return isOwnedByArtist;
+    }
+
+    public void setOwnedByArtist(boolean owned) {
+        this.isOwnedByArtist = owned;
     }
 
     //behaviors (methods)

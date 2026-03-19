@@ -20,7 +20,7 @@
  * Swordsman_Arandela → swordAttack()
  */
 
-public class Main_ {
+public class Main_Alonde2 {
     public static void main(String[] args) {
 
         // Dynamic Binding Example
