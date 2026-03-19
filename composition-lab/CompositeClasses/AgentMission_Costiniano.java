@@ -1,8 +1,8 @@
 package CompositeClasses;
-
+//composite class created by Costiniano
 import ComponentClasses.Pistol_Badosa;
 import ComponentClasses.SchedulePlanner_Rodenas;
-//composite class created by Costiniano
+
 public class AgentMission_Costiniano {
 
 	private Pistol_Badosa pistol;
