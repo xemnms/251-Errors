@@ -18,4 +18,3 @@
 
 **<03/16/2026>**: Comment by: Andrew Dizon; You did well in implementing a robust 50-ticket validation limit and ensuring static counters track every reservation.  
 
-**<03/19/2026>**: Comment by : Galindon; You did well in writing your class and your creativty with the class is amazing.
