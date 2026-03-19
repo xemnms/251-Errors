@@ -21,7 +21,7 @@ public class CompositionDemoCostiniano {
                 new AgentMission_Costiniano(pistol, schedule);
         
         //starts the mission (uses pistol and schedule)
-        mission.startMission();
+        mission.StartMission();
         
         //reloads the pistol
         mission.reloadWeapon();
