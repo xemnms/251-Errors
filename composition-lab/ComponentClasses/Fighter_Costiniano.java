@@ -1,5 +1,5 @@
 package ComponentClasses;
-
+//component class created by Costiniano
 public class Fighter_Costiniano {
 	private String name;
 	private int health;
