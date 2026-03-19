@@ -68,6 +68,10 @@ public class MusicEra_Alonde {
         System.out.println("Era: " + eraName + " | Year: " + releaseYear);
     }
 
+    public void accountType() {
+        System.out.println("This is a general music era.");
+    }
+
     public static int getTotalEras() {
         return totalErasCount;
     }
