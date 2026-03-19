@@ -2,10 +2,10 @@
 // Extends Accessory_Batangan to add customization
 // Created by Bautista for Option 1 inheritance demo
 
-public class CustomAccessory_Batangan extends Accessory_Batangan {
+public class CustomAccessory_Bautista extends Accessory_Batangan {
 
     // Constructor calls parent constructor
-    public CustomAccessory_Batangan(String accessoryID, String accessoryName, String color, double price) {
+    public CustomAccessory_Bautista(String accessoryID, String accessoryName, String color, double price) {
         super(accessoryID, accessoryName, color, price);
     }
 
