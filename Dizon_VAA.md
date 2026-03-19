@@ -16,3 +16,5 @@
 
 
 **\<03/16/2026\>** : todays, I learned how to properly protect object data using private attributes and how to integrate external classes into a single Main program.
+
+**\<03/19/2026\>**: Comment by: Arandela; You did well in creating a clear parent class and properly using inheritance, especially with method overriding to show different behaviors.
