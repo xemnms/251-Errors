@@ -65,5 +65,5 @@ public void updateSubject(String newSubject) {
     } else {
         System.out.println("Invalid subject input.");
         }
-}
+    }
 }
