@@ -1,0 +1,54 @@
+/* *  Inheritance Behavior Analysis ---
+ 1. What is the IS-A relationship in your program?
+ F1Prodigy_Dizon IS-A Formula1.
+ - F1SafetyCar_Dizon IS-A Formula1 (Hierarchical Subclass).
+ 2. Which method was overridden?
+- The race() method was overridden in both child classes to provide specialized logic.
+ 3. What happens during dynamic binding?
+ - Java decides which version of race() to call at runtime based on the actual object 
+  created (the instance), not the reference type. Even if the variable is type 'Formula1', 
+ if it holds an 'F1Prodigy_Dizon' object, the child's version runs.
+ 4. What methods were inherited from the parent class?
+ - displayInfo() and the initial logic of race() (though later overridden).
+5. What new behavior did the subclass introduce?
+- F1Prodigy_Dizon introduced toggleDRS() to change aerodynamic states.
+ */
+
+public class Main_Dizon {
+    public static void main(String[] args) {
+       String checkeredFlag = "🏁 =🏁 =🏁 =🏁 =🏁 =🏁 =🏁 =🏁 =🏁 =🏁 =🏁 =🏁 =🏁 =🏁 =🏁 =🏁";
+        //Subclass
+        System.out.println("\n" + separator);
+        System.out.println("   F1 INHERITANCE DEMO: CHILD CLASS INSTANCE");
+        System.out.println(separator);
+        
+        F1Prodigy_Dizon myCar = new F1Prodigy_Dizon("Red Bull Racing", 345, "Max Verstappen", false);
+        myCar.displayInfo();
+        
+        System.out.println("\n[Action]: Toggling DRS System...");
+        myCar.toggleDRS();
+        
+        System.out.println("[Action]: Commencing Race...");
+        myCar.race(); // Calling overridden method
+
+        System.out.println("\n" + separator);
+        System.out.println("   DYNAMIC BINDING (POLYMORPHISM) DEMO");
+        System.out.println(separator);
+        
+        Formula1 polyCar = new F1Prodigy_Dizon("Mercedes-AMG", 330, "Lewis Hamilton", true);
+        
+        System.out.println("Reference Type: Formula1 | Object Type: F1Prodigy_Dizon");
+        polyCar.race(); // The Child's race() executes due to dynamic binding
+
+
+        // --- 3. Hierarchical Inheritance (Bonus x2) ---
+        System.out.println("\n" + separator);
+        System.out.println("   HIERARCHICAL INHERITANCE: SECOND SUBCLASS");
+        System.out.println(separator);
+        
+        F1SafetyCar_Dizon safetyCar = new F1SafetyCar_Dizon("Aston Martin", 250, "Bernd Mayländer");
+        safetyCar.displayInfo();
+        safetyCar.race();
+        
+        System.out.println(separator + "\n");
+    }

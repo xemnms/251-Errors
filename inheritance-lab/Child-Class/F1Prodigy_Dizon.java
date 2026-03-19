@@ -1,7 +1,7 @@
-public class F1Prodigy extends Formula1 {
+public class F1Prodigy_Dizon extends Formula1 {
     private boolean drsEnabled;
 
-    public F1Prodigy(String team, int speed, String driver, boolean drsEnabled) {
+    public F1Prodigy_Dizon(String team, int speed, String driver, boolean drsEnabled) {
         // parent constructor
         super(team, speed, driver);
         this.drsEnabled = drsEnabled;
