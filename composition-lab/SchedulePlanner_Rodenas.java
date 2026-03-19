@@ -1,7 +1,9 @@
+package ComponentClasses;
+
 /*
- *Component class by Kyla Cassandra Rodenas
- *Demonstrates composition (HAS-A relationship), encapsulation, and validation
- *This class can be used by other classes like Student HAS-A Schedule
+ * Component class by Kyla Cassandra Rodenas
+ * Represents a schedule with day, time, and subject
+ * Demonstrates composition (HAS-A relationship), encapsulation, and validation
  */
 
 public class SchedulePlanner_Rodenas {
