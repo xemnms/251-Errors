@@ -1,3 +1,9 @@
+/*
+ * Bank Account Parent Class
+ * This class represents a basic bank account with possible child classes of SavingsAccount and CheckingAccount.
+ * Author: JULLIANA NEPOMUCENO
+ */
+
 public class BankAccount_Nepomuceno {
     private static final String CLASS_ID = "Machine Class Created by NEPOMUCENO";
     private String accountNumber;
@@ -73,6 +79,9 @@ public class BankAccount_Nepomuceno {
             } else {
                 System.out.println("Insufficient funds. Cannot withdraw $" + amount);
             }
+            balance -= amount;
+            System.out.println("Withdrawing: $" + amount);
+
         } else {
             System.out.println("Account is inactive. Cannot withdraw.");
         }

@@ -16,6 +16,7 @@
 
 **<03/15/2026>**: Comment by : Galindon; You did well in writing your code and you can improve by adding display methods.   
 
+<<<<<<< HEAD
 **<03/16/2026>**: Comment by: Andrew Dizon; You did well in implementing a robust 50-ticket validation limit and ensuring static counters track every reservation.
 
 **<03/19/2026>**: I learned how inheritance works by creating a parent and subclass, and how methods can be overridden. Next time, I will improve my class design.
