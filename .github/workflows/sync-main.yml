@@ -1,4 +1,4 @@
-name: Auto Sync Main to Team Branches
+name: Auto Sync Main to Develop Teams
 
 on:
   push:
@@ -23,18 +23,23 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Configure Git user
+      - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Fetch all branches
-        run: git fetch --all
-
-      - name: Create sync branch
+      - name: Fetch all branches completely
         run: |
-          git checkout -b sync/${{ matrix.branch }} origin/${{ matrix.branch }}
-          git merge origin/main --no-edit || true
+          git fetch --prune --unshallow || true
+          git fetch origin "+refs/heads/*:refs/remotes/origin/*"
+
+      - name: Create forced merge sync branch
+        run: |
+          # Start from the latest develop branch
+          git checkout -B sync/${{ matrix.branch }} origin/${{ matrix.branch }}
+
+          # ALWAYS force merge main into develop
+          git merge origin/main --no-edit --no-ff --strategy-option theirs --allow-unrelated-histories || true
 
       - name: Push sync branch
         run: git push origin sync/${{ matrix.branch }} --force-with-lease
@@ -47,8 +52,9 @@ jobs:
           base: ${{ matrix.branch }}
           title: "Sync main → ${{ matrix.branch }}"
           body: |
-            Automated sync PR from **main** to **${{ matrix.branch }}**.
-            Requires 2 approvals before auto-merge.
+            Forced sync merge of **main** into **${{ matrix.branch }}**.
+            This always runs even if develop is ahead.
+            Requires 2 approvals for auto-merge.
           delete-branch: true
 
       - name: Auto-merge when ready
@@ -56,7 +62,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const prNumber = ${{ steps.cpr.outputs.pull-request-number }};
+            const prNumber = ${{ steps.cpr.outputs['pull-request-number'] }};
             const pr = await github.pulls.get({
               owner: context.repo.owner,
               repo: context.repo.repo,
