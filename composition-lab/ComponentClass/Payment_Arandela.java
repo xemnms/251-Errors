@@ -5,7 +5,7 @@ public class Payment_Arandela {
     private boolean isPaid;
 
     // Constructor
-    public Payment(String paymentMethod, double amount) {
+    public Payment_Arandela(String paymentMethod, double amount) {
         this.paymentMethod = paymentMethod;
         setAmount(amount); // use setter for validation
         this.isPaid = false;
