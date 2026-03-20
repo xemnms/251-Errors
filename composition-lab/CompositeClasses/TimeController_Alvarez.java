@@ -20,8 +20,7 @@ public class TimeController_Alvarez {
         timeMachine.travelToTime(
                 timeMachine.getYearOfTravel(),
                 timeMachine.getMonthOfTravel(),
-                timeMachine.getDestinationPoint()
-        );
+                timeMachine.getDestinationPoint());
 
         timeMachine.turnOff();
         System.out.println("Time travel sequence completed.");

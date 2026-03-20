@@ -1,4 +1,4 @@
-public class Car extends Vehicle_Badosa {
+ public class Car extends Vehicle_Badosa {
 
     //Attributes of a Car
     private String brand;

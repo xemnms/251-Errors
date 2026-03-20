@@ -5,11 +5,11 @@
 public class WallE_Bautista {
 
     // HAS-A relationship (composition)
-    private String name;                     // robot name
-    private Gadgets_Bagay system;            // battery + power system
-    private Accessory_Batangan accessory;    // collected item
-    
-    // Constructor Injection 
+    private String name; // robot name
+    private Gadgets_Bagay system; // battery + power system
+    private Accessory_Batangan accessory; // collected item
+
+    // Constructor Injection
     public WallE_Bautista(String name, Gadgets_Bagay system, Accessory_Batangan accessory) {
         this.name = name;
         this.system = system;
@@ -37,8 +37,8 @@ public class WallE_Bautista {
     // Behavior: Display status
     public void displayStatus() {
         System.out.println(name + "'s current status:");
-        system.displayDetails();       // Gadget details
-        accessory.displayAccessory();  // Accessory details
+        system.displayDetails(); // Gadget details
+        accessory.displayAccessory(); // Accessory details
     }
 
     // Low coupling demo support (setter replacement)
