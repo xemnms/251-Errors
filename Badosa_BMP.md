@@ -4,9 +4,14 @@
 ## 📊Scores
 First Recitation in OOP Lecture - 5 points - 03/05/2026
 
-| Date     | Activity Type | Title | Score | Total Points |
-|----------|---------------|-------|-------|--------------|
-|03/05/2026|Quiz           |Quiz 1 |5      |5             |
+| Date     | Activity Type         | Title       | Score | Total Points |
+|----------|-----------------------|-------------|-------|--------------|
+|03/05/2026|Quiz                   |Quiz 1       |5      |5             |
+|03/19/2026|Ice Breaker Facilitator|Mini-Jeopardy|10     |15            |
+|03/19/2026|Recitation             |Coupling     |15     |30            |
+|03/19/2026|Called out trap        |Mislead      |5      |35            |
+|03/19/2026|On Camera for OLC      |Opened cam   |5      |40            |
+|03/19/2026|On Mic for OLC         |Opened Mic   |2      |42            |
 
 ---
 ## 📘Journals

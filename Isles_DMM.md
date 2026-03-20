@@ -20,7 +20,13 @@
 
 **\<03/16/2026\>** : I learned how to apply encapsulation to restrict my data's access to avoid ease of data-changing, and to improve, next time I will learn how to code with encapsulation effeciently to make my future projects more flexible.
 
+---
+## ✉️ Peer Feedbacks  
+
 **<03/16/2026>** : Comment by: Clisha Batangan; You did well in checking the errors in the code and organizing the class while applying encapsulation by keeping the attributes private and using methods to access and modify them, and you can improve in none
 
 **\<03/16/2026\>** : Comment by: Kyla Cassandra Rodenas; You did well in communicating clearly and keeping our workflow organized, and you can improve by adding more validation checks in your class methods.
 
+**\<03/20/2026\>** : Comment by: Badosa; You did well in implementing comprehensive input validation for all setters and maintaining clear code organization with helpful comments, and you can improve by creating a parameterized constructor for easier initialization, and making behavior methods like useElement() more descriptive and interactive.  
+
+---

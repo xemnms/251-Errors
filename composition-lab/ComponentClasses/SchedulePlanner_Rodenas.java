@@ -6,8 +6,6 @@ package ComponentClasses;
  * Demonstrates composition (HAS-A relationship), encapsulation, and validation
  */
 
-// 03/20/2026 : Comment by: Badosa; You did well in creating clear documentation, implementing proper encapsulation with private attributes, and providing validation in setTime and updateSubject methods, and you can improve by making validation consistent across all setters, adding null checks in constructors before assignment, and validating day and subject parameters throughout the class.
-
 public class SchedulePlanner_Rodenas {
 //attributes (stores the schedule details)
 private String day;
