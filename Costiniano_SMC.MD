@@ -16,6 +16,8 @@
 
 **<03/11/2026>** : I learned how to create classes and objects in Java, and next time I will test my code earlier.
 
+**<03/20/2026>**: Today I learned how composition works using HAS-A relationships and constructor injection. I also encountered errors with imports and method names. Next time I will check my code more carefully before pushing.
+
 ---
 
 ## ✉️ Peer Feedbacks  
