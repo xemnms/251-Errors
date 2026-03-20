@@ -25,4 +25,6 @@
 
 **\<03/16/2026\>** : Comment by: Bien Manuel Badosa: You did well in creating a parent class that is general and reusable, Next time I look forward to see how you will apply this in the project we will be working on.
 
+**\<03/20/2026\>**: Comment by: Bautista; You did well in constructing your code. It shows your deep understanding of the project. The details are well thought out and I like how it is managed. It's clean yet effective. Looking forward to see you take it to the next level in our upcoming projects. Niceu
+
 ---
