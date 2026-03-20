@@ -6,7 +6,7 @@
 | Date       | Activity Type | Title       | Score | Total Points |
 |------------|----------------|-------------|--------|--------------|
 | 03/05/2026 | Quiz           | Quiz 1      |   5    | 5            |
-
+| 03/19/2026 | Video Attendance           | Plus Points      |   5    | 10          |
 
 ---
 
@@ -16,10 +16,9 @@
 
 **\<03/11/2026\>** : I learned how to open and merge files from GitHub to VS Code and vice versa during our lab as this helped me understand how to manage and update code between the two platforms more efficiently and next time I will aim to complete my tasks faster by practicing these steps and improving my workflow.
 
-
-
 **<03/16/2026>** : I learned how encapsulation works in Java by using private attributes with getters and setters to control access to an object’s data, and next time I will practice validating values and handling null inputs to make my code safer and more reliable.
 
+**<03/16/2026>** : I learned how a child class like Smartphone_Batangan can inherit attributes and methods from a parent class (Device_Rodenas) using extends, while also adding its own features like operatingSystem and takePhoto(). I also learned how method overriding works by changing the behavior of crashDevice() to make it more specific to the smartphone. Next time I will practice creating more child classes and explore how to use overriding and additional methods to make each object behave differently.
 
 ---
 ## ✉️ Peer Feedbacks
