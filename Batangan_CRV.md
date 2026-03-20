@@ -26,7 +26,8 @@
 
 **<03/16/2026>** : Comment by: Rodenas; You did well in implementing the class structure and contributing to the discussion, and you can improve by adding more comments to explain the code logic.
 
-
 **<03/15/2026>**: Comment by : Galindon; You did well in writing your code, Your class is well-written and easy to follow.
 
 **<03/16/2026>**: Comment by: Andrew Dizon; You did well in creating a clean song management system and handling empty string validation for the genre field.
+
+**<03/20/2026>**: Comment by: Bautista; You did well in structuring the accessory class of yours. It's clean, simple and easy to follow. Looking forward to see you build your code even more robust and efficient. Niceu
