@@ -37,6 +37,8 @@ First Recitation in OOP Lecture - 5 points - 03/05/2026
 
 **<03/20/2026>**: Comment by : Isles; You did well in keeping your class organized with good encapsulation and clear behavior methods, and you can improve by adding validation in the constructor and making your setters more consistent.
 
+**\<03/20/2026\>** : Comment by: Rodenas; You did well in implementing the Pistol_Badosa class with proper encapsulation and meaningful methods like shoot and reload, and you can improve by improving consistency in validation and possibly adding more behaviors to enhance functionality.
+
 ---
 
 
