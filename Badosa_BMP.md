@@ -35,6 +35,8 @@ First Recitation in OOP Lecture - 5 points - 03/05/2026
 
 **<03/18/2026>**: Comment by : Bagay; Your reflection shows good self-awareness, especially in identifying mistakes. Learning from mistakes and reflecting on them will definitely help you grow in not just in OOP but in general. Keep practicing and stay patient with yourself.
 
+**<03/20/2026>**: Comment by : Isles; You did well in keeping your class organized with good encapsulation and clear behavior methods, and you can improve by adding validation in the constructor and making your setters more consistent.
+
 ---
 
 
