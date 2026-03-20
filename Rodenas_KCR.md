@@ -3,10 +3,12 @@
 
 ## 📊 Scores
 
-| Date       | Activity Type | Title       | Score | Total Points |
-|------------|----------------|-------------|--------|--------------|
-| 03/05/2026 | Quiz           | Quiz 1      | 5      | 5            |
-| —          | —              | —           | —      | —            |
+| Date       | Activity Type   | Title       | Score | Total Points |
+|------------|-----------------|-------------|--------|--------------|
+| 03/05/2026 | Quiz            | Quiz 1      | 5      | 5            |
+|03/19/2026  |On Camera for OLC|Opened cam   |5       |10            |
+|03/19/2026  |On Mic for OLC   |Opened Mic   |2       |12            |
+| —          | —               | —           | —      | —            |
 
 ---
 
@@ -17,6 +19,8 @@
 **\<03/11/2026\>** : I learned how to create branches, merge them with main, and update my Java classes and objects in GitHub. Next time, I will practice merging and resolving conflicts more smoothly and learn more about GitHub features so I don’t get confused while managing my projects.
 
 **<03/16/2026>** : I learned how encapsulation protects data by using private attributes with getters and setters, and how our team collaborated using branches and merging in GitHub. Next time I will improve my Git workflow and practice resolving merge conflicts more confidently.
+
+**\<03/20/2026\>** : I learned how to apply composition in Java by creating classes that use other objects through HAS-A relationships instead of inheritance. I created a combatMage system that combines a pistol and a mage, and I was able to replace components without changing the main class, which showed low coupling. I also learned how inheritance can be used for the 2x multiplier by creating a child class that overrides behavior while still working with the system. Next time, I will improve my understanding of designing flexible systems and practice using composition and inheritance together more effectively.
 
 ---
 ## ✉️ Peer Feedbacks  
