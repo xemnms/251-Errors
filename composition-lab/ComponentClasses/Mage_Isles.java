@@ -1,5 +1,6 @@
 //component class created by Dan Isles
 //this class represents a mage element system (parang powers ng character mo)
+
 package ComponentClasses;
 
 public class Mage_Isles {
