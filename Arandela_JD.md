@@ -23,4 +23,6 @@
 
 **<03/19/2026>**: Comment by: Vic Andrew Dizon; You did well in implementing the method overriding for the race behavior and you can improve by including more varied test cases in your main demo.
 
-**<03/21/2026>**:: Comment by: Vic Andrew Andres Dizon; You did well in implementing the validation logic within your setAmount method, which effectively prevents the system from processing invalid negative transactions.
+**<03/21/2026>**: Comment by: Vic Andrew Andres Dizon; You did well in implementing the validation logic within your setAmount method, which effectively prevents the system from processing invalid negative transactions.
+
+**<03/21/2026>**: Great job developing both the composite and component classes. It’s clear that you understand how they work together.
