@@ -1,12 +1,12 @@
 /**
- * PremiumSkin_Dizon - A subclass of Skin_Dizon
+ * PremiumSkin_Nepomuceno - A subclass of Skin_Dizon
  * 
  * IS-A Relationship: PremiumSkin IS-A Skin_Dizon
  * 
  * This demonstrates inheritance where PremiumSkin extends the functionality
  * of the base Skin_Dizon class with premium-exclusive features.
  */
-public class PremiumSkin_Dizon extends Skin_Dizon {
+public class PremiumSkin_Nepomuceno extends Skin_Dizon {
     
     // Additional attributes for premium skins
     private boolean hasGlowEffect;
@@ -14,7 +14,7 @@ public class PremiumSkin_Dizon extends Skin_Dizon {
     private double premiumPrice;
     
     // Constructor
-    public PremiumSkin_Dizon(String skinName, String rarity, int upgradeLevel, double premiumPrice) {
+    public PremiumSkin_Nepomuceno(String skinName, String rarity, int upgradeLevel, double premiumPrice) {
         super(skinName, rarity, upgradeLevel);  // Call parent constructor
         this.premiumPrice = premiumPrice;
         this.hasGlowEffect = true;

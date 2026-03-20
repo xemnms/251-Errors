@@ -10,16 +10,23 @@ public class CompositionDemoNepomuceno {
         Skin_Dizon reaverSkin = new Skin_Dizon("Reaver", "Premium", 3);
         Skin_Dizon standardSkin = new Skin_Dizon("Standard", "Select", 1);
 
+        // Premium Skins from PremiumSkin_Nepomuceno (child class)
+        PremiumSkin_Nepomuceno luxeySkin = new PremiumSkin_Nepomuceno("Luxey", "Exclusive", 4, 49.99);
+        PremiumSkin_Nepomuceno prestigeSkin = new PremiumSkin_Nepomuceno("Prestige", "Ultra", 3, 39.99);
 
         // Payments from Arandela's class
         Payment_Arandela payment1 = new Payment_Arandela("Credit Card", 29.99);
         Payment_Arandela payment2 = new Payment_Arandela("PayPal", 24.99);
         Payment_Arandela payment3 = new Payment_Arandela("Gift Card", 19.99);
+        Payment_Arandela payment4 = new Payment_Arandela("Credit Card", 49.99);
+        Payment_Arandela payment5 = new Payment_Arandela("PayPal", 39.99);
 
         System.out.println("\nCreated Payment_Arandela components:");
         System.out.println("Credit Card - $29.99");
         System.out.println("PayPal - $24.99");
         System.out.println("Gift Card - $19.99");
+        System.out.println("Credit Card - $49.99");
+        System.out.println("PayPal - $39.99");
 
         // Create Composed Shop
         System.out.println("\n\n====================================\n");
@@ -50,6 +57,28 @@ public class CompositionDemoNepomuceno {
         System.out.println();
         shop.makePurchase(standardSkin, payment3);
         System.out.println();
+
+        // Transaction 4 - Premium Skin
+        System.out.println("=== Transaction 4: Purchase Luxey Premium Skin ===");
+        shop.browseSkin(luxeySkin);
+        shop.makePurchase(luxeySkin, payment4);
+
+        // Transaction 5 - Premium Skin
+        System.out.println("\n=== Transaction 5: Purchase Prestige Premium Skin ===");
+        shop.browseSkin(prestigeSkin);
+        shop.makePurchase(prestigeSkin, payment5);
+        System.out.println();
+
+        // Display Premium Features
+        System.out.println("=== Premium Skin Features ===");
+        System.out.println("\nLuxey Premium Skin Details:");
+        luxeySkin.displayPremiumFeatures();
+        System.out.println("\nActivating Premium Mode:");
+        luxeySkin.activatePremiumMode();
+
+        System.out.println("\n\nPrestige Premium Skin Details:");
+        prestigeSkin.displayPremiumFeatures();
+
 
 /*
  * QUESTION 1: What are the HAS-A relationships?
