@@ -32,4 +32,4 @@
 
 =======
 **<03/20/2026>**: Reflection by: Jherrymei Arandela (for Myself); I did well in applying composition by combining weapon and skin into a player class and demonstrating low coupling through component replacement, and I can improve by expanding interactions and adding more components to strengthen the system design.
->>>>>>> develop-team1
+
