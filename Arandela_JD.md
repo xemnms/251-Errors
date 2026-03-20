@@ -22,3 +22,5 @@
 **<03/19/2026>**: I learned how inheritance works by creating a parent and subclass, and how methods can be overridden. Next time, I will improve my class design.
 
 **<03/19/2026>**: Comment by: Vic Andrew Dizon; You did well in implementing the method overriding for the race behavior and you can improve by including more varied test cases in your main demo.
+
+**<03/20/2026>**: Reflection by: Jherrymei Arandela (for Myself); I did well in applying composition by combining weapon and skin into a player class and demonstrating low coupling through component replacement, and I can improve by expanding interactions and adding more components to strengthen the system design.
