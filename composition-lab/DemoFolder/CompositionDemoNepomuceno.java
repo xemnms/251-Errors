@@ -58,8 +58,8 @@ public class CompositionDemoNepomuceno {
  * instances of other classes.
  * 
  * In this program:
- *   • SkinShop_Nepomuceno HAS-A Skin_Dizon
- *   • SkinShop_Nepomuceno HAS-A Payment_Arandela
+ *   - SkinShop_Nepomuceno HAS-A Skin_Dizon
+ *   - SkinShop_Nepomuceno HAS-A Payment_Arandela
  * 
  * Example:
  *   private Skin_Dizon skin;           // SkinShop HAS-A Skin
@@ -74,11 +74,11 @@ public class CompositionDemoNepomuceno {
  * Reused classes are classes created by teammates that we use in our code.
  * 
  * In this program:
- *   • Skin_Dizon - Created by: Dizon (teammate)
+ *   - Skin_Dizon - Created by: Dizon (teammate)
  *     - Used to represent skin properties (name, rarity, upgrade level)
  *     - Methods: examine(), playSFX()
  * 
- *   • Payment_Arandela - Created by: Arandela (teammate)
+ *   - Payment_Arandela - Created by: Arandela (teammate)
  *     - Used to represent payment information
  *     - Methods: processPayment(), displayPaymentDetails()
  * 
@@ -123,26 +123,26 @@ public class CompositionDemoNepomuceno {
  * In this program, each class does ONE job:
  * 
  * 1. Skin_Dizon (by Dizon):
- *    ✓ ONLY manages skin properties
- *    ✓ Attributes: skinName, rarity, upgradeLevel
- *    ✓ Methods: examine(), playSFX()
- *    ✓ Job: Display skin info and play sound effects
- *    ✓ Cohesion: ALL methods relate to SKIN MANAGEMENT
+ *    - ONLY manages skin properties
+ *    - Attributes: skinName, rarity, upgradeLevel
+ *    - Methods: examine(), playSFX()
+ *    - Job: Display skin info and play sound effects
+ *    - Cohesion: ALL methods relate to SKIN MANAGEMENT
  * 
  * 2. Payment_Arandela (by Arandela):
- *    ✓ ONLY manages payment information
- *    ✓ Attributes: paymentMethod, amount, isPaid
- *    ✓ Methods: processPayment(), displayPaymentDetails()
- *    ✓ Job: Process and display payment info
- *    ✓ Cohesion: ALL methods relate to PAYMENT PROCESSING
+ *    - ONLY manages payment information
+ *    - Attributes: paymentMethod, amount, isPaid
+ *    - Methods: processPayment(), displayPaymentDetails()
+ *    - Job: Process and display payment info
+ *    - Cohesion: ALL methods relate to PAYMENT PROCESSING
  * 
  * 3. SkinShop_Nepomuceno (by Nepomuceno):
- *    ✓ ONLY coordinates transactions
- *    ✓ Methods: browseSkin(), makePurchase(), displayShop()
- *    ✓ Job: Manage shop operations using skin and payment objects
- *    ✓ Cohesion: ALL methods relate to SHOP OPERATIONS
- *    ✓ DOES NOT duplicate skin or payment logic
- *    ✓ DELEGATES to Skin_Dizon and Payment_Arandela
+ *    - ONLY coordinates transactions
+ *    - Methods: browseSkin(), makePurchase(), displayShop()
+ *    - Job: Manage shop operations using skin and payment objects
+ *    - Cohesion: ALL methods relate to SHOP OPERATIONS
+ *    - DOES NOT duplicate skin or payment logic
+ *    - DELEGATES to Skin_Dizon and Payment_Arandela
  * 
  * Why this is HIGH COHESION:
  *   - No class does the job of another class
@@ -157,24 +157,24 @@ public class CompositionDemoNepomuceno {
  * 
  * Why inheritance would be WRONG for SkinShop:
  * 
- * ✗ SkinShop IS NOT A TYPE of Skin
+ *  SkinShop IS NOT A TYPE of Skin
  *   - A shop is not a skin
  *   - Extending Skin_Dizon would be semantically wrong
  * 
- * ✗ SkinShop IS NOT A TYPE of Payment
+ *  SkinShop IS NOT A TYPE of Payment
  *   - A shop is not a payment
  *   - Extending Payment_Arandela would be semantically wrong
  * 
- * ✗ SkinShop USES Skin and Payment (HAS-A)
+ *  SkinShop USES Skin and Payment (HAS-A)
  *   - The shop contains/owns skins and payments
  *   - The shop coordinates them, not IS them
  * 
- * ✗ Inheritance would create TIGHT COUPLING
+ *  Inheritance would create TIGHT COUPLING
  *   - Changes to parent class affect child class
  *   - Hard to replace parent with something else
  *   - Violates the "favor composition over inheritance" principle
  * 
- * ✓ COMPOSITION is correct
+ *  COMPOSITION is correct
  *   - Shop has-a Skin, has-a Payment
  *   - Shop is independent from them
  *   - Easy to modify or replace components
