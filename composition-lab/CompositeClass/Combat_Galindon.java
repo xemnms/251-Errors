@@ -1,10 +1,10 @@
-public class Combat {
+public class Combat_Galindon {
     // Private fields (composition)
     private Agents_Alonde agent;
     private Weapon_Nepomuceno weapon;
 
     // Constructor injection
-    public Combat(Agents_Alonde agent, Weapon_Nepomuceno weapon) {
+    public Combat_Galindon(Agents_Alonde agent, Weapon_Nepomuceno weapon) {
         this.agent = agent;
         this.weapon = weapon;
     }
