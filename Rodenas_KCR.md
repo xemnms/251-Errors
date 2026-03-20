@@ -31,4 +31,6 @@
 
 **\<03/20/2026\>** : Comment by: Badosa; You did well in creating clear documentation, implementing proper encapsulation with private attributes, and providing validation in setTime and updateSubject methods, and you can improve by making validation consistent across all setters, adding null checks in constructors before assignment, and validating day and subject parameters throughout the class.
 
+**\<03/20/2026\>** : Comment by : Isles; You did well in applying validation and maintaining a clean, organized structure with clear methods, and you can improve by adding validation for other fields like day and subject to ensure consistency.
+
 ---
