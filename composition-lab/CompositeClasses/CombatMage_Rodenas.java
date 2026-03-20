@@ -1,7 +1,3 @@
-package CompositeClasses;
-
-import ComponentClasses.Pistol_Badosa;
-import ComponentClasses.Mage_Isles;
 
 /*
  * Composed class by Kyla Cassandra Rodenas
@@ -9,15 +5,17 @@ import ComponentClasses.Mage_Isles;
  * Uses components from Pistol_Badosa and Mage_Isles
  */
 public class CombatMage_Rodenas {
-    //attributes (HAS-A relationship: the mage has a pistol and magic abilities)
+    // attributes (HAS-A relationship: the mage has a pistol and magic abilities)
     private Pistol_Badosa combatPistol;
     private Mage_Isles combatMage;
-    //constructor
+
+    // constructor
     public CombatMage_Rodenas(Pistol_Badosa combatPistol, Mage_Isles combatMage) {
         this.combatPistol = combatPistol;
         this.combatMage = combatMage;
     }
-    //getters
+
+    // getters
     public Pistol_Badosa getCombatPistol() {
         return combatPistol;
     }
@@ -25,15 +23,17 @@ public class CombatMage_Rodenas {
     public Mage_Isles getCombatMage() {
         return combatMage;
     }
-    //setters
+
+    // setters
     public void setCombatPistol(Pistol_Badosa combatPistol) {
         this.combatPistol = combatPistol;
     }
+
     public void setCombatMage(Mage_Isles combatMage) {
         this.combatMage = combatMage;
     }
 
-    //behavior: shoot pistol enhanced by mage's elemental magic
+    // behavior: shoot pistol enhanced by mage's elemental magic
     public void magicShoot() {
         System.out.println("=== Magic Pistol Attack ===");
         String element = combatMage.getElementName();
@@ -45,7 +45,7 @@ public class CombatMage_Rodenas {
         System.out.println("=== Attack Successful ===");
     }
 
-    //display combined info
+    // display combined info
     public void showCombinedInfo() {
         System.out.println("=== Loadout ===");
         System.out.println("\nPistol:");
@@ -59,10 +59,11 @@ public class CombatMage_Rodenas {
         System.out.println("=======================================");
     }
 
-    //boost mage power and pistol bullets
+    // boost mage power and pistol bullets
     public void powerUp(int newPowerLevel, int extraBullets) {
         combatMage.setPowerLevel(newPowerLevel);
         combatPistol.setMagazineCapacity(combatPistol.getMagazineCapacity() + extraBullets);
-        System.out.println("Power up! Mage power: " + newPowerLevel + ", Pistol bullets: " + combatPistol.getMagazineCapacity());
+        System.out.println(
+                "Power up! Mage power: " + newPowerLevel + ", Pistol bullets: " + combatPistol.getMagazineCapacity());
     }
 }

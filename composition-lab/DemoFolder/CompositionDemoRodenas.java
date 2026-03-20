@@ -1,4 +1,3 @@
-package DemoFolder;
 
 /*
  * Main class by Kyla Cassandra Rodenas
@@ -23,28 +22,22 @@ package DemoFolder;
  * Inheritance would imply an IS-A relationship, which is incorrect.
  * The combat mage is not a pistol or a mage, it only uses them, so HAS-A (composition) is more appropriate.
  */
-
-import ComponentClasses.Pistol_Badosa;
-import ComponentClasses.Mage_Isles;
-import CompositeClasses.CombatMage_Rodenas;
-import ChildClasses_LowCoupling.arcanePistol_Rodenas;
-
 public class CompositionDemoRodenas {
     public static void main(String[] args) {
-        //create initial components
+        // create initial components
         Pistol_Badosa pistol = new Pistol_Badosa("Glock", 2, 15);
         Mage_Isles mage = new Mage_Isles();
         mage.setElementName("Fire");
         mage.setPowerLevel(50);
         mage.setType("Offense");
 
-        //create composed object
+        // create composed object
         CombatMage_Rodenas hero = new CombatMage_Rodenas(pistol, mage);
-        //display info
+        // display info
         hero.showCombinedInfo();
-        //perform magic attack
+        // perform magic attack
         hero.magicShoot();
-        //demonstrate low coupling by swapping loadouts
+        // demonstrate low coupling by swapping loadouts
         System.out.println("\n--- Loadout Swap ---");
         Pistol_Badosa newPistol = new Pistol_Badosa("Desert Eagle", 3, 12);
         Mage_Isles newMage = new Mage_Isles();
@@ -53,17 +46,17 @@ public class CompositionDemoRodenas {
         newMage.setType("Defense");
         hero.setCombatPistol(newPistol);
         hero.setCombatMage(newMage);
-        //display new loadout
+        // display new loadout
         hero.showCombinedInfo();
         hero.magicShoot();
-        //replace pistol with child class (arcanePistol)
+        // replace pistol with child class (arcanePistol)
         System.out.println("\n--- Replacing Pistol with Arcane Pistol (2x Multiplier) ---");
         arcanePistol_Rodenas arcanePistol = new arcanePistol_Rodenas("ArcaneBlaster", 2, 12);
-        hero.setCombatPistol(arcanePistol); //swap in child class
-        arcanePistol.elementalArcaneCombo(hero.getCombatMage().getElementName()); //show elemental effect
+        hero.setCombatPistol(arcanePistol); // swap in child class
+        arcanePistol.elementalArcaneCombo(hero.getCombatMage().getElementName()); // show elemental effect
         hero.magicShoot();
 
-        //final power-up
+        // final power-up
         System.out.println("\n--- Power Up ---");
         hero.powerUp(90, 10);
         hero.showCombinedInfo();

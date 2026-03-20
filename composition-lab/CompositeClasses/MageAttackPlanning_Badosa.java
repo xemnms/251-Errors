@@ -1,8 +1,3 @@
-package CompositeClasses;
-
-import ComponentClasses.Mage_Isles;
-import ComponentClasses.SchedulePlanner_Rodenas;;
-
 public class MageAttackPlanning_Badosa {
     private Mage_Isles mage;
     private SchedulePlanner_Rodenas schedule;
