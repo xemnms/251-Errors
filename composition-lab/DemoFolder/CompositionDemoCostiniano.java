@@ -1,4 +1,3 @@
-
 //this demo class was created by Costiniano
 
 public class CompositionDemoCostiniano {

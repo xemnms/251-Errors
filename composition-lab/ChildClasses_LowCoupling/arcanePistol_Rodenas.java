@@ -17,6 +17,7 @@ public class arcanePistol_Rodenas extends Pistol_Badosa {
 
     // combo with mage element for extra flair
     public void elementalArcaneCombo(String element) {
+
         switch (element.toLowerCase()) {
             case "fire":
                 System.out.println("Bullets ignite into blazing arcs of fire!");

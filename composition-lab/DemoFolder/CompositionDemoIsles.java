@@ -30,6 +30,6 @@ public class CompositionDemoIsles {
         CombatSystem_Isles player2 = new CombatSystem_Isles("Dan", fighter1, pistol2);
 
         // shows that system still works
-        player2.displayLoadout();
+        pl ayer2.displayLoadout();
     }
 }
