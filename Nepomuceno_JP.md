@@ -23,3 +23,5 @@
 **\<03/19/2026\>** : I learned that doing one PR can lead to many commits and messy workflow since if one mistake even if its not yours will become a problem for the whole group. Next time I will improve by having each member do their own PR instead so that when commiting we can isolate the error. 
 
 **\<03/19/2026\>** : Comment by: Vic Andrew Andres Dizon; You did well in the structural design of your Weapon class, particularly the ammo management logic which made it very easy to integrate into my loadout system.
+
+**\<03/21/2026\>** : Today, I learned how the component and composite classes work together and how they help organize objects in a structured way. I will improve by practicing their implementation to better understand their relationship and design.
