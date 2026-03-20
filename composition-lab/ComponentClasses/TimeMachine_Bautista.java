@@ -40,11 +40,11 @@ public class TimeMachine_Bautista {
         this.destinationPoint = destinationPoint;
 
         // Array of month names
-        String[] monthNames = {"January", "February", "March", "April", "May", "June",
-                               "July", "August", "September", "October", "November", "December"};
+        String[] monthNames = { "January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December" };
 
         System.out.println("Traveling to " + destinationPoint + " in " +
-                           monthNames[monthOfTravel - 1] + " " + yearOfTravel + "...");
+                monthNames[monthOfTravel - 1] + " " + yearOfTravel + "...");
     }
 
     // Getters

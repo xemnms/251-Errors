@@ -23,7 +23,7 @@ public class TimeTravelVehicle_Bagay {
         timeMachine.turnOn();
     }
 
-    // Delegates travel behavior to the time machine component. 
+    // Delegates travel behavior to the time machine component.
     public void travelMission(int year, int month, String destination) {
         System.out.println("Mission launched by " + vehicleName + ".");
         timeMachine.travelToTime(year, month, destination);

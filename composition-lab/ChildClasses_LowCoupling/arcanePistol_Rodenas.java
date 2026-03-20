@@ -1,25 +1,21 @@
-package ChildClasses_LowCoupling;
-
-import ComponentClasses.Pistol_Badosa;
-
 /*
  * Child class by Kyla Cassandra Rodenas
  * Transforms the standard pistol into an Arcane Pistol that channels the mage’s elemental energy
  */
 public class arcanePistol_Rodenas extends Pistol_Badosa {
-    //constructor
+    // constructor
     public arcanePistol_Rodenas(String model, int weight, int magazineCapacity) {
         super(model, weight, magazineCapacity);
     }
 
-    //override behavior: fire arcane elemental projectiles
+    // override behavior: fire arcane elemental projectiles
     @Override
     public void shoot() {
         System.out.println(getModel() + " fires arcane bullets that shimmer with magical energy!");
         System.out.println("Each bullet adapts to the mage's element for devastating effects!");
     }
 
-    //combo with mage element for extra flair
+    // combo with mage element for extra flair
     public void elementalArcaneCombo(String element) {
         switch (element.toLowerCase()) {
             case "fire":

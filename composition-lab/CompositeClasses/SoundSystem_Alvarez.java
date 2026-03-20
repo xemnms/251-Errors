@@ -15,7 +15,7 @@ public class SoundSystem_Alvarez {
     // behaviour (low coupling)
     public void turnOnSystem() {
         speakers.turnOn();
-        System.out.println("ah naririnig ko na... " + "anong gentle gentle"); 
+        System.out.println("ah naririnig ko na... " + "anong gentle gentle");
     }
 
     public void turnOffSystem() {

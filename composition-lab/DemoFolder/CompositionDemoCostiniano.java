@@ -1,10 +1,5 @@
 
-package DemoFolder;
-
 //this demo class was created by Costiniano
-import ComponentClasses.Pistol_Badosa;
-import ComponentClasses.SchedulePlanner_Rodenas;
-import CompositeClasses.AgentMission_Costiniano;
 
 public class CompositionDemoCostiniano {
 

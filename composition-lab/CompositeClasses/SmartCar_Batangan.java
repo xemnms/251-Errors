@@ -7,8 +7,8 @@ public class SmartCar_Batangan {
     // Private Fields (Composition)
     // The car HAS-A engine and HAS-A speakers
     private String carName;
-    private engine_alvarez carEngine;          // HAS-A Engine
-    private Speakers_Acosta carSpeakers;       // HAS-A Speakers
+    private engine_alvarez carEngine; // HAS-A Engine
+    private Speakers_Acosta carSpeakers; // HAS-A Speakers
 
     // Constructor Injection
     // Components are passed into the class
@@ -23,8 +23,8 @@ public class SmartCar_Batangan {
     // Start the car (engine + speakers interaction)
     public void startCar() {
         System.out.println("Starting car: " + carName);
-        carEngine.startEngine();       // Call engine behavior
-        carSpeakers.turnOn();          // Call speaker behavior
+        carEngine.startEngine(); // Call engine behavior
+        carSpeakers.turnOn(); // Call speaker behavior
     }
 
     // Stop the car
@@ -53,7 +53,7 @@ public class SmartCar_Batangan {
 
     // Display Info
     public void displayCar() {
-    	System.out.println("₊˚ ✧ ━━━━━━━━━━━━━ CAR GARAGE ━━━━━━━━━━━━━ ✧ ₊˚");
+        System.out.println("₊˚ ✧ ━━━━━━━━━━━━━ CAR GARAGE ━━━━━━━━━━━━━ ✧ ₊˚");
         System.out.println("Car Name: " + carName);
         System.out.println("Engine Type: " + carEngine.getType());
         System.out.println("Horsepower: " + carEngine.getHorsepower());

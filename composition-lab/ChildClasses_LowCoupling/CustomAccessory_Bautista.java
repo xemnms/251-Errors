@@ -11,8 +11,8 @@ public class CustomAccessory_Bautista extends Accessory_Batangan {
 
     // New behavior: customize accessory color and price
     public void customize(String newColor, double newPrice) {
-        setColor(newColor);      // update color
-        setPrice(newPrice);      // update price
+        setColor(newColor); // update color
+        setPrice(newPrice); // update price
         System.out.println("Accessory customized to color: " + newColor + " and price: " + newPrice);
     }
 
@@ -20,6 +20,6 @@ public class CustomAccessory_Bautista extends Accessory_Batangan {
     @Override
     public void wear() {
         System.out.println("Wall-E is now using a customized accessory!");
-        super.wear();  // call parent wear method
+        super.wear(); // call parent wear method
     }
 }

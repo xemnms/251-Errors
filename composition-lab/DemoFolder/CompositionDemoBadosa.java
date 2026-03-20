@@ -1,4 +1,3 @@
-package DemoFolder;
 //Demonstration class by Badosa, Executes the planning to attack
 
 // What are the **HAS-A relationships**: MageAttackPlanning HAS-A Mage and SchedulePlanner
@@ -8,9 +7,6 @@ package DemoFolder;
 //Why is inheritance **NOT appropriate** here?: Because the MageAttackPlanning_Badosa uses both mage and schedule as components. using inheritance would imply an IS-A relationship which is not how it should be in this case.  
 
 //Importing needed class
-import CompositeClasses.MageAttackPlanning_Badosa;
-import ComponentClasses.Mage_Isles;
-import ComponentClasses.SchedulePlanner_Rodenas;
 
 public class CompositionDemoBadosa {
     public static void main(String[] args) {
