@@ -24,4 +24,4 @@
 
 **\<03/20/2026\>**: Comment by: Arandela; You did well in implementing ammo validation and realistic weapon behaviors like firing and reloading, and you can improve by adding more weapon-specific features or variations.
 
-**<03/21/2026>**: Comment by: Lynette Galindon; You did well in completing your part on time and with quality. Your code have proper comments, making it readable and easy to understand.
+**<03/21/2026>**: Comment by: Lynette Galindon; You did well in completing your part on time and with quality. You can improve by including input validation for damage values.
