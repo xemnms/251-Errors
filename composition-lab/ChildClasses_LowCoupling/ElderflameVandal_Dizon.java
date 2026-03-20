@@ -20,5 +20,7 @@ public class ElderflameVandal_Dizon extends Weapon_Nepomuceno {
 
     public void triggerFinisher() {
         System.out.println("FINISHER: " + finisherAnimation);
+
+        
     }
 }
