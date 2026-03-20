@@ -1,0 +1,54 @@
+/*
+ * ANALYSIS:
+ * 
+ * 1. IS-A Relationship:
+ * Captain_Arandela IS-A StrawHat_Dizon
+ * Swordsman_Arandela IS-A StrawHat_Dizon
+ * 
+ * 2. Overridden Methods:
+ * performAction() and battleCry() are overridden in both subclasses.
+ * 
+ * 3. Dynamic Binding:
+ * When a StrawHat_Dizon reference points to a subclass object,
+ * the overridden method of the actual object is executed at runtime.
+ * 
+ * 4. Inherited Methods:
+ * displayStats() is inherited from StrawHat_Dizon.
+ * 
+ * 5. New Behavior:
+ * Captain_Arandela → gumGumAttack()
+ * Swordsman_Arandela → swordAttack()
+ */
+
+public class Main_Alonde2 {
+    public static void main(String[] args) {
+
+        // Dynamic Binding Example
+        StrawHat_Dizon captain = new Captain_Arandela(
+                "Luffy", "Straw Hat Pirates", 3000000000, "Gum-Gum Fruit"
+        );
+
+        StrawHat_Dizon swordsman = new Swordsman_Arandela(
+                "Zoro", "Straw Hat Pirates", 1111000000, 3
+        );
+
+        // Call inherited method
+        captain.displayStats();
+        swordsman.displayStats();
+
+        System.out.println();
+
+        // Dynamic Binding in action (overridden methods)
+        captain.performAction();   // calls Captain version
+        swordsman.performAction(); // calls Swordsman version
+
+        captain.battleCry();       // Captain version
+        swordsman.battleCry();     // Swordsman version
+
+        System.out.println();
+
+        // Access subclass-specific methods (requires casting)
+        ((Captain_Arandela) captain).gumGumAttack();
+        ((Swordsman_Arandela) swordsman).swordAttack();
+    }
+}
