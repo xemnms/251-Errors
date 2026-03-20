@@ -30,3 +30,5 @@
 **<03/15/2026>**: Comment by : Galindon; You did well in writing your code, Your class is well-written and easy to follow.
 
 **<03/16/2026>**: Comment by: Andrew Dizon; You did well in creating a clean song management system and handling empty string validation for the genre field.
+
+**\<03/16/2026\>** : Comment by: Rodenas; You did well in structuring the Animal_Batangan class and demonstrating good use of object-oriented concepts, and you can improve by refining your method implementations and adding more validation to handle edge cases.
