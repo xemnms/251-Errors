@@ -29,7 +29,7 @@ import ComponentClasses.Mage_Isles;
 import CompositeClasses.combatMage_Rodenas;
 import ChildClasses_LowCoupling.arcanePistol_Rodenas;
 
-public class compositionDemo_Rodenas {
+public class CompositionDemo_Rodenas {
     public static void main(String[] args) {
         //create initial components
         Pistol_Badosa pistol = new Pistol_Badosa("Glock", 2, 15);

@@ -8,12 +8,12 @@ import ComponentClasses.Mage_Isles;
  * Represents a combat mage using a pistol infused with elemental magic
  * Uses components from Pistol_Badosa and Mage_Isles
  */
-public class combatMage_Rodenas {
+public class CombatMage_Rodenas {
     //attributes (HAS-A relationship: the mage has a pistol and magic abilities)
     private Pistol_Badosa combatPistol;
     private Mage_Isles combatMage;
     //constructor
-    public combatMage_Rodenas(Pistol_Badosa combatPistol, Mage_Isles combatMage) {
+    public CombatMage_Rodenas(Pistol_Badosa combatPistol, Mage_Isles combatMage) {
         this.combatPistol = combatPistol;
         this.combatMage = combatMage;
     }
