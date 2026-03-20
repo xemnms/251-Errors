@@ -25,3 +25,5 @@
 **\<03/19/2026\>** : I learned inheritance in our lab, and to improve, next time I will read the instructions well and carefully so I can code without interruptions.
 
 **<03/19/2026>**: Comment by : Nepomuceno; You did an excellent job preparing your class ahead of time. Your creativity really stood out in the way you created the class. Aside from some minor errors with the methods from the parent class, overall, you did very well.  
+
+**\<03/21/2026\>** : I learned composition in our lab, and to improve, next time I will manage my time well and finish my assignments early.

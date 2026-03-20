@@ -11,3 +11,5 @@
 
 ---
 **<03/19/2026>**: Comment by : Galindon; You did well in writing your class and your creativty with creating the class is commendable.  
+
+**<03/21/2026>**: Comment by: Lynette Galindon; You did well in helping the team move forward with your work and you can improve by communicating properly with your teammates.
