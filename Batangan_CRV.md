@@ -20,6 +20,8 @@
 
 **<03/16/2026>** : I learned how a child class like Smartphone_Batangan can inherit attributes and methods from a parent class (Device_Rodenas) using extends, while also adding its own features like operatingSystem and takePhoto(). I also learned how method overriding works by changing the behavior of crashDevice() to make it more specific to the smartphone. Next time I will practice creating more child classes and explore how to use overriding and additional methods to make each object behave differently.
 
+**<03/19/2026>** : I learned how to use composition (HAS-A relationships) to combine multiple classes into one system while maintaining low coupling and high cohesion, and next time I will improve my design by adding more flexible components and exploring inheritance to extend functionality.
+
 ---
 ## ✉️ Peer Feedbacks
 **<03/16/2026>** : Comment by: Isles; You did well in restricting data access using encapsulation, and you can improve by improving logic to avoid awkward testing results when limit-testing your program with invalid inputs.
