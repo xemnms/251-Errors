@@ -22,4 +22,6 @@
 
 **\<03/19/2026\>** : I learned that doing one PR can lead to many commits and messy workflow since if one mistake even if its not yours will become a problem for the whole group. Next time I will improve by having each member do their own PR instead so that when commiting we can isolate the error.  
 
+**\<03/20/2026\>**: Comment by: Arandela; You did well in implementing ammo validation and realistic weapon behaviors like firing and reloading, and you can improve by adding more weapon-specific features or variations.
+
 **<03/21/2026>**: Comment by: Lynette Galindon; You did well in completing your part on time and with quality. Your code have proper comments, making it readable and easy to understand.

@@ -21,3 +21,5 @@
 **\<03/19/2026\>**: Comment by: Arandela; You did well in creating a clear parent class and properly using inheritance, especially with method overriding to show different behaviors.  
 
 **\<03/19/2026\>** : Developing the F1 Inheritance Management System helped me visualize how real-world entities share common traits while maintaining unique behaviors. By creating the F1Prodigy_Dizon and F1PitCrew_Dizon subclasses, I practiced the 'is-a' relationship in OOP. The most challenging yet rewarding part was ensuring that the unique methods like toggleDRS()—were called correctly while still leveraging inherited attributes from the parent class. This exercise solidified my understanding of code reusability.
+
+**\<03/20/2026\>**: Comment by: Arandela; You did well in applying validation for upgrade levels and adding unique sound effects per skin, and you can improve by expanding behaviors such as equipping or upgrading skins dynamically.
