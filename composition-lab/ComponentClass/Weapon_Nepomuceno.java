@@ -1,7 +1,7 @@
 /* 
 * This is a component class demonstrating composition in Java.
 * IS-A: Weapon is a type of object that can be used in a game. with specific attributes and behaviors related to firearms.
-* HAS-A: Weapon has attributes like name, type, rarity, damage, and ammo count.
+* HAS-A: Weapon has attributes like name, type, damage, and ammo count.
 * Author: Julliana Nepomuceno
 */
 public class Weapon_Nepomuceno {
