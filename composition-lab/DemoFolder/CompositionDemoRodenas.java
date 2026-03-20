@@ -26,7 +26,7 @@ package DemoFolder;
 
 import ComponentClasses.Pistol_Badosa;
 import ComponentClasses.Mage_Isles;
-import CompositeClasses.combatMage_Rodenas;
+import CompositeClasses.CombatMage_Rodenas;
 import ChildClasses_LowCoupling.arcanePistol_Rodenas;
 
 public class CompositionDemoRodenas {
@@ -39,7 +39,7 @@ public class CompositionDemoRodenas {
         mage.setType("Offense");
 
         //create composed object
-        combatMage_Rodenas hero = new combatMage_Rodenas(pistol, mage);
+        CombatMage_Rodenas hero = new CombatMage_Rodenas(pistol, mage);
         //display info
         hero.showCombinedInfo();
         //perform magic attack
