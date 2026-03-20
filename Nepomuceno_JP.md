@@ -20,14 +20,10 @@
 
 **\<03/14/2026\>** : Comment by: Axel Bagay; Your reflection clearly shows your understanding of branch merging and pull request management in GitHub. It’s good that you highlighted the importance of reviewing branch structures and coordinating with teammates for smoother collaboration. Your Gacha character class also demonstrates a good application of OOP concepts like encapsulation and validation.  
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 **\<03/19/2026\>** : I learned that doing one PR can lead to many commits and messy workflow since if one mistake even if its not yours will become a problem for the whole group. Next time I will improve by having each member do their own PR instead so that when commiting we can isolate the error.  
 
-=======
 **\<03/19/2026\>** : I learned that doing one PR can lead to many commits and messy workflow since if one mistake even if its not yours will become a problem for the whole group. Next time I will improve by having each member do their own PR instead so that when commiting we can isolate the error. 
 
-=======
 **\<03/19/2026\>** : I learned that doing one PR can lead to many commits and messy workflow since if one mistake even if its not yours will become a problem for the whole group. Next time I will improve by having each member do their own PR instead so that when commiting we can isolate the error.  
 
 **\<03/20/2026\>**: Comment by: Arandela; You did well in implementing ammo validation and realistic weapon behaviors like firing and reloading, and you can improve by adding more weapon-specific features or variations.
