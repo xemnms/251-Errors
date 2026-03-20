@@ -1,5 +1,8 @@
 //component class created by Dan Isles
 //this class represents a mage element system (parang powers ng character mo)
+
+// 03/20/2026 : Comment by: Badosa; You did well in implementing comprehensive input validation for all setters and maintaining clear code organization with helpful comments, and you can improve by standardizing comments to English only, creating a parameterized constructor for easier initialization, and making behavior methods like useElement() more descriptive and interactive.
+
 package ComponentClasses;
 
 public class Mage_Isles {

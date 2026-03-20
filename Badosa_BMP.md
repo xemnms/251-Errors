@@ -17,7 +17,9 @@ First Recitation in OOP Lecture - 5 points - 03/05/2026
 
 **\<03/14/2026\>**: Today I learned how encapsulation is very important in protecting files and realized my mistakes, first is that I couldn't prevent null values in my string inputs from existing and second is that I misused my static variable, next time I will consider my mistakes and thoroughly test what I created.    
 
-**\<03/16/2026\>**: Today I learned inheritance in OOP and made mistakes along the way. first I messed up in file naming especially when it comes to the new Main Class I created which made a duplicate and second is that I failed to apply all the things I did from my past knowledge like adding static variables and rushed the display types. Next time, I will work on my composure as the stress gets to me.
+**\<03/16/2026\>**: Today I learned inheritance in OOP and made mistakes along the way. first I messed up in file naming especially when it comes to the new Main Class I created which made a duplicate and second is that I failed to apply all the things I did from my past knowledge like adding static variables and rushed the display types. Next time, I will work on my composure as the stress gets to me.   
+
+**\<03/20/2026\>**: Today I learned composition and its differences with inheritance. I also thought of things I could have improved in like first in not being able to demonstrate low coupling out of fear in ruining the code and second in not able to utilize my composite class to its fullest in giving its own unique attributes.
 
 ---
 ## ✉️ Peer Feedbacks    
