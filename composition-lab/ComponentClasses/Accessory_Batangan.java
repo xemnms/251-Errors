@@ -4,7 +4,7 @@
 public class Accessory_Batangan {
 
     // Private attributes (encapsulation)
-	// These variables cannot be accessed directly from outside the class
+    // These variables cannot be accessed directly from outside the class
     private String accessoryID;
     private String accessoryName;
     private String color;
@@ -29,13 +29,13 @@ public class Accessory_Batangan {
             System.out.println("Invalid price. Please enter a non-negative value.");
             return;
         }
-        
-     // Update attributes if valid
+
+        // Update attributes if valid
         this.accessoryName = accessoryName;
         this.color = color;
         this.price = price;
-        
-     // Output confirmation
+
+        // Output confirmation
         System.out.println("Styling accessory: " + accessoryName + " in " + color + " ✨");
     }
 
@@ -76,7 +76,7 @@ public class Accessory_Batangan {
     public void setColor(String color) {
         this.color = color;
     }
-    
+
     // Ensure price is not negative
     public void setPrice(double price) {
         if (price >= 0) {

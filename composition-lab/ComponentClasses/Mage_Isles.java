@@ -68,5 +68,5 @@ public class Mage_Isles {
     // behavior method 2 (parang attack or paggamit ng power)
     public void useElement() {
         System.out.println("Using " + elementName + " element!");
-    }
+    }   
 }

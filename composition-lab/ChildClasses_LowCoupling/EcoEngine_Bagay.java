@@ -10,7 +10,7 @@ public class EcoEngine_Bagay extends engine_alvarez {
     }
 
     @Override
-    // Customized startup behavior while preserving compatibility. 
+    // Customized startup behavior while preserving compatibility.
     public void startEngine() {
         if (!isRunning()) {
             setRunning(true);

@@ -20,12 +20,13 @@ public class engine_alvarez {
     // setter horsepower
     public void setHorsepower(int horsepower) {
         if (horsepower > 0) { // validation
-        this.horsepower = horsepower;
+            this.horsepower = horsepower;
 
         } else {
             System.out.println("anong klasing engine iyan? kabayo?");
         }
     }
+
     // getter type
     public String getType() {
         return type;
