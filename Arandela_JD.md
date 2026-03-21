@@ -27,3 +27,5 @@
 **<03/21/2026>**: Comment by: Vic Andrew Andres Dizon; You did well in implementing the validation logic within your setAmount method, which effectively prevents the system from processing invalid negative transactions.  
 
 **<03/21/2026>**: Comment by: Nepomuceno; Great job developing both the composite and component classes. It’s clear that you understand how they work together.  
+
+*<03/21/2026>*: Comment by: Lynette Galindon; You did well on creating your component class. It’s reliable, reusable, and valuable for the team. You can improve by strengthening the overall design through additional components and better interactions. 
