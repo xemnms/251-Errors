@@ -19,10 +19,14 @@
 
 **\<03/18/2026\>** : Today I learned about inheritance in OOP, specifically how parent classes pass properties and methods to child classes, reducing code duplication and improving maintainability. I also practiced implementing inheritance hierarchies and method overriding in my projects. Next time, I will explore polymorphism and abstract classes to further enhance my OOP design patterns.
 
+**\<03/20/2026\>** : Today I learned about composition in OOP, where objects are built using other objects instead of relying on inheritance, allowing for more flexible and modular program design. Next time I will practice implementing composition in my own programs, especially by creating classes that work together to solve a problem.
+
 ---
 ## ✉️ Peer Feedbacks    
 **\<03/14/2026\>** : Comment by: Julliana Nepomuceno: Your reflection clearly shows your understanding of both branch management in GitHub and the application of Object-Oriented Programming concepts like encapsulation. You were easy to work with, punctual, and consistently completed your tasks correctly, which helped me integrate your class smoothly. Your reliability and organization made the collaboration process much more efficient.   
 
 **\<03/16/2026\>** : Comment by: Bien Manuel Badosa: You did well in creating a parent class that is general and reusable, Next time I look forward to see how you will apply this in the project we will be working on.
+
+**\<03/20/2026\>**: Comment by: Bautista; You did well in constructing your code. It shows your deep understanding of the project. The details are well thought out and I like how it is managed. It's clean yet effective. Looking forward to see you take it to the next level in our upcoming projects. Niceu
 
 ---
