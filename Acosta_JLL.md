@@ -13,9 +13,28 @@
 
 ## 📘 Journals
 
+## Team Planning
 **\<03/05/2026\>** : I learned better in working in a group with GitHub in our lab and to improve, next time I will try to be more active in the project discussions.   
 ---
+## Encapsulation
 **\<03/14/2026\>** : I learned proper encapsulation and validation for classes which is important in OOP. I will improve by practicing good encapsulation practices more.
-**\<03/14/2026\>**: Comment by: Badosa; You did well in implementing encapsulation using private variables with getters and setters and you can improve by adding more validation or error handling when invalid inputs are provided. 
-**\<03/14/2026\>**: Comment by: Costiniano; You did well in creating clear behaviors for the cat object and you can improve by adding null checks for name and breed validation.    
 ---
+
+## Inheritance
+**\<03/17/2026\>** : I learned what the concept of inheritance is, its use and importance, and its distinct IS-A relationship. This laboratory activity not only taught me the basics and use of inheritance but it also allowed me to use proper encapsulation and validation once again, making me more familiar with it.
+---
+
+## Composition
+**\<03/20/2026\>** : I learned what the concept of inheritance is, its use and importance, and its distinct IS-A relationship. This laboratory activity not only taught me the basics and use of inheritance but it also allowed me to use proper encapsulation and validation once again, making me more familiar with it.
+---
+
+## ✉️ Peer Feedbacks 
+
+## Inheritance
+**\<03/14/2026\>**: Comment by: Badosa; You did well in implementing encapsulation using private variables with getters and setters and you can improve by adding more validation or error handling when invalid inputs are provided. 
+---
+**\<03/14/2026\>**: Comment by: Costiniano; You did well in creating clear behaviors for the cat object and you can improve by adding null checks for name and breed validation.
+---
+
+## Composition
+**<03/20/2026>** : Comment by: Batangan; You did well in applying encapsulation with proper getters/setters and validating inputs like volume and null values, and you can improve by adding checks so volume can only change when the speakers are ON and by giving default values when invalid inputs are entered instead of just printing messages.

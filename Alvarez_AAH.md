@@ -18,8 +18,15 @@
 
 **\<03/15/2026\>** : I learned how to use encapsulation code properly and how to implement them out using real-world entity, alongside using github effectively as a team.
 
-**<03/15/2026>**: Comment by : Bautista; You did well in implementing encapsulation by keeping the attributes private and using getters and setters with validation to protect the account data. You can improve by adding clearer feedback when invalid values are entered so users doesn't get confused.
-
 **<03/16/2026>** : I learned how to inherit classes to sub-classes and make a main object printer out of it. and next time i will work more effieciently and learned github's feature much more eagerly. 
 
-**<03/16/2026>** : Commented by Bautista; Your work is well done. I enjoyed collaborating and also understood what should be done. One minor improvement would be the private static final String Class_ID part, it appears everytime when displayInfo and useTechnique are called–making it redundant and sometimes irrelevant. Aside from that, good job! 9.99988/10
+---
+
+## ✉️ Peer Feedbacks    
+**<03/15/2026>**: Comment by : Bautista; You did well in implementing encapsulation by keeping the attributes private and using getters and setters with validation to protect the account data. You can improve by adding clearer feedback when invalid values are entered so users doesn't get confused.
+
+**<03/16/2026>** : Commented by Bautista; Your work is well done. I enjoyed collaborating and also understood what should be done. One minor improvement would be the private static final String Class_ID part, it appears everytime when displayInfo and useTechnique are called–making it redundant and sometimes irrelevant. Aside from that, good job! 9.99988/10.
+
+**<03/20/2026>** : Comment by: Batangan; You did well in implementing encapsulation with getters/setters and adding validation for horsepower with a creative message, and you can improve by fixing the constructor so `isRunning` is properly initialized.
+
+---
