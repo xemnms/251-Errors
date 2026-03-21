@@ -15,8 +15,8 @@ public class CompositionDemoGalindon {
         PromoPayment_Galindon payment2 = new PromoPayment_Galindon("Credit Card", 150, "INVALIDCODE");
 
         // Pass them into the composed class (Combat)
-        Combat combat1 = new Combat(agent1, weapon1);
-        Combat combat2 = new Combat(agent2, weapon2);
+        Combat combat1 = new Combat_Galindon(agent1, weapon1);
+        Combat combat2 = new Combat_Galindon(agent2, weapon2);
 
         // Call methods across objects
         System.out.println("=== Demo: Combat Scenario 1 ===");
