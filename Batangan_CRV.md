@@ -6,8 +6,8 @@
 | Date       | Activity Type | Title       | Score | Total Points |
 |------------|----------------|-------------|--------|--------------|
 | 03/05/2026 | Quiz           | Quiz 1      |   5    | 5            |
-| 03/19/2026 | Video Attendance           | Plus Points      |   5    | 10          |
-
+| 03/19/2026 | Video Attendance    | Plus Points      |   5    | 10        |
+| 03/19/2026 | Open Mic  |   Plus Points    |      2 |  12     |
 ---
 
 ## 📘 Journals
