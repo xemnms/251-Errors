@@ -27,4 +27,6 @@
 
 **<03/16/2026>** : Commented by Bautista; Your work is well done. I enjoyed collaborating and also understood what should be done. One minor improvement would be the private static final String Class_ID part, it appears everytime when displayInfo and useTechnique are called–making it redundant and sometimes irrelevant. Aside from that, good job! 9.99988/10.
 
+**<03/20/2026>** : Comment by: Batangan; You did well in implementing encapsulation with getters/setters and adding validation for horsepower with a creative message, and you can improve by fixing the constructor so `isRunning` is properly initialized.
+
 ---
