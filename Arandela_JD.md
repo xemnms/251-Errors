@@ -22,15 +22,10 @@
 
 **<03/19/2026>**: Comment by: Vic Andrew Dizon; You did well in implementing the method overriding for the race behavior and you can improve by including more varied test cases in your main demo.
 
-<<<<<<< HEAD
 **<03/20/2026>**: I did well in applying composition by combining weapon and skin into a player class and demonstrating low coupling through component replacement, and I can improve by expanding interactions and adding more components to strengthen the system design.
-
-**<03/21/2026>**: Comment by: Lynette Galindon; You did well on creating your component class. it’s reliable, reusable, and valuable for the team. You can improve by strengthening the overall design through additional components and better interactions.
-
-=======
-**<03/20/2026>**: Reflection by: Jherrymei Arandela (for Myself); I did well in applying composition by combining weapon and skin into a player class and demonstrating low coupling through component replacement, and I can improve by expanding interactions and adding more components to strengthen the system design.
 
 **<03/21/2026>**: Comment by: Vic Andrew Andres Dizon; You did well in implementing the validation logic within your setAmount method, which effectively prevents the system from processing invalid negative transactions.  
 
 **<03/21/2026>**: Comment by: Nepomuceno; Great job developing both the composite and component classes. It’s clear that you understand how they work together.  
->>>>>>> develop-team1
+
+**<03/21/2026>**: Comment by: Lynette Galindon; You did well on creating your component class. it’s reliable, reusable, and valuable for the team. You can improve by strengthening the overall design through additional components and better interactions.
