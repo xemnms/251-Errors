@@ -20,6 +20,13 @@
 
 **\<03/12/2026\>** : I learned encapsulation in our lab, and to improve, next time I will practice more to be better at creating.
 
+**\<03/19/2026\>** : I learned inheritance in our lab, and to improve, next time I will read the instructions well and carefully so I can code without interruptions.
+
+---
+## ✉️ Peer Feedbacks 
+
 **<03/15/2026>**: Comment by : Arandela; You did well in writing your class and your error handling could be improved instead of using System.out.println.  
 
-**\<03/19/2026\>** : I learned inheritance in our lab, and to improve, next time I will read the instructions well and carefully so I can code without interruptions.
+**<03/19/2026>**: Comment by : Nepomuceno; You did an excellent job preparing your class ahead of time. Your creativity really stood out in the way you created the class. Aside from some minor errors with the methods from the parent class, overall, you did very well.  
+
+**\<03/20/2026\>**: Comment by: Arandela; You did well in implementing validation for the number of sites and clearly defining map behaviors, and you can improve by adding more interactive features like unique map mechanics.    
