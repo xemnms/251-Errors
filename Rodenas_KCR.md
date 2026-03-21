@@ -33,6 +33,8 @@
 
 **\<03/15/2026\>**: Comment by: Arandela; The class is well written and organized, but some repeated validation code could be simplified to improve readability and maintainability.
 
+**<03/16/2026>** : Comment by: Batangan; You did well in organizing a clear and reusable parent class with meaningful attributes and behaviors, and you can improve by adding encapsulation (private attributes with getters/setters) and handling edge cases like battery limits or power status checks before performing actions.
+
 **\<03/20/2026\>** : Comment by: Badosa; You did well in creating clear documentation, implementing proper encapsulation with private attributes, and providing validation in setTime and updateSubject methods, and you can improve by making validation consistent across all setters, adding null checks in constructors before assignment, and validating day and subject parameters throughout the class.
 
 **\<03/20/2026\>**: Comment by: Costiniano; You did well in organizing your SchedulePlanner_Rodenas class and applying validation, especially in handling invalid time inputs. You can improve by adding more validation for other attributes like day and subject to make the class more robust.

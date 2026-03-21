@@ -37,4 +37,4 @@
 ---
 
 ## Composition
-**\<03/14/2026\>**: Comment by:
+**<03/20/2026>** : Comment by: Batangan; You did well in applying encapsulation with proper getters/setters and validating inputs like volume and null values, and you can improve by adding checks so volume can only change when the speakers are ON and by giving default values when invalid inputs are entered instead of just printing messages.

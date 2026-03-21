@@ -6,8 +6,8 @@
 | Date       | Activity Type | Title       | Score | Total Points |
 |------------|----------------|-------------|--------|--------------|
 | 03/05/2026 | Quiz           | Quiz 1      |   5    | 5            |
-| 03/19/2026 | Video Attendance           | Plus Points      |   5    | 10          |
-
+| 03/19/2026 | Video Attendance    | Plus Points      |   5    | 10        |
+| 03/19/2026 | Open Mic  |   Plus Points    |      2 |  12     |
 ---
 
 ## 📘 Journals
@@ -33,8 +33,8 @@
 
 **<03/16/2026>**: Comment by: Andrew Dizon; You did well in creating a clean song management system and handling empty string validation for the genre field.
 
-**<03/20/2026>**: Comment by: Bautista; You did well in structuring the accessory class of yours. It's clean, simple and easy to follow. Looking forward to see you build your code even more robust and efficient. Niceu
-
 **\<03/16/2026\>** : Comment by: Rodenas; You did well in structuring the Animal_Batangan class and demonstrating good use of object-oriented concepts, and you can improve by refining your method implementations and adding more validation to handle edge cases.
+
+**<03/20/2026>**: Comment by: Bautista; You did well in structuring the accessory class of yours. It's clean, simple and easy to follow. Looking forward to see you build your code even more robust and efficient. Niceu
 
 ---
