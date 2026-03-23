@@ -1,4 +1,3 @@
-
 public interface InterfaceNotifier_Nepomuceno {
 
 	String channel();
@@ -7,7 +6,8 @@ public interface InterfaceNotifier_Nepomuceno {
 	void markAsRead();
 	String getReadStatus();
 	
+	
 	default void defaultNotification() {
-		System.out.println("You have a notification.");
+		System.out.println("You have notifications you haven't read.\n");
 	}
 }
