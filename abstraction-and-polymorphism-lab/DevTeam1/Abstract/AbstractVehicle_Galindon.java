@@ -5,7 +5,7 @@ public abstract class AbstractVehicle_Galindon implements InterfaceVehicle_Galin
     private final double maxSpeed;
 
     // Constructor
-    public AbstractVehicle(String model, double speed, double maxSpeed) {
+    public AbstractVehicle_Galindon(String model, double speed, double maxSpeed) {
         this.model = model;
         this.speed = speed;
         this.maxSpeed = maxSpeed;
