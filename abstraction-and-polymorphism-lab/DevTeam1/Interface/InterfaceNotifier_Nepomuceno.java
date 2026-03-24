@@ -1,6 +1,6 @@
+
 public interface InterfaceNotifier_Nepomuceno {
 
-	String channel();
 	void sendNotification();
 	void displayNotification();
 	void markAsRead();

@@ -1,6 +1,5 @@
 public abstract class AbstractNotifier_Nepomuceno implements InterfaceNotifier_Nepomuceno {
 
-    private String channel; // E.g., SMS, Email, Push Notification
     private final String appName; // E.g., Gmail, WhatsApp, Twitter
     private final String date;
     private String message;
@@ -8,8 +7,7 @@ public abstract class AbstractNotifier_Nepomuceno implements InterfaceNotifier_N
     private static int notifCounter = 0;
 
     // Constructor
-    public AbstractNotifier_Nepomuceno(String channel, String appName, String date, String message) {
-        this.channel = channel;
+    public AbstractNotifier_Nepomuceno(String appName, String date, String message) {
         this.appName = appName;
         this.date = date;
         this.message = message;
@@ -23,12 +21,6 @@ public abstract class AbstractNotifier_Nepomuceno implements InterfaceNotifier_N
     	this.date = date;
     	this.message = "You have a notification from " + appName;
         notifCounter++;
-    }
-
-    // Implementing the channel method from the interface
-    @Override
-    public String channel() {
-        return channel;
     }
 
     // Abstract method (must be implemented)
