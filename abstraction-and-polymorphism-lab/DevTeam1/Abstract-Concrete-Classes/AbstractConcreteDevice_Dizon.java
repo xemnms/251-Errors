@@ -1,6 +1,5 @@
 
-public class AbstractConcreteDevice_Dizon extends AbstractDevice_Alonde implements InterfaceConnectivity_Dizon {
-
+public class AbstractConcreteDevice_Dizon extends AbstractDevice_Alonde 
     private String deviceType;
 
     // Construct using  AbstractDevice_Alonde
