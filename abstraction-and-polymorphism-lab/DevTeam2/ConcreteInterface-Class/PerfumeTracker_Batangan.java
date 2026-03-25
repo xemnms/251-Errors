@@ -1,6 +1,6 @@
 // Created by Batangan
-// Uses teammate interface `Trackable_Bagay`
-// Demonstrates overriding and overloading.
+// Uses teammate interface "Trackable_Bagay"
+// Demonstrates overriding and overloading
 
 public class PerfumeTracker_Batangan implements Trackable_Bagay {
 
