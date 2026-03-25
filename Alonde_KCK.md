@@ -18,7 +18,7 @@
 
 **<03/19/2026>**: I learned how inheritance works by creating a parent and subclass, and how methods can be overridden. Next time, I will improve my class design.  
 
-**<03/20/2026>**: Reflection by: Jherrymei Arandela (for Myself); I did well in applying composition by combining weapon and skin into a player class and demonstrating low coupling through component replacement, and I can improve by expanding interactions and adding more components to strengthen the system design. 
+**<03/25/2026>**: I learned about the practical application of Dynamic Binding. I learned that while the compiler looks at the Abstract Class or Interface to ensure a method exists, the JVM determines which Concrete Class to run at runtime. And to improve, I can improve by being more critical about which data needs to be accessible.
 
 ---
 ## ✉️ Peer Feedbacks  
@@ -33,4 +33,4 @@
 
 **<03/21/2026>**: Comment by: Nepomuceno; Great job developing both the composite and component classes. It’s clear that you understand how they work together.  
 
-**<03/21/2026>**: Comment by: Dizon; You did well in defining a clear and logical hierarchy for the AbstractDevice_Alonde class; it was very easy to extend. You can improve by adding more descriptive Javadoc comments to your interface methods to clarify what the expected behavior should be for the networkName parameter.
+**<03/25/2026>**: Comment by: Dizon; You did well in defining a clear and logical hierarchy for the AbstractDevice_Alonde class; it was very easy to extend. You can improve by adding more descriptive Javadoc comments to your interface methods to clarify what the expected behavior should be for the networkName parameter.
