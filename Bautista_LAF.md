@@ -7,6 +7,7 @@
 | Date       | Activity Type  | Title        | Score  | Total Points |
 |------------|----------------|--------------|--------|--------------|
 | 03/05/2026 | Quiz 1         | Intro to OOP | 5      | 5            |
+| 03/19/2026 | Plus Points    | Opened Mic   | 2      | 7            |
 | —          | —              | —            | —      | —            |
 
 
@@ -29,6 +30,9 @@
 ### | Composition
 **<03/20/2026>** : Today, I learned the difference between composition and inheritance, and when to use each appropriately. Next time, I will improve by taking the time to fully understand the task first before jumping into coding to avoid time-consuming mistakes. I realized that I tend to get a bit lost or confused at times when doing the code. I plan to fully grasp the concepts before diving in to minimize mistake and be more efficient.
 
+### | Abstraction and Polymorphism
+**<03/25/2026>** : Today, I learned how to use abstract classes and interfaces to achieve polymorphism in Java. I also practiced method overriding and overloading to create flexible and reusable code. This design allows for low coupling and high cohesion, making it easier to maintain and extend in the future. Next time, I want to explore more complex examples of this concept, such as using multiple interfaces and abstract classes together, and implementing design patterns that utilize these principles.
+
 ---
 ## ✉️ Peer Feedbacks
 ### | Encapsulation and Access Modifiers
@@ -38,4 +42,7 @@
 **<03/16/2026>** : Commented by Alvarez: Your work is well done. I enjoyed collaborating and also understood what should be done. you could improve by making your code more efficiently but thats alright because we are still beginners 99999/10. 
 
 ### | Composition
+**<03/DD/2026>** : Commented by Surname:
+
+### | Abstraction and Polymorphism
 **<03/DD/2026>** : Commented by Surname:
