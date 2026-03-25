@@ -1,5 +1,5 @@
-// Concrete interface class created by Bautista
-// Uses teammate interface class "Breakfast_Alvarez" created by Alvarez.
+// Concrete interface created by Bautista
+// Uses teammate interface "Breakfast_Alvarez" created by Alvarez.
 // Demonstrates overriding and overloading.
 
 public class RoomService_Bautista implements Breakfast_Alvarez {

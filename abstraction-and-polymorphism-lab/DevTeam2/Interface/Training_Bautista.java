@@ -1,5 +1,5 @@
-// Interface classs created by Bautista
-// This class contains one abstract method and one default method.
+// Interface created by Bautista
+// This interface contains one abstract method and one default method.
 
 public interface Training_Bautista {
     // Abstract method
