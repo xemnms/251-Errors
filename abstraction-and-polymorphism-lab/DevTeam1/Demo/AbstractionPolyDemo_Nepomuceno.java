@@ -13,15 +13,14 @@ public class AbstractionPolyDemo_Nepomuceno {
         car2.displayStatus();
         car3.displayStatus();
 
-        // "Test drive" - accelerate vehicles (these call accelerate(int) OVERLOADED,
-        // which then calls accelerate(double) OVERRIDDEN from the interface)
-        car1.accelerate(20);  // overloaded: accelerate(int)
-        car2.accelerate(35);  // overloaded: accelerate(int)
-        car3.accelerate(50);  // overloaded: accelerate(int)
+        // REGULAR call (uses the overridden interface method: accelerate(double))
+        car1.accelerate(20.0);
 
-        // More OVERLOADING examples:
-        car1.accelerate(12.5);      // uses accelerate(double)
-        car2.accelerate(5.0, 3);    // uses accelerate(double, int)
+        // OVERLOADING example (calls accelerate(double, int))
+        car2.accelerate(5.0, 3);
+
+        // (Optional extra regular call)
+        car3.accelerate(50.0);
 
         // Display updated status
         System.out.println("\n=== Updated Vehicle Status ===");
