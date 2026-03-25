@@ -34,3 +34,5 @@
 **\<03/20/2026\>**: Comment by: Arandela; You did well in implementing ammo validation and realistic weapon behaviors like firing and reloading, and you can improve by adding more weapon-specific features or variations.  
 
 **\<03/21/2026\>**: Comment by: Vic Andrew Andres Dizon; You did well in the structural design of your Weapon class, particularly the ammo management logic which made it very easy to integrate into my loadout system.    
+
+**\<03/25/2026\>**: Comment by: Arandela; You did a great job designing your notifier abstraction and interface. Your implementation is clean and easy to integrate, which helped in demonstrating polymorphism and interface-driven design effectively.

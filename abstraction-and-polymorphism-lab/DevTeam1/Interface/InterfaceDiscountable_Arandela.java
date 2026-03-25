@@ -1,11 +1,9 @@
 public interface InterfaceDiscountable_Arandela {
 
-    // ABSTRACT METHOD
-    void processPayment();
+    void processPayment(); // 
     double applyDiscount(double amount);
 
-    // DEFAULT METHOD
     default void discountNotice() {
-        System.out.println("Discount applied.");
+        System.out.println("Discount applied to your payment.\n");
     }
 }
