@@ -1,11 +1,11 @@
-//Interface by Batangan
-//Has 1 abstract and 1 concrete (default) method
+// Interface by Batangan
+// Has 1 abstract and 1 concrete method
 
 public interface Spray_Batangan {
 
-    void sprayPerfume(); // abstract
+    void sprayPerfume(); // Abstract
 
-    default void chooseScent(String scent) { // concrete (default)
+    default void chooseScent(String scent) { // Concrete
         System.out.println("Chosen scent note is " + scent);
     }
 }
