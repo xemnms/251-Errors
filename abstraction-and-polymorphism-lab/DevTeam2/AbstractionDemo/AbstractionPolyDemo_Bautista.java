@@ -1,9 +1,5 @@
-/* Demo class showing:
-   - Overriding
-   - Overloading
-   - Dynamic Binding
-   - Use of abstract class and interface
-*/
+// Abstraction and Polymorphism Demo by Bautista
+// This code demonstrates the use of abstract classes, interfaces, method overriding, and method overloading.
 
 public class AbstractionPolyDemo_Bautista {
 
@@ -12,7 +8,7 @@ public class AbstractionPolyDemo_Bautista {
         // Dynamic Binding (Abstract Class)
         Cereal_Alvarez cereal = new CerealKiller_Bautista();
 
-        // Calls overridden method (runtime decides which method to use)
+        // Calls overridden methods from abstract class
         cereal.prepare();
         cereal.eat();
 
@@ -33,3 +29,33 @@ public class AbstractionPolyDemo_Bautista {
         cerealKiller.prepare("Cornflakes");
     }
 }
+
+/* Code-Based Analysis
+1. What abstract class did you create? 
+        - Athlete_Bautista
+        
+2. What interface did you create? 
+        - Training_Bautista 
+
+3. What methods did you override? 
+        - prepare() in CerealKiller_Bautista, serve() in RoomService_Bautista
+
+4. What methods did you overload? 
+        - serve(string, int) in RoomService_Bautista, prepare(string) in CerealKiller_Bautista
+
+5. Where does dynamic binding occur in your code? 
+        - When preare() and serve() are called. 
+
+6. Which part shows polymorphism? 
+        - CerealKiller_Bautista behaves as a Cereal_Alvarez type, and RoomService_Bautista behaves as 
+        a Breakfast_Alvarez type.
+
+7. How does your design achieve low coupling? 
+        - By using abstract classes and interfaces, we decouple the implementation from the contract, 
+        allowing for flexibility and easier maintenance.
+        
+8. How does your design achieve high cohesion? 
+        - Each class has a single responsibility: CerealKiller_Bautista focuses on cereal preparation, 
+        RoomService_Bautista focuses on serving breakfast, and the interfaces/abstract classes define clear 
+        contracts for behavior without mixing responsibilities.
+*/
