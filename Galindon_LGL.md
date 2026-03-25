@@ -30,3 +30,5 @@
 **<03/19/2026>**: Comment by : Nepomuceno; You did an excellent job preparing your class ahead of time. Your creativity really stood out in the way you created the class. Aside from some minor errors with the methods from the parent class, overall, you did very well.  
 
 **\<03/20/2026\>**: Comment by: Arandela; You did well in implementing validation for the number of sites and clearly defining map behaviors, and you can improve by adding more interactive features like unique map mechanics.    
+
+**<03/21/2026>**: Comment by: Nepomuceno; You did an excellent job developing your abstract and interface classes. Your output clearly reflects your strong understanding of the concepts, and your punctuality in completing the task is truly commendable.
