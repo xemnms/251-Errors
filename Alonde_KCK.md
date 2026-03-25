@@ -32,3 +32,5 @@
 **<03/21/2026>**: Comment by: Vic Andrew Andres Dizon; You did well in implementing the validation logic within your setAmount method, which effectively prevents the system from processing invalid negative transactions.  
 
 **<03/21/2026>**: Comment by: Nepomuceno; Great job developing both the composite and component classes. It’s clear that you understand how they work together.  
+
+**<03/21/2026>**: Comment by: Dizon; You did well in defining a clear and logical hierarchy for the AbstractDevice_Alonde class; it was very easy to extend. You can improve by adding more descriptive Javadoc comments to your interface methods to clarify what the expected behavior should be for the networkName parameter.
