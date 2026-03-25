@@ -2,12 +2,14 @@
 
 ## 📊 Scores
 
-| Date       | Activity Type  | Title       | Score  | Total Points |
-|------------|----------------|-------------|--------|--------------|
-| 03/05/2026 | Quiz           | Quiz 1      | 5      | 5            |
-| 03/05/2026 | Extra Points   | Post        | 10     | 10           |
-| 03/05/2026 | Ice Breaker    | Wordle      | 10     | 10           |
-| —          | —              | —           | —      | —            |
+| Date       | Activity Type    | Title            | Score | Total Points |
+|------------|------------------|------------------|-------|--------------|
+| 03/05/2026 | Quiz             | Quiz 1           | 5     | 5            |
+| 03/05/2026 | Extra Points     | Post             | 10    | 15           |
+| 03/05/2026 | Ice Breaker      | Wordle           | 10    | 25           |
+| 03/19/2026 | On mic for OLC   | Opened Mic       | 2     | 27           |
+| 03/23/2026 | Ice Breaker Host | Guess The Number | 10    | 37           |
+| —          | —                | —                | —     | —            |
 
 ---
 ## 📘 Journals
@@ -19,7 +21,9 @@
 
 **\<03/18/2026\>** : Today I learned about inheritance in OOP, specifically how parent classes pass properties and methods to child classes, reducing code duplication and improving maintainability. I also practiced implementing inheritance hierarchies and method overriding in my projects. Next time, I will explore polymorphism and abstract classes to further enhance my OOP design patterns.
 
-**\<03/20/2026\>** : Today I learned about composition in OOP, where objects are built using other objects instead of relying on inheritance, allowing for more flexible and modular program design. Next time I will practice implementing composition in my own programs, especially by creating classes that work together to solve a problem.
+**\<03/20/2026\>** : Today I learned about composition in OOP, where objects are built using other objects instead of relying on inheritance, allowing for more flexible and modular program design. Next time I will practice implementing composition in my own programs, especially by creating classes that work together to solve a problem.   
+
+**\<03/25/2026\>** : Today I learned how to apply abstraction and polymorphism by creating my own abstract class and interface, implementing teammate abstractions, and demonstrating overriding, overloading, and dynamic binding in a demo program. Next time, I will improve by planning my class responsibilities earlier and testing each part immediately to avoid late adjustments.
 
 ---
 ## ✉️ Peer Feedbacks    
