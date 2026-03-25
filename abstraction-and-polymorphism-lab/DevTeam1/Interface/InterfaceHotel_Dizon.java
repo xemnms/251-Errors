@@ -5,7 +5,6 @@ public interface InterfaceHotel_Dizon {
     String INDUSTRY_TYPE = "Hospitality";
 
     // Abstract Methods 
-   
 
     void checkIn(String guestName);
     
@@ -18,7 +17,7 @@ public interface InterfaceHotel_Dizon {
         System.out.println("Standard Policy: Check-in is at 2:00 PM, Check-out is at 12:00 PM.");
     }
 
-    // Static Method
+    // Static Method 
     static String getIndustry() {
         return INDUSTRY_TYPE;
     }
