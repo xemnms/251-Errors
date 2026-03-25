@@ -1,4 +1,3 @@
-// Abstract class implementing Vehicle interface
 public abstract class AbstractVehicle_Galindon{
     private final String model;
     protected double speed; // km/h

@@ -36,3 +36,5 @@
 **\<03/21/2026\>**: Comment by: Vic Andrew Andres Dizon; You did well in the structural design of your Weapon class, particularly the ammo management logic which made it very easy to integrate into my loadout system.    
 
 **\<03/25/2026\>**: Comment by: Arandela; You did a great job designing your notifier abstraction and interface. Your implementation is clean and easy to integrate, which helped in demonstrating polymorphism and interface-driven design effectively.
+
+**\<03/25/2026\>**: Comment by: Galindon; You did well in organizing your code and using examples to show how overriding and overloading work.
