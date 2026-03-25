@@ -17,7 +17,9 @@
 
 **<03/19/2026>**: I learned how inheritance works by creating a parent and subclass, and how methods can be overridden. Next time, I will improve my class design.  
 
-**<03/20/2026>**: Reflection by: Jherrymei Arandela (for Myself); I did well in applying composition by combining weapon and skin into a player class and demonstrating low coupling through component replacement, and I can improve by expanding interactions and adding more components to strengthen the system design. 
+**<03/20/2026>**: I did well in applying composition by combining weapon and skin into a player class and demonstrating low coupling through component replacement, and I can improve by expanding interactions and adding more components to strengthen the system design. 
+
+**<03/25/2026>**: I learned how to apply abstraction and polymorphism by creating my own abstract class and interface, and by using my teammates' work. I was able to implement overriding, overloading, and dynamic binding while ensuring my design follows low coupling and high cohesion.
 
 ---
 ## ✉️ Peer Feedbacks  

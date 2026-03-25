@@ -32,3 +32,5 @@
 **\<03/20/2026\>**: Comment by: Arandela; You did well in implementing validation for the number of sites and clearly defining map behaviors, and you can improve by adding more interactive features like unique map mechanics.    
 
 **<03/21/2026>**: Comment by: Nepomuceno; You did an excellent job developing your abstract and interface classes. Your output clearly reflects your strong understanding of the concepts, and your punctuality in completing the task is truly commendable.
+
+**\<03/25/2026\>**: Comment by: Arandela; Your vehicle abstraction is well-structured and easy to use. The methods are clear and your design made it simple to implement overriding and demonstrate dynamic binding in our program.
