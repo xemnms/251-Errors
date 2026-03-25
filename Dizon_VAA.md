@@ -31,3 +31,5 @@
 **\<03/20/2026\>**: Comment by: Arandela; You did well in applying validation for upgrade levels and adding unique sound effects per skin, and you can improve by expanding behaviors such as equipping or upgrading skins dynamically.  
 
 **\<03/20/2026\>**: Comment by : Nepomuceno; Excellent work in designing the composite and component classes. Your implementation reflects strong understanding of the concept.  
+
+**<03/25/2026>**: Comment by: Alonde; You did well in defining a clear and logical hierarchy for your abstract class. It was very easy to extend. 

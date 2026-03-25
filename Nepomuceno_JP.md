@@ -24,7 +24,7 @@
 
 **\<03/20/2026\>** : Today, I learned how the component and composite classes work together and how they help organize objects in a structured way. I will improve by practicing their implementation to better understand their relationship and design.    
 
-**\<03/2025/2026\>** : Today I learned how to use abstract classes and interfaces in Java and understood how they help organize code through abstraction and defined contracts. I realized that abstract classes can have implemented methods while interfaces focus on required behaviors. I will improve by practicing more coding examples and applying these concepts in small programs.    
+**\<03/25/2026\>** : Today I learned how to use abstract classes and interfaces in Java and understood how they help organize code through abstraction and defined contracts. I realized that abstract classes can have implemented methods while interfaces focus on required behaviors. I will improve by practicing more coding examples and applying these concepts in small programs.    
 
 ---
 ## ✉️ Peer Feedbacks  
