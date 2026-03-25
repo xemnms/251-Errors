@@ -2,12 +2,12 @@ public class InterfaceConcreteHotel_Alonde implements InterfaceHotel_Dizon {
     private String currentGuest; 
 
     public InterfaceConcreteHotel_Alonde(String guestName) {
-        this.guestName = guestName;
+        this.currentGuest = guestName; 
     }
 
     @Override 
     public void checkIn(String guestName) { 
-        this.currentGuest = guestName;
+        this.currentGuest = guestName; 
         System.out.println("Check-in successful for: " + guestName); 
     }
 
@@ -19,7 +19,12 @@ public class InterfaceConcreteHotel_Alonde implements InterfaceHotel_Dizon {
 
     @Override 
     public boolean processPayment(double amount) { 
-        System.out.println("Payment of PHP " + amount + " processed via Hospitality portal.");
+        System.out.println("Payment of PHP " + amount + " processed.");
         return true; 
+    }
+
+    public void checkIn(String guestName, int roomNumber) {
+        this.currentGuest = guestName;
+        System.out.println(guestName + " checked into Room #" + roomNumber);
     }
 }

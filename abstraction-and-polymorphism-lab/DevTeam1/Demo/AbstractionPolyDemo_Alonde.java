@@ -3,7 +3,7 @@ public class AbstractionPolyDemo_Alonde {
         
         // dynamic binding
         AbstractHotel_Dizon myHotel = new AbstractConcreteHotel_Alonde("Crivan Suites", "Laguna", 13);
-        InterfaceHotel_Dizon myService = new InterfaceConcreteHotel_Alonde();
+        InterfaceHotel_Dizon myService = new InterfaceConcreteHotel_Alonde("Initial Guest");
 
         System.out.println("--- Hotel Information ---");
         myHotel.displayDetails();
