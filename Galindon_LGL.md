@@ -22,6 +22,12 @@
 
 **\<03/19/2026\>** : I learned inheritance in our lab, and to improve, next time I will read the instructions well and carefully so I can code without interruptions.
 
+**\<03/21/2026\>** : I learned composition in our lab, and to improve, next time I will manage my time well and finish my assignments early.
+
+**\<03/25/2026\>** : I learned abstraction in our lab, and to improve, I plan to practice more programming exercises and manage my projects on GitHub to build good coding habits.
+
+
+
 ---
 ## ✉️ Peer Feedbacks 
 
