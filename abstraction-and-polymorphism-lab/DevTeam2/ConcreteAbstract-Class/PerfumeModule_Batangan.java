@@ -1,6 +1,6 @@
 // Created by Batangan
 // Uses teammate abstract class `LearningModule_Bagay`
-// Demonstrates overriding and overloading.
+// Demonstrates overriding and overloading
 
 public class PerfumeModule_Batangan extends LearningModule_Bagay {
 
@@ -9,7 +9,7 @@ public class PerfumeModule_Batangan extends LearningModule_Bagay {
         System.out.println("Starting perfume lesson: Understanding scent notes 🌸");
     }
 
-    // Overloading method
+    // Overloading
     void startLesson(String perfumeName) {
         System.out.println("Starting lesson for perfume: " + perfumeName);
     }
