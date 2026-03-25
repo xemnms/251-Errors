@@ -45,6 +45,6 @@
 ---
 
 ## Abstraction
-**<03/20/2026>** : Comment by: Surname;
+**<03/25/2026>** : Comment by: Bagay; You did well in designing clear abstract and interface classes that were reusable, and I was able to use them as the base for my concrete classes. You can improve by adding a few more method contracts or examples so implementation is even more consistent across teammates.
 
 ---
