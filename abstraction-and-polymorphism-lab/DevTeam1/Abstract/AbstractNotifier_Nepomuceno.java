@@ -1,4 +1,4 @@
-public abstract class AbstractNotifier_Nepomuceno implements InterfaceNotifier_Nepomuceno {
+public abstract class AbstractNotifier_Nepomuceno {
 
     private final String appName; // E.g., Gmail, WhatsApp, Twitter
     private final String date;
@@ -24,7 +24,6 @@ public abstract class AbstractNotifier_Nepomuceno implements InterfaceNotifier_N
     }
 
     // Abstract method (must be implemented)
-    @Override
     public abstract void sendNotification();
 
     // Concrete methods

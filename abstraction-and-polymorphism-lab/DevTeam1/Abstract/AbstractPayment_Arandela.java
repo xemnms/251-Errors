@@ -1,4 +1,4 @@
-public abstract class AbstractPayment_Arandela implements InterfaceDiscountable_Arandela {
+public abstract class AbstractPayment_Arandela {
 
     private final String paymentType;
     private final String date;
@@ -13,7 +13,6 @@ public abstract class AbstractPayment_Arandela implements InterfaceDiscountable_
     }
 
     // ABSTRACT METHOD (to override)
-    @Override
     public abstract void processPayment();
 
     // CONCRETE METHOD
