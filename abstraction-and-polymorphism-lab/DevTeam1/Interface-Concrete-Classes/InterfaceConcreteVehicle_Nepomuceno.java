@@ -9,6 +9,7 @@ public class InterfaceConcreteVehicle_Nepomuceno implements InterfaceVehicle_Gal
         this.speed = 0.0;
     }
 
+    // OVERRIDING (from the interface)
     @Override
     public void accelerate(double increment) {
         if (increment <= 0) {
@@ -18,12 +19,26 @@ public class InterfaceConcreteVehicle_Nepomuceno implements InterfaceVehicle_Gal
         speed += increment;
     }
 
-    // Convenience method to call the interface default method with this object's state
+    // OVERLOADING example #1: accelerate using an int
+    public void accelerate(int increment) {
+        accelerate((double) increment); // reuse the double version
+    }
+
+    // OVERLOADING example #2: accelerate using "times" and "increment"
+    public void accelerate(double increment, int times) {
+        if (times <= 0) {
+            System.out.println("Times must be greater than 0.");
+            return;
+        }
+        for (int i = 0; i < times; i++) {
+            accelerate(increment);
+        }
+    }
+
     public void displayStatus() {
         InterfaceVehicle_Galindon.super.displayStatus(model, speed);
     }
 
-    // Optional getters
     public String getModel() {
         return model;
     }

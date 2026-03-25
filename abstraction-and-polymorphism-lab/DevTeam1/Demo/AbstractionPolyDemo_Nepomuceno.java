@@ -13,10 +13,14 @@ public class AbstractionPolyDemo_Nepomuceno {
         car2.displayStatus();
         car3.displayStatus();
 
-        // "Test drive" - accelerate vehicles
-        car1.accelerate(20);
-        car2.accelerate(35);
-        car3.accelerate(50);
+        // REGULAR call (uses the overridden interface method: accelerate(double))
+        car1.accelerate(20.0);
+
+        // OVERLOADING example (calls accelerate(double, int))
+        car2.accelerate(5.0, 3);
+
+        // (Optional extra regular call)
+        car3.accelerate(50.0);
 
         // Display updated status
         System.out.println("\n=== Updated Vehicle Status ===");
