@@ -6,8 +6,9 @@
 | Date       | Activity Type | Title       | Score | Total Points |
 |------------|----------------|-------------|--------|--------------|
 | 03/05/2026 | Quiz           | Quiz 1      |   5    | 5            |
-| 03/19/2026 | Video Attendance    | Plus Points      |   5    | 10        |
-| 03/19/2026 | Open Mic  |   Plus Points    |      2 |  12     |
+| 03/19/2026 | Video Attendance| Plus Points|   5    | 10           |
+| 03/19/2026 | Open Mic       | Plus Points |    2   |  12          |
+|03/26/2026  |Ice Breaker Host|Guess The Meme | 10   |  22          |      
 ---
 
 ## 📘 Journals
@@ -21,6 +22,8 @@
 **<03/16/2026>** : I learned how a child class like Smartphone_Batangan can inherit attributes and methods from a parent class (Device_Rodenas) using extends, while also adding its own features like operatingSystem and takePhoto(). I also learned how method overriding works by changing the behavior of crashDevice() to make it more specific to the smartphone. Next time I will practice creating more child classes and explore how to use overriding and additional methods to make each object behave differently.
 
 **<03/19/2026>** : I learned how to use composition (HAS-A relationships) to combine multiple classes into one system while maintaining low coupling and high cohesion, and next time I will improve my design by adding more flexible components and exploring inheritance to extend functionality.
+
+**<03/25/2026>** : I learned how to apply abstraction and polymorphism by creating abstract classes and interfaces, and by using method overriding, overloading, and dynamic binding in a complete program, and next time I will improve my design by making my classes more reusable and consistent while strengthening my understanding of when to use abstraction versus interfaces.
 
 ---
 ## ✉️ Peer Feedbacks
