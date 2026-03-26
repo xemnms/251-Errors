@@ -45,4 +45,4 @@
 **<03/DD/2026>** : Commented by Surname:
 
 ### | Abstraction and Polymorphism
-**<03/DD/2026>** : Commented by Surname:
+**<03/DD/2026>** : Commented by Alvarez: your work is well done. I enjoyed collaborating with you and also understood on what you have coded or programmed in your own syntax that's why we are compatible as a team 9.999/10j
