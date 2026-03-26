@@ -21,6 +21,8 @@
 
 **\<03/20/2026\>**: I learned how to implement composition by integrating teammate-designed classes (Payment_Arandela and Weapon_Nepomuceno) into my own ValorantLoadout_Dizon class. I specifically practiced Low Coupling by ensuring my class only interacts with public methods, allowing me to swap weapons (like the ElderflameVandal) without breaking the system. Next time, I will try to implement Interface-based composition to make the system even more flexible for different types of payment methods.  
 
+**\<03/25/2026\>** : Today, I deepened my understanding of Dynamic Binding by implementing concrete classes based on my teammate Alonde's abstract class and interface. I learned that while a reference variable can be of an abstract type (like AbstractDevice_Alonde), the Java Virtual Machine (JVM) determines which method to call at runtime based on the actual object (the "Concrete" version). This allows for much more flexible and scalable code. I also practiced Method Overloading to provide multiple ways to sync and send data within my device classes.
+
 ---
 ## ✉️ Peer Feedbacks 
 
@@ -29,3 +31,5 @@
 **\<03/20/2026\>**: Comment by: Arandela; You did well in applying validation for upgrade levels and adding unique sound effects per skin, and you can improve by expanding behaviors such as equipping or upgrading skins dynamically.  
 
 **\<03/20/2026\>**: Comment by : Nepomuceno; Excellent work in designing the composite and component classes. Your implementation reflects strong understanding of the concept.  
+
+**<03/25/2026>**: Comment by: Alonde; You did well in defining a clear and logical hierarchy for your abstract class. It was very easy to extend. 
