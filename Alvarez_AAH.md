@@ -31,4 +31,6 @@
 
 **<03/20/2026>** : Comment by: Batangan; You did well in implementing encapsulation with getters/setters and adding validation for horsepower with a creative message, and you can improve by fixing the constructor so `isRunning` is properly initialized.
 
+**<03/25/2026>** : Comment by: Acosta; You did well in creating an abstract class and an interface with a clear goal, and I was able to understand and create a concrete class and interface with it. You can improve by adding more methods and maybe having overloaded methods in your abstract classes and interface.
+---
 ---
