@@ -24,6 +24,8 @@
 
 **\<03/20/2026\>** : Today, I learned how the component and composite classes work together and how they help organize objects in a structured way. I will improve by practicing their implementation to better understand their relationship and design.    
 
+**\<03/25/2026\>** : Today I learned how to use abstract classes and interfaces in Java and understood how they help organize code through abstraction and defined contracts. I realized that abstract classes can have implemented methods while interfaces focus on required behaviors. I will improve by practicing more coding examples and applying these concepts in small programs.    
+
 ---
 ## ✉️ Peer Feedbacks  
 
@@ -32,3 +34,7 @@
 **\<03/20/2026\>**: Comment by: Arandela; You did well in implementing ammo validation and realistic weapon behaviors like firing and reloading, and you can improve by adding more weapon-specific features or variations.  
 
 **\<03/21/2026\>**: Comment by: Vic Andrew Andres Dizon; You did well in the structural design of your Weapon class, particularly the ammo management logic which made it very easy to integrate into my loadout system.    
+
+**\<03/25/2026\>**: Comment by: Arandela; You did a great job designing your notifier abstraction and interface. Your implementation is clean and easy to integrate, which helped in demonstrating polymorphism and interface-driven design effectively.
+
+**\<03/25/2026\>**: Comment by: Galindon; You did well in organizing your code and using examples to show how overriding and overloading work.
