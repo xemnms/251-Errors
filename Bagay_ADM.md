@@ -33,4 +33,6 @@
 
 **\<03/20/2026\>**: Comment by: Bautista; You did well in constructing your code. It shows your deep understanding of the project. The details are well thought out and I like how it is managed. It's clean yet effective. Looking forward to see you take it to the next level in our upcoming projects. Niceu
 
+**<03/25/2026>** : Comment by: Batangan; You did well in creating clear and organized abstract and interface classes that are easy to follow and use, and you can improve by adding a few more creative or detailed behaviors to further enhance the functionality.
+
 ---
