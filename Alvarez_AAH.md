@@ -20,6 +20,8 @@
 
 **<03/16/2026>** : I learned how to inherit classes to sub-classes and make a main object printer out of it. and next time i will work more effieciently and learned github's feature much more eagerly. 
 
+**<03/26/2026>** : I learned how to use abstraction and implement interfaces in java programming and next time I will try to familiarize codes snippets from it to boost my knowledge at programming and lastly be more attentive to my teammate's classes and cooperation as a team. 
+
 ---
 
 ## ✉️ Peer Feedbacks    
