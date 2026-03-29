@@ -22,6 +22,12 @@
 
 **\<03/19/2026\>** : I learned inheritance in our lab, and to improve, next time I will read the instructions well and carefully so I can code without interruptions.
 
+**\<03/21/2026\>** : I learned composition in our lab, and to improve, next time I will manage my time well and finish my assignments early.
+
+**\<03/25/2026\>** : I learned abstraction in our lab, and to improve, I plan to practice more programming exercises and manage my projects on GitHub to build good coding habits.
+
+
+
 ---
 ## ✉️ Peer Feedbacks 
 
@@ -30,3 +36,7 @@
 **<03/19/2026>**: Comment by : Nepomuceno; You did an excellent job preparing your class ahead of time. Your creativity really stood out in the way you created the class. Aside from some minor errors with the methods from the parent class, overall, you did very well.  
 
 **\<03/20/2026\>**: Comment by: Arandela; You did well in implementing validation for the number of sites and clearly defining map behaviors, and you can improve by adding more interactive features like unique map mechanics.    
+
+**<03/21/2026>**: Comment by: Nepomuceno; You did an excellent job developing your abstract and interface classes. Your output clearly reflects your strong understanding of the concepts, and your punctuality in completing the task is truly commendable.
+
+**\<03/25/2026\>**: Comment by: Arandela; Your vehicle abstraction is well-structured and easy to use. The methods are clear and your design made it simple to implement overriding and demonstrate dynamic binding in our program.

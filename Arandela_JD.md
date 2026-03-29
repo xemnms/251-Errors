@@ -17,7 +17,9 @@
 
 **<03/19/2026>**: I learned how inheritance works by creating a parent and subclass, and how methods can be overridden. Next time, I will improve my class design.  
 
-**<03/20/2026>**: Reflection by: Jherrymei Arandela (for Myself); I did well in applying composition by combining weapon and skin into a player class and demonstrating low coupling through component replacement, and I can improve by expanding interactions and adding more components to strengthen the system design. 
+**<03/20/2026>**: I did well in applying composition by combining weapon and skin into a player class and demonstrating low coupling through component replacement, and I can improve by expanding interactions and adding more components to strengthen the system design. 
+
+**<03/25/2026>**: I learned how to apply abstraction and polymorphism by creating my own abstract class and interface, and by using my teammates' work. I was able to implement overriding, overloading, and dynamic binding while ensuring my design follows low coupling and high cohesion.
 
 ---
 ## ✉️ Peer Feedbacks  
@@ -31,3 +33,7 @@
 **<03/21/2026>**: Comment by: Vic Andrew Andres Dizon; You did well in implementing the validation logic within your setAmount method, which effectively prevents the system from processing invalid negative transactions.  
 
 **<03/21/2026>**: Comment by: Nepomuceno; Great job developing both the composite and component classes. It’s clear that you understand how they work together.  
+
+**<03/25/2026>**: Comment by: Nepomuceno; You did a great job creating your abstract and interface classes. Your work showed your understanding of the concepts and your punctuality in doing your work is commendable.
+
+**<03/25/2026>**: Comment by: Galindon; You did well in applying abstraction and overriding in your code. Your examples of overloading and dynamic binding were clear and easy to follow.
