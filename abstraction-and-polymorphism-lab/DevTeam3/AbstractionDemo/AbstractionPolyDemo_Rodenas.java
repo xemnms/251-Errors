@@ -8,8 +8,8 @@
 public class AbstractionPolyDemo_Rodenas {
     public static void main(String[] args) {
 
-        // AbstractConcreteSummon_Rodenas uses abstract class Astolfo_Costiniano by Costiniano
-        Astolfo_Costiniano astolfo = new AbstractConcreteSummon_Rodenas(); // dynamic binding
+        //AstolfoSummon_Rodenas uses abstract class Astolfo_Costiniano by Costiniano
+        Astolfo_Costiniano astolfo = new AstolfoSummon_Rodenas(); //dynamic binding
         astolfo.noblePhantasm(); //Overridden method
         astolfo.summon();        //Concrete method from abstract class
 
@@ -20,7 +20,7 @@ public class AbstractionPolyDemo_Rodenas {
         concreteAstolfo.checkStatus();
 
         //InterfaceConcreteSummon_Rodenas uses interface Summonable_Costiniano by Costiniano
-        InterfaceConcreteSummon_Rodenas summon = new InterfaceConcreteSummon_Rodenas();
+        InterfaceConcreteSummon_Rodenas summon = new AstolfoSummon_Rodenas();
         summon.performAction();  //Overridden abstract method
         summon.chant();          //Overridden default method
         summon.performAction("Target Dummy"); //Overloaded method
