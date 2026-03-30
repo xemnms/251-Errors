@@ -32,7 +32,7 @@ class BasicCalculator extends Calculator {
     // Example method with unchecked exception
     public double squareRoot(double num) {
         if (num < 0) {
-            throw new negativeNumException("Negative numbers not allowed!");
+            throw new NegativeNumException("Negative numbers not allowed!");
         }
         return Math.sqrt(num);
     }
