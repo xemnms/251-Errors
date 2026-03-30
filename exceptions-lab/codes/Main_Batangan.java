@@ -51,7 +51,7 @@ public class Main_Batangan {
         } catch (DivZeroException e) {
             System.out.println("Error: " + e.getMessage());
 
-        } catch (negativeNumException e) {
+        } catch (NegativeNumException e) {
             System.out.println("Runtime Error: " + e.getMessage());
 
         } catch (Exception e) {
