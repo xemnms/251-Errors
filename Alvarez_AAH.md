@@ -46,5 +46,7 @@
 ### | Abstraction and Polymorphism
 **<03/25/2026>** : Comment by: Acosta; You did well in creating an abstract class and an interface with a clear goal, and I was able to understand and create a concrete class and interface with it. You can improve by adding more methods and maybe having overloaded methods in your abstract classes and interface.
 
+**<03/25/2026>** : Comment by: Bautista; You did well in demonstrating simple abstraction and polymorphism concepts. You can improve by doing more complex examples and exploring additional patterns to fully leverage these concepts; nevertheless, your work is as good as cereal. Keep up the good work!
+
 
 ---
