@@ -46,7 +46,7 @@ public class Main_Alvarez {
         System.out.println();
 
         // Show total number of Product objects created ( static count )
-        System.out.println("Total Products Created: " + ProductBautista.getTotalProducts());
+        System.out.println("Total Products Created: " + Product1_Bautista.getTotalProducts());
 
 
         // Room Class by Badosa
