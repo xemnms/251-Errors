@@ -6,8 +6,8 @@ public class Main_Alvarez {
     public static void main(String[] args) {
 
         // Create products
-        ProductBautista laptop = new ProductBautista("Laptop", 1, 50000, 10);
-        ProductBautista mouse  = new ProductBautista("Mouse", 2, 1500, 5);
+        Product1_Bautista laptop = new Product1_Bautista("Laptop", 1, 50000, 10);
+        Product1_Bautista mouse  = new Product1_Bautista("Mouse", 2, 1500, 5);
 
         // Product initial info
         System.out.println("------ INITIAL PRODUCT DETAILS ------");

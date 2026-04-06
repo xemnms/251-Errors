@@ -5,7 +5,7 @@
  * Created by: Lei Bautista
  */
 
-public class ProductBautista {
+public class Product1_Bautista {
 
     // Private Attributes
 
@@ -19,7 +19,7 @@ public class ProductBautista {
 
     // Constructors ( Initializes a product with default values )
     
-    public ProductBautista() {
+    public Product1_Bautista() {
         this.name = "Unknown Product";
         this.id = 0;
         this.price = 0.0;
@@ -30,7 +30,7 @@ public class ProductBautista {
 
     // Parameterized constructor ( Allows initialization with specific values )
 
-    public ProductBautista(String name, int id, double price, int stock) {
+    public Product1_Bautista(String name, int id, double price, int stock) {
         setName(name);
         this.id = id;
         setPrice(price);
@@ -68,6 +68,14 @@ public class ProductBautista {
 
     // Setters with Validation
 
+    // Sets the product ID ( Validation: ID must be greater than 0 )
+    public void setId(int id) {
+        if (id > 0) {
+            this.id = id;
+        } else {
+            System.out.println("Invalid ID. Must be greater than 0.");
+        }
+    }
     // Sets the product name ( Validation: name must not be empty )
     public void setName(String name) {
         if (name != null && !name.trim().isEmpty()) {
