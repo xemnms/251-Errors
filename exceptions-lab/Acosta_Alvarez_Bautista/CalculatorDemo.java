@@ -12,6 +12,8 @@ public class CalculatorDemo {
         Scanner in = new Scanner(System.in);
         Calculator_System calc = new Calculator_System();
 
+        System.out.println("===== Simple Calculator System =====");
+
         try {
             // Ask user for two numbers
             System.out.print("Enter First Number  : ");
@@ -25,7 +27,7 @@ public class CalculatorDemo {
             calc.checkNegative(num2);
 
             // Perform operations
-            System.out.println("\nResults        : ");
+            System.out.println("\n===== Results =====");
             System.out.println("Addition       : "  + calc.add(num1, num2));
             System.out.println("Subtraction    : " + calc.subtract(num1, num2));
             System.out.println("Multiplication : " + calc.multiply(num1, num2));
