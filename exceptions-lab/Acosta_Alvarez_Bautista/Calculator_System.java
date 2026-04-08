@@ -1,5 +1,7 @@
-// This represents a simple calculator system that performs basic arithmetic operations and includes error handling for invalid inputs and negative numbers.
-// Created by Acosta, Alvarez and Bautista
+/* 
+This class represents encapsulation, method overloading, and custom exception handling in a simple calculator system.
+Created by Acosta, Alvarez and Bautista
+*/
 
 public class Calculator_System {
 
@@ -16,9 +18,9 @@ public class Calculator_System {
         return a * b;
     }
 
-    public int divide(int a, int b) throws InvalidInputException {
+    public int divide(int a, int b) throws DivisionByZeroException {
         if (b == 0) {
-            throw new InvalidInputException("Cannot divide by zero.");
+            throw new DivisionByZeroException("Cannot divide by zero.");
         }
         return a / b;
     }
@@ -36,9 +38,9 @@ public class Calculator_System {
         return a * b;
     }
 
-    public double divide(double a, double b) throws InvalidInputException {
+    public double divide(double a, double b) throws DivisionByZeroException {
         if (b == 0) {
-            throw new InvalidInputException("Cannot divide by zero.");
+            throw new DivisionByZeroException("Cannot divide by zero.");
         }
         return a / b;
     }
