@@ -18,14 +18,14 @@ public class CalculatorDemo_Arandela_Galindon {
         // EXCEPTION 1: NEGATIVE RESULT
         try {
             System.out.println("Subtraction: " + calc.subtract(5, 10));
-        } catch (NegativeResultException e) {
+        } catch (NegativeResultException_Arandela_Galindon e) {
             System.out.println("Caught Exception: " + e.getMessage());
         }
 
         // EXCEPTION 2: DIVIDE BY ZERO
         try {
             System.out.println("Division: " + calc.divide(10, 0));
-        } catch (InvalidInputException e) {
+        } catch (InvalidInputException_Arandela_Galindon e) {
             System.out.println("Caught Exception: " + e.getMessage());
         }
 

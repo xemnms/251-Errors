@@ -10,7 +10,7 @@ public class Calculator_Arandela_Galindon {
     // NEGATIVE CHECK 
     private void checkNegative(double result) {
         if (!allowNegativeResults && result < 0) {
-            throw new NegativeResultException("Error: Negative results are not allowed.");
+            throw new NegativeResultException_Arandela_Galindon("Error: Negative results are not allowed.");
         }
     }
 
@@ -54,9 +54,9 @@ public class Calculator_Arandela_Galindon {
     }
 
     // DIVISION 
-    public int divide(int a, int b) throws InvalidInputException {
+    public int divide(int a, int b) throws InvalidInputException_Arandela_Galindon {
         if (b == 0) {
-            throw new InvalidInputException("Error: Cannot divide by zero.");
+            throw new InvalidInputException_Arandela_Galindon("Error: Cannot divide by zero.");
         }
 
         int result = a / b;
@@ -64,9 +64,9 @@ public class Calculator_Arandela_Galindon {
         return result;
     }
 
-    public double divide(double a, double b) throws InvalidInputException {
+    public double divide(double a, double b) throws InvalidInputException_Arandela_Galindon {
         if (b == 0) {
-            throw new InvalidInputException("Error: Cannot divide by zero.");
+            throw new InvalidInputException_Arandela_Galindon("Error: Cannot divide by zero.");
         }
 
         double result = a / b;
