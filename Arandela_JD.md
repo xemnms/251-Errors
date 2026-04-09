@@ -21,6 +21,8 @@
 
 **<03/25/2026>**: I learned how to apply abstraction and polymorphism by creating my own abstract class and interface, and by using my teammates' work. I was able to implement overriding, overloading, and dynamic binding while ensuring my design follows low coupling and high cohesion.
 
+**<04/09/2026>** : I learned how to implement a calculator using OOP concepts and handle both checked and unchecked exceptions in Java. Next time, I will improve my understanding of exception propagation and write more organized and efficient code.
+
 ---
 ## ✉️ Peer Feedbacks  
 
@@ -37,3 +39,5 @@
 **<03/25/2026>**: Comment by: Nepomuceno; You did a great job creating your abstract and interface classes. Your work showed your understanding of the concepts and your punctuality in doing your work is commendable.
 
 **<03/25/2026>**: Comment by: Galindon; You did well in applying abstraction and overriding in your code. Your examples of overloading and dynamic binding were clear and easy to follow.
+
+**<04/09/2026>**: Comment by: Galindon; You did well in applying exceptions in your calculator program. Your handling of negative results and division by zero was clear and demonstrated proper use of checked and unchecked exceptions.

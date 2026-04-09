@@ -8,7 +8,7 @@ public class Calculator_Alonde_Dizon_Nepomuceno {
 
     private void checkNegative(double result) {
         if (!allowNegativeResults && result < 0) {
-            throw new NegativeResultException("Error: Negative results are not allowed.");
+            throw new NegativeResultException_Arandela_Galindon("Error: Negative results are not allowed.");
         }
     }
 
