@@ -39,3 +39,15 @@ public class CalculatorDemo_Arandela_Galindon {
         System.out.println("=== End of Program ===");
     }
 }
+
+
+
+/*
+1. What exceptions did you create?
+NegativeResultException and InvalidInputException. These handle negative results and invalid operations like division by zero.
+2. Which are checked vs unchecked?
+InvalidInputException is a checked exception because it extends Exception. NegativeResultException is unchecked because it extends RuntimeException.
+3. Where are exceptions thrown?
+NegativeResultException is thrown inside checkNegative() when results are negative. InvalidInputException is thrown in divide() when the divisor is zero.
+
+*/

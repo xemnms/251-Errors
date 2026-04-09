@@ -26,7 +26,7 @@
 
 **\<03/25/2026\>** : I learned abstraction in our lab, and to improve, I plan to practice more programming exercises and manage my projects on GitHub to build good coding habits.
 
-
+**\<04/09/2026\>** : I learned about checked and unchecked exceptions in our lab, next time I will improve by practicing how to handle them properly.
 
 ---
 ## ✉️ Peer Feedbacks 
