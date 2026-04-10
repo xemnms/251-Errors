@@ -25,7 +25,7 @@ public class Calculator_Alonde_Dizon_Nepomuceno {
     }
 
     // SUBTRACTION - Dizon
-    public int subtract(int a, int b) throws InvalidOperandException {
+    public int subtract(int a, int b) throw new InvalidOperandException {
         // Example of triggering a checked exception
         if (a == 0 && b > 1000) {
             throw new InvalidOperandException("Large subtrahends from zero are restricted.");
@@ -35,7 +35,7 @@ public class Calculator_Alonde_Dizon_Nepomuceno {
         return result;
     }
 
-    public double subtract(double a, double b) throws InvalidOperandException {
+    public double subtract(double a, double b) throw new InvalidOperandException {
         if (a == 0 && b > 1000) {
             throw new InvalidOperandException("Large subtrahends from zero are restricted.");
         }
