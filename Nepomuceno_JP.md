@@ -40,3 +40,5 @@
 **\<03/25/2026\>**: Comment by: Arandela; You did a great job designing your notifier abstraction and interface. Your implementation is clean and easy to integrate, which helped in demonstrating polymorphism and interface-driven design effectively.
 
 **\<03/25/2026\>**: Comment by: Galindon; You did well in organizing your code and using examples to show how overriding and overloading work.
+
+**\<04/10/2026\>**: Comment by: Vic Andrew Andres Dizon; You did well in handling division by zero and method overloading and you can improve by adding checks for very large decimal results.

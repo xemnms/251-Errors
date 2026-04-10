@@ -23,6 +23,8 @@
 
 **\<03/25/2026\>** : Today, I deepened my understanding of Dynamic Binding by implementing concrete classes based on my teammate Alonde's abstract class and interface. I learned that while a reference variable can be of an abstract type (like AbstractDevice_Alonde), the Java Virtual Machine (JVM) determines which method to call at runtime based on the actual object (the "Concrete" version). This allows for much more flexible and scalable code. I also practiced Method Overloading to provide multiple ways to sync and send data within my device classes.
 
+**\<04/10/2026\>** : I learned how to implement custom exceptions and use method overloading in a shared codebase and next time I will work on more efficient exception propagation strategies.
+
 ---
 ## ✉️ Peer Feedbacks 
 
@@ -33,3 +35,5 @@
 **\<03/20/2026\>**: Comment by : Nepomuceno; Excellent work in designing the composite and component classes. Your implementation reflects strong understanding of the concept.  
 
 **<03/25/2026>**: Comment by: Alonde; You did well in defining a clear and logical hierarchy for your abstract class. It was very easy to extend. 
+
+**<03/25/2026>**: Comment by: Nepomuceno; You did well implementing the addition and subtraction behaviors of our calculator class, ensuring they were functional and consistent with the overall design. You can improve by adding more validation or edge case handling to further strengthen the reliability of these operations.
