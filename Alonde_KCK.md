@@ -37,4 +37,4 @@
 
 **<03/25/2026>**: Comment by: Dizon; You did well in defining a clear and logical hierarchy for the AbstractDevice_Alonde class; it was very easy to extend. You can improve by adding more descriptive Javadoc comments to your interface methods to clarify what the expected behavior should be for the networkName parameter.
 
-**<03/25/2026>**: Comment by: Nepomuceno; You did well showcasing our Java calculator program in the demo file, especially in demonstrating the use of try-catch-finally. You can improve by adding more test cases to further highlight how different exceptions are handled.
+**<04/10/2026>**: Comment by: Nepomuceno; You did well showcasing our Java calculator program in the demo file, especially in demonstrating the use of try-catch-finally. You can improve by adding more test cases to further highlight how different exceptions are handled.
