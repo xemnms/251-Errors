@@ -25,19 +25,19 @@ public class Calculator_Alonde_Dizon_Nepomuceno {
     }
 
     // SUBTRACTION - Dizon
-    public int subtract(int a, int b) throw new InvalidOperandException {
+    public int subtract(int a, int b) throws InvalidInputException {
         // Example of triggering a checked exception
         if (a == 0 && b > 1000) {
-            throw new InvalidOperandException("Large subtrahends from zero are restricted.");
+            throw new InvalidInputException("Large subtrahends from zero are restricted.");
         }
         int result = a - b;
         checkNegative(result);
         return result;
     }
 
-    public double subtract(double a, double b) throw new InvalidOperandException {
+    public double subtract(double a, double b) throws InvalidInputException {
         if (a == 0 && b > 1000) {
-            throw new InvalidOperandException("Large subtrahends from zero are restricted.");
+            throw new InvalidInputException("Large subtrahends from zero are restricted.");
         }
         double result = a - b;
         checkNegative(result);
