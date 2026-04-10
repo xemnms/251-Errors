@@ -8,17 +8,17 @@ public class Calculator_Alonde_Dizon_Nepomuceno {
 
     private void checkNegative(double result) {
         if (!allowNegativeResults && result < 0) {
-            throw new NegativeResultException_Arandela_Galindon("Error: Negative results are not allowed.");
+            throw new NegativeResultException_Alonde_Dizon_Nepomuceno("Error: Negative results are not allowed.");
         }
     }
 
-    // ADDITION - Dizon
+    // ADDITION 
 
-    // SUBTRACTION - Dizon
+    // SUBTRACTION 
 
 
 
-    // MULTIPLICATION - Nepomuceno
+    // MULTIPLICATION 
   
     public int multiply(int a, int b) {
         int result = a * b;
@@ -33,7 +33,7 @@ public class Calculator_Alonde_Dizon_Nepomuceno {
         return result;
     }
 
-    // DIVISION - Nepomuceno
+    // DIVISION 
 
     public int divide(int a, int b) {
         if (b == 0) {

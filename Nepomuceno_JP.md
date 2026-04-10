@@ -26,6 +26,8 @@
 
 **\<03/25/2026\>** : Today I learned how to use abstract classes and interfaces in Java and understood how they help organize code through abstraction and defined contracts. I realized that abstract classes can have implemented methods while interfaces focus on required behaviors. I will improve by practicing more coding examples and applying these concepts in small programs.    
 
+**\<04/10/2026\>** : Today I learned how to create throw and custom exceptions in Java and how they help handle errors more effectively in a program. I also understood the difference between checked and unchecked exceptions and how exception propagation works. I will improve by implementing more try-catch-finally blocks and practicing creating my own exceptions in different scenarios.
+
 ---
 ## ✉️ Peer Feedbacks  
 
