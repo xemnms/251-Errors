@@ -11,22 +11,46 @@ public class Calculator_Alonde_Dizon_Nepomuceno {
             throw new NegativeResultException_Arandela_Galindon("Error: Negative results are not allowed.");
         }
     }
+// ADDITION - Dizon
+    public int add(int a, int b) {
+        int result = a + b;
+        checkNegative(result);
+        return result;
+    }
 
-    // ADDITION - Dizon
+    public double add(double a, double b) {
+        double result = a + b;
+        checkNegative(result);
+        return result;
+    }
 
     // SUBTRACTION - Dizon
+    public int subtract(int a, int b) throws InvalidInputException {
+        // Example of triggering a checked exception
+        if (a == 0 && b > 1000) {
+            throw new InvalidInputException("Large subtrahends from zero are restricted.");
+        }
+        int result = a - b;
+        checkNegative(result);
+        return result;
+    }
 
-
+    public double subtract(double a, double b) throws InvalidInputException {
+        if (a == 0 && b > 1000) {
+            throw new InvalidInputException("Large subtrahends from zero are restricted.");
+        }
+        double result = a - b;
+        checkNegative(result);
+        return result;
+    }
 
     // MULTIPLICATION - Nepomuceno
-  
     public int multiply(int a, int b) {
         int result = a * b;
         checkNegative(result);
         return result;
     }
 
-    //Overloaded method for double multiplication
     public double multiply(double a, double b) {
         double result = a * b;
         checkNegative(result);
