@@ -36,4 +36,6 @@
 
 **<03/25/2026>**: Comment by: Alonde; You did well in defining a clear and logical hierarchy for your abstract class. It was very easy to extend. 
 
-**<03/25/2026>**: Comment by: Nepomuceno; You did well implementing the addition and subtraction behaviors of our calculator class, ensuring they were functional and consistent with the overall design. You can improve by adding more validation or edge case handling to further strengthen the reliability of these operations.
+**<04/10/2026>**: Comment by: Nepomuceno; You did well implementing the addition and subtraction behaviors of our calculator class, ensuring they were functional and consistent with the overall design. You can improve by adding more validation or edge case handling to further strengthen the reliability of these operations.
+
+**<04/10/2026>**: Comment by: Alonde; You did well implementing both int and double versions of add. The program is smart and simple enough to choose the right logic based on the input. You can improve the InvaliedInputException and store the actual invalid value that was passed, which would allow the handling block to print a more specific message.

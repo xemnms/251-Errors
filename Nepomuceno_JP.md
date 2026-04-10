@@ -42,3 +42,5 @@
 **\<03/25/2026\>**: Comment by: Galindon; You did well in organizing your code and using examples to show how overriding and overloading work.
 
 **\<04/10/2026\>**: Comment by: Vic Andrew Andres Dizon; You did well in handling division by zero and method overloading and you can improve by adding checks for very large decimal results.
+
+**\<04/10/2026\>**: Comment by: Alonde; You did well in implementing the divide method by manually throwing an ArithmeticException, The program anticipates the operations on the calculator clearly, and you can improve the output by adding decimal formatting.

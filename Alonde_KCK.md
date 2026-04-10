@@ -20,6 +20,8 @@
 
 **<03/25/2026>**: I learned about the practical application of Dynamic Binding. I learned that while the compiler looks at the Abstract Class or Interface to ensure a method exists, the JVM determines which Concrete Class to run at runtime. And to improve, I can improve by being more critical about which data needs to be accessible.
 
+**<04/10/2026>**: I learned about the try-catch blocks and how they can prevent crashes and control errors. In the demo, I used general exception handling, and I think I could improve this by catching even more specific built-in exceptions to provide new solutions for every possible failure point.
+
 ---
 ## ✉️ Peer Feedbacks  
 
