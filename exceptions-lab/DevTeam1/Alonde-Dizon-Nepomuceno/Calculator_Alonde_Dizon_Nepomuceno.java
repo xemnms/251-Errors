@@ -8,7 +8,7 @@ public class Calculator_Alonde_Dizon_Nepomuceno {
 
     private void checkNegative(double result) {
         if (!allowNegativeResults && result < 0) {
-            throw new NegativeResultException_Arandela_Galindon("Error: Negative results are not allowed.");
+            throw new NegativeResultException_Alonde_Dizon_Nepomuceno("Error: Negative results are not allowed.");
         }
     }
 // ADDITION 
@@ -25,19 +25,19 @@ public class Calculator_Alonde_Dizon_Nepomuceno {
     }
 
     // SUBTRACTION 
-    public int subtract(int a, int b) throws InvalidInputException {
+    public int subtract(int a, int b) throws InvalidInputException_Alonde_Dizon_Nepomuceno {
         // Example of triggering a checked exception
         if (a == 0 && b > 1000) {
-            throw new InvalidInputException("Large subtrahends from zero are restricted.");
+            throw new InvalidInputException_Alonde_Dizon_Nepomuceno("Large subtrahends from zero are restricted.");
         }
         int result = a - b;
         checkNegative(result);
         return result;
     }
 
-    public double subtract(double a, double b) throws InvalidInputException {
+    public double subtract(double a, double b) throws InvalidInputException_Alonde_Dizon_Nepomuceno {
         if (a == 0 && b > 1000) {
-            throw new InvalidInputException("Large subtrahends from zero are restricted.");
+            throw new InvalidInputException_Alonde_Dizon_Nepomuceno("Large subtrahends from zero are restricted.");
         }
         double result = a - b;
         checkNegative(result);
