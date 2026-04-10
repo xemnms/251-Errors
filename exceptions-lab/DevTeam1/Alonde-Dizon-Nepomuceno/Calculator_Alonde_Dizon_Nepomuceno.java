@@ -56,20 +56,6 @@ public class Calculator_Alonde_Dizon_Nepomuceno {
         checkNegative(result);
         return result;
     }
-    // MULTIPLICATION - Nepomuceno
-  
-    public int multiply(int a, int b) {
-        int result = a * b;
-        checkNegative(result);
-        return result;
-    }
-
-    //Overloaded method for double multiplication
-    public double multiply(double a, double b) {
-        double result = a * b;
-        checkNegative(result);
-        return result;
-    }
 
     // DIVISION - Nepomuceno
 
