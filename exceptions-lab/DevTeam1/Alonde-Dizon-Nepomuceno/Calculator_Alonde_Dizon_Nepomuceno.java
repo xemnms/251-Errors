@@ -8,10 +8,10 @@ public class Calculator_Alonde_Dizon_Nepomuceno {
 
     private void checkNegative(double result) {
         if (!allowNegativeResults && result < 0) {
-            throw new NegativeResultException_Arandela_Galindon("Error: Negative results are not allowed.");
+            throw new NegativeResultException_Alonde_Dizon_Nepomuceno("Error: Negative results are not allowed.");
         }
     }
-// ADDITION - Dizon
+// ADDITION 
     public int add(int a, int b) {
         int result = a + b;
         checkNegative(result);
@@ -24,27 +24,27 @@ public class Calculator_Alonde_Dizon_Nepomuceno {
         return result;
     }
 
-    // SUBTRACTION - Dizon
-    public int subtract(int a, int b) throws InvalidInputException {
+    // SUBTRACTION 
+    public int subtract(int a, int b) throws InvalidInputException_Alonde_Dizon_Nepomuceno {
         // Example of triggering a checked exception
         if (a == 0 && b > 1000) {
-            throw new InvalidInputException("Large subtrahends from zero are restricted.");
+            throw new InvalidInputException_Alonde_Dizon_Nepomuceno("Large subtrahends from zero are restricted.");
         }
         int result = a - b;
         checkNegative(result);
         return result;
     }
 
-    public double subtract(double a, double b) throws InvalidInputException {
+    public double subtract(double a, double b) throws InvalidInputException_Alonde_Dizon_Nepomuceno {
         if (a == 0 && b > 1000) {
-            throw new InvalidInputException("Large subtrahends from zero are restricted.");
+            throw new InvalidInputException_Alonde_Dizon_Nepomuceno("Large subtrahends from zero are restricted.");
         }
         double result = a - b;
         checkNegative(result);
         return result;
     }
 
-    // MULTIPLICATION - Nepomuceno
+    // MULTIPLICATION 
     public int multiply(int a, int b) {
         int result = a * b;
         checkNegative(result);
@@ -57,7 +57,7 @@ public class Calculator_Alonde_Dizon_Nepomuceno {
         return result;
     }
 
-    // DIVISION - Nepomuceno
+    // DIVISION 
 
     public int divide(int a, int b) {
         if (b == 0) {
