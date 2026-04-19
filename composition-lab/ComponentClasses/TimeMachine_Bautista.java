@@ -9,42 +9,36 @@ public class TimeMachine_Bautista {
     private int yearOfTravel;
     private int monthOfTravel;
 
-    // Constructor to initialize the time machine
+    // Static constant array (created only once, shared by all objects)
+    private static final String[] MONTH_NAMES = {
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    };
+
+    // Constructor (uses setters for validation consistency)
     public TimeMachine_Bautista(String machineID, int yearOfTravel, int monthOfTravel, String destinationPoint) {
-        this.machineID = machineID;
-        this.yearOfTravel = yearOfTravel;
-        setMonthOfTravel(monthOfTravel); // validated month
-        this.destinationPoint = destinationPoint;
+        setMachineID(machineID);
+        setYearOfTravel(yearOfTravel);
+        setMonthOfTravel(monthOfTravel);
+        setDestinationPoint(destinationPoint);
     }
 
-    // Method to turn on the time machine
+    // Behavior methods
     public void turnOn() {
         System.out.println("Time Machine " + machineID + " powered on. Ready to travel!");
     }
 
-    // Method to turn off the time machine
     public void turnOff() {
         System.out.println("Time Machine " + machineID + " powered off. Goodbye!");
     }
 
-    // Method to travel to a specific time and place
     public void travelToTime(int yearOfTravel, int monthOfTravel, String destinationPoint) {
-        // Validate the month of travel
-        if (monthOfTravel < 1 || monthOfTravel > 12) {
-            System.out.println("Invalid month of travel. Please enter a value between 1 and 12.");
-            return;
-        }
+        setYearOfTravel(yearOfTravel);
+        setMonthOfTravel(monthOfTravel);
+        setDestinationPoint(destinationPoint);
 
-        this.yearOfTravel = yearOfTravel;
-        this.monthOfTravel = monthOfTravel;
-        this.destinationPoint = destinationPoint;
-
-        // Array of month names
-        String[] monthNames = { "January", "February", "March", "April", "May", "June",
-                "July", "August", "September", "October", "November", "December" };
-
-        System.out.println("Traveling to " + destinationPoint + " in " +
-                monthNames[monthOfTravel - 1] + " " + yearOfTravel + "...");
+        System.out.println("Traveling to " + this.destinationPoint + " in " +
+                MONTH_NAMES[this.monthOfTravel - 1] + " " + this.yearOfTravel + "...");
     }
 
     // Getters
@@ -64,24 +58,40 @@ public class TimeMachine_Bautista {
         return monthOfTravel;
     }
 
-    // Setters
+    // Setters 
     public void setMachineID(String machineID) {
-        this.machineID = machineID;
+        if (machineID != null && !machineID.trim().isEmpty()) {
+            this.machineID = machineID;
+        } else {
+            System.out.println("Invalid machine ID. Defaulting to TM-DEFAULT.");
+            this.machineID = "TM-DEFAULT";
+        }
     }
 
     public void setDestinationPoint(String destinationPoint) {
-        this.destinationPoint = destinationPoint;
+        if (destinationPoint != null && !destinationPoint.trim().isEmpty()) {
+            this.destinationPoint = destinationPoint;
+        } else {
+            System.out.println("Invalid destination. Defaulting to Home Location.");
+            this.destinationPoint = "Home Location";
+        }
     }
 
     public void setYearOfTravel(int yearOfTravel) {
-        this.yearOfTravel = yearOfTravel;
+        if (yearOfTravel != 0) {
+            this.yearOfTravel = yearOfTravel;
+        } else {
+            System.out.println("Invalid year. Defaulting to Present Time.");
+            this.yearOfTravel = 2025; // Assuming current year as default
+        }
     }
 
     public void setMonthOfTravel(int monthOfTravel) {
         if (monthOfTravel >= 1 && monthOfTravel <= 12) {
             this.monthOfTravel = monthOfTravel;
         } else {
-            System.out.println("Invalid month. Please enter a value between 1 and 12.");
+            System.out.println("Invalid month. Defaulting to January.");
+            this.monthOfTravel = 1; // Default to January
         }
     }
 }

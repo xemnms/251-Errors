@@ -21,4 +21,6 @@ jobs:
           java-version: '21'
 
       - name: Compile All Java Files
-        run: javac $(find . -name "*.java")
+        run: |
+          mkdir -p bin
+          javac -d bin $(find . -name "*.java")
