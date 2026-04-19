@@ -25,6 +25,10 @@
 
 **\<03/25/2026\>** : Today I learned how to apply abstraction and polymorphism by creating my own abstract class and interface, implementing teammate abstractions, and demonstrating overriding, overloading, and dynamic binding in a demo program. Next time, I will improve by planning my class responsibilities earlier and testing each part immediately to avoid late adjustments.
 
+**\<04/09/2026\>** : Today I learned about exception handling in Java, specifically how to create custom exceptions, distinguish between checked and unchecked exceptions, and implement proper error handling with try-catch-finally blocks. I created three custom exception types (InvalidInputException, NegativeNumberException, and ZeroDivisionException) for the calculator system to demonstrate real-world exception handling patterns. Next time, I will practice using exceptions more extensively in larger projects and explore exception chaining and custom exception hierarchies.
+
+**\<04/19/2026\>** : I learned how to organize a Java project using packages and layered architecture. I organized the calculator system into separate packages (service, exception, main) to improve encapsulation and maintainability. I also set up Maven as a build tool to standardize the project structure and enable dependency management. Next time, I will implement unit tests using Maven and explore CI/CD integration for automated builds.
+
 ---
 ## ✉️ Peer Feedbacks    
 **\<03/14/2026\>** : Comment by: Julliana Nepomuceno: Your reflection clearly shows your understanding of both branch management in GitHub and the application of Object-Oriented Programming concepts like encapsulation. You were easy to work with, punctual, and consistently completed your tasks correctly, which helped me integrate your class smoothly. Your reliability and organization made the collaboration process much more efficient.   

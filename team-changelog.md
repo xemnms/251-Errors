@@ -1,5 +1,4 @@
 # Team Changelog
-
 \<Alonde, Kayle Crivan K.\> \<2025-1024360\> \<03/21/2026\> \<Composition\> Completed!  
 \<Arandela, Jherrymei D.\> \<2025-1029981\> \<03/21/2026\> \<Composition\> Completed!  
 \<Dizon, Vic Andrew A.\> \<2025-1024539\> \<03/21/2026\> \<Composition\> Completed!  
