@@ -48,3 +48,43 @@ public class CalculatorDemo_Nepomuceno {
         System.out.println("\n=== Demo Terminated Successfully ===");
     }
 }
+
+/*
+How did you organize your packages?
+- I organized my packages by responsibility under a common base package (com.calculator.nepomuceno):
+  1) com.calculator.nepomuceno.service
+     - Contains the core calculator logic (Calculator_Nepomuceno).
+  2) com.calculator.nepomuceno.exception
+     - Contains custom exception classes (InvalidInputException_Nepomuceno, NegativeResultException_Nepomuceno).
+  3) com.calculator.nepomuceno
+     - Contains the demo/main runner class (CalculatorDemo_Nepomuceno).
+
+Why did you separate your classes this way?
+- To keep the code clean and maintainable:
+  - The service package holds business logic (operations + validation rules).
+  - The exception package holds reusable error types that the service throws and callers catch.
+  - The demo class is only for running/testing the program and should not be mixed with the logic layer.
+
+How do packages improve encapsulation?
+- Packages improve encapsulation by grouping related classes and helping limit what other parts of the program can access.
+- In Java, access can be controlled using visibility levels:
+  - private: accessible only inside the class
+  - package-private (no modifier): accessible only within the same package
+  - public: accessible anywhere
+- In this project, encapsulation is supported by:
+  - private fields/methods like allowNegativeResults and checkNegative(...), so users can’t bypass validation.
+  - keeping exceptions in a separate package so the calculator API is clearer and organized.
+
+Where are your exceptions located?
+- They are located in the package:
+  com.calculator.nepomuceno.exception
+- Files:
+  - InvalidInputException_Nepomuceno.java
+  - NegativeResultException_Nepomuceno.java
+
+Why did you choose Maven or Gradle?
+- I chose Maven because:
+  - It is commonly used for Java projects and is simple for small applications.
+  - It enforces a standard folder structure (src/main/java), which helps avoid build/compile issues.
+  - It uses a pom.xml that clearly defines compilation settings and plugins (like running the main class).
+*/

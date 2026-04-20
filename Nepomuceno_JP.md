@@ -28,6 +28,7 @@
 
 **\<04/10/2026\>** : Today I learned how to create throw and custom exceptions in Java and how they help handle errors more effectively in a program. I also understood the difference between checked and unchecked exceptions and how exception propagation works. I will improve by implementing more try-catch-finally blocks and practicing creating my own exceptions in different scenarios.
 
+<04/19/2026> : Today I fixed my Java calculator project by organizing files into the correct packages and making sure class names match their file names. I also practiced using checked and unchecked custom exceptions to handle errors like invalid inputs and negative results. I can improve by Always check naming (file name, class name, and imports) before building with Maven and Practice more try-catch-finally examples and test more edge cases.
 ---
 ## ✉️ Peer Feedbacks  
 
