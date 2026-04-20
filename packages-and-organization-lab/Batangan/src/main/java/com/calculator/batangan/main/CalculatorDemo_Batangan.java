@@ -1,3 +1,20 @@
+/**
+1. How did you organize your packages?
+- I organized my project into packages like main, service, and exception so each part of the program has its own role. This makes the code easier to find and understand.
+
+2. Why did you separate your classes this way?
+- I separated them to follow a layered structure where each class has a specific responsibility. This keeps the code clean and avoids mixing different functionalities.
+
+3. How do packages improve encapsulation?
+- Packages help control access using access modifiers so only necessary classes can be used outside. This protects the internal logic from being accessed or changed accidentally.
+
+4. Where are your exceptions located?
+- My exceptions are placed in the exception package to keep all error-handling classes organized in one place.
+
+5. Why did you choose Maven or Gradle?
+- I chose Maven because it makes building and managing the project easier with a standard structure. It also helps handle dependencies and compile the project automatically.
+*/
+
 package com.calculator.batangan.main;
 
 import java.util.Scanner;
