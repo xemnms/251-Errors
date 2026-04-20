@@ -13,5 +13,5 @@ public interface CalculatorInterface_BadosaCostiniano {
 
     double multiply(double a, double b);
 
-    double divide(double a, double b) throws NegativeNumberException;
+    double divide(double a, double b) throws NumberNegativeException;
 }

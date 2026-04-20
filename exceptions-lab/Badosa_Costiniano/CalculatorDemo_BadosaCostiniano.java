@@ -13,7 +13,7 @@ public class CalculatorDemo_BadosaCostiniano {
         } catch (ZeroDivisionException e) {
             System.out.println("Error: " + e.getMessage());
 
-        } catch (NegativeNumberException e) {
+        } catch (NumberNegativeException e) {
             System.out.println("Checked Error: " + e.getMessage());
         } finally {
             System.out.println("Operation finished.");
@@ -22,12 +22,12 @@ public class CalculatorDemo_BadosaCostiniano {
         // propagation example
         try {
             testNegative(calculator);
-        } catch (NegativeNumberException e) {
+        } catch (NumberNegativeException e) {
             System.out.println("Handled in main: " + e.getMessage());
         }
     }
 
-    public static void testNegative(CalculatorInterface_BadosaCostiniano calculator) throws NegativeNumberException {
+    public static void testNegative(CalculatorInterface_BadosaCostiniano calculator) throws NumberNegativeException {
         calculator.divide(-5, 2); // propagates
     }
 }

@@ -1,6 +1,6 @@
 // Badosa-Costiniano Checked Exception
-public class NegativeNumberException extends Exception {
-    public NegativeNumberException(String message) {
+public class NumberNegativeException extends Exception {
+    public NumberNegativeException(String message) {
         super(message);
     }
 }

@@ -38,14 +38,14 @@ public class Calculator_BadosaCostiniano implements CalculatorInterface_BadosaCo
 
     // DIVIDE with exceptions
     @Override
-    public double divide(double a, double b) throws NegativeNumberException {
+    public double divide(double a, double b) throws NumberNegativeException {
 
         if (b == 0) {
             throw new ZeroDivisionException("Cannot divide by zero!");
         }
 
         if (restrictNegative && (a < 0 || b < 0)) {
-            throw new NegativeNumberException("Negative numbers are not allowed.");
+            throw new NumberNegativeException("Negative numbers are not allowed.");
         }
 
         return a / b;
