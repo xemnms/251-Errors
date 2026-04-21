@@ -1,4 +1,4 @@
-//Isles_Payment class by Dan Isles
+//Isles_Payment class by Dan Isles 
 //this class demonstrates simple payment
 public interface Isles_Payment {
  
