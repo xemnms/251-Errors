@@ -10,7 +10,6 @@ public class CalculatorDemo_Nepomuceno {
 
         System.out.println("=== Calculator Demo Program ===");
 
-        // testing addition (normal and overloaded)
         try {
             System.out.println("Addition: ");
             System.out.println("Int Addition (6 + 7): " + calc.add(6, 7));
@@ -19,7 +18,6 @@ public class CalculatorDemo_Nepomuceno {
             System.out.println("Unexpected Error: " + e.getMessage());
         }
 
-        // testing subtraction and triggering checked exception (InvalidInput)
         try {
             System.out.println("\nSubtraction: ");
             calc.subtract(0, 1300);
@@ -27,7 +25,6 @@ public class CalculatorDemo_Nepomuceno {
             System.out.println("Caught Checked Exception: " + e.getMessage());
         }
 
-        // testing multiplication and triggering unchecked exception (NegativeResult)
         try {
             System.out.println("\nMultiplication: ");
             System.out.println("Result: " + calc.multiply(6, -6));
@@ -35,7 +32,6 @@ public class CalculatorDemo_Nepomuceno {
             System.out.println("Caught Unchecked Exception: " + e.getMessage());
         }
 
-        // testing division and triggering arithmetic exception
         try {
             System.out.println("\nDivision: ");
             calc.divide(130, 0);
