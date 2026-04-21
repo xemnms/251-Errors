@@ -21,6 +21,15 @@
 
 **\<03/20/2026\>** : I learned how to apply validations to give my program more logic, and to improve, I will learn how to other techniques related to giving more logic to my code.
 
+**\<04/21/2026\>** : I learned how to use abstraction and interfaces, and to improve, I will review more on the topic to familiarize myself with using them.
+
+**\<04/21/2026\>** : I learned how to manage my classes using packages, and to improve, I will review more on the topics of package-managing to minimize my time when working on organized projects.
+
+**\<04/21/2026\>** : I learned how to do exception-handling to prevent my code from crashing, and to improve, I will review more on the types of exceptions to handle so that I can cover more problems to fix.
+
+
+
+
 ---
 ## ✉️ Peer Feedbacks  
 
