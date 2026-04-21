@@ -3,11 +3,14 @@
 
 ## 📊 Scores
 
-| Date       | Activity Type | Title       | Score | Total Points |
-|------------|----------------|-------------|--------|--------------|
-| 03/05/2026 | Quiz           | Quiz 1      | 5      | 5            |
-| 03/09/2026 | Ice Breaker    | The Boat is Sinking  | 10      | 10 |
-| 03/12/2026 | Ice Breaker    | Answer the code snippet | 10 | 10   |
+| Date                    | Activity Type  | Title                   | Score   | Total Points |
+|-------------------------|----------------|-------------------------|---------|--------------|
+| 03/05/2026              | Quiz           | Quiz 1                  | 5       | 5            |
+| 03/09/2026              | Ice Breaker    | The Boat is Sinking     | 10      | 10           |
+| 03/12/2026              | Ice Breaker    | Answer the code snippet | 10      | 10           |
+| 03/19/2026              | Plus Points    | Opened Mic              | 2       | 7            |
+| 03/09/2026 - 04/21/2026 | PR Approvals   | Github Submissions      | 14      | N/A          |
+
 ---
 
 ## 📘 Journals
@@ -29,6 +32,12 @@
 
 ### | Abstraction and Polymorphism
 **<03/26/2026>** : Today, I learned how to use abstract classes and interface classes and how to use or implement them accordingly, this taught me how to boost my knowledge in coding with outside real world problems and what its use for.
+
+### | Exceptions
+**<04/08/2026>** : Today I explored how to design and apply custom exceptions in a basic Java calculator program. I created exceptions like DivisionByZeroException and NegativeNumberException to manage invalid inputs effectively, which made the program more dependable. I also gained a clearer understanding of how try-catch-finally blocks handle errors during execution. Moving forward, I plan to practice handling a wider range of exceptions and strengthen input validation to improve program robustness.
+
+### | Packages and Organization
+**<04/21/2026>** : Today I gained experience in structuring a Java project using packages and a layered architecture. I learned how to treat packages as design boundaries, separating components like service, exception, and main to enhance readability and maintainability. Initially, I struggled with Maven and running the project, but I resolved those issues by correcting my directory organization and using the proper run command. In the future, I plan to strengthen my understanding of project setup early on to avoid build and path errors.
 
 ---
 
