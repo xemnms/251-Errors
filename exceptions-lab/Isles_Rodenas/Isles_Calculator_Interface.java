@@ -1,5 +1,3 @@
-import exception.InvalidInputException;
-
 public abstract class Isles_Calculator_Interface {
 
     public abstract int add(int a, int b) throws InvalidInputException;
