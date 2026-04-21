@@ -4,7 +4,6 @@
  */
 
 public class Swim_Isles extends Swim_Badosa {
-
     //override abstract method
     @Override
     public void swim() {
