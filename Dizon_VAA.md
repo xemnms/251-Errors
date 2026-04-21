@@ -7,7 +7,7 @@
 |------------|----------------|-------------|--------|--------------|
 | 03/05/2026 | Quiz           | Quiz 1      | 5      | 5            |
 | 04/20/2026 | Ice Breaker  Host         | Make a word      | 10      | 15            |
-| 03/19/2026 - 04/21/2026  | PR Approvals              | Github Submissions           | 15      | 30            |
+| 03/19/2026 - 04/21/2026  | PR Approvals              | Github Submissions           | 18      | 33a            |
 
 ---
 
