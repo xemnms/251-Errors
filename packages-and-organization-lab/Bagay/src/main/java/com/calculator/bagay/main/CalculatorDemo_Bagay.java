@@ -77,7 +77,7 @@ public class CalculatorDemo_Bagay {
 
                     int result;
 
-                    // Polymorphism through abstract method implementation
+                    // Polymorphism (int methods)
                     switch (choice) {
                         case 1:
                             result = calc.add(a, b);
@@ -95,8 +95,10 @@ public class CalculatorDemo_Bagay {
                             throw new InvalidInputException("Invalid operation choice.");
                     }
 
+                    // Output
                     System.out.println("Result: " + result);
 
+                // Demonstrates method overloading using double methods
                 } else if (mode == 2) {
                     System.out.print("Enter first number: ");
                     double a = in.nextDouble();
@@ -106,7 +108,7 @@ public class CalculatorDemo_Bagay {
 
                     double result;
 
-                    // Polymorphism through abstract method implementation
+                    // Polymorphism (double methods)
                     switch (choice) {
                         case 1:
                             result = calc.add(a, b);
@@ -124,28 +126,30 @@ public class CalculatorDemo_Bagay {
                             throw new InvalidInputException("Invalid operation choice.");
                     }
 
+                    // Output
                     System.out.println("Result: " + result);
 
                 } else {
                     throw new InvalidInputException("Invalid mode selected.");
                 }
 
-                // Encapsulation Demo - access lastOperation through public getter only
+                // Encapsulation Demo & displays last executed operation
                 System.out.println("Last Operation: " + calc.getLastOperation());
 
+            // EXCEPTION HANDLING 
             } catch (ZeroDivisionException e) {
                 System.out.println("Error: " + e.getMessage());
 
             } catch (InvalidInputException e) {
                 System.out.println("Error: " + e.getMessage());
-                in.nextLine(); // clear input buffer
+                in.nextLine(); // clear input
 
             } catch (NegativeNumberException e) {
                 System.out.println("Runtime Error: " + e.getMessage());
 
             } catch (Exception e) {
                 System.out.println("Invalid input! Please enter correct values.");
-                in.nextLine(); // clear input buffer
+                in.nextLine(); // clear input
 
             } finally {
                 System.out.println("---- Operation Complete ----");

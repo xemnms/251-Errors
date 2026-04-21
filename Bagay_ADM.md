@@ -9,6 +9,7 @@
 | 03/05/2026 | Ice Breaker      | Wordle           | 10    | 25           |
 | 03/19/2026 | On mic for OLC   | Opened Mic       | 2     | 27           |
 | 03/23/2026 | Ice Breaker Host | Guess The Number | 10    | 37           |
+| 04/13/2026 | Ice Breaker      | 2 Truths 1 Lie   | 10    | 47           |
 | —          | —                | —                | —     | —            |
 
 ---
