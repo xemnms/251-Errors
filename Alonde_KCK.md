@@ -14,11 +14,15 @@
 
 **<03/11/2026>** : I learned how to do classes and objects work in java. Next time, I will write cleaner codes and improve my understanding.
 
-**<03/15/2026>**: I learned how to encapsulate. Next time, I will improve my ways of writing classes.  
+**<03/15/2026>**: I learned about encapsulation, specifically how setters are more than just "assignment" tools; they are filters. By adding validation logic to my class, I ensured that "impossible" states could never exist. I realized I could improve how I handle "chained" constructors. Instead of repeating validation code in every constructor, I could use this() to call a primary constructor, making the code easier to maintain.
 
 **<03/19/2026>**: I learned how inheritance works by creating a parent and subclass, and how methods can be overridden. Next time, I will improve my class design.  
 
 **<03/25/2026>**: I learned about the practical application of Dynamic Binding. I learned that while the compiler looks at the Abstract Class or Interface to ensure a method exists, the JVM determines which Concrete Class to run at runtime. And to improve, I can improve by being more critical about which data needs to be accessible.
+
+**<04/10/2026>**: I learned about the try-catch blocks and how they can prevent crashes and control errors. In the demo, I used general exception handling, and I think I could improve this by catching even more specific built-in exceptions to provide new solutions for every possible failure point.
+
+**<04/21/2026>**: I learned about packages and how using access modifiers correctly within packages is a good way to hide internal details. It’s about protecting the code so other parts of the project don't accidentally break things. While I can set up a basic build, I want to learn more about how dependencies and plugins work in the pom.xml
 
 ---
 ## ✉️ Peer Feedbacks  
@@ -34,3 +38,5 @@
 **<03/21/2026>**: Comment by: Nepomuceno; Great job developing both the composite and component classes. It’s clear that you understand how they work together.  
 
 **<03/25/2026>**: Comment by: Dizon; You did well in defining a clear and logical hierarchy for the AbstractDevice_Alonde class; it was very easy to extend. You can improve by adding more descriptive Javadoc comments to your interface methods to clarify what the expected behavior should be for the networkName parameter.
+
+**<04/10/2026>**: Comment by: Nepomuceno; You did well showcasing our Java calculator program in the demo file, especially in demonstrating the use of try-catch-finally. You can improve by adding more test cases to further highlight how different exceptions are handled.
