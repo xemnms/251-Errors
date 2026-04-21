@@ -6,6 +6,7 @@
 | Date       | Activity Type | Title       | Score | Total Points |
 |------------|----------------|-------------|--------|--------------|
 | 03/05/2026 | Quiz           | Quiz 1      | 5      | 5            |
+| 04/13/2026 | Quiz           | Two Truths One Lie     | 10     | 10           |
 
 ---
 
