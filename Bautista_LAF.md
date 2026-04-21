@@ -4,12 +4,11 @@
 
 ## 📊 Scores
 
-| Date       | Activity Type  | Title        | Score  | Total Points |
-|------------|----------------|--------------|--------|--------------|
-| 03/05/2026 | Quiz 1         | Intro to OOP | 5      | 5            |
-| 03/19/2026 | Plus Points    | Opened Mic   | 2      | 7            |
-| —          | —              | —            | —      | —            |
-
+| Date                    | Activity Type  | Title               | Score  | Total Points |
+|-------------------------|----------------|---------------------|--------|--------------|
+| 03/05/2026              | Quiz 1         | Intro to OOP        | 5      | 5            |
+| 03/19/2026              | Plus Points    | Opened Mic          | 2      | 7            |
+| 03/19/2026 - 04/21/2026 | PR Approvals   | Github Submissions  | 23     | 30           |
 
 ---
 
@@ -33,6 +32,12 @@
 ### | Abstraction and Polymorphism
 **<03/25/2026>** : Today, I learned how to use abstract classes and interfaces to achieve polymorphism in Java. I also practiced method overriding and overloading to create flexible and reusable code. This design allows for low coupling and high cohesion, making it easier to maintain and extend in the future. Next time, I want to explore more complex examples of this concept, such as using multiple interfaces and abstract classes together, and implementing design patterns that utilize these principles.
 
+### | Exceptions
+**<04/08/2026>** : Today, I learned how to create and use custom exceptions in a simple Java calculator program. I implemented exceptions such as DivisionByZeroException and NegativeNumberException to handle invalid inputs properly and make the program more reliable. I also learned how try-catch-finally blocks work in handling errors during program execution. Next time, I will practice more on handling different types of exceptions and improving input validation.
+
+### | Packages and Organization
+**<04/21/2026>** : Today, I learned how to organize a Java project using packages and layered architecture. I also learned how to used packages as design boundaries to separate different parts of the system such as service, exception, and main which improves code readability and maintenance. I had difficulty at first with Maven and running the project, but I was able to fix it by correcting my directory structure and using the correct run command. Next time, I will improve my understanding of project setup earlier so I can avoid build and path errors.
+
 ---
 ## ✉️ Peer Feedbacks
 ### | Encapsulation and Access Modifiers
@@ -40,9 +45,6 @@
 
 ### | Inheritance
 **<03/16/2026>** : Commented by Alvarez: Your work is well done. I enjoyed collaborating and also understood what should be done. you could improve by making your code more efficiently but thats alright because we are still beginners 99999/10. 
-
-### | Composition
-**<03/DD/2026>** : Commented by Surname:
 
 ### | Abstraction and Polymorphism
 **<03/26/2026>** : Commented by Alvarez: Your work is very great. I enjoyed working with you and i understand very well the syntax you have provided to yourself and i think that we are very compatible with each other 9.999/10.
