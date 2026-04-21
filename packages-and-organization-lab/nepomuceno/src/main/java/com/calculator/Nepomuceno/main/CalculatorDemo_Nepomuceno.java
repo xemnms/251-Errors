@@ -1,4 +1,4 @@
-package com.calculator.nepomuceno;
+package com.calculator.nepomuceno.main;
 
 import com.calculator.nepomuceno.exception.InvalidInputException_Nepomuceno;
 import com.calculator.nepomuceno.exception.NegativeResultException_Nepomuceno;
@@ -56,7 +56,7 @@ How did you organize your packages?
      - Contains the core calculator logic (Calculator_Nepomuceno).
   2) com.calculator.nepomuceno.exception
      - Contains custom exception classes (InvalidInputException_Nepomuceno, NegativeResultException_Nepomuceno).
-  3) com.calculator.nepomuceno
+  3) com.calculator.nepomuceno.main
      - Contains the demo/main runner class (CalculatorDemo_Nepomuceno).
 
 Why did you separate your classes this way?
