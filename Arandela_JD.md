@@ -18,11 +18,13 @@
 
 **<03/19/2026>**: I learned how inheritance works by creating a parent and subclass, and how methods can be overridden. Next time, I will improve my class design.  
 
-**<03/20/2026>**: I did well in applying composition by combining weapon and skin into a player class and demonstrating low coupling through component replacement, and I can improve by expanding interactions and adding more components to strengthen the system design. 
+**<03/20/2026>**:I did well in applying composition by combining weapon and skin into a player class and demonstrating low coupling through component replacement, and I can improve by expanding interactions and adding more components to strengthen the system design. 
 
 **<03/25/2026>**: I learned how to apply abstraction and polymorphism by creating my own abstract class and interface, and by using my teammates' work. I was able to implement overriding, overloading, and dynamic binding while ensuring my design follows low coupling and high cohesion.
 
 **<04/09/2026>** : I learned how to implement a calculator using OOP concepts and handle both checked and unchecked exceptions in Java. Next time, I will improve my understanding of exception propagation and write more organized and efficient code.
+
+**<04/21/2026>**  I fixed my Java calculator by organizing the files and matching the class names while practicing error handling, and I need to improve by checking names before building and practicing more try-catch-finally cases.
 
 ---
 ## ✉️ Peer Feedbacks  
