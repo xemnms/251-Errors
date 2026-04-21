@@ -34,4 +34,6 @@
 
 **\<03/20/2026\>** : Comment by: Rodenas; You did well in designing the Mage_Isles class with clear attributes like elementName, powerLevel, and type, and the validation in your setters helped make the class more reliable, and you can improve by adding more advanced behaviors or interactions to make the class more dynamic.
 
+**\<04/09/2026\>** : Comment by: Rodenas; You did well by correctly identifying errors, setting proper conditions, and using custom exceptions with proper try-catch handling in your calculator system, and you can improve by making your validation rules more consistent and ensuring all operations handle exceptions in a uniform way.
+
 ---

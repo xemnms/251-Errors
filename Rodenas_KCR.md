@@ -3,12 +3,14 @@
 
 ## 📊 Scores
 
-| Date       | Activity Type   | Title       | Score | Total Points |
-|------------|-----------------|-------------|--------|--------------|
-| 03/05/2026 | Quiz            | Quiz 1      | 5      | 5            |
-|03/19/2026  |On Camera for OLC|Opened cam   |5       |10            |
-|03/19/2026  |On Mic for OLC   |Opened Mic   |2       |12            |
-| —          | —               | —           | —      | —            |
+| Date       | Activity Type   | Title           | Score | Total Points |
+|------------|-----------------|-----------------|--------|--------------|
+| 03/05/2026 | Quiz            | Quiz 1          | 5      | 5            |
+|03/19/2026  |On Camera for OLC|Opened cam       |5       |10            |
+|03/19/2026  |On Mic for OLC   |Opened Mic       |2       |12            |
+|03/23/2026  |Ice breaker      |Guess the Number |10      |22            |
+|03/26/2026  |Ice breaker      |Tiktok Lines     |10      |32            |
+| —          | —               | —               | —      | —            |
 
 ---
 
@@ -21,6 +23,10 @@
 **<03/16/2026>** : I learned how encapsulation protects data by using private attributes with getters and setters, and how our team collaborated using branches and merging in GitHub. Next time I will improve my Git workflow and practice resolving merge conflicts more confidently.
 
 **\<03/20/2026\>** : I learned how to apply composition in Java by creating classes that use other objects through HAS-A relationships instead of inheritance. I created a combatMage system that combines a pistol and a mage, and I was able to replace components without changing the main class, which showed low coupling. I also learned how inheritance can be used for the 2x multiplier by creating a child class that overrides behavior while still working with the system. Next time, I will improve my understanding of designing flexible systems and practice using composition and inheritance together more effectively.
+
+**\<04/09/2026\>**  : I learned how to implement custom exception handling in Java as part of our group activity by creating user-defined exceptions such as InvalidInputException and NegativeNumberException. I applied these exceptions in our calculator system to handle specific error cases like invalid inputs and restricted operations. Through this activity, I was able to better understand how errors can be managed properly instead of allowing the program to crash unexpectedly.
+
+**\<04/21/2026\>**  : I learned how to properly organize a Java project using packages in a Maven structure by separating my code into exception, service, and main packages, which helped improve readability, maintainability, and proper project structure. Next time I will improve my understanding of package design and ensure that my folder structure and package declarations are consistent from the start to avoid compilation errors.
 
 ---
 ## ✉️ Peer Feedbacks  
