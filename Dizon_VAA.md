@@ -6,7 +6,8 @@
 | Date       | Activity Type | Title       | Score | Total Points |
 |------------|----------------|-------------|--------|--------------|
 | 03/05/2026 | Quiz           | Quiz 1      | 5      | 5            |
-| —          | —              | —           | —      | —            |
+| 04/20/2026 | Ice Breaker  Host         | Make a word      | 10      | 15            |
+| 03/19/2026 - 04/21/2026  | PR Approvals              | Github Submissions           | 15      | 30            |
 
 ---
 
@@ -24,6 +25,8 @@
 **\<03/25/2026\>** : Today, I deepened my understanding of Dynamic Binding by implementing concrete classes based on my teammate Alonde's abstract class and interface. I learned that while a reference variable can be of an abstract type (like AbstractDevice_Alonde), the Java Virtual Machine (JVM) determines which method to call at runtime based on the actual object (the "Concrete" version). This allows for much more flexible and scalable code. I also practiced Method Overloading to provide multiple ways to sync and send data within my device classes.
 
 **\<04/10/2026\>** : I learned how to implement custom exceptions and use method overloading in a shared codebase and next time I will work on more efficient exception propagation strategies.
+
+**\<04/21/2026\>** : I learned how to transform a simple Java application into a professionally structured project using Maven and Layered Architecture. I realized that organizing code into packages like .service and .exception isn't just about making the folder look clean; it's about controlling how different parts of the program interact through access modifiers. For instance, keeping validation logic private within the service layer ensures the integrity of the calculator. Next time, I will explore JUnit to add automated unit tests to my Maven lifecycle so I can verify my logic without manually running the demo class every time.
 
 ---
 ## ✉️ Peer Feedbacks 
