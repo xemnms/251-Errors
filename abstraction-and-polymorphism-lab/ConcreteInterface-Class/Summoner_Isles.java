@@ -4,7 +4,6 @@
  */
 
 public class Summoner_Isles implements Summonable_Costiniano {
-
     private String summonName;
 
     //constructor
