@@ -2,28 +2,24 @@ public class AbstractionPolyDemo_Costiniano {
 
     public static void main(String[] args) {
 
-        //dynamic binding abstract class Astolfo
-        Astolfo_Costiniano servant = new RiderAstolfo_Costiniano();
+        //dynamic binding (abstract class)
+        Astolfo_Costiniano servant = new AstolfoSummon_Rodenas();
         servant.summon();
         servant.equipWeapon();
         servant.checkStatus();
-        servant.noblePhantasm(); //runtime binding
+        servant.noblePhantasm(); // runtime binding (overridden method)
 
-        //interface polymorphism
-        Summonable_Costiniano s = new RiderAstolfo_Costiniano();
-        s.performAction();
-        s.chant(); // default method
-
-        //overloading
-        RiderAstolfo_Costiniano ra = new RiderAstolfo_Costiniano();
+        //overloading demo
+        AstolfoSummon_Rodenas ra = new AstolfoSummon_Rodenas();
         ra.noblePhantasm("Enemy");
 
-        //teammate abstraction Baymax_Rodenas
+        //teammate abstract class (Baymax system)
         Baymax_Rodenas helper = new HealthcareAstolfo_Costiniano("Medical Mode");
         helper.BaymaxIntroduction();
         helper.showMode();
-        helper.provideCare(); //overridden
-        ((HealthcareAstolfo_Costiniano) helper).provideCare("Patient"); //overloaded
+        helper.provideCare(); // overridden method
+
+        ((HealthcareAstolfo_Costiniano) helper).provideCare("Patient"); // overloaded
 
         helper.assessPain();
         helper.showCapabilities();
