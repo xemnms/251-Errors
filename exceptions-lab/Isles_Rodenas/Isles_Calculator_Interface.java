@@ -1,5 +1,3 @@
-package service;
-
 import exception.InvalidInputException;
 
 public abstract class Isles_Calculator_Interface {
