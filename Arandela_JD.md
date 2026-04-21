@@ -24,6 +24,8 @@
 
 **<04/09/2026>** : I learned how to implement a calculator using OOP concepts and handle both checked and unchecked exceptions in Java. Next time, I will improve my understanding of exception propagation and write more organized and efficient code.
 
+**<04/21/2026>**  I fixed my Java calculator by organizing the files and matching the class names while practicing error handling, and I need to improve by checking names before building and practicing more try-catch-finally cases.
+
 ---
 ## ✉️ Peer Feedbacks  
 
