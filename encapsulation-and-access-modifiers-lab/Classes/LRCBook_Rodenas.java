@@ -99,7 +99,7 @@ public class LRCBook_Rodenas {
         return isBorrowed;
     }
 
-    //Getter for Book Details
+    //Displays book details to the console
     public void getBookDetails() {
         System.out.println("\nBook Details:");
         System.out.println("Title: " + title);

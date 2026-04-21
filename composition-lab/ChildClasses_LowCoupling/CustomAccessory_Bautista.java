@@ -11,12 +11,27 @@ public class CustomAccessory_Bautista extends Accessory_Batangan {
 
     // New behavior: customize accessory color and price
     public void customize(String newColor, double newPrice) {
-        setColor(newColor); // update color
-        setPrice(newPrice); // update price
-        System.out.println("Accessory customized to color: " + newColor + " and price: " + newPrice);
+
+        // Validate color
+        if (newColor == null || newColor.trim().isEmpty()) {
+            System.out.println("Invalid color. Customization failed.");
+            return;
+        }
+
+        // Validate price
+        if (newPrice < 0) {
+            System.out.println("Invalid price. Customization failed.");
+            return;
+        }
+
+        setColor(newColor);
+        setPrice(newPrice);
+
+        System.out.println("Accessory customized to color: " + newColor +
+                " and price: " + newPrice);
     }
 
-    // Optional override: add Wall-E flavor to wear method
+    // Override wear method
     @Override
     public void wear() {
         System.out.println("Wall-E is now using a customized accessory!");
