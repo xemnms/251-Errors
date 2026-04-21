@@ -5,7 +5,7 @@ package service;
 import exception.InvalidInputException;
 import exception.NegativeNumberException;
 
-public class Isles_Rodenas_Calculator extends Isles_Rodenas_Calculator_Interface {
+public class Isles_Calculator extends Isles_Calculator_Interface {
 
     //private attributes
     private double lastResult; //stores last computed result
