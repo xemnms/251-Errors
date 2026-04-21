@@ -1,5 +1,3 @@
-package com.calculator.Isles.service;
-
 //main calculator class 
 //this class showcases the logic of calculator
 package service;
