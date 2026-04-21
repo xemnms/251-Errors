@@ -2,6 +2,13 @@ package main;
 import exception.InvalidInputException;
 import service.Isles_Calculator;
 
+//ANSWERS
+//1 I organized them inside Eclipse IDE using packages
+//2 I separated my classes using labeled packages
+//3 Packages act like a boundary, keeping implementation details hidden and protecting your code.
+//4 located in the "exception" package
+//5 I chose Maven because it is what I'm most familiar with
+
 public class CalculatorDemo_Isles {
     public static void main(String[] args) {
 
