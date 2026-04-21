@@ -5,7 +5,7 @@ import com.calculator.exception.NegativeResultException_Alonde;
 
 public class Calculator_Alonde {
 
-    private boolean allowNegativeResults;
+    private final boolean allowNegativeResults;
 
     public Calculator_Alonde(boolean allowNegativeResults) {
         this.allowNegativeResults = allowNegativeResults;
@@ -16,7 +16,8 @@ public class Calculator_Alonde {
             throw new NegativeResultException_Alonde("Error: Negative results are not allowed.");
         }
     }
-// ADDITION 
+
+    // ADDITION
     public int add(int a, int b) {
         int result = a + b;
         checkNegative(result);
@@ -29,9 +30,8 @@ public class Calculator_Alonde {
         return result;
     }
 
-    // SUBTRACTION 
+    // SUBTRACTION
     public int subtract(int a, int b) throws InvalidInputException_Alonde {
-        // Example of triggering a checked exception
         if (a == 0 && b > 1000) {
             throw new InvalidInputException_Alonde("Large subtrahends from zero are restricted.");
         }
@@ -41,7 +41,7 @@ public class Calculator_Alonde {
     }
 
     public double subtract(double a, double b) throws InvalidInputException_Alonde {
-    
+        if (a == 0.0 && b > 1000.0) {
             throw new InvalidInputException_Alonde("Large subtrahends from zero are restricted.");
         }
         double result = a - b;
@@ -49,9 +49,9 @@ public class Calculator_Alonde {
         return result;
     }
 
-    // MULTIPLICATION 
+    // MULTIPLICATION
     public int multiply(int a, int b) {
-        int result =    if (a == 0 && b > 1000) { a * b;
+        int result = a * b;
         checkNegative(result);
         return result;
     }
@@ -62,25 +62,21 @@ public class Calculator_Alonde {
         return result;
     }
 
-    // DIVISION 
-
+    // DIVISION
     public int divide(int a, int b) {
         if (b == 0) {
             throw new ArithmeticException("Error: Cannot divide by zero.");
         }
-
         int result = a / b;
         checkNegative(result);
         return result;
     }
 
-    //Overloaded method for double division
     public double divide(double a, double b) {
-        if (b == 0) {
+        if (b == 0.0) {
             throw new ArithmeticException("Error: Cannot divide by zero.");
         }
-
-        double result = (a / b);
+        double result = a / b;
         checkNegative(result);
         return result;
     }
