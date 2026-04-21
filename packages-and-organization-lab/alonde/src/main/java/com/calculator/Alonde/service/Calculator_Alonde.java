@@ -1,7 +1,7 @@
 package com.calculator.alonde.service;
 
-import com.calculator.exception.InvalidInputException_Alonde;
-import com.calculator.exception.NegativeResultException_Alonde;
+import com.calculator.alonde.exception.InvalidInputException_Alonde;
+import com.calculator.alonde.exception.NegativeResultException_Alonde;
 
 public class Calculator_Alonde {
 
