@@ -30,7 +30,7 @@ import com.calculator.bagay.exception.ZeroDivisionException;
  * Standardizes build process, manages dependencies, enforces project structure,
  * makes scaling and testing easier.
  */
-public class CalculatorDemo_Batangan {
+public class CalculatorDemo_Bagay {
 
     public static void main(String[] args) {
 
