@@ -1,6 +1,0 @@
-com/calculator/bagay/main/CalculatorDemo_Bagay.class
-com/calculator/bagay/service/BasicCalculator.class
-com/calculator/bagay/service/Calculator.class
-com/calculator/bagay/exception/ZeroDivisionException.class
-com/calculator/bagay/exception/InvalidInputException.class
-com/calculator/bagay/exception/NegativeNumberException.class
