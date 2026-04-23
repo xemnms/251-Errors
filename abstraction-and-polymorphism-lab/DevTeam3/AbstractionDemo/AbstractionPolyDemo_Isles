@@ -1,0 +1,61 @@
+public class AbstractionPolyDemo_Isles {
+    public static void main(String[] args) {
+
+        //dynamic binding
+        Baymax_Rodenas baymax = new BaymaxCare_Isles("Healthcare Mode");
+
+        baymax.BaymaxIntroduction();
+        baymax.showMode();
+        baymax.provideCare(); //runtime polymorphism happens here
+
+        //interface polymorphism
+        BaymaxChip_Rodenas chip = new BaymaxCare_Isles("Assistant Mode");
+
+        chip.assistPatient(); //runtime polymorphism
+        chip.scanVitals();
+
+        //method overloading
+        BaymaxCare_Isles myBaymax = new BaymaxCare_Isles("Custom Mode");
+
+        myBaymax.provideCare();
+        myBaymax.provideCare(5);
+        myBaymax.provideCare("Hiro");
+
+        //========================
+        // EXTRA METHODS (just for demo)
+        //========================
+        myBaymax.comfortPatient();
+        myBaymax.giveLollipop();
+        myBaymax.offerHug();
+
+        //analysis comments:
+
+        /*
+         * Abstract class used: Baymax_Rodenas
+         * Interface used: BaymaxChip_Rodenas
+         * 
+         * Methods overridden:
+         * - provideCare()
+         * - assistPatient()
+         * - scanVitals()
+         * 
+         * Methods overloaded:
+         * - provideCare(int level)
+         * - provideCare(String patientName)
+         * 
+         * Dynamic binding occurs when:
+         * - Baymax_Rodenas baymax = new BaymaxCare_Isles(...)
+         * - baymax.provideCare()
+         * 
+         * Polymorphism is shown through:
+         * - abstract class reference using child object
+         * - interface reference using child object
+         * 
+         * Low coupling:
+         * - program depends on abstraction (abstract class + interface), not concrete class
+         * 
+         * High cohesion:
+         * - BaymaxCare_Isles focuses only on healthcare-related behavior
+         */
+    }
+}

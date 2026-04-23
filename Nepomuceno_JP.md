@@ -26,6 +26,10 @@
 
 **\<03/25/2026\>** : Today I learned how to use abstract classes and interfaces in Java and understood how they help organize code through abstraction and defined contracts. I realized that abstract classes can have implemented methods while interfaces focus on required behaviors. I will improve by practicing more coding examples and applying these concepts in small programs.    
 
+**\<04/10/2026\>** : Today I learned how to create throw and custom exceptions in Java and how they help handle errors more effectively in a program. I also understood the difference between checked and unchecked exceptions and how exception propagation works. I will improve by implementing more try-catch-finally blocks and practicing creating my own exceptions in different scenarios. 
+
+**\<04/19/2026\>** : Today I fixed my Java calculator project by organizing files into the correct packages and making sure class names match their file names. I also practiced using checked and unchecked custom exceptions to handle errors like invalid inputs and negative results. I can improve by Always check naming (file name, class name, and imports) before building with Maven and Practice more try-catch-finally examples and test more edge cases.   
+
 ---
 ## ✉️ Peer Feedbacks  
 
@@ -35,6 +39,10 @@
 
 **\<03/21/2026\>**: Comment by: Vic Andrew Andres Dizon; You did well in the structural design of your Weapon class, particularly the ammo management logic which made it very easy to integrate into my loadout system.    
 
-**\<03/25/2026\>**: Comment by: Arandela; You did a great job designing your notifier abstraction and interface. Your implementation is clean and easy to integrate, which helped in demonstrating polymorphism and interface-driven design effectively.
+**\<03/25/2026\>**: Comment by: Arandela; You did a great job designing your notifier abstraction and interface. Your implementation is clean and easy to integrate, which helped in demonstrating polymorphism and interface-driven design effectively.    
 
-**\<03/25/2026\>**: Comment by: Galindon; You did well in organizing your code and using examples to show how overriding and overloading work.
+**\<03/25/2026\>**: Comment by: Galindon; You did well in organizing your code and using examples to show how overriding and overloading work.  
+
+**\<04/10/2026\>**: Comment by: Vic Andrew Andres Dizon; You did well in handling division by zero and method overloading and you can improve by adding checks for very large decimal results.  
+
+**\<04/10/2026\>**: Comment by: Alonde; You did well in implementing the divide method by manually throwing an ArithmeticException, The program anticipates the operations on the calculator clearly, and you can improve the output by adding decimal formatting.  
