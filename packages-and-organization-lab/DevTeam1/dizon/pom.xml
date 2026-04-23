@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.calculator</groupId>
-  <artifactId>calculator-alonde</artifactId>
+  <artifactId>calculator-dizon</artifactId>
   <version>1.0.0</version>
 
   <properties>
@@ -28,7 +28,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.3.0</version>
         <configuration>
-          <mainClass>com.calculator.alonde.main.CalculatorDemo_Alonde</mainClass>
+          <mainClass>com.calculator.dizon.main.CalculatorDemo_Dizon</mainClass>
         </configuration>
       </plugin>
     </plugins>
