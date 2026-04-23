@@ -65,7 +65,7 @@
       <updated>1776957672235</updated>
       <workItem from="1776957682615" duration="456000" />
       <workItem from="1776958174266" duration="14000" />
-      <workItem from="1776958294687" duration="1565000" />
+      <workItem from="1776958294687" duration="2343000" />
     </task>
     <task id="LOCAL-00001" summary="Exported Files">
       <option name="closed" value="true" />
@@ -99,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776959860903</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="springboot-api-bagay">
+      <option name="closed" value="true" />
+      <created>1776959918921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776959918921</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
