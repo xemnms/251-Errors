@@ -24,5 +24,6 @@ jobs:
         run: |
           find . -name "pom.xml" -not -path "*/target/*" | while read pom; do
             dir=$(dirname "$pom")
-            cd "$dir" && mvn compile -q && cd /workspaces/251-Errors
+            echo "Building $dir"
+            cd "$dir" && mvn compile -q && cd $GITHUB_WORKSPACE
           done
