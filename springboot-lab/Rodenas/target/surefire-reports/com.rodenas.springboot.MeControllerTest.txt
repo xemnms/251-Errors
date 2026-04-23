@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.rodenas.springboot.MeControllerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.735 s <<< FAILURE! -- in com.rodenas.springboot.MeControllerTest
-com.rodenas.springboot.MeControllerTest.testGetMe -- Time elapsed: 0.028 s <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "bean" is null
-	at org.springframework.test.web.servlet.setup.StubWebApplicationContext.addBeans(StubWebApplicationContext.java:150)
-	at org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder.registerMvcSingletons(StandaloneMockMvcBuilder.java:377)
-	at org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder.initWebAppContext(StandaloneMockMvcBuilder.java:366)
-	at org.springframework.test.web.servlet.setup.AbstractMockMvcBuilder.build(AbstractMockMvcBuilder.java:179)
-	at com.rodenas.springboot.MeControllerTest.<init>(MeControllerTest.java:19)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.108 s -- in com.rodenas.springboot.MeControllerTest
