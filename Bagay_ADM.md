@@ -42,6 +42,4 @@
 
 **<03/25/2026>** : Comment by: Batangan; You did well in creating clear and organized abstract and interface classes that are easy to follow and use, and you can improve by adding a few more creative or detailed behaviors to further enhance the functionality.
 
-**\<04/23/2026\>** : Comment by: Alonde; You did well in implementing the `/me` endpoint clearly and keeping your test assertions complete, and you can improve by adding DTO-based responses and exception handling for better API scalability.
-
 ---
