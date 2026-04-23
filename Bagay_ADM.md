@@ -30,6 +30,8 @@
 
 **\<04/19/2026\>** : I learned how to organize a Java project using packages and layered architecture. I organized the calculator system into separate packages (service, exception, main) to improve encapsulation and maintainability. I also set up Maven as a build tool to standardize the project structure and enable dependency management. Next time, I will implement unit tests using Maven and explore CI/CD integration for automated builds.
 
+**\<04/23/2026\>** : I learned how to build a REST API in Spring Boot by creating a `@RestController`, mapping a GET endpoint, and validating output with MockMvc tests. Next time, I will improve by using DTO classes and adding proper validation/error handling for cleaner API design.
+
 ---
 ## ✉️ Peer Feedbacks    
 **\<03/14/2026\>** : Comment by: Julliana Nepomuceno: Your reflection clearly shows your understanding of both branch management in GitHub and the application of Object-Oriented Programming concepts like encapsulation. You were easy to work with, punctual, and consistently completed your tasks correctly, which helped me integrate your class smoothly. Your reliability and organization made the collaboration process much more efficient.   
@@ -39,5 +41,7 @@
 **\<03/20/2026\>**: Comment by: Bautista; You did well in constructing your code. It shows your deep understanding of the project. The details are well thought out and I like how it is managed. It's clean yet effective. Looking forward to see you take it to the next level in our upcoming projects. Niceu
 
 **<03/25/2026>** : Comment by: Batangan; You did well in creating clear and organized abstract and interface classes that are easy to follow and use, and you can improve by adding a few more creative or detailed behaviors to further enhance the functionality.
+
+**\<04/23/2026\>** : Comment by: Alonde; You did well in implementing the `/me` endpoint clearly and keeping your test assertions complete, and you can improve by adding DTO-based responses and exception handling for better API scalability.
 
 ---
