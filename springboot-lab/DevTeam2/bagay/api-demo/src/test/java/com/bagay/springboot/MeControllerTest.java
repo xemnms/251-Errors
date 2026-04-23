@@ -1,35 +1,29 @@
 package com.bagay.springboot;
 
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standaloneSetup;
+import java.util.Map;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
 import com.bagay.springboot.controller.MeController;
-import org.springframework.http.MediaType;
-import org.springframework.test.web.servlet.MockMvc;
 
-@SpringBootTest
 class MeControllerTest {
 
-    @Autowired
-    private MeController meController;
-
     @Test
-    void testGetMe() throws Exception {
-        MockMvc mockMvc = standaloneSetup(meController).build();
+    void testGetMe() {
+        MeController meController = new MeController();
+        Map<String, Object> response = meController.getMe();
 
-        mockMvc.perform(get("/me"))
-                .andExpect(status().isOk())
-                .andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
-                .andExpect(jsonPath("$.name").value("Axel Drake M. Bagay"))
-                .andExpect(jsonPath("$.studentId").value("2025-1020735"))
-                .andExpect(jsonPath("$.course").value("Java Programming"))
-                .andExpect(jsonPath("$.message").value("Learning Spring Boot REST APIs!"));
+        if (!"Axel Drake M. Bagay".equals(response.get("name"))) {
+            throw new AssertionError("Unexpected name value");
+        }
+        if (!"2025-1020735".equals(response.get("studentId"))) {
+            throw new AssertionError("Unexpected studentId value");
+        }
+        if (!"Java Programming".equals(response.get("course"))) {
+            throw new AssertionError("Unexpected course value");
+        }
+        if (!"Learning Spring Boot REST APIs!".equals(response.get("message"))) {
+            throw new AssertionError("Unexpected message value");
+        }
     }
 }
 

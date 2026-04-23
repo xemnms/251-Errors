@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53d5847e-5871-4629-a985-7466e7c34e0f" name="Changes" comment="springboot-api-bagay">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build-java.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-java.yml" afterDir="false" />
-    </list>
+    <list default="true" id="53d5847e-5871-4629-a985-7466e7c34e0f" name="Changes" comment="springboot-api-bagay" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +77,7 @@
       <workItem from="1776957682615" duration="456000" />
       <workItem from="1776958174266" duration="14000" />
       <workItem from="1776958294687" duration="2343000" />
-      <workItem from="1776963654065" duration="671000" />
+      <workItem from="1776963654065" duration="1036000" />
     </task>
     <task id="LOCAL-00001" summary="Exported Files">
       <option name="closed" value="true" />
@@ -137,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776964060534</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="springboot-api-bagay">
+      <option name="closed" value="true" />
+      <created>1776964590666</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776964590666</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
