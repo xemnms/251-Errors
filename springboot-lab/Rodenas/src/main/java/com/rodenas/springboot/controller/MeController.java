@@ -1,21 +1,47 @@
 package com.rodenas.springboot.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.Map;
 
 @RestController
+@RequestMapping("/me")
 public class MeController {
 
-    @GetMapping("/me")
+    private Map<String, Object> profile = new HashMap<>();
+
+    public MeController() {
+        profile.put("name", "Kyla Cassandra R. Rodenas");
+        profile.put("studentId", "2025-1025868");
+        profile.put("course", "Java Programming");
+        profile.put("message", "Learning Spring Boot REST APIs!");
+    }
+
+    // GET - retrieve profile
+    @GetMapping
     public Map<String, Object> getMe() {
-        Map<String, Object> response = new HashMap<>();
-        response.put("name", "Kyla Cassandra R. Rodenas");
-        response.put("studentId", "2025-1025868");
-        response.put("course", "Java Programming");
-        response.put("message", "Learning Spring Boot REST APIs!");
-        return response;
+        return profile;
+    }
+
+    // POST - create/add a new field to profile
+    @PostMapping
+    public Map<String, Object> createField(@RequestBody Map<String, Object> newData) {
+        profile.putAll(newData);
+        return profile;
+    }
+
+    // PUT - update an existing field in profile
+    @PutMapping
+    public Map<String, Object> updateField(@RequestBody Map<String, Object> updatedData) {
+        profile.putAll(updatedData);
+        return profile;
+    }
+
+    // DELETE - remove a field from profile by key
+    @DeleteMapping("/{key}")
+    public Map<String, Object> deleteField(@PathVariable String key) {
+        profile.remove(key);
+        return profile;
     }
 }
 
