@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53d5847e-5871-4629-a985-7466e7c34e0f" name="Changes" comment="springboot-api-bagay">
+      <change beforePath="$PROJECT_DIR$/Bagay_ADM.md" beforeDir="false" afterPath="$PROJECT_DIR$/Bagay_ADM.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/axdrp/IdeaProjects/251-Errors" value="3ClQRlKVLaOCFOIktIriUJxfcNY" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;xemnms&quot;
+  }
+}</component>
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
+    {
+      "id": {
+        "id": "PR_kwDORcGkcM7VCWKw",
+        "number": 673
+      },
+      "lastSeen": 1776963849709
+    }
+  ]
+}]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/xemnms/251-Errors.git&quot;,
+    &quot;accountId&quot;: &quot;693cb2f6-ea22-4c27-ba48-2c335e35ac19&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3ClQRlKVLaOCFOIktIriUJxfcNY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "#673 on springboot-api-bagay",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53d5847e-5871-4629-a985-7466e7c34e0f" name="Changes" comment="" />
+      <created>1776957672235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776957672235</updated>
+      <workItem from="1776957682615" duration="456000" />
+      <workItem from="1776958174266" duration="14000" />
+      <workItem from="1776958294687" duration="2343000" />
+      <workItem from="1776963654065" duration="1481000" />
+    </task>
+    <task id="LOCAL-00001" summary="Exported Files">
+      <option name="closed" value="true" />
+      <created>1776958047580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776958047580</updated>
+    </task>
+    <task id="LOCAL-00002" summary="apringboot-api-bagay">
+      <option name="closed" value="true" />
+      <created>1776958944872</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776958944872</updated>
+    </task>
+    <task id="LOCAL-00003" summary="springboot-api-bagay">
+      <option name="closed" value="true" />
+      <created>1776959828797</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776959828797</updated>
+    </task>
+    <task id="LOCAL-00004" summary="springboot-api-bagay">
+      <option name="closed" value="true" />
+      <created>1776959860903</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776959860903</updated>
+    </task>
+    <task id="LOCAL-00005" summary="springboot-api-bagay">
+      <option name="closed" value="true" />
+      <created>1776959918921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776959918921</updated>
+    </task>
+    <task id="LOCAL-00006" summary="springboot-api-bagay">
+      <option name="closed" value="true" />
+      <created>1776963709079</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776963709080</updated>
+    </task>
+    <task id="LOCAL-00007" summary="springboot-api-bagay">
+      <option name="closed" value="true" />
+      <created>1776964060534</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776964060534</updated>
+    </task>
+    <task id="LOCAL-00008" summary="springboot-api-bagay">
+      <option name="closed" value="true" />
+      <created>1776964590666</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776964590666</updated>
+    </task>
+    <task id="LOCAL-00009" summary="springboot-api-bagay">
+      <option name="closed" value="true" />
+      <created>1776964833885</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776964833886</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exported Files" />
+    <MESSAGE value="apringboot-api-bagay" />
+    <MESSAGE value="springboot-api-bagay" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot-api-bagay" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
