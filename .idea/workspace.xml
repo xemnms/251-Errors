@@ -26,6 +26,17 @@
     &quot;assignee&quot;: &quot;xemnms&quot;
   }
 }</component>
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
+    {
+      "id": {
+        "id": "PR_kwDORcGkcM7VCWKw",
+        "number": 673
+      },
+      "lastSeen": 1776963849709
+    }
+  ]
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/xemnms/251-Errors.git&quot;,
@@ -48,7 +59,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "springboot-api-bagay",
+    "git-widget-placeholder": "#673 on springboot-api-bagay",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
@@ -66,6 +77,7 @@
       <workItem from="1776957682615" duration="456000" />
       <workItem from="1776958174266" duration="14000" />
       <workItem from="1776958294687" duration="2343000" />
+      <workItem from="1776963654065" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="Exported Files">
       <option name="closed" value="true" />
@@ -107,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776959918921</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="springboot-api-bagay">
+      <option name="closed" value="true" />
+      <created>1776963709079</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776963709080</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
