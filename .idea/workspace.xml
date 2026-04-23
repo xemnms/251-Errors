@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53d5847e-5871-4629-a985-7466e7c34e0f" name="Changes" comment="apringboot-api-bagay">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/test/java/com/bagay/springboot/MeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/test/java/com/bagay/springboot/MeControllerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="53d5847e-5871-4629-a985-7466e7c34e0f" name="Changes" comment="springboot-api-bagay" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +65,7 @@
       <updated>1776957672235</updated>
       <workItem from="1776957682615" duration="456000" />
       <workItem from="1776958174266" duration="14000" />
-      <workItem from="1776958294687" duration="1251000" />
+      <workItem from="1776958294687" duration="1565000" />
     </task>
     <task id="LOCAL-00001" summary="Exported Files">
       <option name="closed" value="true" />
@@ -86,7 +83,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776958944872</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="springboot-api-bagay">
+      <option name="closed" value="true" />
+      <created>1776959828797</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776959828797</updated>
+    </task>
+    <task id="LOCAL-00004" summary="springboot-api-bagay">
+      <option name="closed" value="true" />
+      <created>1776959860903</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776959860903</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,7 +108,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exported Files" />
     <MESSAGE value="apringboot-api-bagay" />
-    <option name="LAST_COMMIT_MESSAGE" value="apringboot-api-bagay" />
+    <MESSAGE value="springboot-api-bagay" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot-api-bagay" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
