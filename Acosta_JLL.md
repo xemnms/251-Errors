@@ -28,6 +28,10 @@
 **\<03/20/2026\>** : I learned what the concept of inheritance is, its use and importance, and its distinct IS-A relationship. This laboratory activity not only taught me the basics and use of inheritance but it also allowed me to use proper encapsulation and validation once again, making me more familiar with it.
 ---
 
+## Abstraction
+**\<03/25/2026\>** : I learned the concept of Abstraction. The implementation and use of abstract classes and interfaces, and it's use in the real world especially in the workplace. Next time, I will study and code more while using abstraction.
+---
+
 ## ✉️ Peer Feedbacks 
 
 ## Inheritance
@@ -38,3 +42,9 @@
 
 ## Composition
 **<03/20/2026>** : Comment by: Batangan; You did well in applying encapsulation with proper getters/setters and validating inputs like volume and null values, and you can improve by adding checks so volume can only change when the speakers are ON and by giving default values when invalid inputs are entered instead of just printing messages.
+---
+
+## Abstraction
+**<03/25/2026>** : Comment by: Bagay; You did well in designing clear abstract and interface classes that were reusable, and I was able to use them as the base for my concrete classes. You can improve by adding a few more method contracts or examples so implementation is even more consistent across teammates.
+
+---
