@@ -26,6 +26,10 @@ First Recitation in OOP Lecture - 5 points - 03/05/2026
 
 **\<03/20/2026\>**: Today I learned composition and its differences with inheritance. I also thought of things I could have improved in like first in not being able to demonstrate low coupling out of fear in ruining the code and second in not able to utilize my composite class to its fullest in giving its own unique attributes.
 
+**\<04/20/2026\>**: Today I learned how abstraction works any why it is useful. I should improve in designing more methods in classes and things to do in order to achieve the variables needed.
+
+**\<04/20/2026\>**: Today I learned how exceptions work and next time I should improve in making better naming conventions on those exceptions and also better structuring for our calculator interface code.
+
 ---
 ## ✉️ Peer Feedbacks    
 

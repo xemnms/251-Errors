@@ -21,6 +21,15 @@
 
 **\<03/20/2026\>** : I learned how to apply validations to give my program more logic, and to improve, I will learn how to other techniques related to giving more logic to my code.
 
+**\<04/21/2026\>** : I learned how to use abstraction and interfaces, and to improve, I will review more on the topic to familiarize myself with using them.
+
+**\<04/21/2026\>** : I learned how to manage my classes using packages, and to improve, I will review more on the topics of package-managing to minimize my time when working on organized projects.
+
+**\<04/21/2026\>** : I learned how to do exception-handling to prevent my code from crashing, and to improve, I will review more on the types of exceptions to handle so that I can cover more problems to fix.
+
+
+
+
 ---
 ## ✉️ Peer Feedbacks  
 
@@ -33,5 +42,7 @@
 **\<03/20/2026\>** : Comment by: Badosa; You did well in implementing comprehensive input validation for all setters and maintaining clear code organization with helpful comments, and you can improve by creating a parameterized constructor for easier initialization, and making behavior methods like useElement() more descriptive and interactive.  
 
 **\<03/20/2026\>** : Comment by: Rodenas; You did well in designing the Mage_Isles class with clear attributes like elementName, powerLevel, and type, and the validation in your setters helped make the class more reliable, and you can improve by adding more advanced behaviors or interactions to make the class more dynamic.
+
+**\<04/09/2026\>** : Comment by: Rodenas; You did well by correctly identifying errors, setting proper conditions, and using custom exceptions with proper try-catch handling in your calculator system, and you can improve by making your validation rules more consistent and ensuring all operations handle exceptions in a uniform way.
 
 ---
