@@ -30,6 +30,8 @@
 
 **\<04/19/2026\>** : Today I fixed my Java calculator project by organizing files into the correct packages and making sure class names match their file names. I also practiced using checked and unchecked custom exceptions to handle errors like invalid inputs and negative results. I can improve by Always check naming (file name, class name, and imports) before building with Maven and Practice more try-catch-finally examples and test more edge cases.   
 
+**\<04/23/2026\>** : Today I fixed my Spring Boot project by organizing files into the correct structure and adding the necessary test dependencies. I resolved errors related to SpringBootTest and MockMvc and practiced writing basic controller tests. I can improve by checking project structure and dependencies before building and by testing more edge cases.  
+
 ---
 ## ✉️ Peer Feedbacks  
 
