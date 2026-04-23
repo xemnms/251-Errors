@@ -1,2 +1,2 @@
-/workspaces/251-Errors/springboot-lab/dizon/api-demo/src/main/java/controller/MeController.java
-/workspaces/251-Errors/springboot-lab/dizon/api-demo/src/main/java/ApiDemoApplication.java
+/workspaces/251-Errors/springboot-lab/dizon/api-demo/src/main/java/com/dizon/springboot/ApiDemoApplication.java
+/workspaces/251-Errors/springboot-lab/dizon/api-demo/src/main/java/com/dizon/springboot/controller/MeController.java
