@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53d5847e-5871-4629-a985-7466e7c34e0f" name="Changes" comment="springboot-api-bagay">
-      <change afterPath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/COMPLETION_SUMMARY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/main/java/com/bagay/sprngboot/controller/MeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/test/java/com/bagay/sprngboot/MeControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/ci-stubs/org/junit/jupiter/api/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/ci-stubs/org/springframework/boot/SpringApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/ci-stubs/org/springframework/boot/autoconfigure/SpringBootApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/ci-stubs/org/springframework/web/bind/annotation/GetMapping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/ci-stubs/org/springframework/web/bind/annotation/RestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/main/java/com/bagay/springboot/ApiDemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/main/java/com/bagay/springboot/controller/MeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/test/java/com/bagay/springboot/ApiDemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/test/java/com/bagay/springboot/MeControllerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776964833886</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="springboot-api-bagay">
+      <option name="closed" value="true" />
+      <created>1777003366795</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1777003366797</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
