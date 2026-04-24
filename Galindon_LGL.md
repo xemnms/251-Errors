@@ -30,6 +30,8 @@
 
 **\<04/21/2026\>** : I learned about packages and maven&gradle in our lab, next time I will improve by being more careful with class names, import paths, and pom.xml configuration.
 
+**\<04/24/2026\>** : I learned about springboot in our lab, next time I will make sure my Java version and project structure are correct from the start.
+
 ---
 ## ✉️ Peer Feedbacks 
 

@@ -39,6 +39,9 @@
 ### | Packages and Organization
 **<04/21/2026>** : Today I gained experience in structuring a Java project using packages and a layered architecture. I learned how to treat packages as design boundaries, separating components like service, exception, and main to enhance readability and maintainability. Initially, I struggled with Maven and running the project, but I resolved those issues by correcting my directory organization and using the proper run command. In the future, I plan to strengthen my understanding of project setup early on to avoid build and path errors.
 
+### | Springboot and API
+**<04/23/2026>** : 04/23/2026 : I learned how to create and debug a Spring Boot REST API using Maven, Controllers, JSON responses, and test cases in Codespaces, and next time I will organize my project more carefully and fix errors step-by-step before running the application.
+
 ---
 
 ## ✉️ Peer Feedbacks    
