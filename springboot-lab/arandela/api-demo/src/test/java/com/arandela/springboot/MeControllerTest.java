@@ -1,6 +1,6 @@
 package com.arandela.springboot;
 
-import com.bagay.sprngboot.controller.MeController;
+import com.arandela.springboot.controller.MeController;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 public class MeControllerTest {
