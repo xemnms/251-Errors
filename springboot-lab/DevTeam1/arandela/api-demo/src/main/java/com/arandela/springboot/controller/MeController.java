@@ -6,43 +6,44 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * MeController - REST API endpoint for student information
+ * REST Controller for the /me endpoint
  *
- * How did you create your Spring Boot project?
- * - Used Spring Initializr (start.spring.io) with Maven as the build tool
- * - Added Spring Web dependency for REST capabilities
- * - Configured with Java 17 and Spring Boot 4.0.6
+ * How did you set up your Spring Boot project?
+ * - I used Spring Initializr (start.spring.io) to generate a Maven project with Spring Boot 4.0.6
+ * - Chose Java as the language and added the Spring Web dependency
+ * - Defined group ID as com.bagay.sprngboot and artifact as api-demo
  *
- * What is the purpose of the @RestController annotation?
- * - Marks the class as a REST controller
- * - Automatically serializes return values to JSON
- * - Combines @Controller and @ResponseBody annotations
+ * What is the role of the @RestController annotation?
+ * - @RestController is a Spring annotation that merges @Controller and @ResponseBody
+ * - It designates the class as a controller where methods return JSON/data directly instead of view names
+ * - Each method’s output is automatically serialized into JSON format
  *
- * What does the @GetMapping("/me") annotation do?
- * - Maps HTTP GET requests to the /me endpoint
- * - Allows clients to retrieve student information via GET /me
+ * What does the @GetMapping("/me") annotation accomplish?
+ * - @GetMapping("/me") binds HTTP GET requests for the /me endpoint to this method
+ * - It establishes a route that listens for GET requests at http://localhost:8080/me
  *
- * Why did you change from returning a String to a Map?
- * - JSON responses are more structured and contain more meaningful data
- * - Makes the API more production-ready and extensible
- * - Easier for clients to parse and work with multiple data fields
+ * Why switch from returning a String to a Map?
+ * - Returning a Map enables structured, key-value data to be sent as JSON
+ * - It’s more versatile and professional for APIs, allowing clients to access fields like "name" or "studentId"
+ * - JSON responses are the standard in REST APIs compared to plain text
  *
- * How does Spring Boot handle JSON responses automatically?
- * - Spring uses Jackson library for automatic JSON serialization
- * - The @RestController annotation enables automatic HttpMessageConverter
- * - Map objects are automatically converted to JSON format
+ * How does Spring Boot automatically manage JSON responses?
+ * - Spring Boot leverages the Jackson library to convert Java objects into JSON
+ * - When a method returns a Map or object within a @RestController, Spring serializes it into JSON
+ * - The @ResponseBody annotation (inherited from @RestController) directs Spring to serialize the return value
+ * - The Content-Type header is automatically set to application/json
  */
+
 @RestController
 public class MeController {
 
     @GetMapping("/me")
     public Map<String, Object> getMe() {
         Map<String, Object> response = new HashMap<>();
-        response.put("name", "Arandela, Student");
-        response.put("studentId", "Unknown");
+        response.put("name", "Jherrymei D. Arandela");
+        response.put("studentId", "2025-1029981");
         response.put("course", "Java Programming");
         response.put("message", "Learning Spring Boot REST APIs!");
         return response;
     }
 }
-
