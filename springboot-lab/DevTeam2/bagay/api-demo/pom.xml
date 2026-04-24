@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>4.0.5</version>
+		<version>4.0.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bagay.springboot</groupId>
+	<groupId>com.bagay.sprngboot</groupId>
 	<artifactId>api-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>BagayApiDemo</name>
-	<description>Spring Boot REST API laboratory exercise for Bagay</description>
+	<name/>
+	<description/>
 	<url/>
 	<licenses>
 		<license/>
@@ -39,6 +39,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>org.mockito</groupId>
+					<artifactId>mockito-core</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.mockito</groupId>
+					<artifactId>mockito-junit-jupiter</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 	</dependencies>
 
