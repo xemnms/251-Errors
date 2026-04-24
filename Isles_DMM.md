@@ -25,10 +25,9 @@
 
 **\<04/21/2026\>** : I learned how to manage my classes using packages, and to improve, I will review more on the topics of package-managing to minimize my time when working on organized projects.
 
-**\<04/21/2026\>** : I learned how to do exception-handling to prevent my code from crashing, and to improve, I will review more on the types of exceptions to handle so that I can cover more problems to fix.
+**\<04/21/2026\>** : I learned how to do exception-handling to prevent my code from crashing, and next time, I will review more on the types of exceptions to handle so that I can cover more problems to fix.
 
-
-
+**\<04/23/2026\>** : I learned how to use springboot to display data in the terminal, and next time, I will do advanced and extra studying on the topic of springboot because I am still hazy about it.
 
 ---
 ## ✉️ Peer Feedbacks  
