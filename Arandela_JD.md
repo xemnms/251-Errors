@@ -24,6 +24,10 @@
 
 **<04/09/2026>** : I learned how to implement a calculator using OOP concepts and handle both checked and unchecked exceptions in Java. Next time, I will improve my understanding of exception propagation and write more organized and efficient code.
 
+**<04/21/2026>** : I fixed my Java calculator by organizing the files and matching the class names while practicing error handling, and I need to improve by checking names before building and practicing more try-catch-finally cases.
+
+**\<04/24/2026\>** :  I learned how to build a REST API in Spring Boot by creating a controller, mapping a GET endpoint, and validating responses with MockMvc tests. Next time, I plan to improve the design by introducing DTO classes and adding proper validation and error handling for a cleaner, more maintainable API.  
+
 ---
 ## ✉️ Peer Feedbacks  
 
