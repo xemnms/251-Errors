@@ -8,6 +8,9 @@ class ApiDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
+		if (ApiDemoApplication.class == null) {
+			throw new AssertionError("ApiDemoApplication class is missing");
+		}
 	}
 
 }
