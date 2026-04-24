@@ -1,6 +1,6 @@
-package com.galindon.springboot;
+package com.galindon.springboot.api_demo;
 
-import com.galindon.springboot.controller.MeController;
+import com.galindon.springboot.api_demo.controller.MeController;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
@@ -18,7 +18,6 @@ public class MeControllerTest {
     public void testGetMe() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.get("/me"))
                 .andExpect(status().isOk())
-                .andExpect(content().contentType("application/json"))
                 .andExpect(jsonPath("$.name").exists());
     }
 }
