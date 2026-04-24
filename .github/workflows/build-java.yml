@@ -24,3 +24,11 @@ jobs:
         run: |
           mkdir -p bin
           javac -d bin $(find . -name "*.java")
+
+          - name: Build Spring Boot Projects
+        run: |
+          find . -name "pom.xml" -not -path "/target/" | while read pom; do
+            dir=$(dirname "$pom")
+            echo "Building $dir"
+            cd "$dir" && mvn compile -q && cd $GITHUB_WORKSPACE
+          done
