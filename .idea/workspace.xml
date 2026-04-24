@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53d5847e-5871-4629-a985-7466e7c34e0f" name="Changes" comment="springboot-api-bagay">
-      <change beforePath="$PROJECT_DIR$/Bagay_ADM.md" beforeDir="false" afterPath="$PROJECT_DIR$/Bagay_ADM.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/COMPLETION_SUMMARY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/main/java/com/bagay/sprngboot/controller/MeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/test/java/com/bagay/sprngboot/MeControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/ci-stubs/org/junit/jupiter/api/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/ci-stubs/org/springframework/boot/SpringApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/ci-stubs/org/springframework/boot/autoconfigure/SpringBootApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/ci-stubs/org/springframework/web/bind/annotation/GetMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/ci-stubs/org/springframework/web/bind/annotation/RestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/main/java/com/bagay/springboot/ApiDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/main/java/com/bagay/springboot/controller/MeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/test/java/com/bagay/springboot/ApiDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-lab/DevTeam2/bagay/api-demo/src/test/java/com/bagay/springboot/MeControllerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +48,17 @@
     &quot;assignee&quot;: &quot;xemnms&quot;
   }
 }</component>
-  <component name="GitHubPullRequestState"><![CDATA[{
-  "prStates": [
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
     {
-      "id": {
-        "id": "PR_kwDORcGkcM7VCWKw",
-        "number": 673
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDORcGkcM7VCWKw&quot;,
+        &quot;number&quot;: 673
       },
-      "lastSeen": 1776963849709
+      &quot;lastSeen&quot;: 1776963849709
     }
   ]
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/xemnms/251-Errors.git&quot;,
@@ -61,7 +81,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "#673 on springboot-api-bagay",
+    "git-widget-placeholder": "springboot-api-bagay",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
