@@ -28,6 +28,8 @@
 
 **\<04/21/2026\>**  : I learned how to properly organize a Java project using packages in a Maven structure by separating my code into exception, service, and main packages, which helped improve readability, maintainability, and proper project structure. Next time I will improve my understanding of package design and ensure that my folder structure and package declarations are consistent from the start to avoid compilation errors.
 
+**\<04/23/2026\>** : I learned how to create a Spring Boot REST API using Spring Initializr, build a REST controller with @RestController and @GetMapping, return JSON responses using a Map, and implement GET, POST, PUT, and DELETE endpoints. Next time I will try connecting my API to a database using Spring Data JPA.
+
 ---
 ## ✉️ Peer Feedbacks  
 

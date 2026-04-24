@@ -30,6 +30,8 @@ First Recitation in OOP Lecture - 5 points - 03/05/2026
 
 **\<04/20/2026\>**: Today I learned how exceptions work and next time I should improve in making better naming conventions on those exceptions and also better structuring for our calculator interface code.
 
+**\<04/23/2026\>**: Today I learned how to utilize Springboot in code. I will keep learning this on why my builds keep failing so I will understand it better and gain experience
+
 ---
 ## ✉️ Peer Feedbacks    
 
