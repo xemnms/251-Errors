@@ -1,6 +1,5 @@
 # Team Changelog📕
 \<Acosta, Jan Lorcey L.\> \<2025-1028844\> \<04/24/2026\> \<Springboot\> Completed!  
-\<Alonde, Kayle Crivan K.\> \<2025-1024360\> \<04/24/2026\> \<Springboot\> Completed!  
 \<Alvarez, Angelo Hayden\> \<2025-1026476\> \<04/24/2026\> \<Springboot\> Completed!  
 \<Badosa, Bien Manuel P.\> \<2025-1021747\> \<04/24/2026\> \<Springboot\> Completed!   
 \<Bagay, Axel Drake M.\> \<2025-1020735\> \<04/24/2026\> \<Springboot\> Completed!  
