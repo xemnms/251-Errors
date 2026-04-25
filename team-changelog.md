@@ -13,6 +13,7 @@
 \<Nepomuceno, Julliana P.\> \<2024-2020430\> \<04/24/2026\> \<Springboot\> Completed!  
 \<Rodenas, Kyla Cassandra R.\> \<2025-1025868\> \<04/24/2026\> \<Springboot\> Completed!  
 \<Isles, Dan Marvin M.\> \<2025-1025621\> \<04/21/2026\> \<Packages-and-Organization\> Completed!  
+\<Alonde, Kayle Crivan K.\> \<2025-1024360\> \<04/21/2026\> \<Encapsulation\> Completed!  
 \<Rodenas, Kyla Cassandra R.\> \<2025-1025868\> \<04/21/2026\> \<Packages-and-Organization\> Completed!  
 \<Alonde, Kayle Crivan K.\> \<2025-1024360\> \<04/21/2026\> \<Packages-and-Organization\> Completed!  
 \<Arandela, Jherrymei D.\> \<2025-1029981\> \<04/21/2026\> \<Packages-and-Organization\> Completed!  
