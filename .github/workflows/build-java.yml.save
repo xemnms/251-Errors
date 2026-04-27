@@ -1,0 +1,85 @@
+nname: Build Java Files
+on:
+  push:
+    branches: [ main,develop-* ]
+  pull_request:
+    branches: [ main, develop-* ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Compile Regular Java Files
+        run: |
+          mkdir -p bin
+          find . -name "*.java" -not -path "*/springboot-lab/*" -not -path "*/oop-databases-lab/*" -not -path "*/target/*" > sources.txt
+          if [ -s sources.txt ]; then javac -d bin @sources.txt; fi
+      - name: Build Spring Boot Projects
+        run: |
+          find . -name "pom.xml" -not -path "*/target/*" | while read pom; do
+            dir=$(dirname "$pom")
+            echo "Building $dir"
+            cd "$dir" && mvn compile -q && cd $GITHUB_WORKSPACE
+          doname: Build Java Files
+on:
+  push:
+    branches:name: Build Java Files
+on:
+  push:
+    branches: [ main,develop-* ]
+  pull_request:
+    branches: [ main, develop-* ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Compile Regular Java Files
+        run: |
+          mkdir -p bin
+          find . -name "*.java" -not -path "*/springboot-lab/*" -not -path "*/oop-databases-lab/*" -not -path "*/target/*" > sources.txt
+          if [ -s sources.txt ]; then javac -d bin @sources.txt; fi
+      - name: Build Spring Boot Projects
+        run: |
+          find . -name "pom.xml" -not -path "*/target/*" | while read pom; do
+            dir=$(dirname "$pom")
+            echo "Building $dir"
+            cd "$dir" && mvn compile -q && cd $GITHUB_WORKSPACE
+          done [ main,develop-* ]
+  pull_request:
+    branches: [ main, develop-* ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Compile Regular Java Files
+        run: |
+          mkdir -p bin
+          find . -name "*.java" -not -path "*/springboot-lab/*" -not -path "*/target/*" > sources.txt
+          if [ -s sources.txt ]; then javac -d bin @sources.txt; fi
+      - name: Build Spring Boot Projects
+        run: |
+          find . -name "pom.xml" -not -path "*/target/*" | while read pom; do
+            dir=$(dirname "$pom")
+            echo "Building $dir"
+            cd "$dir" && mvn compile -q && cd $GITHUB_WORKSPACE
+          done
