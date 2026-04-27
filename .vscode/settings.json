@@ -1,5 +1,7 @@
 {
     "java.project.sourcePaths": [
         "packages-and-organization-lab/Acosta/src"
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }

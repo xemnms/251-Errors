@@ -7,7 +7,8 @@
 |------------|----------------|-------------|--------|--------------|
 | 03/05/2026 | Quiz           | Quiz 1      | 5      | 5            |
 | 03/05/2026 | Icebreaker     | Wordle Host | 10     | 10           |
-| -          | -              | -           | -      | -            |
+| 03/19/2026 | Bonus          | Open Camera | 5      | 15           |
+| 04/20/2026 | Icebreaker     | Winner      | 5      | 20           |
 
 ---
 
@@ -31,6 +32,19 @@
 ## Abstraction
 **\<03/25/2026\>** : I learned the concept of Abstraction. The implementation and use of abstract classes and interfaces, and it's use in the real world especially in the workplace. Next time, I will study and code more while using abstraction.
 ---
+
+# Exceptions
+**\<04/08/2026\>** : I learned a little bit of the concept of Exceptions. Exceptions are a key part of making your code secure and bug free, understanding how to use and create custom exceptions help a lot. Next time, I will try to incorporate these in my code or projects.
+---
+
+# Packages and Organization
+**\<04/20/2026\>** : The concept of packages and using build tools were a little confusing, but I still learned. I will continuosly familiarize myself with these concepts the more I use them in the future.
+---
+
+# Springboot
+**\<04/23/2026\>** : Using spring and springboot was unexpected, and I found it really hard and confusing. I got lost most of the times because of the things I simply didn't know about. Unfortunately. I have to study more about springboot by myself, it was way too complicated and the transition of using springboot from the previous topics was extremely jarring.
+---
+
 
 ## ✉️ Peer Feedbacks 
 

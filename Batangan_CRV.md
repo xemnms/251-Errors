@@ -28,6 +28,8 @@
 
 **04/20/2026** : I learned how to organize a Java project using packages and Maven, and next time I will improve my project structure and follow best practices more consistently.
 
+**04/24/2026** : I learned how to create a Spring Boot project, build a REST controller, and test it using JUnit. I also understood how annotations like @RestController and @GetMapping work, and how Spring Boot automatically converts data into JSON. I experienced some errors while testing, but Rodenas helped fix them by checking my code and configuration. Next time, I will organize my code better, understand errors faster, and practice more so I can build cleaner and more efficient APIs.
+
 ---
 ## ✉️ Peer Feedbacks
 **<03/16/2026>** : Comment by: Isles; You did well in restricting data access using encapsulation, and you can improve by improving logic to avoid awkward testing results when limit-testing your program with invalid inputs.
