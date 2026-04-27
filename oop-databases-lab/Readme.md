@@ -47,7 +47,7 @@ com.yourname.app
 
 ---
 
-# 🧾 Step 1: Create Entity
+# 🧾 Step 1: Create 2 Entities with at least 5 fields
 
 @Entity
 public class User {
@@ -57,13 +57,30 @@ public class User {
     private Long id;
 
     private String name;
+    private String phoneNumber;
     private String email;
+    private boolean isRegular;
+    private String role;
+}
+
+
+@Entity
+public class Product {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String name;
+    private String description;
+    private Double price;
 }
 
 ---
 
-# 🧩 Step 2: Create Repository
+# 🧩 Step 2: Create Repositories for both entities 
 
+example: 
 public interface UserRepository extends JpaRepository<User, Long> {}
 
 ---
@@ -79,16 +96,24 @@ spring.jpa.hibernate.ddl-auto=update
 # 🔄 Step 4: Implement CRUD Endpoints
 
 GET /api/users  
-GET /api/users/{id}  
-POST /api/users  
-PUT /api/users/{id}  
-DELETE /api/users/{id}  
+GET /api/users/{id}
+POST /api/users
+PUT /api/users/{id}
+- Update any or all user details
+DELETE /api/users/{id}
+
+GET /api/products  
+GET /api/products/{id}
+POST /api/products
+PUT /api/products/{id}
+- Update any or all product details
+DELETE /api/product/{id}
 
 ---
 
 # 🧪 Step 5: Test Using Postman or CURL
 
-Verify all CRUD operations
+Verify all CRUD operations are working properly
 
 ---
 
@@ -110,7 +135,7 @@ spring.datasource.password=yourpassword
 
 ---
 
-# 🧠 Concept Requirements
+# 🧠  Step 8: Concept Requirements
 
 - Encapsulation  
 - Abstraction  
@@ -119,7 +144,7 @@ spring.datasource.password=yourpassword
 
 ---
 
-# 🔥 Minimum Feature Checklist
+# 🔥 Step 9:  Minimum Feature Checklist
 
 - Entity with annotations  
 - Repository working  
@@ -139,18 +164,12 @@ spring.datasource.password=yourpassword
 
 ---
 
-# 📝 Reflection
+# 📝  Step 10: Reflection
 
 - What changed from previous lab?  
 - Why database is better?  
 - How JPA helped?  
 - What changed when switching DB?  
-
----
-
-# 🔄 Git Workflow
-
-crud-persistence-<surname>
 
 ---
 
