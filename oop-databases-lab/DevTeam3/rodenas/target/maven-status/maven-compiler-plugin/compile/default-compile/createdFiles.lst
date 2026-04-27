@@ -7,6 +7,7 @@ com/rodenas/springboot/service/UserService.class
 com/rodenas/springboot/entity/Product.class
 com/rodenas/springboot/controller/UserController.class
 com/rodenas/springboot/entity/User.class
+com/rodenas/springboot/CrudDemoApplication.class
 com/rodenas/springboot/service/ProductService.class
 com/rodenas/springboot/dto/ProductDTO.class
 com/rodenas/springboot/repository/ProductRepository.class
