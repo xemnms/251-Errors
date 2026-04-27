@@ -9,7 +9,7 @@
 |03/19/2026  |On Camera for OLC|Opened cam       |5       |10            |
 |03/19/2026  |On Mic for OLC   |Opened Mic       |2       |12            |
 |03/23/2026  |Ice breaker      |Guess the Number |10      |22            |
-|03/26/2026  |Ice breaker      |Tiktok Lines     |10      |32            |
+|03/26/2026  |Ice breaker      |Guess the Meme   |10      |32            |
 | —          | —               | —               | —      | —            |
 
 ---
@@ -29,6 +29,8 @@
 **\<04/21/2026\>**  : I learned how to properly organize a Java project using packages in a Maven structure by separating my code into exception, service, and main packages, which helped improve readability, maintainability, and proper project structure. Next time I will improve my understanding of package design and ensure that my folder structure and package declarations are consistent from the start to avoid compilation errors.
 
 **\<04/23/2026\>** : I learned how to create a Spring Boot REST API using Spring Initializr, build a REST controller with @RestController and @GetMapping, return JSON responses using a Map, and implement GET, POST, PUT, and DELETE endpoints. Next time I will try connecting my API to a database using Spring Data JPA.
+
+**\<04/27/2026\>** : I learned how to build a full CRUD REST API using Spring Boot with Spring Data JPA, connecting to an H2 in-memory database, and implementing bonus features like validation, exception handling, and a DTO layer. I also learned how to separate concerns using controller, service, repository, entity, dto, and exception packages. One of the biggest challenges was getting the H2 console to work in Codespaces — the browser kept adding an extra :8080 to the URL and showing ERR_CONNECTION_REFUSED. Next time, I will listen closely to sir's demo so i can follow his steps without going off track.
 
 ---
 ## ✉️ Peer Feedbacks  
