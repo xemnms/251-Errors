@@ -1,0 +1,22 @@
+Reflection
+    1. What changed from previous lab?
+        - In the previous lab, we only worked with basic REST endpoints that returned simple responses. 
+        In this lab, we added database integration, so the application is now able to store and manage real 
+        data instead of just returning static values. We also started using Spring Data JPA, which made working 
+        with databases much easier compared to writing raw SQL.
+
+    2. Why is a database better?
+        - A database is better because it stores data permanently, even if the application stops or restarts. 
+        Unlike in-memory data, it does not get deleted when the program closes. It is also more reliable and useful 
+        for real applications because it can handle larger amounts of data and organize it properly.
+
+    3. How did JPA help?
+        - JPA made database work easier by letting us use Java objects instead of writing SQL queries. 
+        Through repositories and entities, we can perform CRUD operations with less code. It also automatically handles 
+        the mapping between Java classes and database tables, which saves time and reduces errors.
+
+    4. What changed when switching DB?
+        - Based on my experience, when switching from H2 to PostgreSQL, the setup became more advanced because I had to 
+        configure an external database connection. Unlike H2, which runs locally inside the project, PostgreSQL required a 
+        proper URL, username, password, and SSL configuration. This made the project closer to real-world applications 
+        where external databases are commonly used.

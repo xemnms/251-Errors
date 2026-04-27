@@ -38,6 +38,12 @@
 ### | Packages and Organization
 **<04/21/2026>** : Today, I learned how to organize a Java project using packages and layered architecture. I also learned how to used packages as design boundaries to separate different parts of the system such as service, exception, and main which improves code readability and maintenance. I had difficulty at first with Maven and running the project, but I was able to fix it by correcting my directory structure and using the correct run command. Next time, I will improve my understanding of project setup earlier so I can avoid build and path errors.
 
+### | Spring Boot
+**<04/24/2026>** : Today, I learned how to develop a REST API using Spring Boot by creating controllers with endpoints for GET, POST, PUT, and DELETE requests. I initially used IntelliJ for development and was able to run the application successfully. However, I encountered issues during the submission process related to version control and repository workflows. With the help of a classmate, I understood the process better and completed the required steps using an alternative approach, then continued working in VS Code which made the process smoother. Next time, I will be more prepared and adaptable to handle similar issues more efficiently.
+
+### | Database
+**<04/24/2026>** : Today, I learned how to connect a Spring Boot application to a database and work with data persistence using Spring Data JPA. I was able to understand how entities, repositories, and configurations work together to allow the application to store and retrieve data properly. I experienced some challenges when switching from the default H2 database to a cloud-hosted PostgreSQL database, especially with connection setup and configuration. Next time, I will be more careful in reviewing configuration details and deepen my understanding of database environments to ensure a smoother setup process.
+
 ---
 ## ✉️ Peer Feedbacks
 ### | Encapsulation and Access Modifiers
