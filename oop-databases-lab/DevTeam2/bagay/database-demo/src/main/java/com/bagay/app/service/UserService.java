@@ -24,7 +24,7 @@ public class UserService {
     }
 
     /**
-     * Get userId by ID
+     * Get user by ID
      */
     public User getUserById(Long id) {
         if (id == null || id <= 0) {
