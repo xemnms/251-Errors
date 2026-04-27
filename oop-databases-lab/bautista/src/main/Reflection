@@ -16,7 +16,6 @@ Reflection
         the mapping between Java classes and database tables, which saves time and reduces errors.
 
     4. What changed when switching DB?
-        - Based on my experience, when switching from H2 to PostgreSQL, the setup became more advanced because I had to 
-        configure an external database connection. Unlike H2, which runs locally inside the project, PostgreSQL required a 
-        proper URL, username, password, and SSL configuration. This made the project closer to real-world applications 
-        where external databases are commonly used.
+        - Based on my experience, when switching from H2 to a cloud-hosted PostgreSQL database, the setup became more advanced 
+        because I had to configure an external database connection. Unlike H2, which runs locally inside the project, 
+        PostgreSQL required a proper URL, username, password, and SSL configuration.
