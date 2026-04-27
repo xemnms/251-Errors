@@ -156,8 +156,49 @@ crud-persistence-<surname>
 
 # 🔚 Final Tasks
 
-8. Review and Retrospect  
-9. Update changelog files  
+### 11. Commit, Push, and Create PR
+
+- Commit your work
+- Push your branch
+- Create a **Pull Request to main**
+
+---
+
+### 12. Sync with Main
+
+- Pull latest updates
+- Merge into your branch
+
+---
+
+### 13. Review and Retrospect
+
+Think of at least **2 improvements** you could make to your Spring Boot application.
+
+---
+
+### 14. Update your changelog files
+
+#### a. Team changelog:
+
+```
+<Name> <StudentNo/ID> <MM/DD/YYYY> <LabTopic> Completed!
+```
+
+#### b. Personal `.md`:
+
+```
+<MM/DD/YYYY> : I learned _____ and next time I will _____
+```
+
+#### c. Peer feedback:
+
+```
+<MM/DD/YYYY> : Comment by: <COMMENTER's name>; You did well in _____ and you can improve by _____
+```
+
+---
+
 
 ---
 
