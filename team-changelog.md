@@ -1,6 +1,7 @@
 # Team Changelog📕
 \<Acosta, Jan Lorcey L.\> \<2025-1028844\> \<04/24/2026\> \<Springboot\> Completed!  
 \<Alvarez, Angelo Hayden\> \<2025-1026476\> \<04/24/2026\> \<Springboot\> Completed!  
+\<Arandela, Jherrymei D.\> \<2025-1029981\> \<04/24/2026\> \<Springboot\> Completed!  
 \<Badosa, Bien Manuel P.\> \<2025-1021747\> \<04/24/2026\> \<Springboot\> Completed!   
 \<Bagay, Axel Drake M.\> \<2025-1020735\> \<04/24/2026\> \<Springboot\> Completed!  
 \<Batangan, Clisha Rae V.\> \<2025-1027945\> \<04/24/2026\> \<Springboot\> Completed!  
@@ -18,7 +19,7 @@
 \<Arandela, Jherrymei D.\> \<2025-1029981\> \<04/21/2026\> \<Packages-and-Organization\> Completed!  
 \<Dizon, Vic Andrew A.\> \<2025-1024539\> \<04/21/2026\> \<Packages-and-Organization\> Completed!  
 \<Galindon, Lynette Grace L.\> \<2025-2022743\> \<04/21/2026\> \<Packages-and-Organization\> Completed!  
-\<Nepomuceno, Julliana P.\> \<2024-2020430\> \<04/21/2026\> \<Packages-and-Organization\> Completed!		
+\<Nepomuceno, Julliana P.\> \<2024-2020430\> \<04/21/2026\> \<Packages-and-Organization\> Completed!  
 \<Acosta, Jan Lorcey L.\> \<2025-1028844\> \<04/21/2026\> \<Packages-and-Organization\> Completed!  
 \<Alvarez, Angelo Hayden\> \<2025-1026476\> \<04/21/2026\> \<Packages-and-Organization\> Completed!  
 \<Bagay, Axel Drake M.\> \<2025-1020735\> \<04/21/2026\> \<Packages-and-Organization\> Completed!  
