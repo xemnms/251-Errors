@@ -29,6 +29,8 @@
 
 **\<04/23/2026\>** : I learned how to use springboot to display data in the terminal, and next time, I will do advanced and extra studying on the topic of springboot because I am still hazy about it.
 
+**\<04/27/2026\>** : I learned how to use PostgreSQL to create an active database, and next time I will cover more on how to use SQL to familiarize myself with databases as my group is about to start on the main project. 
+
 ---
 ## ✉️ Peer Feedbacks  
 
