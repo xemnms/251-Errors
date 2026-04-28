@@ -32,6 +32,8 @@
 
 **\<04/24/2026\>** : I learned about springboot in our lab, next time I will make sure my Java version and project structure are correct from the start.
 
+**<04/28/2026>** : I learned about databases today and how CRUD operations work with Spring Boot using JPA. Next time, I will carefully check my dependencies and configuration before running the application.
+
 ---
 ## ✉️ Peer Feedbacks 
 
