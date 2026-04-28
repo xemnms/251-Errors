@@ -18,7 +18,7 @@ jobs:
       - name: Compile Regular Java Files
         run: |
           mkdir -p bin
-          find . -name "*.java" -not -path "*/springboot-lab/*" -not -path "*/target/*" > sources.txt
+          find . -name "*.java" -not -path "*/springboot-lab/*" -not -path "*/oop-databases-lab/*" -not -path "*/target/*" > sources.txt
           if [ -s sources.txt ]; then javac -d bin @sources.txt; fi
       - name: Build Spring Boot Projects
         run: |
