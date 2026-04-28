@@ -45,6 +45,9 @@
 **\<04/23/2026\>** : Using spring and springboot was unexpected, and I found it really hard and confusing. I got lost most of the times because of the things I simply didn't know about. Unfortunately. I have to study more about springboot by myself, it was way too complicated and the transition of using springboot from the previous topics was extremely jarring.
 ---
 
+# Databases
+**\<04/28/2026>** : I have always known what databases are, but this is my first experience in making one myself that persists. I am still very unfamiliar with H2 and PostgreSQL but I've managed to make it work.
+
 
 ## ✉️ Peer Feedbacks 
 
