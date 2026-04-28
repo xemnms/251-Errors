@@ -1,7 +1,6 @@
 package com.dizon.springboot.service;
 
 import com.dizon.springboot.dto.UserDTO;
-
 import java.util.List;
 
 public interface UserService {

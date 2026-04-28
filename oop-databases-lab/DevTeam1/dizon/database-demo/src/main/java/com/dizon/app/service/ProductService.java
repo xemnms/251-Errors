@@ -1,7 +1,6 @@
 package com.dizon.springboot.service;
 
 import com.dizon.springboot.dto.ProductDTO;
-
 import java.util.List;
 
 public interface ProductService {

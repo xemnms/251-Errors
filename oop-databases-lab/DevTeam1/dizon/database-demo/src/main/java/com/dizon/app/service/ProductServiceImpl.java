@@ -19,8 +19,6 @@ public class ProductServiceImpl implements ProductService {
         this.productRepository = productRepository;
     }
 
-    // ─── GET ALL ─────────────────────────────────────────────────────────────
-
     @Override
     public List<ProductDTO> getAllProducts() {
         return productRepository.findAll()
@@ -29,16 +27,12 @@ public class ProductServiceImpl implements ProductService {
                 .collect(Collectors.toList());
     }
 
-    // ─── GET BY ID ───────────────────────────────────────────────────────────
-
     @Override
     public ProductDTO getProductById(Long id) {
         Product product = productRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Product", id));
         return toDTO(product);
     }
-
-    // ─── CREATE ──────────────────────────────────────────────────────────────
 
     @Override
     public ProductDTO createProduct(ProductDTO productDTO) {
@@ -50,24 +44,19 @@ public class ProductServiceImpl implements ProductService {
         return toDTO(saved);
     }
 
-    // ─── UPDATE ──────────────────────────────────────────────────────────────
-
     @Override
     public ProductDTO updateProduct(Long id, ProductDTO productDTO) {
         Product existing = productRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Product", id));
 
-        // Update any or all fields
-        if (productDTO.getName() != null)        existing.setName(productDTO.getName());
+        if (productDTO.getName() != null) existing.setName(productDTO.getName());
         if (productDTO.getDescription() != null) existing.setDescription(productDTO.getDescription());
-        if (productDTO.getPrice() != null)       existing.setPrice(productDTO.getPrice());
-        if (productDTO.getStock() != null)       existing.setStock(productDTO.getStock());
-        if (productDTO.getCategory() != null)    existing.setCategory(productDTO.getCategory());
+        if (productDTO.getPrice() != null) existing.setPrice(productDTO.getPrice());
+        if (productDTO.getStock() != null) existing.setStock(productDTO.getStock());
+        if (productDTO.getCategory() != null) existing.setCategory(productDTO.getCategory());
 
         return toDTO(productRepository.save(existing));
     }
-
-    // ─── DELETE ──────────────────────────────────────────────────────────────
 
     @Override
     public void deleteProduct(Long id) {
@@ -76,8 +65,6 @@ public class ProductServiceImpl implements ProductService {
         }
         productRepository.deleteById(id);
     }
-
-    // ─── Mapping Helpers ─────────────────────────────────────────────────────
 
     private ProductDTO toDTO(Product product) {
         return new ProductDTO(

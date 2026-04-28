@@ -15,12 +15,9 @@ public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
 
-    // Constructor injection (best practice over @Autowired on field)
     public UserServiceImpl(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
-
-    // ─── GET ALL ─────────────────────────────────────────────────────────────
 
     @Override
     public List<UserDTO> getAllUsers() {
@@ -30,16 +27,12 @@ public class UserServiceImpl implements UserService {
                 .collect(Collectors.toList());
     }
 
-    // ─── GET BY ID ───────────────────────────────────────────────────────────
-
     @Override
     public UserDTO getUserById(Long id) {
         User user = userRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("User", id));
         return toDTO(user);
     }
-
-    // ─── CREATE ──────────────────────────────────────────────────────────────
 
     @Override
     public UserDTO createUser(UserDTO userDTO) {
@@ -51,30 +44,24 @@ public class UserServiceImpl implements UserService {
         return toDTO(saved);
     }
 
-    // ─── UPDATE ──────────────────────────────────────────────────────────────
-
     @Override
     public UserDTO updateUser(Long id, UserDTO userDTO) {
         User existing = userRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("User", id));
 
-        // Check email conflict only if the email is being changed
         if (!existing.getEmail().equals(userDTO.getEmail())
                 && userRepository.existsByEmail(userDTO.getEmail())) {
             throw new DuplicateResourceException("A user with email '" + userDTO.getEmail() + "' already exists.");
         }
 
-        // Update any or all fields
-        if (userDTO.getName() != null)        existing.setName(userDTO.getName());
+        if (userDTO.getName() != null) existing.setName(userDTO.getName());
         if (userDTO.getPhoneNumber() != null) existing.setPhoneNumber(userDTO.getPhoneNumber());
-        if (userDTO.getEmail() != null)       existing.setEmail(userDTO.getEmail());
-        if (userDTO.getRole() != null)        existing.setRole(userDTO.getRole());
+        if (userDTO.getEmail() != null) existing.setEmail(userDTO.getEmail());
+        if (userDTO.getRole() != null) existing.setRole(userDTO.getRole());
         existing.setRegular(userDTO.isRegular());
 
         return toDTO(userRepository.save(existing));
     }
-
-    // ─── DELETE ──────────────────────────────────────────────────────────────
 
     @Override
     public void deleteUser(Long id) {
@@ -83,8 +70,6 @@ public class UserServiceImpl implements UserService {
         }
         userRepository.deleteById(id);
     }
-
-    // ─── Mapping Helpers ─────────────────────────────────────────────────────
 
     private UserDTO toDTO(User user) {
         return new UserDTO(
