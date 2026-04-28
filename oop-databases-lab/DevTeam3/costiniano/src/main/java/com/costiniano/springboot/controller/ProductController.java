@@ -1,7 +1,7 @@
-package com.costiniano.springboot.controller; // Fixed: Removed main.java.
+package com.costiniano.springboot.entity;
 
-import com.costiniano.springboot.entity.Product; // Fixed: Removed java.
-import com.costiniano.springboot.repository.ProductRepository; // Fixed: Removed java.
+import com.costiniano.springboot.entity.Product; 
+import com.costiniano.springboot.repository.ProductRepository; 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
