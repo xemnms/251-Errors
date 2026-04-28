@@ -32,6 +32,9 @@ First Recitation in OOP Lecture - 5 points - 03/05/2026
 
 **\<04/23/2026\>**: Today I learned how to utilize Springboot in code. I will keep learning this on why my builds keep failing so I will understand it better and gain experience
 
+**\<04/28/2026\>**: Today I how to make a simple database structure using springboot and dependencies, I will improve the code I used to make it more clear and readable
+
+
 ---
 ## ✉️ Peer Feedbacks    
 
