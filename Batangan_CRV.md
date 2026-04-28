@@ -30,6 +30,8 @@
 
 **04/24/2026** : I learned how to create a Spring Boot project, build a REST controller, and test it using JUnit. I also understood how annotations like @RestController and @GetMapping work, and how Spring Boot automatically converts data into JSON. I experienced some errors while testing, but Rodenas helped fix them by checking my code and configuration. Next time, I will organize my code better, understand errors faster, and practice more so I can build cleaner and more efficient APIs.
 
+**04/28/2026** : I learned how to build a CRUD API with Spring Boot using JPA and databases, and next time I will practice more by improving my endpoints and handling errors better.
+
 ---
 ## ✉️ Peer Feedbacks
 **<03/16/2026>** : Comment by: Isles; You did well in restricting data access using encapsulation, and you can improve by improving logic to avoid awkward testing results when limit-testing your program with invalid inputs.
