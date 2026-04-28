@@ -32,6 +32,8 @@
 
 **\<04/23/2026\>** : I learned how to build a REST API in Spring Boot by creating a `@RestController`, mapping a GET endpoint, and validating output with MockMvc tests. Next time, I will improve by using DTO classes and adding proper validation/error handling for cleaner API design.
 
+**\<04/28/2026\>** : I learned how to build a more production-ready REST backend (DTOs with validation, global exception handling, JPA relationships, controllers/services refactor) and next time I will add integration tests, database migrations (Flyway), improve mapping with MapStruct, and set up CI for automated testing.
+
 ---
 ## ✉️ Peer Feedbacks    
 **\<03/14/2026\>** : Comment by: Julliana Nepomuceno: Your reflection clearly shows your understanding of both branch management in GitHub and the application of Object-Oriented Programming concepts like encapsulation. You were easy to work with, punctual, and consistently completed your tasks correctly, which helped me integrate your class smoothly. Your reliability and organization made the collaboration process much more efficient.   
