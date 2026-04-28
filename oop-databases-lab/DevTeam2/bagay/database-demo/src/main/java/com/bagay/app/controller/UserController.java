@@ -1,6 +1,8 @@
 package com.bagay.app.controller;
 
 import com.bagay.app.entity.User;
+import com.bagay.app.dto.UserDTO;
+import jakarta.validation.Valid;
 import com.bagay.app.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -50,7 +52,14 @@ public class UserController {
      * POST /api/users - Create a new user
      */
     @PostMapping
-    public ResponseEntity<Map<String, Object>> createUser(@RequestBody User user) {
+    public ResponseEntity<Map<String, Object>> createUser(@Valid @RequestBody UserDTO userDto) {
+        User user = new User();
+        user.setName(userDto.getName());
+        user.setEmail(userDto.getEmail());
+        user.setPhoneNumber(userDto.getPhoneNumber());
+        user.setRegular(userDto.getRegular() != null ? userDto.getRegular() : false);
+        user.setRole(userDto.getRole());
+
         User createdUser = userService.createUser(user);
         
         Map<String, Object> response = new HashMap<>();
@@ -64,7 +73,14 @@ public class UserController {
      * PUT /api/users/{id} - Update user
      */
     @PutMapping("/{id}")
-    public ResponseEntity<Map<String, Object>> updateUser(@PathVariable Long id, @RequestBody User userDetails) {
+    public ResponseEntity<Map<String, Object>> updateUser(@PathVariable Long id, @Valid @RequestBody UserDTO userDto) {
+        User userDetails = new User();
+        userDetails.setName(userDto.getName());
+        userDetails.setEmail(userDto.getEmail());
+        userDetails.setPhoneNumber(userDto.getPhoneNumber());
+        userDetails.setRegular(userDto.getRegular() != null ? userDto.getRegular() : false);
+        userDetails.setRole(userDto.getRole());
+
         User updatedUser = userService.updateUser(id, userDetails);
         
         Map<String, Object> response = new HashMap<>();

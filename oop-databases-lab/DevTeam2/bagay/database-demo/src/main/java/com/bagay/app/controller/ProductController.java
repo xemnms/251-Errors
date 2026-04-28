@@ -1,6 +1,10 @@
 package com.bagay.app.controller;
 
 import com.bagay.app.entity.Product;
+import com.bagay.app.entity.User;
+import com.bagay.app.dto.ProductDTO;
+import com.bagay.app.repository.UserRepository;
+import jakarta.validation.Valid;
 import com.bagay.app.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,6 +22,9 @@ public class ProductController {
 
     @Autowired
     private ProductService productService;
+
+    @Autowired
+    private UserRepository userRepository;
 
     /**
      * GET /api/products - Get all products
@@ -59,7 +66,19 @@ public class ProductController {
      * POST /api/products - Create a new product
      */
     @PostMapping
-    public ResponseEntity<Map<String, Object>> createProduct(@RequestBody Product product) {
+    public ResponseEntity<Map<String, Object>> createProduct(@Valid @RequestBody ProductDTO productDto) {
+        Product product = new Product();
+        product.setName(productDto.getName());
+        product.setDescription(productDto.getDescription());
+        product.setPrice(productDto.getPrice());
+        product.setQuantity(productDto.getQuantity());
+        product.setCategory(productDto.getCategory());
+
+        if (productDto.getOwnerId() != null) {
+            User owner = userRepository.findById(productDto.getOwnerId()).orElse(null);
+            product.setOwner(owner);
+        }
+
         Product createdProduct = productService.createProduct(product);
         
         Map<String, Object> response = new HashMap<>();
@@ -73,7 +92,19 @@ public class ProductController {
      * PUT /api/products/{id} - Update product
      */
     @PutMapping("/{id}")
-    public ResponseEntity<Map<String, Object>> updateProduct(@PathVariable Long id, @RequestBody Product productDetails) {
+    public ResponseEntity<Map<String, Object>> updateProduct(@PathVariable Long id, @Valid @RequestBody ProductDTO productDto) {
+        Product productDetails = new Product();
+        productDetails.setName(productDto.getName());
+        productDetails.setDescription(productDto.getDescription());
+        productDetails.setPrice(productDto.getPrice());
+        productDetails.setQuantity(productDto.getQuantity());
+        productDetails.setCategory(productDto.getCategory());
+
+        if (productDto.getOwnerId() != null) {
+            User owner = userRepository.findById(productDto.getOwnerId()).orElse(null);
+            productDetails.setOwner(owner);
+        }
+
         Product updatedProduct = productService.updateProduct(id, productDetails);
         
         Map<String, Object> response = new HashMap<>();
