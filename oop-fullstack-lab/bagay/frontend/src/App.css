@@ -1,0 +1,144 @@
+.page {
+  padding: 2rem;
+}
+
+.page-header {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.page-header p {
+  margin-top: 0.5rem;
+  color: #4b5563;
+}
+
+.employee-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 1rem;
+}
+
+.employee-form {
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background: #ffffff;
+}
+
+.employee-form h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.employee-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.95rem;
+  color: #111827;
+}
+
+.employee-form input {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 0.55rem 0.7rem;
+  font-size: 0.95rem;
+}
+
+.checkbox-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.checkbox-label input {
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+}
+
+.form-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+button {
+  border: 0;
+  border-radius: 8px;
+  padding: 0.55rem 0.8rem;
+  background: #0f766e;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.button-secondary {
+  background: #374151;
+}
+
+.button-danger {
+  background: #be123c;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 0.7rem;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 0.93rem;
+}
+
+.employee-table th {
+  background: #f9fafb;
+  color: #111827;
+}
+
+.actions-cell {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.error-banner {
+  margin-bottom: 1rem;
+  border: 1px solid #fecaca;
+  background: #fef2f2;
+  color: #991b1b;
+  border-radius: 8px;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  .page {
+    padding: 1rem;
+  }
+
+  .employee-grid {
+    grid-template-columns: 1fr;
+  }
+}
