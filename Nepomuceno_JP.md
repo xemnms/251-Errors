@@ -32,6 +32,8 @@
 
 **\<04/24/2026\>** : Today I fixed my Spring Boot project by organizing files into the correct structure and adding the necessary test dependencies. I resolved errors related to SpringBootTest and MockMvc and practiced writing basic controller tests. I can improve by checking project structure and dependencies before building and by testing more edge cases.
 
+**<04/27/2026>** : Today I upgraded my Spring Boot application by replacing hardcoded data with real database persistence using Spring Data JPA and H2. I resolved compilation errors related to wrong class names in files, incorrect package imports, and missing validation dependencies. I also successfully migrated from H2 to PostgreSQL by only updating the application.properties file. Next time I will make sure each Java file contains only its own class and double check package names before running.  
+
 ---
 ## ✉️ Peer Feedbacks  
 

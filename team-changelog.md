@@ -1,4 +1,15 @@
 # Team Changelog📕
+\<Dizon, Vic Andrew A.\> \<2025-1027945\> \<04/28/2026\> \<OOP-Databases\> Completed!  
+\<Galindon, Lynette Grace L.\> \<2025-2022743\> \<04/28/2026\> \<OOP-Databases\> Completed!  
+\<Acosta, Jan Lorcey L.\> \<2025-1028844\> \<04/28/2026\> \<OOP-Databases\> Completed!  
+\<Cositiniano, Sean Maverick F.\> \<2025-1022012\> \<04/28/2026\> \<OOP-Databases\> Completed!  
+\<Batangan, Clisha Rae V.\> \<2025-1027945\> \<04/28/2026\> \<OOP-Databases\> Completed!  
+\<Badosa, Bien Manuel P.\> \<2025-1021747\> \<04/28/2026\> \<OOP-Databases\> Completed!   
+\<Bautista, Lei Aljeur F.\> \<2025-1028356\> \<04/28/2026\> \<OOP-Databases\> Completed!  
+\<Isles, Dan Marvin M.\> \<2025-1025621\> \<04/28/2026\> \<OOP-Databases\> Completed!  
+\<Bagay, Axel Drake M.\> \<2025-1020735\> \<04/28/2026\> \<OOP-Databases\> Completed!  
+\<Nepomuceno, Julliana P.\> \<2024-2020430\> \<04/28/2026\> \<OOP-Databases\> Completed!  
+\<Rodenas, Kyla Cassandra R.\> \<2025-1025868\> \<04/28/2026\> \<OOP Databases\> Completed!  
 \<Acosta, Jan Lorcey L.\> \<2025-1028844\> \<04/24/2026\> \<Springboot\> Completed!  
 \<Alvarez, Angelo Hayden\> \<2025-1026476\> \<04/24/2026\> \<Springboot\> Completed!  
 \<Arandela, Jherrymei D.\> \<2025-1029981\> \<04/24/2026\> \<Springboot\> Completed!  
