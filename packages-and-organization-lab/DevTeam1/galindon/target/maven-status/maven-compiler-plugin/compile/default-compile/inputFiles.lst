@@ -1,4 +1,4 @@
-/workspaces/251-Errors/packages-and-organization-lab/galindon/src/main/java/com/calculator/Galindon/main/CalculatorDemo_Galindon.java
-/workspaces/251-Errors/packages-and-organization-lab/galindon/src/main/java/com/calculator/Galindon/exception/NegativeResultException_Galindon.java
-/workspaces/251-Errors/packages-and-organization-lab/galindon/src/main/java/com/calculator/Galindon/service/Calculator_Galindon.java
-/workspaces/251-Errors/packages-and-organization-lab/galindon/src/main/java/com/calculator/Galindon/exception/InvalidInputException_Galindon.java
+/workspaces/251-Errors/packages-and-organization-lab/DevTeam1/galindon/src/main/java/com/calculator/Galindon/service/Calculator_Galindon.java
+/workspaces/251-Errors/packages-and-organization-lab/DevTeam1/galindon/src/main/java/com/calculator/Galindon/exception/InvalidInputException_Galindon.java
+/workspaces/251-Errors/packages-and-organization-lab/DevTeam1/galindon/src/main/java/com/calculator/Galindon/main/CalculatorDemo_Galindon.java
+/workspaces/251-Errors/packages-and-organization-lab/DevTeam1/galindon/src/main/java/com/calculator/Galindon/exception/NegativeResultException_Galindon.java
