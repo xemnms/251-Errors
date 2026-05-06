@@ -40,7 +40,13 @@
 **<04/21/2026>** : Today I gained experience in structuring a Java project using packages and a layered architecture. I learned how to treat packages as design boundaries, separating components like service, exception, and main to enhance readability and maintainability. Initially, I struggled with Maven and running the project, but I resolved those issues by correcting my directory organization and using the proper run command. In the future, I plan to strengthen my understanding of project setup early on to avoid build and path errors.
 
 ### | Springboot and API
-**<04/23/2026>** : 04/23/2026 : I learned how to create and debug a Spring Boot REST API using Maven, Controllers, JSON responses, and test cases in Codespaces, and next time I will organize my project more carefully and fix errors step-by-step before running the application.
+**<04/23/2026>** : I learned how to create and debug a Spring Boot REST API using Maven, Controllers, JSON responses, and test cases in Codespaces, and next time I will organize my project more carefully and fix errors step-by-step before running the application.
+
+### | Database Springboot
+**<04/24/2026>** : Today, I learned how to connect a Spring Boot application to a database and use Spring Data JPA for data persistence. I gained a better understanding of how entities, repositories, and application configurations work together to store and retrieve data correctly. I also faced challenges while moving from the default H2 database to a PostgreSQL database, especially in setting up the connection and configuring the application properly. Next time, I will review configuration details more carefully and improve my understanding of database environments to make the setup process smoother.
+
+### | Fullstack Springboot
+**<05/06/2026>** : I learned how to build and connect a full-stack CRUD application using React, Spring Boot, and PostgreSQL, and next time I will set up and test the database, backend, and frontend one by one before integrating everything.
 
 ---
 
