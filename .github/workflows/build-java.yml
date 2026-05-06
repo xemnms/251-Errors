@@ -45,12 +45,21 @@ jobs:
       - name: Build Spring Boot Projects
         run: |
           set -euo pipefail
-          find . -name "pom.xml" -not -path "*/target/*" | while read pom; do
-            dir=$(dirname "$pom")
-            echo "Building $dir"
-            if [ -x "$dir/mvnw" ]; then
-              cd "$dir" && ./mvnw -B -ntp verify && cd $GITHUB_WORKSPACE
-            else
-              cd "$dir" && mvn -B -ntp verify && cd $GITHUB_WORKSPACE
-            fi
-          done
+
+          # Safely iterate pom.xml files and handle spaces/special chars
+          find . -name "pom.xml" -not -path "*/target/*" -print0 |
+            while IFS= read -r -d '' pom; do
+              dir=$(dirname "$pom")
+              if [ -d "$dir" ]; then
+                echo "Building $dir"
+                pushd "$dir" >/dev/null
+                if [ -x "./mvnw" ]; then
+                  ./mvnw -B -ntp verify
+                else
+                  mvn -B -ntp verify
+                fi
+                popd >/dev/null
+              else
+                echo "Skipping missing directory: $dir"
+              fi
+            done
