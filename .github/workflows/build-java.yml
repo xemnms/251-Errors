@@ -53,7 +53,9 @@ jobs:
               if [ -d "$dir" ]; then
                 echo "Building $dir"
                 pushd "$dir" >/dev/null
-                if [ -x "./mvnw" ]; then
+                # Prefer project wrapper only if wrapper script is executable
+                # and the wrapper properties file exists; otherwise use system mvn
+                if [ -x "./mvnw" ] && [ -f "./.mvn/wrapper/maven-wrapper.properties" ]; then
                   ./mvnw -B -ntp -DskipTests verify
                 else
                   mvn -B -ntp -DskipTests verify
