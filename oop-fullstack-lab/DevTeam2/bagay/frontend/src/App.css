@@ -1,0 +1,366 @@
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes buttonHover {
+  0% {
+    box-shadow: 0 0 0 0 rgba(102, 126, 234, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(102, 126, 234, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(102, 126, 234, 0);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page {
+  padding: 2rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  animation: fadeInUp 0.8s ease-out;
+  overflow: hidden;
+}
+
+.page-header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  animation: slideInLeft 0.6s ease-out;
+  flex-shrink: 0;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -1px;
+  animation: slideInLeft 0.8s ease-out;
+}
+
+.page-header p {
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
+  color: #555;
+  animation: slideInLeft 1s ease-out;
+}
+
+.employee-manager {
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.employee-grid {
+  display: grid;
+  grid-template-columns: 380px minmax(0, 1fr);
+  gap: 2.5rem;
+  flex: 1;
+  overflow: hidden;
+  align-items: stretch;
+}
+
+.employee-form {
+  border: none;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background: white;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+  animation: slideInLeft 0.7s ease-out 0.3s both;
+  transition: all 0.3s ease;
+  overflow: visible;
+  height: 100%;
+  min-height: 0;
+}
+
+.employee-form:hover {
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.12);
+  transform: translateY(-5px);
+}
+
+.employee-form h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+}
+
+.employee-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.employee-form input {
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 0.8rem 1rem;
+  font-size: 0.95rem;
+  background: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+.employee-form input:focus {
+  outline: none;
+  border-color: #667eea;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  transform: translateY(-2px);
+}
+
+.employee-form input::placeholder {
+  color: #999;
+}
+
+.employee-form label.checkbox-label {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.35rem;
+  cursor: pointer;
+  padding: 0.15rem 0;
+  border-radius: 0;
+  transition: all 0.3s ease;
+  width: fit-content;
+  align-self: flex-start;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.employee-form label.checkbox-label:hover {
+  background: rgba(102, 126, 234, 0.05);
+}
+
+.employee-form label.checkbox-label input {
+  width: 1.2rem;
+  height: 1.2rem;
+  padding: 0;
+  cursor: pointer;
+  accent-color: #667eea;
+  flex: 0 0 auto;
+}
+
+.employee-form label.checkbox-label span {
+  display: inline-block;
+  flex: 0 0 auto;
+  line-height: 1;
+}
+
+.form-actions {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: auto;
+  padding-top: 1rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-actions button[type='submit'] {
+  min-width: 220px;
+  padding-inline: 2rem;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+  animation: buttonHover 0.6s;
+}
+
+button:active:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.button-secondary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  opacity: 0.8;
+}
+
+.button-secondary:hover:not(:disabled) {
+  opacity: 1;
+}
+
+.button-danger {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.button-danger:hover:not(:disabled) {
+  box-shadow: 0 10px 25px rgba(245, 87, 108, 0.3);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+  animation: slideInRight 0.7s ease-out 0.3s both;
+  transition: all 0.3s ease;
+}
+
+.table-wrapper:hover {
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.12);
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 1rem 1.2rem;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.95rem;
+}
+
+.employee-table th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.employee-table tbody tr {
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.5s ease-out;
+}
+
+.employee-table tbody tr:hover {
+  background: linear-gradient(90deg, rgba(102, 126, 234, 0.05) 0%, transparent 100%);
+  padding-left: 5px;
+}
+
+.actions-cell {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.error-banner {
+  margin-bottom: 2rem;
+  border: none;
+  background: linear-gradient(135deg, rgba(245, 87, 108, 0.1) 0%, rgba(243, 144, 251, 0.1) 100%);
+  color: #d32f2f;
+  border-radius: 15px;
+  padding: 1.2rem;
+  text-align: left;
+  animation: slideInLeft 0.5s ease-out;
+  box-shadow: 0 4px 15px rgba(211, 47, 47, 0.1);
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.loading-spinner {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 3px solid rgba(102, 126, 234, 0.1);
+  border-top-color: #667eea;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem;
+  color: #999;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 900px) {
+  .page {
+    padding: 1.5rem 1rem;
+  }
+
+  .page-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .employee-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .employee-form {
+    padding: 1.5rem;
+  }
+}
