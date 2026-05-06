@@ -28,46 +28,50 @@ export function EmployeeForm({
 
   return (
     <form className="employee-form" onSubmit={handleSubmit}>
-      <h2>{isEditing ? 'Edit Employee' : 'Add Employee'}</h2>
+      <h2>{isEditing ? '✏️ Edit Employee' : '➕ Add Employee'}</h2>
 
       <label>
-        First Name
+        👤 First Name
         <input
           required
+          placeholder="John"
           value={formValues.firstName}
           onChange={(e) => updateField('firstName', e.target.value)}
         />
       </label>
 
       <label>
-        Last Name
+        👤 Last Name
         <input
           required
+          placeholder="Doe"
           value={formValues.lastName}
           onChange={(e) => updateField('lastName', e.target.value)}
         />
       </label>
 
       <label>
-        Email
+        📧 Email
         <input
           required
           type="email"
+          placeholder="john.doe@example.com"
           value={formValues.email}
           onChange={(e) => updateField('email', e.target.value)}
         />
       </label>
 
       <label>
-        Position
+        💼 Position
         <input
+          placeholder="Software Engineer"
           value={formValues.position}
           onChange={(e) => updateField('position', e.target.value)}
         />
       </label>
 
       <label>
-        Hire Date
+        📅 Hire Date
         <input
           type="date"
           value={formValues.hireDate ?? ''}
@@ -76,11 +80,12 @@ export function EmployeeForm({
       </label>
 
       <label>
-        Salary
+        💰 Salary
         <input
           type="number"
           step="0.01"
           min="0"
+          placeholder="50000.00"
           value={formValues.salary}
           onChange={(e) => updateField('salary', Number(e.target.value))}
         />
@@ -92,12 +97,12 @@ export function EmployeeForm({
           checked={formValues.active}
           onChange={(e) => updateField('active', e.target.checked)}
         />
-        Active Employee
+        <span>Active Employee</span>
       </label>
 
       <div className="form-actions">
         <button type="submit" disabled={isSubmitting}>
-          {isSubmitting ? 'Saving...' : isEditing ? 'Update' : 'Create'}
+          {isSubmitting ? '⏳ Saving...' : isEditing ? '💾 Update' : '✨ Create'}
         </button>
         {isEditing && onCancelEdit ? (
           <button
@@ -106,7 +111,7 @@ export function EmployeeForm({
             onClick={onCancelEdit}
             disabled={isSubmitting}
           >
-            Cancel
+            ✕ Cancel
           </button>
         ) : null}
       </div>

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useEmployees } from '../../hooks/useEmployees';
 import type { Employee, EmployeePayload } from '../../types/Employee';
 import { EmployeeForm } from './EmployeeForm';
-import { EmployeeTable } from './EmployeeTable';
+import { EmployeeCards } from './EmployeeCards';
 
 export function EmployeeManager() {
   const {
@@ -16,6 +16,7 @@ export function EmployeeManager() {
   } = useEmployees();
 
   const [editingEmployee, setEditingEmployee] = useState<Employee | null>(null);
+  const [selectedCardId, setSelectedCardId] = useState<number | null>(null);
 
   const handleSubmit = async (payload: EmployeePayload) => {
     if (editingEmployee) {
@@ -32,6 +33,9 @@ export function EmployeeManager() {
     if (editingEmployee?.id === id) {
       setEditingEmployee(null);
     }
+    if (selectedCardId === id) {
+      setSelectedCardId(null);
+    }
   };
 
   return (
@@ -46,12 +50,14 @@ export function EmployeeManager() {
           onCancelEdit={() => setEditingEmployee(null)}
         />
 
-        <EmployeeTable
+        <EmployeeCards
           employees={employees}
           loading={loading}
-          busy={saving}
+          selectedId={selectedCardId}
+          onSelectCard={(employee) => setSelectedCardId(employee?.id ?? null)}
           onEdit={setEditingEmployee}
           onDelete={handleDelete}
+          busy={saving}
         />
       </div>
     </section>

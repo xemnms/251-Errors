@@ -5,8 +5,7 @@ function App() {
   return (
     <main className="page">
       <header className="page-header">
-        <h1>Employee Management</h1>
-        <p>Connected to Spring Boot Employee REST API.</p>
+        <h1>👥 Employee Management</h1>
       </header>
       <EmployeeManager />
     </main>

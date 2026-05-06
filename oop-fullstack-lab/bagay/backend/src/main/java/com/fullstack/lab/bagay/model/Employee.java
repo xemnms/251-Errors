@@ -6,6 +6,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.DecimalMax;
+import jakarta.validation.constraints.DecimalMin;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
@@ -29,7 +31,9 @@ public class Employee {
     @Column(length = 100)
     private String position;
 
-    @Column(precision = 12, scale = 2)
+    @Column(precision = 15, scale = 2)
+    @DecimalMin(value = "0.0", inclusive = true, message = "Salary must be at least 0")
+    @DecimalMax(value = "999999999999.99", inclusive = true, message = "Salary cannot exceed 999,999,999,999.99")
     private BigDecimal salary;
 
     private LocalDate hireDate;

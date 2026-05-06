@@ -16,11 +16,20 @@ export function EmployeeTable({
   onDelete,
 }: EmployeeTableProps) {
   if (loading) {
-    return <p>Loading employees...</p>;
+    return (
+      <div className="empty-state">
+        <span className="loading-spinner"></span>
+        <p style={{ marginTop: '1rem' }}>Loading employees...</p>
+      </div>
+    );
   }
 
   if (!employees.length) {
-    return <p>No employees found.</p>;
+    return (
+      <div className="empty-state">
+        <p>✨ No employees yet. Create one to get started!</p>
+      </div>
+    );
   }
 
   return (
@@ -28,24 +37,35 @@ export function EmployeeTable({
       <table className="employee-table">
         <thead>
           <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Position</th>
-            <th>Hire Date</th>
-            <th>Salary</th>
-            <th>Status</th>
-            <th>Actions</th>
+            <th>👤 Name</th>
+            <th>📧 Email</th>
+            <th>💼 Position</th>
+            <th>📅 Hire Date</th>
+            <th>💰 Salary</th>
+            <th>✅ Status</th>
+            <th>⚙️ Actions</th>
           </tr>
         </thead>
         <tbody>
           {employees.map((employee) => (
             <tr key={employee.id}>
-              <td>{`${employee.firstName} ${employee.lastName}`}</td>
+              <td><strong>{`${employee.firstName} ${employee.lastName}`}</strong></td>
               <td>{employee.email}</td>
-              <td>{employee.position || 'N/A'}</td>
-              <td>{employee.hireDate || 'N/A'}</td>
-              <td>{Number(employee.salary ?? 0).toFixed(2)}</td>
-              <td>{employee.active ? 'Active' : 'Inactive'}</td>
+              <td>{employee.position || '—'}</td>
+              <td>{employee.hireDate || '—'}</td>
+              <td>${Number(employee.salary ?? 0).toFixed(2)}</td>
+              <td>
+                <span style={{
+                  padding: '0.3rem 0.8rem',
+                  borderRadius: '20px',
+                  fontSize: '0.85rem',
+                  fontWeight: 600,
+                  background: employee.active ? 'rgba(102, 126, 234, 0.1)' : 'rgba(200, 200, 200, 0.2)',
+                  color: employee.active ? '#667eea' : '#666'
+                }}>
+                  {employee.active ? '🟢 Active' : '⚪ Inactive'}
+                </span>
+              </td>
               <td className="actions-cell">
                 <button type="button" onClick={() => onEdit(employee)} disabled={busy}>
                   Edit

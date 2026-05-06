@@ -1,7 +1,9 @@
 import type { Employee, EmployeePayload } from '../types/Employee';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:8080';
-const EMPLOYEE_ENDPOINT = `${API_BASE_URL}/api/employees`;
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL?.trim() ?? '';
+const EMPLOYEE_ENDPOINT = API_BASE_URL
+  ? `${API_BASE_URL}/api/employees`
+  : '/api/employees';
 
 async function request<T>(url: string, options?: RequestInit): Promise<T> {
   const response = await fetch(url, {
