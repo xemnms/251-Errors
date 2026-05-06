@@ -1,8 +1,11 @@
-package com.fullstacklab.rodenas.controller;
+package com.fullstack_lab.rodenas.controller;
 
-import com.fullstacklab.rodenas.model.Student;
-import com.fullstacklab.rodenas.service.StudentService;
+import com.fullstack_lab.rodenas.dto.StudentDTO;
+import com.fullstack_lab.rodenas.model.Student;
+import com.fullstack_lab.rodenas.service.StudentService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -21,17 +24,20 @@ public class StudentController {
     }
 
     @PostMapping
-    public Student createStudent(@RequestBody Student student) {
-        return service.createStudent(student);
+    public ResponseEntity<?> createStudent(@Valid @RequestBody StudentDTO dto) {
+        Student student = new Student(dto.getName(), dto.getEmail(), dto.getCourse());
+        return ResponseEntity.ok(service.createStudent(student));
     }
 
     @PutMapping("/{id}")
-    public Student updateStudent(@PathVariable Long id, @RequestBody Student student) {
-        return service.updateStudent(id, student);
+    public ResponseEntity<?> updateStudent(@PathVariable Long id, @Valid @RequestBody StudentDTO dto) {
+        Student student = new Student(dto.getName(), dto.getEmail(), dto.getCourse());
+        return ResponseEntity.ok(service.updateStudent(id, student));
     }
 
     @DeleteMapping("/{id}")
-    public void deleteStudent(@PathVariable Long id) {
+    public ResponseEntity<?> deleteStudent(@PathVariable Long id) {
         service.deleteStudent(id);
+        return ResponseEntity.ok().build();
     }
 }

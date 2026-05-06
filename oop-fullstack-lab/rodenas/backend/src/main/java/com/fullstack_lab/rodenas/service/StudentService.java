@@ -1,7 +1,7 @@
-package com.fullstacklab.rodenas.service;
+package com.fullstack_lab.rodenas.service;
 
-import com.fullstacklab.rodenas.model.Student;
-import com.fullstacklab.rodenas.repository.StudentRepository;
+import com.fullstack_lab.rodenas.model.Student;
+import com.fullstack_lab.rodenas.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

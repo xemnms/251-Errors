@@ -1,6 +1,6 @@
-package com.fullstacklab.rodenas.repository;
+package com.fullstack_lab.rodenas.repository;
 
-import com.fullstacklab.rodenas.model.Student;
+import com.fullstack_lab.rodenas.model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface StudentRepository extends JpaRepository<Student, Long> {

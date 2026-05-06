@@ -1,4 +1,4 @@
-package com.fullstacklab.rodenas.model;
+package com.fullstack_lab.rodenas.model;
 
 import jakarta.persistence.*;
 

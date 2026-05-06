@@ -1,22 +1,68 @@
-import { useEffect, useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import type { Student } from "../types/Student";
-import { getStudents } from "../services/studentService";
+import {
+  getStudents,
+  createStudent,
+  updateStudent as updateStudentApi,
+  deleteStudent as deleteStudentApi,
+} from "../services/studentService";
 
-export function useStudents() {
+export const useStudents = () => {
   const [students, setStudents] = useState<Student[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const initialized = useRef(false);
 
   const loadStudents = async () => {
-    const data = await getStudents();
-    setStudents(data);
+    try {
+      const data = await getStudents();
+      setStudents(data);
+      setError(null);
+    } catch {
+      setError("Failed to load students.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   useEffect(() => {
-    const fetchData = async () => {
-      await loadStudents();
-    };
-
-    fetchData();
+    if (initialized.current) return;
+    initialized.current = true;
+    getStudents()
+      .then(setStudents)
+      .catch(() => setError("Failed to load students."))
+      .finally(() => setLoading(false));
   }, []);
 
-  return { students, loadStudents };
-}
+  const addStudent = async (student: Student) => {
+    setError(null);
+    try {
+      await createStudent(student);
+      await loadStudents();
+    } catch {
+      setError("Failed to add student.");
+    }
+  };
+
+  const updateStudent = async (id: number, student: Student) => {
+    setError(null);
+    try {
+      await updateStudentApi(id, student);
+      await loadStudents();
+    } catch {
+      setError("Failed to update student.");
+    }
+  };
+
+  const deleteStudent = async (id: number) => {
+    setError(null);
+    try {
+      await deleteStudentApi(id);
+      await loadStudents();
+    } catch {
+      setError("Failed to delete student.");
+    }
+  };
+
+  return { students, loading, error, loadStudents, addStudent, updateStudent, deleteStudent };
+};
