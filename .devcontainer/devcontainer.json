@@ -1,24 +1,19 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/java
 {
-  "name": "Java and Node.js Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "name": "Java + Node",
+  "image": "mcr.microsoft.com/devcontainers/java:3-25-trixie",
+
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
-      "version": "17"
+      "version": "none",
+      "installMaven": "true",
+      "installGradle": "false"
     },
     "ghcr.io/devcontainers/features/node:1": {
-      "version": "18"
-    }
-  },
-  "postCreateCommand": "npm install",
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "vscjava.vscode-java-pack",
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
-      ]
+      "version": "lts"
     }
   }
+
+  // "forwardPorts": [],
+  // "postCreateCommand": "java -version && node -v && npm -v",
+  // "remoteUser": "root"
 }
