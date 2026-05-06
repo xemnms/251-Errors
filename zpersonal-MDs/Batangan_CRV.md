@@ -32,6 +32,8 @@
 
 **04/28/2026** : I learned how to build a CRUD API with Spring Boot using JPA and databases, and next time I will practice more by improving my endpoints and handling errors better.
 
+**05/07/2026** : I learned how frontend and backend connect using APIs, and next time I will organize my code better and test earlier to avoid errors.
+
 ---
 ## ✉️ Peer Feedbacks
 **<03/16/2026>** : Comment by: Isles; You did well in restricting data access using encapsulation, and you can improve by improving logic to avoid awkward testing results when limit-testing your program with invalid inputs.
