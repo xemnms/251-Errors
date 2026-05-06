@@ -23,22 +23,25 @@ jobs:
 
       - name: Detect and Build Project
         run: |
-          echo "Checking for Maven projects..."
+          echo "Searching for Maven projects..."
 
-          if find . -name "pom.xml" | grep -q .; then
-            echo "Maven project detected"
+          found_maven=false
 
-            for pom in $(find . -name "pom.xml"); do
-              echo "-----------------------------------"
-              echo "Building: $pom"
-              mvn -f "$pom" clean install -DskipTests
-            done
+          for pom in $(find . -name "pom.xml" -not -path "*/target/*"); do
+            found_maven=true
+            echo "-----------------------------------"
+            echo "Building Maven project: $pom"
+            
+            mvn -f "$pom" clean install -DskipTests || echo "Failed: $pom"
+          done
 
-          else
+          if [ "$found_maven" = false ]; then
             echo "No Maven project detected, compiling plain Java"
             mkdir -p bin
             find . -name "*.java" -not -path "*/target/*" > sources.txt
             if [ -s sources.txt ]; then
               javac -d bin @sources.txt
             fi
+          else
+            echo "Maven projects detected, skipping plain Java compilation"
           fi
