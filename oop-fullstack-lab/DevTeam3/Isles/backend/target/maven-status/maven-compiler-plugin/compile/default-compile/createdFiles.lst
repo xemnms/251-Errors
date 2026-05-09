@@ -1,0 +1,7 @@
+com\nu\bscs\b\BApplication.class
+com\nu\bscs\b\task\TaskRepository.class
+com\nu\bscs\b\task\TaskExceptionHandler.class
+com\nu\bscs\b\task\TaskController.class
+com\nu\bscs\b\task\TaskNotFoundException.class
+com\nu\bscs\b\task\Task.class
+com\nu\bscs\b\task\TaskService.class

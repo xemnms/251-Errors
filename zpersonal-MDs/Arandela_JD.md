@@ -28,6 +28,8 @@
 
 **\<04/24/2026\>** :  I learned how to build a REST API in Spring Boot by creating a controller, mapping a GET endpoint, and validating responses with MockMvc tests. Next time, I plan to improve the design by introducing DTO classes and adding proper validation and error handling for a cleaner, more maintainable API.  
 
+**\<05/09/2026\>**: I learned how to build and run a REST API using Spring Boot, test endpoints using curl, and manage a live database through an in-memory H2 database. Next time, I will improve my understanding of port forwarding and practice sending POST, PUT, and DELETE requests more confidently.
+
 ---
 ## ✉️ Peer Feedbacks  
 
