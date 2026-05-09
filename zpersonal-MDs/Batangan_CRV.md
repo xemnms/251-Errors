@@ -26,13 +26,15 @@
 
 **<03/25/2026>** : I learned how to apply abstraction and polymorphism by creating abstract classes and interfaces, and by using method overriding, overloading, and dynamic binding in a complete program, and next time I will improve my design by making my classes more reusable and consistent while strengthening my understanding of when to use abstraction versus interfaces.
 
-**04/20/2026** : I learned how to organize a Java project using packages and Maven, and next time I will improve my project structure and follow best practices more consistently.
+**<04/20/2026>** : I learned how to organize a Java project using packages and Maven, and next time I will improve my project structure and follow best practices more consistently.
 
-**04/24/2026** : I learned how to create a Spring Boot project, build a REST controller, and test it using JUnit. I also understood how annotations like @RestController and @GetMapping work, and how Spring Boot automatically converts data into JSON. I experienced some errors while testing, but Rodenas helped fix them by checking my code and configuration. Next time, I will organize my code better, understand errors faster, and practice more so I can build cleaner and more efficient APIs.
+**<04/24/2026>** : I learned how to create a Spring Boot project, build a REST controller, and test it using JUnit. I also understood how annotations like @RestController and @GetMapping work, and how Spring Boot automatically converts data into JSON. I experienced some errors while testing, but Rodenas helped fix them by checking my code and configuration. Next time, I will organize my code better, understand errors faster, and practice more so I can build cleaner and more efficient APIs.
 
-**04/28/2026** : I learned how to build a CRUD API with Spring Boot using JPA and databases, and next time I will practice more by improving my endpoints and handling errors better.
+**<04/28/2026>** : I learned how to build a CRUD API with Spring Boot using JPA and databases, and next time I will practice more by improving my endpoints and handling errors better.
 
-**05/07/2026** : I learned how frontend and backend connect using APIs, and next time I will organize my code better and test earlier to avoid errors.
+**<05/07/2026>** : I learned how frontend and backend connect using APIs, and next time I will organize my code better and test earlier to avoid errors.
+
+**<05/09/2026>** : I learned how to design a clean and maintainable Task management system using GRASP principles and improved my unit testing skills, especially in using Mockito to test the service layer without relying on the database.
 
 ---
 ## ✉️ Peer Feedbacks
