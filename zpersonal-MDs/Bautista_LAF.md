@@ -49,7 +49,9 @@
 
 ### | GRASP + Unit Testing
 **<05/09/2026>** : Today, I learned how GRASP principles actually help guide how a Spring Boot project should be structured in a way that feels clear and manageable while building it. It helped me understand how to properly assign responsibilities between classes, and how each layer (controller, service, entity, repository) should have its own responsibility instead of overlapping tasks. This made the project easier to navigate and improved how the system behaves as a whole, instead of everything slowly evolving into one overpowered class that thinks it can do everything and ends up running the entire system like it’s the main villain and hero at the same time. Next time, I will apply GRASP principles earlier during planning so the structure is already clear while building the system.
+
 ---
+
 ## ✉️ Peer Feedbacks
 ### | Encapsulation and Access Modifiers
 **<03/15/2026>** : Commented by Alvarez: Bautista's work is a work of art because this encapsulation and coding skills alongside his github knowledge and effiecienty made our team successfully do the laboratory activity. 
