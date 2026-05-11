@@ -15,7 +15,7 @@ public class OrderItem {
     private double price;
     private int quantity;
 
-
+    @ManyToOne
     @JoinColumn(name = "order_id")
     private Order order;
 
