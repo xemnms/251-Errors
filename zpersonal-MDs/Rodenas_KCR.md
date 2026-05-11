@@ -34,6 +34,8 @@
 
 **\<05/06/2026\>** : I learned how to build a full-stack web application by connecting a React (Vite + TypeScript) frontend to a Spring Boot backend with a PostgreSQL database, implementing full CRUD functionality with DTOs, validation, error handling, and loading states. One of the biggest challenges was debugging package name inconsistencies between `com.fullstack_lab.rodenas` and `com.fullstacklab.rodenas` which prevented Spring Boot from scanning my components, and configuring CORS correctly in GitHub Codespaces since localhost doesn't work the same way as local development. Next time, I will make sure my package names are consistent from the start and set up my database configuration properly before writing any application code.
 
+**<05/11/2026>** : I learned how to debug Spring Boot backend tests and improved my ability to fix Mockito/Byte Buddy compatibility issues on Java 25. I also improved my testing setup by removing an unnecessary inline mock in `OrderServiceTest` and correcting the Maven Surefire `argLine` configuration so tests can run correctly.
+
 ---
 ## ✉️ Peer Feedbacks  
 
