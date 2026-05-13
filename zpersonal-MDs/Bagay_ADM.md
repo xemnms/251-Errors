@@ -36,7 +36,10 @@
 
 **\<05/06/2026\>** : Today I continued work on the oop-fullstack lab. I integrated a Spring Boot backend update with a small frontend prototype, added a new REST endpoint and DTOs with validation, refactored the service layer for clearer responsibilities, and wrote MockMvc tests to validate responses. I learned how to troubleshoot full-stack integration issues by tracing backend startup and compile errors, adding missing Spring validation dependencies, and improving API input handling. Next time, I will validate dependencies earlier, run end-to-end checks after each major change, and create a cleaner UI checklist before implementation.
 
+**<05/13/2026>** : Today I completed the GRASP + unit testing activity in the bagay backend. I added a strategy-based search path to show polymorphism, kept the controller thin, and documented where the GRASP principles appear in the code. Next time, I will keep the lab notes and code comments in sync earlier so the final review is easier.
+
 ---
+
 ## ✉️ Peer Feedbacks    
 **\<03/14/2026\>** : Comment by: Julliana Nepomuceno: Your reflection clearly shows your understanding of both branch management in GitHub and the application of Object-Oriented Programming concepts like encapsulation. You were easy to work with, punctual, and consistently completed your tasks correctly, which helped me integrate your class smoothly. Your reliability and organization made the collaboration process much more efficient.   
 
