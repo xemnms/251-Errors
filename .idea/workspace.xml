@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57c2d11b-7c09-46f8-a685-f712aa749cd9" name="Changes" comment="" />
+    <list default="true" id="57c2d11b-7c09-46f8-a685-f712aa749cd9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zpersonal-MDs/Nepomuceno_JP.md" beforeDir="false" afterPath="$PROJECT_DIR$/zpersonal-MDs/Nepomuceno_JP.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,9 +51,8 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "#762 on oop-fullstack-nepomuceno",
+    "git-widget-placeholder": "grasp-ut-nepomuceno",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/pc/Desktop/nepomuceno/251-Errors/oop-databases-lab/DevTeam1/nepomuceno/database-demo/src/main/java/com/nepomuceno/app",
     "nodejs_package_manager_path": "npm",
@@ -64,10 +66,11 @@
       <recent name="C:\Users\pc\Desktop\nepomuceno\251-Errors\oop-databases-lab\DevTeam1\nepomuceno" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\nepomuceno\251-Errors\grasp-ut-lab\DevTeam1\nepomuceno\src\test\java\com\nepomuceno\app\service" />
+      <recent name="C:\Users\pc\Desktop\nepomuceno\251-Errors\grasp-ut-lab\DevTeam1\nepomuceno\src\main\java\com\nepomuceno\app" />
       <recent name="C:\Users\pc\Desktop\nepomuceno\251-Errors\oop-fullstack-lab\DevTeam1\nepomuceno\backend\src\main\java\com\nepomuceno\fullstack\backend" />
       <recent name="C:\Users\pc\Desktop\nepomuceno\251-Errors\oop-fullstack-lab\DevTeam1\nepomuceno" />
       <recent name="C:\Users\pc\Desktop\nepomuceno\251-Errors\oop-databases-lab\DevTeam1\nepomuceno\database-demo\src\main\java\com\nepomuceno\app\entity" />
-      <recent name="C:\Users\pc\Desktop\nepomuceno\251-Errors\oop-databases-lab\DevTeam1\nepomuceno\database-demo\src\main\java\com\nepomuceno\app" />
     </key>
   </component>
   <component name="TaskManager">
