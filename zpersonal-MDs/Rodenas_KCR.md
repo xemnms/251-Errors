@@ -20,7 +20,7 @@
 
 **\<03/11/2026\>** : I learned how to create branches, merge them with main, and update my Java classes and objects in GitHub. Next time, I will practice merging and resolving conflicts more smoothly and learn more about GitHub features so I don’t get confused while managing my projects.
 
-**<03/16/2026>** : I learned how encapsulation protects data by using private attributes with getters and setters, and how our team collaborated using branches and merging in GitHub. Next time I will improve my Git workflow and practice resolving merge conflicts more confidently.
+**\<03/16/2026\>** : I learned how encapsulation protects data by using private attributes with getters and setters, and how our team collaborated using branches and merging in GitHub. Next time I will improve my Git workflow and practice resolving merge conflicts more confidently.
 
 **\<03/20/2026\>** : I learned how to apply composition in Java by creating classes that use other objects through HAS-A relationships instead of inheritance. I created a combatMage system that combines a pistol and a mage, and I was able to replace components without changing the main class, which showed low coupling. I also learned how inheritance can be used for the 2x multiplier by creating a child class that overrides behavior while still working with the system. Next time, I will improve my understanding of designing flexible systems and practice using composition and inheritance together more effectively.
 
@@ -31,6 +31,8 @@
 **\<04/23/2026\>** : I learned how to create a Spring Boot REST API using Spring Initializr, build a REST controller with @RestController and @GetMapping, return JSON responses using a Map, and implement GET, POST, PUT, and DELETE endpoints. Next time I will try connecting my API to a database using Spring Data JPA.
 
 **\<04/27/2026\>** : I learned how to build a full CRUD REST API using Spring Boot with Spring Data JPA, connecting to an H2 in-memory database, and implementing bonus features like validation, exception handling, and a DTO layer. I also learned how to separate concerns using controller, service, repository, entity, dto, and exception packages. One of the biggest challenges was getting the H2 console to work in Codespaces — the browser kept adding an extra :8080 to the URL and showing ERR_CONNECTION_REFUSED. Next time, I will listen closely to sir's demo so i can follow his steps without going off track.
+
+**\<05/06/2026\>** : I learned how to build a full-stack web application by connecting a React (Vite + TypeScript) frontend to a Spring Boot backend with a PostgreSQL database, implementing full CRUD functionality with DTOs, validation, error handling, and loading states. One of the biggest challenges was debugging package name inconsistencies between `com.fullstack_lab.rodenas` and `com.fullstacklab.rodenas` which prevented Spring Boot from scanning my components, and configuring CORS correctly in GitHub Codespaces since localhost doesn't work the same way as local development. Next time, I will make sure my package names are consistent from the start and set up my database configuration properly before writing any application code.
 
 ---
 ## ✉️ Peer Feedbacks  
