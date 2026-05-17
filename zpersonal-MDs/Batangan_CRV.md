@@ -36,6 +36,8 @@
 
 **<05/09/2026>** : I learned how to design a clean and maintainable Task management system using GRASP principles and improved my unit testing skills, especially in using Mockito to test the service layer without relying on the database.
 
+**<05/17/2026>** : I learned how to refactor using SOLID principles and Mockito testing, and improved my skills in reducing tight coupling and designing clean, testable architecture.
+
 ---
 ## ✉️ Peer Feedbacks
 **<03/16/2026>** : Comment by: Isles; You did well in restricting data access using encapsulation, and you can improve by improving logic to avoid awkward testing results when limit-testing your program with invalid inputs.
