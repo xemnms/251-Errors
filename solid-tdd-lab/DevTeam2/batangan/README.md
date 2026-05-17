@@ -68,3 +68,14 @@ mvn spring-boot:run
 
 ## How to Run Tests
 mvn test
+
+## Review and Retrospect
+
+1. Which principle improved your design the most?
+- DIP improved my design the most because it reduced tight coupling and made my system easier to test using Mockito by depending on interfaces instead of concrete classes.
+
+2. What bad design did you remove?
+- I removed God classes, long if-else conditions, and hardcoded dependencies. These were replaced with smaller services, polymorphism, and dependency injection.
+
+3. Which principle was hardest to apply?
+- OCP was the hardest because it required redesigning logic into interfaces and polymorphic classes instead of simple conditionals.
