@@ -38,6 +38,8 @@
 
 **<05/13/2026>** : Today I completed the GRASP + unit testing activity in the bagay backend. I added a strategy-based search path to show polymorphism, kept the controller thin, and documented where the GRASP principles appear in the code. Next time, I will keep the lab notes and code comments in sync earlier so the final review is easier.
 
+**<05/17/2026>** : Prepared the SOLID + TDD lab focused on EmployeeService. I picked EmployeeService as the single target for refactor and testing, documented the files to screenshot (service and its tests), and added a phase-runner test EmployeeServicePhaseRunnerTest with interchangeable Red / Green / Refactor blocks so I can run each TDD phase by changing one line. I updated the Red phase to assert a currently-unimplemented failing behavior (creating a null employee should throw) so the Red phase will fail on purpose, and provided Maven commands to run the selected phase. Next steps: implement the validation/refactor in EmployeeService to move from Red → Green → Refactor, add more unit tests (aim for 10+), and record refactoring evidence.
+
 ---
 
 ## ✉️ Peer Feedbacks    

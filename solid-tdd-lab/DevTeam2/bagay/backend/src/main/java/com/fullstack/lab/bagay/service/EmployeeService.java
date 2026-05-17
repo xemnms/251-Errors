@@ -29,8 +29,7 @@ public class EmployeeService {
     }
 
     public Employee getEmployeeById(Long id) {
-        return employeeRepository.findById(id)
-                .orElseThrow(() -> new EntityNotFoundException("Employee not found with id: " + id));
+        return employeeRepository.findById(id).orElse(null);
     }
 
     public Employee updateEmployee(Long id, Employee employee) {
