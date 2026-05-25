@@ -31,6 +31,8 @@
 
 **\<04/27/2026\>** : I learned how to use PostgreSQL to create an active database, and next time I will cover more on how to use SQL to familiarize myself with databases as my group is about to start on the main project. 
 
+**\<05/06/2026\>** : I learned how to connect React, Spring Boot, and PostgreSQL, and next time I will plan my folder structure and API endpoints earlier.
+
 ---
 ## ✉️ Peer Feedbacks  
 
