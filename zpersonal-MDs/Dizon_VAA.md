@@ -32,7 +32,15 @@
 
 **\<04/28/2026\>** : I learned how to refactor package structures to resolve compilation errors and how to map Java objects to database tables using JPA. Next time, I will ensure my folder structure matches my package declarations from the very beginning.
 
-    
+**\<04/28/2026\>** : I learned how to build a full-stack CRUD application using React, TypeScript, Spring Boot, JPA, and PostgreSQL. I also learned how the frontend communicates with the backend through API endpoints, and how data is stored permanently in a PostgreSQL database.
+
+During this lab, I practiced OOP concepts such as encapsulation through React component state and private Java entity fields, abstraction through service and repository layers, polymorphism through JpaRepository, and separation of concerns between frontend, backend, and database.
+
+I also learned how to set up pgAdmin, create a PostgreSQL database, run a Spring Boot backend, run a Vite React frontend, and connect both systems together.
+
+Next time, I will improve by testing the backend earlier before connecting it to the frontend. I will also organize my setup steps better so I can avoid configuration errors with Maven, JDK, npm, and PostgreSQL.
+  
+  
 
 ---
 ## ✉️ Peer Feedbacks 
