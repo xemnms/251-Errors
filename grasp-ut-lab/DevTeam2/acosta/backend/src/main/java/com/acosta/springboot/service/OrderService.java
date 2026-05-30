@@ -5,10 +5,6 @@ import com.acosta.springboot.dto.OrderResponse;
 import com.acosta.springboot.entity.Order;
 import com.acosta.springboot.entity.OrderItem;
 import com.acosta.springboot.repository.OrderRepository;
-
-import com.acosta.springboot.service.OrderValidator;
-import com.acosta.springboot.service.PaymentProcessorFactory;
-
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -23,7 +19,8 @@ public class OrderService {
 
     private final OrderRepository orderRepository;
 
-    // GRASP: Polymorphism
+    // We hold ONE payment processor here for simplicity
+    // GRASP: Polymorphism - this could be Cash or Card, we don't care which
     private final PaymentProcessor paymentProcessor;
 
     // Spring injects both of these through the constructor
