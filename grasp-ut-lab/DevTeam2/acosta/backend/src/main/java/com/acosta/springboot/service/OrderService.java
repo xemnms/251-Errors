@@ -6,8 +6,8 @@ import com.acosta.springboot.entity.Order;
 import com.acosta.springboot.entity.OrderItem;
 import com.acosta.springboot.repository.OrderRepository;
 
-import main.java.com.acosta.springboot.service.OrderValidator;
-import main.java.com.acosta.springboot.service.PaymentProcessorFactory;
+import com.acosta.springboot.service.OrderValidator;
+import com.acosta.springboot.service.PaymentProcessorFactory;
 
 import org.springframework.stereotype.Service;
 
