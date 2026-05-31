@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57c2d11b-7c09-46f8-a685-f712aa749cd9" name="Changes" comment="edit">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop-fullstack-lab/DevTeam1/alonde/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/oop-fullstack-lab/DevTeam1/alonde/frontend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zpersonal-MDs/Alonde_KCK.md" beforeDir="false" afterPath="$PROJECT_DIR$/zpersonal-MDs/Alonde_KCK.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.ApiDemoApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "oop-fullstack-alonde",
+    "git-widget-placeholder": "grasp-ut-alonde",
     "git.auto.fetch.suggestion.counter": "2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Kayle/Downloads/251-Errors/oop-fullstack-lab/DevTeam1/alonde/evidence",
