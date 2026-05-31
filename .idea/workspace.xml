@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="57c2d11b-7c09-46f8-a685-f712aa749cd9" name="Changes" comment="edit">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zpersonal-MDs/Alonde_KCK.md" beforeDir="false" afterPath="$PROJECT_DIR$/zpersonal-MDs/Alonde_KCK.md" afterDir="false" />
+=======
+>>>>>>> develop-team1
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,11 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.ApiDemoApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+<<<<<<< HEAD
     "git-widget-placeholder": "grasp-ut-alonde",
+=======
+    "git-widget-placeholder": "develop-team1",
+>>>>>>> develop-team1
     "git.auto.fetch.suggestion.counter": "2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Kayle/Downloads/251-Errors/oop-fullstack-lab/DevTeam1/alonde/evidence",
