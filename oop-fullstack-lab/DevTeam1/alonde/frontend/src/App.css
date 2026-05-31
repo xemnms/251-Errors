@@ -1,0 +1,61 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; background: #f0f4f8; }
+
+.app { max-width: 900px; margin: 40px auto; padding: 20px; }
+h1 { font-size: 2rem; color: #1e40af; margin-bottom: 24px; }
+
+/* error banner */
+.error-banner {
+    background: #fee2e2; color: #991b1b;
+    padding: 12px 16px; border-radius: 6px; margin-bottom: 16px;
+}
+
+/* form */
+.product-form {
+    background: white; padding: 24px; border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); margin-bottom: 32px;
+}
+
+.product-form h2 { margin-bottom: 16px; color: #374151; }
+.product-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.product-form input {
+    width: 100%; padding: 8px 12px; border: 1px solid #d1d5db;
+    border-radius: 6px; font-size: 1rem;
+}
+
+.error { color: #dc2626; font-size: 0.85rem; margin-top: 4px; display: block; }
+.form-buttons { margin-top: 16px; display: flex; gap: 10px; }
+.form-buttons button {
+    padding: 8px 20px; border: none; border-radius: 6px;
+    cursor: pointer; font-size: 1rem;
+}
+
+.form-buttons button[type=submit] { background: #1e40af; color: white; }
+.form-buttons button[type=button] { background: #6b7280; color: white; }
+
+/* table */
+.product-table {
+    width: 100%; border-collapse: collapse;
+    background: white; border-radius: 10px; overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.product-table th {
+    background: #1e40af; color: white;
+    padding: 12px 16px; text-align: left;
+}
+
+.product-table td { padding: 10px 16px; border-bottom: 1px solid #f3f4f6; }
+.product-table tr:hover td { background: #eff6ff; }
+.product-table button {
+    padding: 4px 12px; border: none; border-radius: 4px;
+    cursor: pointer; margin-right: 6px;
+}
+
+.product-table button:first-child { background: #059669; color: white; }
+.product-table button:last-child { background: #dc2626; color: white; }
+.empty { color: #6b7280; text-align: center; padding: 24px; }

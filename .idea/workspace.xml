@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c2d11b-7c09-46f8-a685-f712aa749cd9" name="Changes" comment="">
+    <list default="true" id="57c2d11b-7c09-46f8-a685-f712aa749cd9" name="Changes" comment="edit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zpersonal-MDs/Nepomuceno_JP.md" beforeDir="false" afterPath="$PROJECT_DIR$/zpersonal-MDs/Nepomuceno_JP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-fullstack-lab/DevTeam1/alonde/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/oop-fullstack-lab/DevTeam1/alonde/frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zpersonal-MDs/Alonde_KCK.md" beforeDir="false" afterPath="$PROJECT_DIR$/zpersonal-MDs/Alonde_KCK.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +37,16 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/xemnms/251-Errors.git&quot;,
-    &quot;accountId&quot;: &quot;85bbf64f-9adf-40fc-9db9-1fb97388a70a&quot;
+    &quot;accountId&quot;: &quot;8192e0b9-7761-4d49-a506-4e6682ed223c&quot;
   }
 }</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8,
   &quot;fromUser&quot;: false
@@ -47,21 +58,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Maven.springboot [clean].executor": "Run",
+    "Maven.springboot [compile].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.ApiDemoApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "grasp-ut-nepomuceno",
+    "git-widget-placeholder": "oop-fullstack-alonde",
+    "git.auto.fetch.suggestion.counter": "2",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/pc/Desktop/nepomuceno/251-Errors/oop-databases-lab/DevTeam1/nepomuceno/database-demo/src/main/java/com/nepomuceno/app",
+    "last_opened_file_path": "C:/Users/Kayle/Downloads/251-Errors/oop-fullstack-lab/DevTeam1/alonde/evidence",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\pc\\Desktop\\nepomuceno\\251-Errors\\oop-fullstack-lab\\DevTeam1\\nepomuceno\\frontend\\node_modules\\typescript\\lib"
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kayle\Downloads\251-Errors\oop-fullstack-lab\DevTeam1\alonde\evidence" />
+      <recent name="C:\Users\Kayle\Downloads\251-Errors\oop-fullstack-lab\DevTeam1" />
+      <recent name="C:\Users\Kayle\Downloads\251-Errors\oop-databases-lab\DevTeam1\alonde" />
       <recent name="C:\Users\pc\Desktop\nepomuceno\251-Errors\oop-databases-lab\DevTeam1\nepomuceno\database-demo\src\main\java\com\nepomuceno\app" />
       <recent name="C:\Users\pc\Desktop\nepomuceno\251-Errors\oop-databases-lab\DevTeam1\nepomuceno" />
     </key>
@@ -89,11 +111,28 @@
       <option name="project" value="LOCAL" />
       <updated>1777301221058</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="edit">
+      <option name="closed" value="true" />
+      <created>1780146539848</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780146539849</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/oop-fullstack-lab/DevTeam1/alonde/frontend/node_modules/@eslint/plugin-kit/dist/cjs/types.d.cts" />
+        <option value="$PROJECT_DIR$/oop-fullstack-lab/DevTeam1/alonde/frontend/node_modules/@eslint/plugin-kit/dist/esm/types.d.ts" />
+        <option value="$PROJECT_DIR$/oop-fullstack-lab/DevTeam1/alonde/frontend/node_modules/@eslint/config-array/dist/esm/types.d.ts" />
+        <option value="$PROJECT_DIR$/oop-fullstack-lab/DevTeam1/alonde/frontend/node_modules/@eslint/object-schema/dist/esm/types.d.ts" />
+        <option value="$PROJECT_DIR$/oop-fullstack-lab/DevTeam1/alonde/frontend/node_modules/@eslint/config-helpers/dist/esm/types.d.ts" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -105,6 +144,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oop-databases-lab/DevTeam1/nepomuceno/database-demo/src/main/java/com/nepomuceno/app/controller/ProductController.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
