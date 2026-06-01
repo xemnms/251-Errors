@@ -30,6 +30,8 @@
 
 **<05/06/2026>** : Today I learned how to build a full-stack project by connecting the frontend and backend. I can improve by paying closer attention to package names to prevent import errors.
 
+**<05/06/2026>** : Today I learned how to apply GRASP principles, specifically using Services (Pure Fabrication) and Repositories (Indirection). I can improve by mapping out object relationships so I instantiate entity dependencies instead of accidentally passing raw data types directly into methods.
+
 ---
 ## ✉️ Peer Feedbacks  
 
