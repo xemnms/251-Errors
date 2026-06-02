@@ -47,6 +47,18 @@
 
 # Databases
 **\<04/28/2026>** : I have always known what databases are, but this is my first experience in making one myself that persists. I am still very unfamiliar with H2 and PostgreSQL but I've managed to make it work.
+---
+
+## Fullstack
+**\<05/07/2026>** : Today I experienced and learned what it is like to be a fullstack developer. Doing all the complicated backend requirements for your app as well as tying it together in the frontend for users to interact with was stressful and beyond my capabilities.
+--- 
+
+## GRASP
+**\<05/11/2026>** : Building an app or coding anything OOP related isn't very simple, I understand that since we are building real life objects, there should be principles or guidelines that you should pay attention to like GRASP. Today I learned how to implement GRASP to your app, it's very messy and hard to keep track sometimes espescially on an already existing project, but I will try to familiarize myself more.
+---
+
+## SOLID
+**\<05/29/2026>** : I learned that SOLID principles are not just theory, but they also solve real problems. I improved the testability and maintainability of the order system by seperating responsibilities and depending on abstractions instead of implementations.
 
 
 ## ✉️ Peer Feedbacks 
