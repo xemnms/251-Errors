@@ -39,6 +39,8 @@
 
 **<06/04/2026>** : I learned about GRASP principles and how they help assign responsibilities properly in object-oriented design. Next time, I will try applying GRASP patterns when structuring my classes to make my code cleaner and easier to maintain.
 
+**<06/04/2026>** : I learned about SOLID principles, TDD, and refactoring, and how they help create cleaner, more reliable code. Next time, I will practice writing tests first and improving my code through refactoring while following SOLID principles.
+
 ---
 ## ✉️ Peer Feedbacks 
 

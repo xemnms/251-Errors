@@ -36,4 +36,9 @@ public class Order {
                 .mapToDouble(OrderItem::getSubtotal)
                 .sum();
     }
+
+    public Order markAsPaid() {
+        this.paid = true;
+        return this;
+}
 }

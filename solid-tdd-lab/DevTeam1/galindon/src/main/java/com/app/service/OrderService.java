@@ -31,7 +31,7 @@ public class OrderService {
         Order order = getOrder(orderId);
 
         payment.pay(amount); // DIP in action
-        order.setPaid(true);
+        order.markAsPaid();
 
         orderRepository.save(order);
     }
