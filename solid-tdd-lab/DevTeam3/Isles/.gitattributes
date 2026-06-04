@@ -1,0 +1,7 @@
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.sh text eol=lf
+mvnw text eol=lf
+*.java text
+*.xml text
+*.md text
