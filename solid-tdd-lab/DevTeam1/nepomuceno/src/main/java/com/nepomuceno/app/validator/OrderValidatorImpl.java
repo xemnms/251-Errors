@@ -22,19 +22,29 @@ import org.springframework.stereotype.Component;
 @Component
 public class OrderValidatorImpl implements OrderValidator {
 
-    // DRY: Shared reusable validation method for request-level rules
     @Override
     public void validateRequest(OrderRequest request) {
-        if (request == null || request.getItems() == null || request.getItems().isEmpty()) {
-            throw new IllegalArgumentException("Order must have at least one item.");
+        if (request.getItems() == null) {          // ← must be first
+            throw new IllegalArgumentException("Item list must not be null");
+        }
+        if (request.getItems().isEmpty()) {
+            throw new IllegalArgumentException("Item list must not be empty");
+        }
+        for (ItemDto item : request.getItems()) {
+            validateItem(item);
         }
     }
 
-    // DRY: Shared reusable validation method for item-level rules
     @Override
     public void validateItem(ItemDto item) {
-        if (item.getPrice() < 0 || item.getQuantity() <= 0) {
-            throw new IllegalArgumentException("Invalid item: " + item.getName());
+        if (item.getPrice() <= 0) {
+            throw new IllegalArgumentException(
+                    "Item price must be greater than zero: " + item.getName());
+        }
+        if (item.getQuantity() <= 0) {
+            throw new IllegalArgumentException(
+                    "Item quantity must be greater than zero: " + item.getName());
         }
     }
+
 }

@@ -1,15 +1,26 @@
 package com.nepomuceno.app.dto;
 
-// DTO: Decouples API output from the entity layer
-// GRASP: Protected Variations — entity internals are hidden from the client
+// SOLID: SRP - carries order output data only; no logic
+// OOP: Immutability - all fields are final; no setters
+//
+// BEFORE (mutable DTO with setters):
+//   private Long id;
+//   public void setId(Long id) { this.id = id; }
+//   ... (setters for all fields)
+//
+// AFTER (immutable DTO):
+//   private final Long id;
+//   (no setters - once built, cannot change)
+//
+// WHY: Response objects are read-only by nature. Making them immutable
+// reflects that intent in the type system and eliminates defensive copying.
 public class OrderResponse {
 
-    private Long id;
-    private String status;
-    private double total;
-    private String formattedTotal;
-
-    public OrderResponse() {}
+    // OOP: Immutability - all fields final
+    private final Long id;
+    private final String status;
+    private final double total;
+    private final String formattedTotal;
 
     public OrderResponse(Long id, String status, double total, String formattedTotal) {
         this.id = id;
@@ -22,9 +33,4 @@ public class OrderResponse {
     public String getStatus() { return status; }
     public double getTotal() { return total; }
     public String getFormattedTotal() { return formattedTotal; }
-
-    public void setId(Long id) { this.id = id; }
-    public void setStatus(String status) { this.status = status; }
-    public void setTotal(double total) { this.total = total; }
-    public void setFormattedTotal(String formattedTotal) { this.formattedTotal = formattedTotal; }
 }

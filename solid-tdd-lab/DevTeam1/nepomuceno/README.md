@@ -139,19 +139,3 @@ SRP. Splitting validation and mapping out of `OrderService` made the class signi
 
 **Which principle was hardest to apply?**
 DIP. It required introducing two new interfaces (`OrderMapper`, `OrderValidator`) that felt unnecessary at first glance. Understanding that the purpose is to make things *mockable and swappable* — not just to add layers — made it click.
-
----
-
-## Changelog
-
-```
-Nepomuceno <ID> <Date> SOLID-UT Completed
-```
-
-## Personal Reflection
-
-```
-<Date>: I learned that SRP is about reasons to change, not just "one method per class",
-        and improved my understanding of DIP by introducing mapper and validator abstractions
-        that made unit testing significantly easier.
-```

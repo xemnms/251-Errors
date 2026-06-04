@@ -25,6 +25,9 @@ class PriceFormatterTest {
         assertEquals("PHP 0.00", result);
     }
 
-    // YAGNI: formatUSD() was removed from PriceFormatter — it was never used
-    // in the codebase. The test is removed along with the method.
+    @Test
+    void shouldFormatAsUSD() {
+        String result = PriceFormatter.formatUSD(12.99);
+        assertEquals("$12.99", result);
+    }
 }
