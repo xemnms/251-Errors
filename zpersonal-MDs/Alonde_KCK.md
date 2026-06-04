@@ -24,14 +24,20 @@
 
 **<04/21/2026>**: I learned about packages and how using access modifiers correctly within packages is a good way to hide internal details. It’s about protecting the code so other parts of the project don't accidentally break things. While I can set up a basic build, I want to learn more about how dependencies and plugins work in the pom.xml
 
+**<04/24/2026>** : Today I fixed the Spring Boot project by organizing the file structure and adding the correct test dependencies. I can improve by double-checking dependencies and project layout before building, and test more edge cases.
+
+**<04/27/2026>** : Today I upgraded the app to use Spring Data JPA, moving from hardcoded data to an H2 database, and then successfully migrated to PostgreSQL via application.properties. I also fixed compilation errors caused by wrong package imports, and missing validation dependencies. I can improve by ensuring every Java file houses only its own class, and double-check package names before running the build.
+
+**<05/06/2026>** : Today I learned how to build a full-stack project by connecting the frontend and backend. I can improve by paying closer attention to package names to prevent import errors.
+
 ---
 ## ✉️ Peer Feedbacks  
 
-**<03/15/2026>**: Comment by : Galindon; You did well in writing your code and you can improve by adding display methods.   
+**<03/15/2026>**: Comment by : Galindon; You did well in writing your code, and you can improve by adding display methods.   
 
 **<03/16/2026>**: Comment by: Andrew Dizon; You did well in implementing a robust 50-ticket validation limit and ensuring static counters track every reservation.
 
-**<03/19/2026>**: Comment by: Vic Andrew Dizon; You did well in implementing the method overriding for the race behavior and you can improve by including more varied test cases in your main demo.
+**<03/19/2026>**: Comment by: Vic Andrew Dizon; You did well in implementing the method overriding for the race behavior, and you can improve by including more varied test cases in your main demo.
 
 **<03/21/2026>**: Comment by: Vic Andrew Andres Dizon; You did well in implementing the validation logic within your setAmount method, which effectively prevents the system from processing invalid negative transactions.  
 

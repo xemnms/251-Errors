@@ -10,6 +10,7 @@
 |            |                |             |        |           |
 | 05/18/2026 | Quiz           | Quiz 2      | 8      | 15           |
 
+
 ---
 
 ## 📘 Journals
@@ -33,6 +34,8 @@
 **\<04/24/2026\>** : I learned about springboot in our lab, next time I will make sure my Java version and project structure are correct from the start.
 
 **<04/28/2026>** : I learned about databases today and how CRUD operations work with Spring Boot using JPA. Next time, I will carefully check my dependencies and configuration before running the application.
+
+**<05/23/2026>** : I learned how React, Spring Boot, and PostgreSQL work together for CRUD operations. Next time, I will improve by checking my configurations and errors carefully.
 
 **<06/04/2026>** : I learned about GRASP and how it helps assign responsibilities to classes in object-oriented design. Next time, I will apply GRASP principles to create more organized and maintainable code.
 

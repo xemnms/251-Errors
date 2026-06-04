@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/packages-and-organization-lab/DevTeam2/Acosta/acosta-calculator.iml" filepath="$PROJECT_DIR$/packages-and-organization-lab/DevTeam2/Acosta/acosta-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages-and-organization-lab/DevTeam2/Alvarez/alvarez-calculator.iml" filepath="$PROJECT_DIR$/packages-and-organization-lab/DevTeam2/Alvarez/alvarez-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-lab/isles/api-demo/api-demo.iml" filepath="$PROJECT_DIR$/springboot-lab/isles/api-demo/api-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-lab/badosa/api-demo/api-demo (1) (com.badosa).iml" filepath="$PROJECT_DIR$/springboot-lab/badosa/api-demo/api-demo (1) (com.badosa).iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-lab/api-demo/api-demo (1) (com.costiniano).iml" filepath="$PROJECT_DIR$/springboot-lab/api-demo/api-demo (1) (com.costiniano).iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-lab/Rodenas/api-demo (1) (com.rodenas.springboot).iml" filepath="$PROJECT_DIR$/springboot-lab/Rodenas/api-demo (1) (com.rodenas.springboot).iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages-and-organization-lab/DevTeam1/arandela/arandela-calculator.iml" filepath="$PROJECT_DIR$/packages-and-organization-lab/DevTeam1/arandela/arandela-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages-and-organization-lab/DevTeam2/Batangan/batangan-calculator.iml" filepath="$PROJECT_DIR$/packages-and-organization-lab/DevTeam2/Batangan/batangan-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages-and-organization-lab/DevTeam2/Bautista/bautista-calculator.iml" filepath="$PROJECT_DIR$/packages-and-organization-lab/DevTeam2/Bautista/bautista-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages-and-organization-lab/DevTeam1/alonde/calculator-alonde.iml" filepath="$PROJECT_DIR$/packages-and-organization-lab/DevTeam1/alonde/calculator-alonde.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages-and-organization-lab/DevTeam1/dizon/calculator-dizon.iml" filepath="$PROJECT_DIR$/packages-and-organization-lab/DevTeam1/dizon/calculator-dizon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages-and-organization-lab/DevTeam1/nepomuceno/calculator-nepomuceno.iml" filepath="$PROJECT_DIR$/packages-and-organization-lab/DevTeam1/nepomuceno/calculator-nepomuceno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages-and-organization-lab/DevTeam1/galindon/galindon-calculator.iml" filepath="$PROJECT_DIR$/packages-and-organization-lab/DevTeam1/galindon/galindon-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages-and-organization-lab/isles/isles-calculator.iml" filepath="$PROJECT_DIR$/packages-and-organization-lab/isles/isles-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages-and-organization-lab/rodenas/rodenas-calculator.iml" filepath="$PROJECT_DIR$/packages-and-organization-lab/rodenas/rodenas-calculator.iml" />
+    </modules>
+  </component>
+</project>
