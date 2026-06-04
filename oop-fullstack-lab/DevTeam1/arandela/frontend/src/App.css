@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f4f4;
+  color: #111;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 35px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.brand {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  color: #555;
+}
+
+.hero h1 {
+  margin-top: 10px;
+  font-size: 88px;
+  line-height: 1;
+  letter-spacing: -4px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 24px;
+}
+
+.panel {
+  background: white;
+  border-radius: 28px;
+  border: 1px solid #ddd;
+  padding: 28px;
+}
+
+.label {
+  margin: 0 0 8px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #777;
+}
+
+form {
+  display: grid;
+  gap: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid #ccc;
+  background: white;
+  font-size: 14px;
+}
+
+button {
+  border: 1px solid #111;
+  background: #111;
+  color: white;
+  border-radius: 999px;
+  padding: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: white;
+  color: #111;
+}
+
+.products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products-header span {
+  border: 1px solid #ddd;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+.products {
+  margin-top: 20px;
+  display: grid;
+  gap: 12px;
+}
+
+.product-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid #e4e4e4;
+  background: #fafafa;
+}
+
+.product-card h3 {
+  margin: 0;
+}
+
+.product-card p {
+  margin: 6px 0;
+  color: #666;
+}
+
+.product-card small {
+  color: #888;
+}
+
+.delete {
+  background: white;
+  color: #111;
+}
+
+.delete:hover {
+  background: #111;
+  color: white;
+}
+
+.empty {
+  border: 1px dashed #ccc;
+  border-radius: 18px;
+  padding: 35px;
+  text-align: center;
+  color: #777;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 60px;
+  }
+}

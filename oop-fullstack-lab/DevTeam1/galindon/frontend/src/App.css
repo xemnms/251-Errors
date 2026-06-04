@@ -1,0 +1,216 @@
+.product-shell {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  background:
+    radial-gradient(circle at top left, rgba(255, 228, 236, 0.85), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(220, 242, 255, 0.85), transparent 24%),
+    #fffdfb;
+  min-height: 100vh;
+}
+
+.hero-panel {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 28px;
+  background:
+    linear-gradient(135deg, rgba(255, 244, 247, 0.95), rgba(235, 248, 255, 0.95));
+  color: #2f2a3d;
+  box-shadow: 0 18px 50px rgba(247, 186, 208, 0.18);
+  border: 1px solid rgba(246, 194, 216, 0.45);
+}
+
+.hero-panel h1 {
+  margin: 0.4rem 0 0.8rem;
+  font-size: clamp(2.1rem, 2vw + 1.2rem, 2.8rem);
+  line-height: 1.05;
+  color: #6b4c7d;
+}
+
+.hero-copy {
+  max-width: 42rem;
+  color: #5d556f;
+  font-size: 1.05rem;
+}
+
+.eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #cc6f96;
+}
+
+.hero-actions {
+  margin-top: 1.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  align-items: center;
+}
+
+.primary-btn,
+.secondary-btn,
+.danger-btn {
+  border: 0;
+  border-radius: 999px;
+  padding: 0.9rem 1.2rem;
+  font-weight: 700;
+  font-size: 0.96rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover,
+.danger-btn:hover {
+  transform: translateY(-1px);
+}
+
+.primary-btn {
+  background: linear-gradient(135deg, #f8b5ca, #f8d5a9);
+  color: #4a2f46;
+  box-shadow: 0 14px 30px rgba(248, 181, 202, 0.28);
+}
+
+.secondary-btn {
+  background: rgba(255, 255, 255, 0.8);
+  color: #5d556f;
+  border: 1px solid rgba(205, 188, 227, 0.7);
+}
+
+.danger-btn {
+  background: rgba(255, 221, 226, 0.9);
+  color: #954f5e;
+  border: 1px solid rgba(255, 181, 195, 0.75);
+}
+
+.status-pill {
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  color: #5d556f;
+  border: 1px solid rgba(246, 194, 216, 0.45);
+}
+
+.builder-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+}
+
+.product-form,
+.catalog-section {
+  border-radius: 24px;
+  padding: 1.4rem;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(246, 194, 216, 0.45);
+  box-shadow: 0 16px 50px rgba(247, 186, 208, 0.14);
+}
+
+.product-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.product-form h2,
+.catalog-head h2 {
+  margin: 0.3rem 0 0;
+}
+
+.product-form label,
+.search-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #5d556f;
+  font-weight: 700;
+}
+
+.product-form input,
+.search-box input {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid rgba(246, 194, 216, 0.55);
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  background: #fffdfb;
+  box-sizing: border-box;
+}
+
+.product-form input:focus,
+.search-box input:focus {
+  outline: 2px solid rgba(248, 181, 202, 0.28);
+  border-color: rgba(248, 181, 202, 0.7);
+}
+
+.form-actions,
+.card-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.catalog-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: end;
+  margin-bottom: 1rem;
+}
+
+.search-box {
+  min-width: 280px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+}
+
+.product-card {
+  padding: 1.1rem;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(255, 247, 250, 0.98), rgba(238, 247, 255, 0.94));
+  border: 1px solid rgba(246, 194, 216, 0.42);
+}
+
+.product-card h3 {
+  margin: 0.3rem 0 0.6rem;
+  color: #4a2f46;
+}
+
+.price-tag {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #bc5f8a;
+  margin-bottom: 1rem;
+}
+
+.empty-state {
+  padding: 2rem;
+  text-align: center;
+  color: #5d556f;
+  border-radius: 20px;
+  background: rgba(255, 247, 250, 0.88);
+}
+
+@media (max-width: 900px) {
+  .catalog-head {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  .catalog-head {
+    align-items: start;
+  }
+
+  .product-shell {
+    padding: 1rem;
+  }
+}
+

@@ -39,6 +39,10 @@ During this lab, I practiced OOP concepts such as encapsulation through React co
 I also learned how to set up pgAdmin, create a PostgreSQL database, run a Spring Boot backend, run a Vite React frontend, and connect both systems together.
 
 Next time, I will improve by testing the backend earlier before connecting it to the frontend. I will also organize my setup steps better so I can avoid configuration errors with Maven, JDK, npm, and PostgreSQL.
+
+**\<05/31/2026\>** : I learned how to properly apply the GRASP principles — especially the difference between Pure Fabrication (the Service class) and Indirection (the Repository) — and improved my ability to write meaningful Mockito unit tests that verify behavior without hitting a real database.
+
+**\<06/04/2026\>** : I learned how the SOLID principles and the Red→Green→Blue TDD cycle work in practice, and I improved my ability to write clean, testable code backed by meaningful unit tests.
   
   
 

@@ -34,7 +34,12 @@
 
 **<04/27/2026>** : Today I upgraded my Spring Boot application by replacing hardcoded data with real database persistence using Spring Data JPA and H2. I resolved compilation errors related to wrong class names in files, incorrect package imports, and missing validation dependencies. I also successfully migrated from H2 to PostgreSQL by only updating the application.properties file. Next time I will make sure each Java file contains only its own class and double check package names before running.  
 
-**\<05/06/2026\>** : Today I learned create a full stack project with front end and back end. I can improve by keeping in mind the names of the packages to avoid errors.
+**\<05/06/2026\>** : Today I learned create a full stack project with front end and back end. I can improve by keeping in mind the names of the packages to avoid errors.   
+
+**\<05/13/2026\>**: Today I learned how to apply GRASP principles in a Spring Boot project with proper layering, polymorphism, and dependency injection. I successfully tested the REST API using curl and verified data persistence with H2 Console. I can improve by mastering integration testing and exploring more advanced design patterns.   
+
+**\<06/04/2026\>**: I learned that SRP is about reasons to change, not just "one method per class", and improved my understanding of DIP by introducing mapper and validator abstractions that made unit testing significantly easier.    
+
 ---
 ## ✉️ Peer Feedbacks  
 
