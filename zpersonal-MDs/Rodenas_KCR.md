@@ -10,6 +10,7 @@
 |03/19/2026  |On Mic for OLC   |Opened Mic       |2       |12            |
 |03/23/2026  |Ice breaker      |Guess the Number |10      |22            |
 |03/26/2026  |Ice breaker      |Guess the Meme   |10      |32            |
+|05/21/2026  |Suprise Quiz     |Quiz             |13      |45            |
 | —          | —               | —               | —      | —            |
 
 ---
@@ -35,6 +36,10 @@
 **\<05/06/2026\>** : I learned how to build a full-stack web application by connecting a React (Vite + TypeScript) frontend to a Spring Boot backend with a PostgreSQL database, implementing full CRUD functionality with DTOs, validation, error handling, and loading states. One of the biggest challenges was debugging package name inconsistencies between `com.fullstack_lab.rodenas` and `com.fullstacklab.rodenas` which prevented Spring Boot from scanning my components, and configuring CORS correctly in GitHub Codespaces since localhost doesn't work the same way as local development. Next time, I will make sure my package names are consistent from the start and set up my database configuration properly before writing any application code.
 
 **<05/11/2026>** : I learned how to debug Spring Boot backend tests and improved my ability to fix Mockito/Byte Buddy compatibility issues on Java 25. I also improved my testing setup by removing an unnecessary inline mock in `OrderServiceTest` and correcting the Maven Surefire `argLine` configuration so tests can run correctly.
+
+**<05/16/2026>** I learned how to apply GRASP principles in a Spring Boot project by separating responsibilities into controller, service, repository, entity, dto, and utility layers. I also learned how unit testing with JUnit and Mockito helps prove that the design works without using real database calls. In this activity, I improved my understanding of Information Expert, Controller, Creator, Low Coupling, High Cohesion, Polymorphism, Pure Fabrication, Indirection, and Protected Variations. The hardest part for me was identifying where each GRASP principle belongs in the code, especially because some principles look similar when used together. Next time, I will add clearer comments while coding so the design decisions are easier to explain.
+
+**<06/04/2026>** :i learned how to separate responsibilities better and improved the project by adding interface-based services, validation, and unit tests.
 
 ---
 ## ✉️ Peer Feedbacks  
