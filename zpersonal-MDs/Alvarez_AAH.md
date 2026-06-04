@@ -10,7 +10,7 @@
 | 03/12/2026              | Ice Breaker    | Answer the code snippet | 10      | 10           |
 | 03/19/2026              | Plus Points    | Opened Mic              | 2       | 7            |
 | 03/09/2026 - 04/21/2026 | PR Approvals   | Github Submissions      | 14      | N/A          |
-
+|.                        | Quiz.          | Suprise Quiz.           | 22.     | 20.          |
 ---
 
 ## 📘 Journals
