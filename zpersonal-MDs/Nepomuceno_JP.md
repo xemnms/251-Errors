@@ -9,7 +9,7 @@
 | 03/06/2026 | Extra Points   | Post        | 5     | 5           |
 | 03/09/2026 | Ice Breaker    | The Boat is Sinking | 10     | 10    |
 | 03/19/2026 | Recitation     | Composition | 5      |      5      |
-| —          | —              | —           | —      | —            |
+
 ---
 
 ## 📘 Journals
