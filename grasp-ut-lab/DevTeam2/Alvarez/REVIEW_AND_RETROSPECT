@@ -1,0 +1,7 @@
+The hardest GRASP principle to apply was Protected Variations. 
+At first, it was easy to directly use concrete classes, especially for payment processing and service calls. 
+I had to redesign that part by using interfaces like PaymentProcessor and OrderUseCase so the system can change later without breaking the controller or service logic.
+
+One design mistake I fixed was making the controller too dependent on a concrete service class. 
+I improved the design by letting OrderController depend on the OrderUseCase interface instead. 
+This made the controller more loosely coupled, easier to test with Mockito, and more aligned with GRASP principles.

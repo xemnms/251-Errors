@@ -1,0 +1,35 @@
+### Create a task
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Build the login page",
+  "description": "Create responsive login UI",
+  "priority": "HIGH",
+  "assignedTo": "Alice"
+}
+
+###
+
+### Get all tasks
+GET http://localhost:8080/api/tasks
+
+###
+
+### Get one task
+GET http://localhost:8080/api/tasks/1
+
+###
+
+### Update status
+PUT http://localhost:8080/api/tasks/1/status?status=IN_PROGRESS
+
+###
+
+### Filter by status
+GET http://localhost:8080/api/tasks/filter?status=PENDING
+
+###
+
+### Delete a task
+DELETE http://localhost:8080/api/tasks/1

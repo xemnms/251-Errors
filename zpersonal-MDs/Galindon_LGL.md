@@ -7,8 +7,9 @@
 | Date       | Activity Type | Title       | Score | Total Points |
 |------------|----------------|-------------|--------|--------------|
 | 03/05/2026 | Quiz           | Quiz 1      | 2      | 5           |
-|            |                 |             |            |           |
-| 05/18/26   | Quiz              | Quiz 2          | 8     | 15           |
+|            |                |             |        |           |
+| 05/18/2026 | Quiz           | Quiz 2      | 8      | 15           |
+
 
 ---
 
@@ -34,8 +35,9 @@
 
 **<04/28/2026>** : I learned about databases today and how CRUD operations work with Spring Boot using JPA. Next time, I will carefully check my dependencies and configuration before running the application.
 
-**<05/23/2026>** : I learned how React, Spring Boot, and PostgreSQL work together for CRUD operations. Next time, I will improve by checking my configurations and errors carefully.
+**<05/24/2026>** : I learned basic full-stack workflow issues when syncing code between local and remote repositories. Next time, I will make sure my code is updated before making changes.
 
+**<06/04/2026>** : I learned about GRASP principles and how they help assign responsibilities properly in object-oriented design. Next time, I will try applying GRASP patterns when structuring my classes to make my code cleaner and easier to maintain.
 
 ---
 ## ✉️ Peer Feedbacks 

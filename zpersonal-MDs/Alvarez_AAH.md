@@ -48,6 +48,9 @@
 ### | Fullstack Springboot
 **<05/06/2026>** : I learned how to build and connect a full-stack CRUD application using React, Spring Boot, and PostgreSQL, and next time I will set up and test the database, backend, and frontend one by one before integrating everything.
 
+### | Grasp and Unit
+**<05/09/2026>** : I learned how clean object-oriented design makes a system easier to test, and improved my understanding of service, controller, and repository responsibilities.
+
 ---
 
 ## ✉️ Peer Feedbacks    
