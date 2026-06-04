@@ -1,4 +1,6 @@
 # Team Changelog📕
+\<Badosa, Bien Manuel P.\> \<2025-1021747\> \<06/04/2026\> \<SOLID-UT\> Completed!  
+\<Badosa, Bien Manuel P.\> \<2025-1021747\> \<06/04/2026\> \<GRASP-UT\> Completed!  
 \<Dizon, Vic Andrew A.\> \<2025-1027945\> \<04/28/2026\> \<OOP-Databases\> Completed!  
 \<Galindon, Lynette Grace L.\> \<2025-2022743\> \<04/28/2026\> \<OOP-Databases\> Completed!  
 \<Acosta, Jan Lorcey L.\> \<2025-1028844\> \<04/28/2026\> \<OOP-Databases\> Completed!  

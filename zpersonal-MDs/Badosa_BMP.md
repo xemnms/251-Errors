@@ -33,7 +33,10 @@ First Recitation in OOP Lecture - 5 points - 03/05/2026
 **\<04/23/2026\>**: Today I learned how to utilize Springboot in code. I will keep learning this on why my builds keep failing so I will understand it better and gain experience
 
 **\<04/28/2026\>**: Today I how to make a simple database structure using springboot and dependencies, I will improve the code I used to make it more clear and readable
+  
+**\<06/04/2026\>**: Today I learned how to apply the 9 GRASP principles to design software and assign responsibilities cohesively. I improved my unit testing skills by utilizing Mockito to mock service dependencies and verify controller endpoints and polymorphic behavior without relying on real database connections.
 
+**\<06/04/2026\>**: Today I learned how to refactor an existing Spring Boot project using all 5 SOLID principles (SRP, OCP, LSP, ISP, DIP) and key OOP best practices like Composition Over Inheritance and Immutability. I improved my ability to identify design smells like fat interfaces and tight coupling, and I proved my refactoring through 26 unit tests using Mockito and JUnit 5.
 
 ---
 ## ✉️ Peer Feedbacks    
@@ -49,6 +52,8 @@ First Recitation in OOP Lecture - 5 points - 03/05/2026
 **<03/20/2026>**: Comment by : Isles; You did well in keeping your class organized with good encapsulation and clear behavior methods, and you can improve by adding validation in the constructor and making your setters more consistent.
 
 **\<03/20/2026\>** : Comment by: Rodenas; You did well in implementing the Pistol_Badosa class with proper encapsulation and meaningful methods like shoot and reload, and you can improve by improving consistency in validation and possibly adding more behaviors to enhance functionality.
+
+**\<06/04/2026\>** : Comment by: Costiniano; Strength: Good application of SOLID principles especially in ISP and OCP refactoring. Improvement: Could add more parameterized tests to cover additional edge cases.
 
 ---
 
