@@ -1,0 +1,10 @@
+package com.rodenas.grasp.demo.util;
+
+import com.rodenas.grasp.demo.entity.Order;
+
+public interface PriceCalculator {
+    double calculateVat(double total);
+    double calculateSeniorDiscount(double total);
+    double calculateFinalTotal(double total, boolean isSenior);
+    double calculateTotalWithVat(Order order);
+}
