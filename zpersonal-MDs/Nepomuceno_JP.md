@@ -36,7 +36,10 @@
 
 **\<05/06/2026\>** : Today I learned create a full stack project with front end and back end. I can improve by keeping in mind the names of the packages to avoid errors.   
 
-**\<05/13/2026\>**: Today I learned how to apply GRASP principles in a Spring Boot project with proper layering, polymorphism, and dependency injection. I successfully tested the REST API using curl and verified data persistence with H2 Console. I can improve by mastering integration testing and exploring more advanced design patterns.
+**\<05/13/2026\>**: Today I learned how to apply GRASP principles in a Spring Boot project with proper layering, polymorphism, and dependency injection. I successfully tested the REST API using curl and verified data persistence with H2 Console. I can improve by mastering integration testing and exploring more advanced design patterns.   
+
+**\<06/04/2026\>**: I learned that SRP is about reasons to change, not just "one method per class", and improved my understanding of DIP by introducing mapper and validator abstractions that made unit testing significantly easier.    
+
 ---
 ## ✉️ Peer Feedbacks  
 
