@@ -12,23 +12,19 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-// SOLID: SRP - OrderService now only orchestrates business logic.
+// SOLID: SRP - OrderService only orchestrates business logic.
 //             Validation → OrderValidator, Mapping → OrderMapper
 //
-// SOLID: DIP - all dependencies are injected as abstractions (interfaces),
-//              not as concrete classes
+// SOLID: DIP - all dependencies injected as abstractions (interfaces),
+//              never as concrete classes
 //
 // BEFORE (OrderService had 3 responsibilities):
-//   1. Business logic (createOrder, processPayment, etc.)
+//   1. Business logic
 //   2. Input validation (inline if-checks)
 //   3. Response mapping (private toResponse() method)
 //
 // AFTER (OrderService has 1 responsibility):
 //   1. Business logic only — delegates validation and mapping
-//
-// WHY: When validation rules change, only OrderValidator changes.
-// When the response shape changes, only OrderMapper changes.
-// OrderService has one reason to change: business rules.
 @Service
 public class OrderService {
 
@@ -38,7 +34,7 @@ public class OrderService {
     private final OrderValidator orderValidator;
     private final OrderMapper orderMapper;
 
-    // SOLID: DIP - all dependencies injected via constructor (not new'd internally)
+    // SOLID: DIP - all dependencies injected via constructor (never new'd internally)
     public OrderService(OrderRepository orderRepository,
                         List<Payment> payments,
                         OrderValidator orderValidator,
@@ -50,23 +46,21 @@ public class OrderService {
     }
 
     public OrderResponse createOrder(OrderRequest request) {
-        // SOLID: SRP - validation delegated; service only orchestrates
+        // SOLID: SRP - validation fully delegated; service only orchestrates
+        // SOLID: DIP - calls abstraction, not implementation
         orderValidator.validateRequest(request);
 
         Order order = new Order();
         for (ItemDto item : request.getItems()) {
-            // DRY: Reusable item validation rule lives in OrderValidator, not repeated here
-            orderValidator.validateItem(item);
             order.addItem(item.getName(), item.getPrice(), item.getQuantity());
         }
 
         Order saved = orderRepository.save(order);
-        // SOLID: DIP - mapping delegated to abstraction (OrderMapper interface)
-        return orderMapper.toResponse(saved);
+        return orderMapper.toResponse(saved); // SRP: mapping delegated
     }
 
     public OrderResponse getOrder(Long id) {
-        Order order = findOrderOrThrow(id);
+        Order order = findOrderOrThrow(id); // DRY: reusable lookup
         return orderMapper.toResponse(order);
     }
 
@@ -77,15 +71,11 @@ public class OrderService {
                 .toList();
     }
 
-    // GRASP: Polymorphism — dispatches to the correct Payment implementation at runtime
-    // SOLID: OCP - adding a new payment type never requires changes here
+    // GRASP: Polymorphism — dispatches to correct Payment at runtime
+    // SOLID: OCP - new payment types never require changes here
     public OrderResponse processPayment(Long id, String paymentType) {
-        Order order = findOrderOrThrow(id);
-
-        Payment payment = payments.stream()
-                .filter(p -> p.getType().equalsIgnoreCase(paymentType))
-                .findFirst()
-                .orElseThrow(() -> new IllegalArgumentException("Unknown payment type: " + paymentType));
+        Order order = findOrderOrThrow(id);         // DRY
+        Payment payment = resolvePayment(paymentType); // DRY: extracted method
 
         payment.process(order);
         Order saved = orderRepository.save(order);
@@ -99,9 +89,19 @@ public class OrderService {
         orderRepository.deleteById(id);
     }
 
-    // DRY: Shared reusable lookup — avoids duplicating findById + orElseThrow across methods
+    // DRY: single reusable lookup — avoids duplicating findById + orElseThrow
     private Order findOrderOrThrow(Long id) {
         return orderRepository.findById(id)
                 .orElseThrow(() -> new NoSuchElementException("Order not found: " + id));
+    }
+
+    // DRY: extracted from processPayment — single place for payment resolution
+    // SOLID: OCP - stream-based lookup; no if-else chain to modify when adding new types
+    private Payment resolvePayment(String paymentType) {
+        return payments.stream()
+                .filter(p -> p.getType().equalsIgnoreCase(paymentType))
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException(
+                        "Unknown payment type: " + paymentType));
     }
 }
