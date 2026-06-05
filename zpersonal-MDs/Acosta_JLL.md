@@ -9,6 +9,8 @@
 | 03/05/2026 | Icebreaker     | Wordle Host | 10     | 10           |
 | 03/19/2026 | Bonus          | Open Camera | 5      | 15           |
 | 04/20/2026 | Icebreaker     | Winner      | 5      | 20           |
+| 05/18/2026 | Surprise Quiz  | Score       | 15     | 35           |
+| 06/5/2026  | Bonus Points   | Approve PR  | 15     | 50           |
 
 ---
 
