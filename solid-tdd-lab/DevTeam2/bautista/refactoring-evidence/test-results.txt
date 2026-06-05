@@ -1,0 +1,95 @@
+SOLID + Unit Testing Lab - Test Results
+Bautista
+Date: 2026-06-05
+Branch: solid-refactor-ut-bautista
+========================================
+
+BUILD: SUCCESS
+Total Tests Run: 37
+Failures: 0
+Errors: 0
+Skipped: 0
+
+----------------------------------------
+RESULTS BY CLASS
+----------------------------------------
+
+com.bautista.grasp.util.OrderItemMapperTest
+  Tests run: 1 | PASS
+  - shouldMapDtoToEntityCorrectly
+
+com.bautista.grasp.util.PaymentFactoryTest
+  Tests run: 5 | PASS
+  - shouldReturnCardPayment
+  - shouldReturnCashPayment
+  - shouldReturnGCashPayment           [NEW - OCP proof]
+  - shouldBeCaseInsensitive            [NEW - edge case]
+  - shouldThrowOnInvalidType
+
+com.bautista.grasp.controller.OrderControllerTest
+  Tests run: 2 | PASS
+  - shouldCreateOrder
+  - shouldReturnBadRequestForInvalidInput
+
+com.bautista.grasp.entity.ImmutableOrderItemTest
+  Tests run: 6 | PASS                  [NEW CLASS - Immutability]
+  - shouldCalculateSubtotalCorrectly
+  - shouldPreserveAllFieldsAfterConstruction
+  - shouldHaveNoSetterMethods
+  - shouldThrowForNonPositiveQuantity
+  - shouldThrowForNegativePrice
+  - shouldThrowForBlankProductName
+
+com.bautista.grasp.ApplicationTests
+  Tests run: 1 | PASS
+
+com.bautista.grasp.service.PaymentServiceImplTest
+  Tests run: 3 | PASS                  [NEW CLASS - DIP proof]
+  - shouldProcessPaymentUsingAbstraction
+  - shouldThrowWhenOrderNotFoundDuringPayment
+  - shouldWorkWithAnyPaymentImplementationViaDIP
+
+com.bautista.grasp.service.OrderValidatorTest
+  Tests run: 6 | PASS                  [NEW CLASS - SRP proof]
+  - shouldPassForValidRequest
+  - shouldThrowForNullRequest
+  - shouldThrowForNullItemsList
+  - shouldThrowForEmptyItemsList
+  - shouldThrowForZeroQuantity
+  - shouldThrowForNegativeQuantity
+
+com.bautista.grasp.service.PaymentTest
+  Tests run: 7 | PASS
+  - shouldProcessCardPayment
+  - shouldProcessCashPayment
+  - shouldProcessGCashPayment          [NEW - OCP/LSP]
+  - shouldAllPaymentImplementationsBeSubstitutableForLSP  [NEW - LSP]
+  - shouldAllPaymentsContainMethodNameAndSuccess[1] CARD  [NEW - Parameterized]
+  - shouldAllPaymentsContainMethodNameAndSuccess[2] CASH  [NEW - Parameterized]
+  - shouldAllPaymentsContainMethodNameAndSuccess[3] GCASH [NEW - Parameterized]
+
+com.bautista.grasp.service.OrderServiceTest
+  Tests run: 6 | PASS
+  - shouldCreateOrderSuccessfully
+  - shouldDelegateValidationToOrderValidator  [NEW - SRP proof]
+  - shouldThrowWhenProductNotFound
+  - shouldReturnOrderTotal
+  - shouldReturnZeroTotalForEmptyOrder  [NEW - edge case]
+  - shouldThrowWhenOrderNotFound
+
+----------------------------------------
+COVERAGE SUMMARY
+----------------------------------------
+
+Principles demonstrated via tests:
+  SRP  - OrderValidatorTest (6 tests), shouldDelegateValidationToOrderValidator
+  OCP  - shouldReturnGCashPayment, shouldProcessGCashPayment
+  LSP  - shouldAllPaymentImplementationsBeSubstitutableForLSP, parameterized tests
+  ISP  - PaymentServiceImplTest (separate interface tested independently)
+  DIP  - shouldProcessPaymentUsingAbstraction (mocks PaymentProvider interface)
+  Immutability - ImmutableOrderItemTest (6 tests)
+  Edge cases - null, empty, zero, negative, missing records
+
+Tests existed before refactoring: 12
+Tests added during refactoring:   25
+Total:                            37

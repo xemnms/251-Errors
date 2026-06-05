@@ -8,7 +8,9 @@
 |-------------------------|----------------|---------------------|--------|--------------|
 | 03/05/2026              | Quiz 1         | Intro to OOP        | 5      | 5            |
 | 03/19/2026              | Plus Points    | Opened Mic          | 2      | 7            |
-| 03/19/2026 - 04/21/2026 | PR Approvals   | Github Submissions  | 23     | 30           |
+| 08/18/2026              | Surprised Quiz | Finals Quiz         | 16     | 23           |
+| 03/19/2026 - 04/21/2026 | PR Approvals   | Github Submissions  | 23     | 46           |
+| 04/23/2026 - 05/06/2026 | PR Approvals   | Github Submissions  | 28     | 74           |
 
 ---
 
@@ -50,6 +52,8 @@
 ### | GRASP + Unit Testing
 **<05/09/2026>** : Today, I learned how GRASP principles actually help guide how a Spring Boot project should be structured in a way that feels clear and manageable while building it. It helped me understand how to properly assign responsibilities between classes, and how each layer (controller, service, entity, repository) should have its own responsibility instead of overlapping tasks. This made the project easier to navigate and improved how the system behaves as a whole, instead of everything slowly evolving into one overpowered class that thinks it can do everything and ends up running the entire system like it’s the main villain and hero at the same time. Next time, I will apply GRASP principles earlier during planning so the structure is already clear while building the system.
 
+### | SOLID + Unit Testing
+**<06/05/2026>** : Today, I learned how SOLID principles actually shift the way you think about design, not just the code itself, and honestly it was a pretty satisfying lab once things started clicking. The biggest moment for me was DIP. The second I made `PaymentFactory` implement `PaymentProvider` and injected it instead of calling it statically, the mock just worked and the whole test setup came together cleanly, and that feeling of everything suddenly making sense is probably the best part of this kind of refactoring. ISP took a little longer to appreciate because three methods on one interface seems harmless at first, but once I moved `processPayment` out into its own interface the two classes became noticeably cleaner and easier to read independently, which made it worth it. I also really liked how OCP played out with GCash since adding a new payment type only meant writing one new class and registering one line in the factory, and nothing else had to change at all. Next time, I want to plan the interfaces earlier during design so the structure is already solid from the start and the refactoring feels more like polishing than rebuilding.
 ---
 
 ## ✉️ Peer Feedbacks
