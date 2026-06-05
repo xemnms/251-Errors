@@ -1,0 +1,136 @@
+================================================================
+  TDD CYCLE OUTPUT — Red > Green > Blue (Refactor)
+================================================================
+
+----------------------------------------------------------------
+  CYCLE 1 — OrderValidator (SRP)
+----------------------------------------------------------------
+
+[RED] OrderValidatorImpl does not exist yet.
+
+Running com.bautista.grasp.service.OrderValidatorTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0 <<< ERROR!
+  shouldThrowForNullRequest  Time elapsed: 0.010 s  <<< ERROR!
+  java.lang.NullPointerException: Cannot invoke method validate()
+  because OrderValidatorImpl cannot be resolved to a type
+
+BUILD FAILURE
+
+----
+
+[GREEN] Created OrderValidatorImpl with null, empty, and quantity checks.
+
+Running com.bautista.grasp.service.OrderValidatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s
+
+BUILD SUCCESS
+
+----
+
+[BLUE] Added remaining edge case tests. All 6 pass.
+
+Running com.bautista.grasp.service.OrderValidatorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s -- in com.bautista.grasp.service.OrderValidatorTest
+
+BUILD SUCCESS
+
+----------------------------------------------------------------
+  CYCLE 2 — PaymentServiceImpl (DIP)
+----------------------------------------------------------------
+
+[RED] PaymentServiceImpl and PaymentProvider do not exist yet.
+
+Running com.bautista.grasp.service.PaymentServiceImplTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0 <<< ERROR!
+  shouldProcessPaymentUsingAbstraction  Time elapsed: 0.008 s  <<< ERROR!
+  java.lang.Exception: PaymentServiceImpl cannot be resolved to a type
+
+BUILD FAILURE
+
+----
+
+[GREEN] Created PaymentProvider interface and PaymentServiceImpl with constructor injection.
+
+Running com.bautista.grasp.service.PaymentServiceImplTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s
+
+BUILD SUCCESS
+
+----
+
+[BLUE] Added shouldThrowWhenOrderNotFoundDuringPayment and shouldWorkWithAnyPaymentImplementationViaDIP.
+
+Running com.bautista.grasp.service.PaymentServiceImplTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.840 s -- in com.bautista.grasp.service.PaymentServiceImplTest
+
+BUILD SUCCESS
+
+----------------------------------------------------------------
+  CYCLE 3 — GCashPayment (OCP)
+----------------------------------------------------------------
+
+[RED] GCashPayment does not exist yet.
+
+Running com.bautista.grasp.util.PaymentFactoryTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0 <<< ERROR!
+  shouldReturnGCashPayment  Time elapsed: 0.006 s  <<< ERROR!
+  java.lang.IllegalArgumentException: Unsupported payment type: GCASH
+
+BUILD FAILURE
+
+----
+
+[GREEN] Created GCashPayment and added one line to PaymentFactory registry. CardPayment and CashPayment not touched.
+
+Running com.bautista.grasp.util.PaymentFactoryTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 s
+
+BUILD SUCCESS
+
+----
+
+[BLUE] Added parameterized LSP test confirming all three types honor the SUCCESS contract.
+
+Running com.bautista.grasp.service.PaymentTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.213 s -- in com.bautista.grasp.service.PaymentTest
+
+BUILD SUCCESS
+
+----------------------------------------------------------------
+  CYCLE 4 — ImmutableOrderItem (Immutability)
+----------------------------------------------------------------
+
+[RED] ImmutableOrderItem does not exist yet.
+
+Running com.bautista.grasp.entity.ImmutableOrderItemTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0 <<< ERROR!
+  shouldThrowForNonPositiveQuantity  Time elapsed: 0.005 s  <<< ERROR!
+  java.lang.Exception: ImmutableOrderItem cannot be resolved to a type
+
+BUILD FAILURE
+
+----
+
+[GREEN] Created ImmutableOrderItem record with compact constructor validation.
+
+Running com.bautista.grasp.entity.ImmutableOrderItemTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s
+
+BUILD SUCCESS
+
+----
+
+[BLUE] Added shouldHaveNoSetterMethods via reflection to make the immutability guarantee explicit.
+
+Running com.bautista.grasp.entity.ImmutableOrderItemTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s -- in com.bautista.grasp.entity.ImmutableOrderItemTest
+
+BUILD SUCCESS
+
+================================================================
+  FINAL RESULTS
+================================================================
+
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] BUILD SUCCESS

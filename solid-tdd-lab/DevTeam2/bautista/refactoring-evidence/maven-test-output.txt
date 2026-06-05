@@ -1,0 +1,40 @@
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.bautista.grasp.util.OrderItemMapperTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.763 s -- in com.bautista.grasp.util.OrderItemMapperTest
+
+Running com.bautista.grasp.util.PaymentFactoryTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.188 s -- in com.bautista.grasp.util.PaymentFactoryTest
+
+Running com.bautista.grasp.controller.OrderControllerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.455 s -- in com.bautista.grasp.controller.OrderControllerTest
+
+Running com.bautista.grasp.entity.ImmutableOrderItemTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s -- in com.bautista.grasp.entity.ImmutableOrderItemTest
+
+Running com.bautista.grasp.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.097 s -- in com.bautista.grasp.ApplicationTests
+
+Running com.bautista.grasp.service.PaymentServiceImplTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.840 s -- in com.bautista.grasp.service.PaymentServiceImplTest
+
+Running com.bautista.grasp.service.OrderValidatorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 s -- in com.bautista.grasp.service.OrderValidatorTest
+
+Running com.bautista.grasp.service.PaymentTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.213 s -- in com.bautista.grasp.service.PaymentTest
+
+Running com.bautista.grasp.service.OrderServiceTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.455 s -- in com.bautista.grasp.service.OrderServiceTest
+
+Results:
+
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  22.580 s
+[INFO] Finished at: 2026-06-05T04:06:17Z
+[INFO] ------------------------------------------------------------------------
