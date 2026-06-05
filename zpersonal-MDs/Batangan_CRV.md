@@ -9,7 +9,8 @@
 | 03/19/2026 | Video Attendance| Plus Points|   5    | 10           |
 | 03/19/2026 | Open Mic       | Plus Points |    2   |  12          |
 | 03/26/2026 |Ice Breaker Host|Guess The Meme | 10   |  22          |   
-| 04/20/2026 | Ice Breaker Winner | Plus Points |  5 | 27           |       
+| 04/20/2026 | Ice Breaker Winner | Plus Points |  5 | 27           |   
+| 05/18/2026 | Surprised Quiz | Surprised Quiz | 10  | 37           |
 ---
 
 ## 📘 Journals
